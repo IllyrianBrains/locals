@@ -1,0 +1,96 @@
+---
+import { cities, countries } from '../data/cities';
+import { sightLevels } from '../data/places';
+import municipalities from '../data/municipalities.json';
+// The outlines (~140 KB) load as a cached asset instead of being inlined in every page.
+import outlinesUrl from '../data/municipalities.json?url';
+// Level 1–5 → quiet dark wine up to bright coral, so the busiest places glow on the dark tiles.
+const levelColors = ['#4a2327', '#7a2630', '#b0283a', '#e04552', '#ff8a80'];
+// Guide cities get a name tag on the map and a link in their popup.
+const guides = Object.fromEntries(cities.map((city) => [city.osm.boundary, { region: city.region, summary: city.summary, lat: city.osm.lat, lon: city.osm.lon, url: city.available ? '/' + city.slug + '/' : null, available: city.available }]));
+const all = municipalities.features.map((f) => f.properties);
+// One octave per level, quiet to packed from left to right; inside an octave, keys rise with the score.
+const octaves = sightLevels.map((level, index) => {
+  const keys = all.filter((m) => m.level === index + 1).sort((a, b) => a.score - b.score || a.name.localeCompare(b.name, 'sq'));
+  // Black keys sit between white keys in the piano's 2 + 3 pattern (none after the 3rd and 7th white key).
+  const black = Array.from({ length: Math.max(keys.length - 1, 0) }, (_, i) => i + 1).filter((at) => at % 7 !== 3 && at % 7 !== 0);
+  return { ...level, color: levelColors[index], keys, black };
+}).filter((octave) => octave.keys.length);
+---
+<div class="region-map">
+  <div class="region-map-canvas" data-outlines={outlinesUrl} data-guides={JSON.stringify(guides)} data-colors={JSON.stringify(levelColors)} data-levels={JSON.stringify(sightLevels)} data-countries={JSON.stringify(countries)} role="region" aria-label="Harta interaktive e të gjitha bashkive dhe komunave në Shqipëri dhe Kosovë, sipas sasisë së vendeve për të parë"></div>
+  <div class="region-keyboard" role="group" aria-label={'Të ' + all.length + ' qytetet, nga më të qetat te më të pasurat me vende për të parë'}>
+    {octaves.map((octave) => <div class="octave" style={'--count:' + octave.keys.length + ';--key-color:' + octave.color}>
+      <header><b>{octave.mark}</b><small>{octave.label}</small></header>
+      <div class="keys">
+        {octave.keys.map((m) => <button type="button" data-id={m.id} class:list={{ 'is-guide': m.guide }} title={m.name + ' · ' + m.count + ' vende'} aria-label={m.name + ': ' + octave.label + ', ' + m.count + ' vende për të parë'}><span>{m.name}</span></button>)}
+        {octave.black.map((at) => <i class="black-key" style={'--at:' + at} aria-hidden="true"></i>)}
+      </div>
+    </div>)}
+  </div>
+  <div class="region-map-scale">{sightLevels.map((level, index) => <span><i style={'--key-color:' + levelColors[index]}></i><b>{level.mark}</b>{level.label}</span>)}<span class="guide-note"><i></i>Guidë Locals</span></div>
+</div>
+<script>
+import L from 'leaflet'; import 'leaflet/dist/leaflet.css';
+type Guide={region:string;summary:string;lat:number;lon:number;url:string|null;available:boolean};
+type Municipality={id:number;slug:string;name:string;area:string;country:'al'|'xk';guide:boolean;count:number;score:number;level:number;top:string[]};
+const esc=(v:string)=>v.replace(/[&<>"']/g,(c)=>'&#'+c.charCodeAt(0)+';');
+document.querySelectorAll<HTMLElement>('.region-map').forEach(async(root)=>{
+ const canvas=root.querySelector<HTMLElement>('.region-map-canvas')!;
+ const guides:Record<string,Guide>=JSON.parse(canvas.dataset.guides!); const colors:string[]=JSON.parse(canvas.dataset.colors!);
+ const levels:{mark:string;label:string}[]=JSON.parse(canvas.dataset.levels!); const countries:Record<string,{name:string}>=JSON.parse(canvas.dataset.countries!);
+ const map=L.map(canvas,{scrollWheelZoom:false,zoomControl:true,minZoom:6,zoomSnap:.5});
+ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+ map.fitBounds([[39.64,19.26],[43.27,21.79]],{padding:[18,18]}); map.once('focus',()=>map.scrollWheelZoom.enable());
+ const keysById=new Map([...root.querySelectorAll<HTMLButtonElement>('[data-id]')].map((key)=>[Number(key.dataset.id),key]));
+ const baseStyle=(m:Municipality):L.PathOptions=>({color:'#fff',weight:m.guide?1.4:.6,opacity:m.guide?.8:.4,fillColor:colors[m.level-1],fillOpacity:.72});
+ const shapes=new Map<number,{shape:L.GeoJSON;m:Municipality}>();
+ const popupFor=(m:Municipality)=>{
+  const guide=guides[m.id]; const level=levels[m.level-1]; const color=colors[m.level-1];
+  const status=guide?(guide.available?'<em>Guida aktive</em>':'<em class="soon">Guida së shpejti</em>'):'';
+  const top=m.top.map((name)=>'<li>'+esc(name)+'</li>').join('');
+  const meter='<div class="region-meter" aria-hidden="true">'+[1,2,3,4,5].map((n)=>'<i'+(n<=m.level?' class="on"':'')+'></i>').join('')+'</div>';
+  const link=guide?.url?'<a href="'+guide.url+'">Hap guidën <strong>↗</strong></a>':'';
+  return '<div class="region-popup" style="--key-color:'+color+'">'+status+'<span>'+esc(countries[m.country].name)+' · '+esc(m.area)+'</span><b>'+esc(m.name)+'</b>'+(guide?'<p>'+esc(guide.summary)+'</p>':'')+'<div class="region-level"><strong>'+level.mark+'</strong><div><small>'+esc(level.label)+'</small><small>'+m.count+' vende për të parë</small></div>'+meter+'</div>'+(top?'<ol>'+top+'</ol>':'')+link+'</div>';
+ };
+ const anchor=(m:Municipality,shape:L.GeoJSON)=>guides[m.id]?L.latLng(guides[m.id].lat,guides[m.id].lon):shape.getBounds().getCenter();
+ const setActive=(id:number,on:boolean)=>{
+  const hit=shapes.get(id); if(!hit)return;
+  hit.shape.setStyle(on?{weight:3,opacity:1,fillOpacity:.92}:baseStyle(hit.m)); if(on)hit.shape.bringToFront();
+  keysById.get(id)?.classList.toggle('is-active',on);
+ };
+ const geo:GeoJSON.FeatureCollection=await (await fetch(canvas.dataset.outlines!)).json();
+ for(const feature of geo.features){
+  const m=feature.properties as Municipality;
+  const shape=L.geoJSON(feature,{style:()=>baseStyle(m)}).bindPopup(popupFor(m),{autoPanPadding:[30,30]}).addTo(map);
+  shape.bindTooltip('<b>'+esc(m.name)+'</b> <i>'+levels[m.level-1].mark+'</i>',{sticky:true,direction:'top',className:'region-tip',offset:[0,-8]});
+  shape.on('mouseover',()=>setActive(m.id,true)).on('mouseout',()=>setActive(m.id,false)).on('popupopen',()=>shape.closeTooltip());
+  shapes.set(m.id,{shape,m});
+ }
+ // Only guide cities carry a name tag; the rest name themselves on hover.
+ for(const {shape,m} of shapes.values()){
+  if(!m.guide)continue; shape.bringToFront();
+  const tag=L.divIcon({className:'region-city-tag',html:'<span style="--key-color:'+colors[m.level-1]+'"><b>'+esc(m.name)+'</b><i>'+levels[m.level-1].mark+'</i></span>',iconSize:[0,0]});
+  L.marker(anchor(m,shape),{icon:tag,keyboard:false}).on('click',()=>shape.openPopup(anchor(m,shape))).on('mouseover',()=>setActive(m.id,true)).on('mouseout',()=>setActive(m.id,false)).addTo(map);
+ }
+ // Zoomed out, tags shrink to their dynamic mark so they don't hide the outlines.
+ const compact=()=>canvas.classList.toggle('is-compact',map.getZoom()<8.5); map.on('zoomend',compact); compact();
+ keysById.forEach((key,id)=>{
+  key.addEventListener('mouseenter',()=>setActive(id,true)); key.addEventListener('mouseleave',()=>setActive(id,false));
+  key.addEventListener('focus',()=>setActive(id,true)); key.addEventListener('blur',()=>setActive(id,false));
+  key.addEventListener('click',()=>{const hit=shapes.get(id); if(!hit)return; map.flyToBounds(hit.shape.getBounds(),{padding:[60,60],duration:.7,maxZoom:11}); map.once('moveend',()=>hit.shape.openPopup(anchor(hit.m,hit.shape)))});
+ });
+});
+</script>
+<style>
+.region-map-canvas{height:min(76vh,720px);border:1px solid #ffffff20;background:#151313;box-shadow:0 0 0 8px #ffffff05;z-index:0}.region-map-canvas :global(.leaflet-tile-pane){filter:grayscale(.82) sepia(.16) hue-rotate(310deg) brightness(.66) contrast(1.15)}.region-map-canvas :global(.leaflet-interactive){transition:fill-opacity .2s,stroke-width .2s}.region-map-canvas :global(.leaflet-control-zoom a){color:#fff;background:#1c1919;border-color:#ffffff20}.region-map-canvas :global(.leaflet-control-attribution){color:#aaa;background:#171515df}.region-map-canvas :global(.leaflet-control-attribution a){color:#eee}
+.region-map-canvas :global(.region-tip){padding:4px 8px;border:1px solid #ffffff30;border-radius:0;color:#fff;background:#151313ee;box-shadow:0 4px 12px #0007;font:10px var(--sans)}.region-map-canvas :global(.region-tip:before){display:none}.region-map-canvas :global(.region-tip i){color:#ff8a80;font:italic 700 11px var(--display)}
+.region-map-canvas :global(.region-city-tag){background:none;border:0}.region-map-canvas :global(.region-city-tag>span){position:absolute;left:0;top:0;display:flex;align-items:center;gap:5px;padding:3px 4px 3px 7px;border:1px solid #ffffff50;color:#fff;background:#151313e6;white-space:nowrap;transform:translate(-50%,-50%);box-shadow:0 4px 12px #0007;cursor:pointer}.region-map-canvas :global(.region-city-tag b){font:700 10px var(--sans)}.region-map-canvas.is-compact :global(.region-city-tag>span){padding:2px}.region-map-canvas.is-compact :global(.region-city-tag b){display:none}.region-map-canvas.is-compact :global(.region-city-tag:hover b){display:inline}.region-map-canvas.is-compact :global(.region-city-tag:hover>span){padding:3px 4px 3px 7px;z-index:1}.region-map-canvas :global(.region-city-tag i){padding:1px 4px;color:#151313;background:var(--key-color);font:italic 700 10px var(--display)}
+.region-map-canvas :global(.leaflet-popup-content-wrapper){border:1px solid #ffffff18;border-radius:2px;color:#fff;background:#171515;box-shadow:0 18px 45px #0008}.region-map-canvas :global(.leaflet-popup-tip){background:#171515}.region-map-canvas :global(.leaflet-popup-content){width:255px!important;margin:18px;font-family:var(--sans)}.region-map-canvas :global(.region-popup>em){display:inline-block;margin-bottom:12px;padding:3px 7px;color:#fff;background:#b51d2b;font-size:8px;font-style:normal;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.region-map-canvas :global(.region-popup>em.soon){color:#c9c3bf;background:#484141}.region-map-canvas :global(.region-popup>span){display:block;color:#df5f69;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.region-map-canvas :global(.region-popup>b){display:block;margin:2px 0 10px;font:500 28px var(--display)}.region-map-canvas :global(.region-popup>p){margin:-3px 0 12px;color:#bbb;font-size:11px;line-height:1.5}
+.region-map-canvas :global(.region-level){display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 0;border-top:1px solid #ffffff20}.region-map-canvas :global(.region-level>strong){color:color-mix(in srgb,var(--key-color),#fff 30%);font:italic 600 26px/1 var(--display)}.region-map-canvas :global(.region-level small){display:block;color:#ddd;font-size:10px}.region-map-canvas :global(.region-level small+small){color:#999;font-size:9px}.region-map-canvas :global(.region-meter){display:flex;align-items:end;gap:2px;height:22px}.region-map-canvas :global(.region-meter i){width:5px;background:#ffffff1c}.region-map-canvas :global(.region-meter i:nth-child(1)){height:20%}.region-map-canvas :global(.region-meter i:nth-child(2)){height:40%}.region-map-canvas :global(.region-meter i:nth-child(3)){height:60%}.region-map-canvas :global(.region-meter i:nth-child(4)){height:80%}.region-map-canvas :global(.region-meter i:nth-child(5)){height:100%}.region-map-canvas :global(.region-meter i.on){background:var(--key-color)}.region-map-canvas :global(.region-popup ol){margin:0;padding:0 0 0 16px;color:#bbb;font-size:10px;line-height:1.6}.region-map-canvas :global(.region-popup>a){display:flex;justify-content:space-between;margin-top:14px;padding-top:12px;border-top:1px solid #ffffff20;color:#fff;font-size:11px;font-weight:700}
+.region-keyboard{display:flex;gap:4px;margin-top:20px;padding:0 8px;overflow-x:auto;border:1px solid #ffffff20;border-bottom:0;background:#0d0b0b;box-shadow:inset 0 8px 14px #000a;scrollbar-width:thin}.octave{flex:var(--count) 0 0;min-width:0}.octave header{display:flex;align-items:baseline;gap:7px;height:30px;padding:8px 2px 0;border-bottom:2px solid var(--key-color);color:#aaa;font-size:9px;white-space:nowrap;overflow:hidden}.octave header b{color:color-mix(in srgb,var(--key-color),#fff 30%);font:italic 700 15px/1 var(--display)}.keys{position:relative;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:1px;padding-top:4px}
+.keys button{position:relative;display:flex;align-items:end;justify-content:center;height:190px;padding:0 0 10px;overflow:hidden;border:0;border-radius:0 0 3px 3px;color:#3a3232;background:linear-gradient(#f3eee9,#fffdfa 70%,#e9e3dd);box-shadow:inset 0 -5px 0 #d6cfc8,0 2px 3px #0008;font:500 9px var(--sans);cursor:pointer;transform-origin:top;transition:transform .12s,box-shadow .12s}.keys button:before{position:absolute;inset:auto 0 0;height:30%;background:linear-gradient(transparent,color-mix(in srgb,var(--key-color) 50%,transparent));content:"";transition:height .25s}.keys button span{position:relative;max-height:92px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;writing-mode:vertical-rl;transform:rotate(180deg)}.keys button.is-guide{color:#000;font-weight:800}.keys button.is-guide:after{position:absolute;bottom:108px;left:50%;width:6px;height:6px;border-radius:50%;background:#b51d2b;box-shadow:0 0 6px #b51d2b;transform:translateX(-50%);content:""}.keys button:hover,.keys button.is-active,.keys button:focus-visible{outline:0;transform:perspective(300px) rotateX(-7deg);box-shadow:inset 0 -2px 0 #d6cfc8,0 1px 2px #0008}.keys button.is-active:before,.keys button:focus-visible:before{height:100%}
+.keys .black-key{position:absolute;top:4px;left:calc(100% * var(--at) / var(--count));z-index:1;width:calc(100% / var(--count) * .56);height:74px;border-radius:0 0 3px 3px;background:linear-gradient(90deg,#1b1818,#383232 45%,#141111);box-shadow:inset 0 -4px 0 #000,0 3px 5px #000c;transform:translateX(-50%);pointer-events:none}
+.region-map-scale{display:flex;flex-wrap:wrap;gap:6px 18px;padding:12px 2px 0;color:#aaa;font-size:10px}.region-map-scale span{display:flex;align-items:center;gap:6px}.region-map-scale i{width:14px;height:9px;outline:1px solid #ffffff30;background:var(--key-color)}.region-map-scale b{color:#fff;font:italic 700 12px var(--display)}.region-map-scale .guide-note{margin-left:auto}.region-map-scale .guide-note i{width:6px;height:6px;border-radius:50%;background:#b51d2b;box-shadow:0 0 6px #b51d2b}
+@media(max-width:900px){.octave{flex:var(--count) 0 calc(var(--count) * 15px)}}@media(max-width:600px){.region-map-canvas{height:540px}.keys button{height:160px}.region-map-scale .guide-note{margin-left:0}}
+</style>

@@ -1,0 +1,1218 @@
+{
+  "city": "shkoder",
+  "name": "Shkodër",
+  "center": {
+    "lat": 42.0683,
+    "lon": 19.5126
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-24T09:26:09.034Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 82,
+  "places": [
+    {
+      "id": "way/48522585",
+      "name": "Katedralja e Shkodrës",
+      "nameEn": "Shkodër Cathedral",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.065361,
+      "lon": 19.519934,
+      "wikidata": "Q1638399",
+      "wikipedia": "en:St. Stephen's Cathedral, Shkodër",
+      "website": "https://www.kishakatolikeshkoder.com/",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "wheelchair": "limited",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/48522585",
+      "score": 16,
+      "imageFile": "Shkoder 098.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Shkoder_098.JPG/1280px-Shkoder_098.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sigismund von Dobschütz · CC BY-SA 3.0",
+      "tagline": {
+        "text": "katedrale katolike në Shkodër, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha Katolike e Shën Shtjefnit, e njohur në popull si Kisha e Madhe, është katedralja e qytetit të Shkodrës në Shqipërinë veriperëndimore dhe selia e Arqipeshkvisë Shkodër-Pult.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_e_Sh%C3%ABn_Shtjefnit%2C_Shkod%C3%ABr"
+      }
+    },
+    {
+      "id": "way/324463983",
+      "name": "Fototeka Kombëtare e Fotografisë - Marubi",
+      "nameEn": "Marubi National Museum of Photography",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.068595,
+      "lon": 19.515568,
+      "wikidata": "Q13039148",
+      "wikipedia": "en:Marubi National Museum of Photography",
+      "website": "https://marubi.gov.al",
+      "openingHours": "09:00-19:00",
+      "fee": "yes",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/324463983",
+      "score": 14,
+      "imageFile": "Muzeu Marubi.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Muzeu_Marubi.jpg/1280px-Muzeu_Marubi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marina Binoshaj · CC BY-SA 4.0",
+      "tagline": {
+        "text": "museum in Shkodër, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar i Fotografisë \"Marubi\", ndryshe Fototeka \"Marubi\", ose thjesht Muzeu Marubi, është institucioni kombëtar përgjegjës për përzgjedhjen, ruajtjen, konservimin dhe promovimin e trashëgimisë së pasur fotografike të familjes Marubi. Fototeka u krijua në vitin 1970, pas dhurimit që i bëri Gegë Marubi arkivit të tij personal prej tre brezash, me rreth 150 mijë negativë shtetit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_i_Fotografis%C3%AB_%22Marubi%22"
+      }
+    },
+    {
+      "id": "way/199127976",
+      "name": "Muzeu Historik i Shkodrës",
+      "nameEn": "Historic Museum of Shkodër",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.069291,
+      "lon": 19.509233,
+      "wikidata": "Q1249790",
+      "wikipedia": "sq:Muzeu Historik i Shkodrës",
+      "website": "https://muzeuhistorikshkoder.org/",
+      "openingHours": "Mo-Fr 08:00-15:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/199127976",
+      "score": 14,
+      "imageFile": "Banesa e Oso Kukës 02.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Banesa_e_Oso_Kuk%C3%ABs_02.jpg/1280px-Banesa_e_Oso_Kuk%C3%ABs_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Historik i Shkodrës ka nisur të organizohet që në vitin 1947, por mori formë të plotë më 1949.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Historik_i_Shkodr%C3%ABs"
+      }
+    },
+    {
+      "id": "way/319889243",
+      "name": "Kalaja e Rozafës",
+      "nameEn": "Rozafa Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.046526,
+      "lon": 19.493557,
+      "wikidata": "Q60491",
+      "wikipedia": "en:Rozafa Castle",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/319889243",
+      "score": 13,
+      "imageFile": "Rozafa Castle in July 2013 (5).JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Rozafa_Castle_in_July_2013_%285%29.JPG/1280px-Rozafa_Castle_in_July_2013_%285%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bdx · CC BY-SA 3.0",
+      "tagline": {
+        "text": "kala pranë Shkodrës, Shqipëria Veriperëndimore",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Shkodrës ose Rozafa është një monument mijëvjeçar i ngritur në një kodër shkëmbore në hyrje të qytetit të Shkodrës, në jug-lindje të tij. Qëndron mbi një kodër shkëmbore 130 metra mbi nivelin e detit, e rrethuar nga lumi Buna dhe Drin, me një sipërfaqe prej pothuajse 9 hektarësh.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Shkodr%C3%ABs"
+      }
+    },
+    {
+      "id": "way/48522593",
+      "name": "Kisha e Shën Françeskut",
+      "nameEn": "Franciscan Church",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.067518,
+      "lon": 19.515432,
+      "wikidata": "Q4135496",
+      "wikipedia": "sq:Kisha e Shën Françeskut, Shkodër",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/48522593",
+      "score": 13,
+      "imageFile": "Kisha Franceskane.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kisha_Franceskane.jpg/1280px-Kisha_Franceskane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Melarnik · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Kishë në Shkodër",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha Shën Françeskut është një kishë e arqipeshkvisë Shkodër-Pult që ndodhet në lagjen Gjuhadol të qytetit të Shkodrës. Për arsye të pranëvendosjes me Kuvendin e Urdhrit Françeskan, njihen edhe thjesht si Kisha e Kuvendi i Fretënve.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Fran%C3%A7eskut%2C_Shkod%C3%ABr"
+      }
+    },
+    {
+      "id": "node/4157491759",
+      "name": "Pashko Vasa Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.061905,
+      "lon": 19.516839,
+      "wikidata": "Q1280525",
+      "wikipedia": "en:Pashko Vasa",
+      "website": "https://visitshkoder.org/pashko-vasa-wassa-pasha-house/",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/4157491759",
+      "score": 13,
+      "imageFile": "PashkoVasa.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/PashkoVasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "The original uploader was Kanibal at English Wikipedia. · Public domain",
+      "tagline": {
+        "text": "shkrimtar shqiptar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Vaso pashë Shkodrani i njohur në letërsinë shqipe thjesht si Pashko Vasa, qe nëpunës i konsullatës britanike në Shkodrën osmane, oficer kalorësie në Bolonjë, revolucionar i Risorgimento-s, nëpunës i Perandorisë Osmane dhe veprimtar i Lëvizjes Kombëtare Shqiptare.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Vaso_pash%C3%AB_Shkodrani"
+      }
+    },
+    {
+      "id": "way/247885461",
+      "name": "Xhamia e Plumbit",
+      "nameEn": "Lead Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.04645,
+      "lon": 19.499437,
+      "wikidata": "Q883660",
+      "wikipedia": "sq:Xhamia e Plumbit, Shkodër",
+      "openingHours": "Mo-Su 06:00-22:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/247885461",
+      "score": 13,
+      "imageFile": "2013-10-03 Lead Mosque, Shkodër 0209.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/2013-10-03_Lead_Mosque%2C_Shkod%C3%ABr_0209.jpg/1280px-2013-10-03_Lead_Mosque%2C_Shkod%C3%ABr_0209.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "You may re-use this image under the terms of the license … · CC BY 3.0",
+      "tagline": {
+        "text": "Xhamia në Shkodër, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Plumbit ose Xhamia e Mehmet pashë Bushatit është një xhami historike dhe monument kulture i kategorisë së parë në Shkodër.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Plumbit%2C_Shkod%C3%ABr"
+      }
+    },
+    {
+      "id": "way/333030286",
+      "name": "Xhamia Ebu Beker",
+      "nameEn": "Ebu Beker Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.067741,
+      "lon": 19.514022,
+      "wikidata": "Q1280130",
+      "wikipedia": "sq:Xhamia Ebu Bekër",
+      "openingHours": "Mo-Su 07:00-20:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/333030286",
+      "score": 13,
+      "imageFile": "Shkodër. Calle y mezquita.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Shkod%C3%ABr._Calle_y_mezquita.jpg/1280px-Shkod%C3%ABr._Calle_y_mezquita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Enrique Íñiguez Rodríguez (Qoan) · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e re e Fushë Çelës, e emëruar sipas sahabesë Ebu Bekër, e njohur edhe si Xhamia e Madhe, është xhamia kryesore e qytetit të Shkodrës në Shqipëri. Xhamia është projektuar nga byroja arkitektonike ARC Architectural Consultants dhe është ndërtuar në vitet 1994–1995 në vendin e xhamisë së dikurshme të Fushë Çelës me paratë e sipërmarrësit saudit Sheh Zamil Abdullah Al Zamilit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_Ebu_Bek%C3%ABr"
+      }
+    },
+    {
+      "id": "way/1124506009",
+      "name": "Kulla e Inglizit",
+      "nameEn": "Englishman's Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.068065,
+      "lon": 19.513008,
+      "wikidata": "Q13045330",
+      "wikipedia": "en:The Englishman's Tower",
+      "osmUrl": "https://www.openstreetmap.org/way/1124506009",
+      "score": 12,
+      "imageFile": "Clock Tower of Shkodër.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Clock_Tower_of_Shkod%C3%ABr.jpg/1280px-Clock_Tower_of_Shkod%C3%ABr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Vanbasten 23 · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e orës në Shkodër ose siç njihet gjerësisht thjesht Sahati i Inglizit, ku në periudhën e regjimit komunist qe vendosur Muzeu Historik i Shkodrës, është një ndërtesë me pamjen e një kështjelle të periudhës së aristokracisë mesjetare në Evropë e ndërtuar nga lordi anglez Paget në çerekun e fundit të shek.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_or%C3%ABs_n%C3%AB_Shkod%C3%ABr"
+      }
+    },
+    {
+      "id": "way/25219078",
+      "name": "Ura e Bunes",
+      "nameEn": "Buna Bridge",
+      "category": "history",
+      "kind": "bridge",
+      "lat": 42.050841,
+      "lon": 19.491216,
+      "wikidata": "Q85225991",
+      "wikipedia": "sq:Ura e Vjetër e Bunës",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/25219078",
+      "score": 12,
+      "imageFile": "Rozafa Fortress 12.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Rozafa_Fortress_12.jpg/1280px-Rozafa_Fortress_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "kallerna · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Bridge in Shkoder, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Ura e Bunës është një urë mbi lumin Buna, në afërsi të Shkodrës, Shqipëri. Ura është ndërtuar me fondet e qeverisë osmane në vitin 1889, në sajë të iniciativës së Guvernatorit të Shkodrës, Qazim Pasha, si dhe bashkëpunimit të tij me kryetarin e Bashkisë së asaj kohe, Bektash Kazazi.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_Vjet%C3%ABr_e_Bun%C3%ABs"
+      }
+    },
+    {
+      "id": "way/319867327",
+      "name": "Kisha-xhami e Shën Stefanit",
+      "nameEn": "Fatih Sultan Mehmet Mosque",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046583,
+      "lon": 19.493028,
+      "wikidata": "Q13040753",
+      "wikipedia": "sq:Kisha-Xhami e Shkodrës",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/319867327",
+      "score": 11,
+      "imageFile": "Burg Rozafa 19.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Burg_Rozafa_19.JPG/1280px-Burg_Rozafa_19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sigismund von Dobschütz · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Në oborrin e madh të kalasë së Shkodrës gjendet ngrehina e asaj që deri nga gjysma e shekullit 19 ishte Xhamia e Sulltan Fatihut, kur administrata osmane dhe valiu ishin ende pa zbritur nga kalaja në qytet, xhamia funksiononte normalisht për nëpunës e popull dhe kulla ekzistente ishte minarja. Sipas ekspertëve të trashëgimisë kulturore, ndërtesa para se të bëhej xhami shërbente si kishë, përkatësisht si kisha e Shën Shtjefnit e ndërtuar njëherë si kishë ortodokse më 1319 kur qyteti ishte sa pjesë e ndikimit të njësive shtetërore sllave, sa dhe pjesë e ndikimit politik e kulturor bizantin.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha-Xhami_e_Shkodr%C3%ABs"
+      }
+    },
+    {
+      "id": "way/48522595",
+      "name": "Katedralja Ortodokse e Lindjes së Zotit e Shkodrës",
+      "nameEn": "Nativity of the Lord Orthodox Cathedral of Shkodër",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.06866,
+      "lon": 19.514985,
+      "wikidata": "Q2031794",
+      "wikipedia": "sq:Katedralja Ortodokse e Shkodrës",
+      "imageFile": "Skadar Orthodox church.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/48522595",
+      "score": 10,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Skadar_Orthodox_church.jpg/1280px-Skadar_Orthodox_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "BoskoM · CC BY-SA 4.0",
+      "tagline": {
+        "text": "modern orthodox cathedral in Shkodër, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Katedralja Ortodokse e Lindjes së Zotit e Shkodrës është një katedrale moderne ortodokse në qytetin e Shkodrës në Shqipërinë veriperëndimore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_Ortodokse_e_Shkodr%C3%ABs"
+      }
+    },
+    {
+      "id": "node/718952722",
+      "name": "Monumenti Prenk Cali",
+      "nameEn": "Prenk Cali Monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.073112,
+      "lon": 19.520984,
+      "wikidata": "Q15402569",
+      "wikipedia": "en:Prek Cali",
+      "osmUrl": "https://www.openstreetmap.org/node/718952722",
+      "score": 10,
+      "imageFile": "Prek Pjeter Cali.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Prek_Pjeter_Cali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Unknown authorUnknown author · Public domain",
+      "tagline": {
+        "text": "Bajraktar shqiptar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Prekë Cali ishte vojvodë i Selcës të Kelmendit të Malësisë së Madhe. Më 25 qershor 1993, Presidenti i Republikës i akordoi medaljen «Martir i Demokracisë».",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Prek_Cali"
+      }
+    },
+    {
+      "id": "relation/10148724",
+      "name": "Rezerva Natyrore e Menaxhuar Liqeni i Shkodres",
+      "nameEn": "Lake Shkodër Nature Reserve",
+      "category": "nature",
+      "kind": "nature_reserve",
+      "lat": 42.188043,
+      "lon": 19.40139,
+      "wikidata": "Q60747916",
+      "wikipedia": "en:Lake Shkodër Nature Reserve",
+      "website": "https://www.akzm.gov.al/",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/relation/10148724",
+      "score": 10,
+      "imageFile": "Lake Skadar, Shkoder Albania 2016.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lake_Skadar%2C_Shkoder_Albania_2016.jpg/1280px-Lake_Skadar%2C_Shkoder_Albania_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Toma Koma - @Flickr: https://www.flickr.com/photos/972406… · CC BY-SA 2.0",
+      "tagline": {
+        "text": "protected area and a tourist attraction in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Stampa:Kartela Zonë e mbrojtur Rezervati Natyror i Liqenit të Shkodrës është një rezervat natyror në Shqipërinë veriperëndimore. Zona e mbrojtur përfshin segmentin shqiptar të liqenit të Shkodrës dhe lumin Buna dhe fushën fqinje, duke përfshirë sipërfaqet ujore dhe tokësore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Rezervati_Natyror_i_Liqenit_t%C3%AB_Shkodr%C3%ABs"
+      }
+    },
+    {
+      "id": "way/323742416",
+      "name": "Site of Witness and Memory",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.065148,
+      "lon": 19.517035,
+      "wikidata": "Q123669771",
+      "website": "https://www.vdkshkoder.com/",
+      "openingHours": "Mo-Fr 09:30-14:30; Sa 09:30-12:30",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/323742416",
+      "score": 10,
+      "imageFile": "SigurimiShkoder.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/SigurimiShkoder.jpg/1280px-SigurimiShkoder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Spasblag · CC BY-SA 4.0",
+      "tagline": {
+        "text": "muzeu në Shkodër",
+        "lang": "sq"
+      }
+    },
+    {
+      "id": "way/324756972",
+      "name": "Teatri Migjeni",
+      "nameEn": "Migjeni Theatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.068896,
+      "lon": 19.511067,
+      "wikidata": "Q1932399",
+      "wikipedia": "sq:Teatri Migjeni",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/324756972",
+      "score": 10,
+      "tagline": {
+        "text": "theatre in Shkodra,, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Teatri Migjeni ndodhet në qendër të qytetit të Shkodrës. Teatri ka më shumë se 80-të vite që funksion dhe ka realizuar mbi 300 premiera.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_Migjeni"
+      }
+    },
+    {
+      "id": "way/198479514",
+      "name": "Xhamia Parrucës",
+      "nameEn": "Parruca Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.065421,
+      "lon": 19.508701,
+      "wikidata": "Q1118814",
+      "wikipedia": "sq:Xhamia e Parrucës",
+      "osmUrl": "https://www.openstreetmap.org/way/198479514",
+      "score": 10,
+      "imageFile": "Fountain in Shkodra, with mosque in the background.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Fountain_in_Shkodra%2C_with_mosque_in_the_background.jpg/1280px-Fountain_in_Shkodra%2C_with_mosque_in_the_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sigismund von Dobschütz · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Parrucës është një xhami në lagjen historike të Parrucë, Shkodër, Shqipëri. Xhamia e re u ndërtua në 1937, dhe është ndër monumentet më të rëndësishme kulturorë të Shkodrës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Parruc%C3%ABs"
+      }
+    },
+    {
+      "id": "way/332243921",
+      "name": "Shenjtërorja e Zojës së Këshillit të Mirë",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.044156,
+      "lon": 19.490912,
+      "wikidata": "Q16362576",
+      "wikipedia": "sq:Shenjtërorja e Zojës së Këshillit të Mirë",
+      "website": "https://kishakatolikeshkoder.com/arqipeshkvia/shenjtorja-e-zojes-se-shkodres/",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/332243921",
+      "score": 8,
+      "tagline": {
+        "text": "ndërtimi i kishës në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Shenjtërorja e Zojës së Këshillit të Mirë e njohur si Kisha e Zojës, është një kishë-shenjtërore kushtuar kultit të Zonjës të komunitetit katolik në Shkodër, Shqipëri. Kisha ndodhet në rrëzë të kodrës së kalasë së Shkodrës, e cila nisi të ndërtohej në kohën e okupacionit austro-hungarez më 1917, gjatë Luftës së Parë Botërore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Shenjt%C3%ABrorja_e_Zoj%C3%ABs_s%C3%AB_K%C3%ABshillit_t%C3%AB_Mir%C3%AB"
+      }
+    },
+    {
+      "id": "way/198486922",
+      "name": "Deshmoret e 2 Prillit",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.066257,
+      "lon": 19.510531,
+      "description": "Dëshmorët e Demokracisë",
+      "wikipedia": "sq:Dëshmorët e Demokracisë",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/198486922",
+      "score": 7,
+      "summary": {
+        "text": "Protestat kundër regjimit diktatorial të komunistëve enveristë në 2 prill të vitit 1991, i morën jetën katër të rinjve studentë në qendër të Shkodrës. Shpallja e protestave në të gjithë Shqipërinë, arriti pikën kulmore në kryeqendrën e veriut, nga ku u demonstrua hapur qëndresa e studentëve dhe popullsisë vendase, për te rrëzuar regjimin.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/D%C3%ABshmor%C3%ABt_e_Demokracis%C3%AB"
+      }
+    },
+    {
+      "id": "node/3961574347",
+      "name": "Heronjtë e Vigut",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.089279,
+      "lon": 19.507404,
+      "wikidata": "Q9034995",
+      "wikipedia": "sq:5 Heronjtë e Vigut",
+      "osmUrl": "https://www.openstreetmap.org/node/3961574347",
+      "score": 7,
+      "imageFile": "5 Heronjte e Vigut - Shkoder.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/5_Heronjte_e_Vigut_-_Shkoder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "user:Leke Mjeku · Public domain",
+      "tagline": {
+        "text": "monument kulturor",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Monumenti i \"5 Heronjve të Vigut\" në kujtim të heronjve të popullit Ahmet Haxhia, Naim Gjylbegu, Ndoc Mazi, Hydajet Lezha dhe Ndoc Deda, me një bazament të lartë rreth katër metra dhe figura rreth gjashtë metra i larë në bronz, qëndroi për vite në një nga sheshet e qendrës së qytetit të Shkodrës, i rrethuar nga ndërtesat e Radio Shkodrës, Teatrit \"Migjeni\" dhe Hotel Turizmit \"Rozafa\". Pasi u besua se ishin komunistë dhe/ose terroristë, monumenti u zhvendos tek \"Varrezat e Dëshmorëve\" të Shkodrës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/5_Heronjt%C3%AB_e_Vigut"
+      }
+    },
+    {
+      "id": "way/323844814",
+      "name": "Monument Kulture - Familja Çeka",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.063455,
+      "lon": 19.51671,
+      "description": "Në këtë shtëpi ka lindur dhe jetuar atdhetari Filip Pjetër Çeka. Ndër anëtarët më aktivë të degës së lidhjes shqiptare për Shkodren. 1878-1880",
+      "wikipedia": "sq:Çekajt",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/323844814",
+      "score": 7,
+      "summary": {
+        "text": "Një nga nga familjet më të vjetra të qytetit të Shkodrës, ku të parët e saj kanë qenë pronarë të mëdhenj tokash dhe më pas janë marrë me tregti, ekonomi e politikë, është dhe familja Çeka. Në një nga dhomat e banesës karakteristike shkodrane, e cila ndodhet në qendër të qytetit në lagjen \"Ndoc Mazi\", Ëngjëlli dhe familja e tij kanë ekspozuar figurat kryesore të familjes, dokumentet e fotot kryesore të figurave të saj.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/%C3%87ekajt"
+      }
+    },
+    {
+      "id": "way/324735622",
+      "name": "Hamami i Shkodrës",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.061621,
+      "lon": 19.506513,
+      "description": "Historical Public Shower - Hamam",
+      "wikipedia": "sq:Shkodra",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/324735622",
+      "score": 6,
+      "summary": {
+        "text": "Shkodra është qytet dhe bashki në Shqipërinë Veriperëndimore, si dhe qendra e rrethit dhe e qarkut Shkodër. Është një nga qytetet më të vjetra të Shqipërisë me një histori banimi mijëvjeçare në qytet dhe krahinë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Shkodra"
+      }
+    },
+    {
+      "id": "way/414633754",
+      "name": "Eco Art EDA",
+      "category": "culture",
+      "kind": "attraction",
+      "lat": 42.063304,
+      "lon": 19.515727,
+      "website": "https://www.ecoarteda.com/",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/414633754",
+      "score": 4
+    },
+    {
+      "id": "node/4756203113",
+      "name": "Muzeu Dioqezan",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.065072,
+      "lon": 19.519968,
+      "website": "https://www.kishakatolikeshkoder.com/",
+      "openingHours": "Mo-Fr 09:00-13:00; Sa 09:00-13:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/4756203113",
+      "score": 4
+    },
+    {
+      "id": "way/332246391",
+      "name": "Shtëpia e Pritjes",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.052488,
+      "lon": 19.501098,
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/332246391",
+      "score": 4
+    },
+    {
+      "id": "node/3973744773",
+      "name": "Çinari Hoxhë Dheut",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.068507,
+      "lon": 19.509654,
+      "openingHours": "24/7",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/3973744773",
+      "score": 3
+    },
+    {
+      "id": "node/4157491915",
+      "name": "Galeria e Arteve",
+      "category": "culture",
+      "kind": "attraction",
+      "lat": 42.068992,
+      "lon": 19.513614,
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/4157491915",
+      "score": 3
+    },
+    {
+      "id": "way/319889242",
+      "name": "Historical Museum of the Castle",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.045915,
+      "lon": 19.492773,
+      "openingHours": "Mo-Su 10:00-17:00",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/319889242",
+      "score": 3
+    },
+    {
+      "id": "node/6762590885",
+      "name": "Swimming spot",
+      "nameEn": "Swimming spot",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.055005,
+      "lon": 19.475861,
+      "osmUrl": "https://www.openstreetmap.org/node/6762590885",
+      "score": 3
+    },
+    {
+      "id": "node/4272388839",
+      "name": "Venice Art Mask",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.068903,
+      "lon": 19.516944,
+      "openingHours": "Mo-Su 07:00-24:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/4272388839",
+      "score": 3
+    },
+    {
+      "id": "node/3894909628",
+      "name": "Hamz Kazazi",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.047678,
+      "lon": 19.492123,
+      "heritage": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/3894909628",
+      "score": 2
+    },
+    {
+      "id": "node/3207728669",
+      "name": "Isa Boletini",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.061367,
+      "lon": 19.513548,
+      "osmUrl": "https://www.openstreetmap.org/node/3207728669",
+      "score": 2
+    },
+    {
+      "id": "node/5068486480",
+      "name": "Kulla e Gjon Markagjonit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.065006,
+      "lon": 19.51512,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/5068486480",
+      "score": 2
+    },
+    {
+      "id": "way/323560560",
+      "name": "Monument Kulture - Shpia e Jubanve",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.065591,
+      "lon": 19.513132,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/323560560",
+      "score": 2
+    },
+    {
+      "id": "way/457654361",
+      "name": "Shtëpi Muze - Lazer & Simon Jubani",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.068997,
+      "lon": 19.524581,
+      "osmUrl": "https://www.openstreetmap.org/way/457654361",
+      "score": 2
+    },
+    {
+      "id": "way/388247198",
+      "name": "Tregu i Lirë \"Xhabije\"",
+      "nameEn": "Fruits, vegetables, convenience good, household, children toys, some clothes, ...",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.057013,
+      "lon": 19.500719,
+      "openingHours": "Mo-Su 07:00-18:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/388247198",
+      "score": 2
+    },
+    {
+      "id": "way/587994872",
+      "name": "Tregu i Shumicës - \"Fruta Perime\"",
+      "nameEn": "Central Market - Fruit and Vegetables",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.088496,
+      "lon": 19.508869,
+      "openingHours": "Mo-Su 05:00-12:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/587994872",
+      "score": 2
+    },
+    {
+      "id": "way/199127972",
+      "name": "Tregu i Zdrales",
+      "nameEn": "Clothes & beauty",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.068801,
+      "lon": 19.507282,
+      "openingHours": "Mo-Su 06:00-15:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/199127972",
+      "score": 2
+    },
+    {
+      "id": "way/48407527",
+      "name": "Ura Vjetër e Bahçallekut",
+      "category": "history",
+      "kind": "bridge",
+      "lat": 42.042325,
+      "lon": 19.493229,
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/48407527",
+      "score": 2
+    },
+    {
+      "id": "node/13351844775",
+      "name": "Varrezat e Dëshmorëve",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.053974,
+      "lon": 19.532097,
+      "osmUrl": "https://www.openstreetmap.org/node/13351844775",
+      "score": 2
+    },
+    {
+      "id": "way/323742379",
+      "name": "Art House",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.066132,
+      "lon": 19.516469,
+      "openingHours": "Tu-Sa 11:00-13:00,17:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/way/323742379",
+      "score": 1
+    },
+    {
+      "id": "way/319867343",
+      "name": "Barbakan - Main Fortified Entrance 15th cent.",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.047036,
+      "lon": 19.494952,
+      "osmUrl": "https://www.openstreetmap.org/way/319867343",
+      "score": 1
+    },
+    {
+      "id": "way/478247111",
+      "name": "Bregu i Renës",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 42.082839,
+      "lon": 19.473031,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/478247111",
+      "score": 1
+    },
+    {
+      "id": "way/414667231",
+      "name": "Bushatlli's Palace 18th - 19th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045919,
+      "lon": 19.4923,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667231",
+      "score": 1
+    },
+    {
+      "id": "way/414667236",
+      "name": "Hamam 16th - 17th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045796,
+      "lon": 19.492113,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667236",
+      "score": 1
+    },
+    {
+      "id": "way/414667242",
+      "name": "Hydilaver Pasha's House 17th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046416,
+      "lon": 19.492521,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667242",
+      "score": 1
+    },
+    {
+      "id": "way/414667256",
+      "name": "Illyria Wall Tract 4th cent. B.C",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.047125,
+      "lon": 19.494778,
+      "osmUrl": "https://www.openstreetmap.org/way/414667256",
+      "score": 1
+    },
+    {
+      "id": "way/389291686",
+      "name": "Ish Fabrika e Çementos",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.040858,
+      "lon": 19.481488,
+      "osmUrl": "https://www.openstreetmap.org/way/389291686",
+      "score": 1
+    },
+    {
+      "id": "node/4713520541",
+      "name": "Kodra Bokave të Bashkallatvës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.081071,
+      "lon": 19.555154,
+      "osmUrl": "https://www.openstreetmap.org/node/4713520541",
+      "score": 1
+    },
+    {
+      "id": "way/414667262",
+      "name": "Medieval House 14th - 15th cent.",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.047446,
+      "lon": 19.49408,
+      "osmUrl": "https://www.openstreetmap.org/way/414667262",
+      "score": 1
+    },
+    {
+      "id": "way/414675751",
+      "name": "Military Barrack of The Communist Periode 1980",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045906,
+      "lon": 19.493162,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414675751",
+      "score": 1
+    },
+    {
+      "id": "node/707435966",
+      "name": "Monumenti At Gjergj Fishta",
+      "nameEn": "Father George Fishta Monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.065072,
+      "lon": 19.510781,
+      "osmUrl": "https://www.openstreetmap.org/node/707435966",
+      "score": 1
+    },
+    {
+      "id": "node/669516961",
+      "name": "Monumenti Nënë Tereza",
+      "nameEn": "Mother Teresa",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.066954,
+      "lon": 19.514029,
+      "osmUrl": "https://www.openstreetmap.org/node/669516961",
+      "score": 1
+    },
+    {
+      "id": "node/11070997592",
+      "name": "Muzeu i Maskave Veneciane",
+      "nameEn": "Museum of Venetian Masks",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.081991,
+      "lon": 19.52912,
+      "osmUrl": "https://www.openstreetmap.org/node/11070997592",
+      "score": 1
+    },
+    {
+      "id": "way/319889239",
+      "name": "Ottoman Arsenal",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045752,
+      "lon": 19.492616,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/319889239",
+      "score": 1
+    },
+    {
+      "id": "way/414667264",
+      "name": "Ottoman Dwellings 16th - 17th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046273,
+      "lon": 19.492466,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667264",
+      "score": 1
+    },
+    {
+      "id": "way/319867329",
+      "name": "Ottoman Millitary Barrack and Depot 16th - 17th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046159,
+      "lon": 19.494213,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/319867329",
+      "score": 1
+    },
+    {
+      "id": "way/414667271",
+      "name": "Ottoman Prison 16th - 17th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046438,
+      "lon": 19.492786,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667271",
+      "score": 1
+    },
+    {
+      "id": "way/414667285",
+      "name": "Saranxha- medieval Cistern no 1. 14th cent",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.046833,
+      "lon": 19.493613,
+      "osmUrl": "https://www.openstreetmap.org/way/414667285",
+      "score": 1
+    },
+    {
+      "id": "way/319867331",
+      "name": "Saranxha- medieval Cistern no 2. 14th cent",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046632,
+      "lon": 19.493425,
+      "osmUrl": "https://www.openstreetmap.org/way/319867331",
+      "score": 1
+    },
+    {
+      "id": "way/414667296",
+      "name": "Saranxha- medieval Cistern no 3. 14th cent",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046324,
+      "lon": 19.492997,
+      "osmUrl": "https://www.openstreetmap.org/way/414667296",
+      "score": 1
+    },
+    {
+      "id": "way/414667301",
+      "name": "Saranxha- medieval Cistern no 4. 14th cent",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046382,
+      "lon": 19.492653,
+      "osmUrl": "https://www.openstreetmap.org/way/414667301",
+      "score": 1
+    },
+    {
+      "id": "way/414667302",
+      "name": "Saranxha- medieval Cistern no 5. 14th cent",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045867,
+      "lon": 19.492213,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414667302",
+      "score": 1
+    },
+    {
+      "id": "way/319905503",
+      "name": "Saranxha- medieval Cistern no.6 14th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.045789,
+      "lon": 19.492879,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/319905503",
+      "score": 1
+    },
+    {
+      "id": "way/531207655",
+      "name": "Shtëpia e Murgeshave",
+      "nameEn": "House of Nuns",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.061975,
+      "lon": 19.517753,
+      "osmUrl": "https://www.openstreetmap.org/way/531207655",
+      "score": 1
+    },
+    {
+      "id": "node/9712137058",
+      "name": "Tourist Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.067149,
+      "lon": 19.513929,
+      "openingHours": "Sa, Su 10:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9712137058",
+      "score": 1
+    },
+    {
+      "id": "way/588349738",
+      "name": "Tregu i Rusit",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.07537,
+      "lon": 19.516776,
+      "openingHours": "Mo-Su 06:00-15:00",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/588349738",
+      "score": 1
+    },
+    {
+      "id": "way/319905502",
+      "name": "Venetian Citadel Tower 15th cent.",
+      "category": "viewpoint",
+      "kind": "ruins",
+      "lat": 42.045717,
+      "lon": 19.492773,
+      "fee": "no",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/319905502",
+      "score": 1
+    },
+    {
+      "id": "way/414667304",
+      "name": "Venetian Complex and Tower of Don Zhon",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.047224,
+      "lon": 19.494595,
+      "osmUrl": "https://www.openstreetmap.org/way/414667304",
+      "score": 1
+    },
+    {
+      "id": "way/414675752",
+      "name": "Venetian Prision 15th cent.",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.046021,
+      "lon": 19.492973,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/414675752",
+      "score": 1
+    },
+    {
+      "id": "node/4862090423",
+      "name": "Ergotex",
+      "nameEn": "Ergotex",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.077425,
+      "lon": 19.528759,
+      "osmUrl": "https://www.openstreetmap.org/node/4862090423",
+      "score": 0
+    },
+    {
+      "id": "way/456154356",
+      "name": "Fruits & vegetables",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.068686,
+      "lon": 19.508007,
+      "osmUrl": "https://www.openstreetmap.org/way/456154356",
+      "score": 0
+    },
+    {
+      "id": "node/3367268023",
+      "name": "Galeri Shkodra",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.068748,
+      "lon": 19.516405,
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/3367268023",
+      "score": 0
+    },
+    {
+      "id": "node/3997676958",
+      "name": "Hasan Riza Pasha",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.065299,
+      "lon": 19.51072,
+      "osmUrl": "https://www.openstreetmap.org/node/3997676958",
+      "score": 0
+    },
+    {
+      "id": "node/12770920076",
+      "name": "Komiteti i Kosovës",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.066734,
+      "lon": 19.511432,
+      "osmUrl": "https://www.openstreetmap.org/node/12770920076",
+      "score": 0
+    },
+    {
+      "id": "node/4157491916",
+      "name": "Martin Camaj",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.070829,
+      "lon": 19.515696,
+      "osmUrl": "https://www.openstreetmap.org/node/4157491916",
+      "score": 0
+    },
+    {
+      "id": "way/532506032",
+      "name": "Park Lulishte",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.039777,
+      "lon": 19.495714,
+      "osmUrl": "https://www.openstreetmap.org/way/532506032",
+      "score": 0
+    },
+    {
+      "id": "node/3987763021",
+      "name": "Parku Isa Boletini",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.061358,
+      "lon": 19.513796,
+      "osmUrl": "https://www.openstreetmap.org/node/3987763021",
+      "score": 0
+    },
+    {
+      "id": "node/3367268019",
+      "name": "Pjerini Art",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.065861,
+      "lon": 19.518727,
+      "osmUrl": "https://www.openstreetmap.org/node/3367268019",
+      "score": 0
+    },
+    {
+      "id": "way/457654333",
+      "name": "Tregu \"FRUTA PERIME\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.073043,
+      "lon": 19.520688,
+      "osmUrl": "https://www.openstreetmap.org/way/457654333",
+      "score": 0
+    },
+    {
+      "id": "way/617666774",
+      "name": "Tregu \"Qafë Hardhi\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.060098,
+      "lon": 19.514209,
+      "osmUrl": "https://www.openstreetmap.org/way/617666774",
+      "score": 0
+    },
+    {
+      "id": "way/393006664",
+      "name": "Tregu i Rusit - Fruta Perime",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.078617,
+      "lon": 19.515166,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/393006664",
+      "score": 0
+    }
+  ]
+}

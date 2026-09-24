@@ -1,0 +1,28 @@
+---
+const isHome = Astro.url.pathname === '/';
+---
+<footer class="footer">
+  <div class="container footer-main">
+    <div class="footer-brand">
+      <a href="/" aria-label="Locals nga Illyrian Brains"><img src="/assets/logo.png" alt="Illyrian Brains network" /></a>
+      <p>Guida të shkurtra për Shqipërinë dhe Kosovën, shkruar me njohuri vendase.</p>
+    </div>
+    <div class="footer-column">
+      <p class="footer-label">Eksploro</p>
+      <a href="/" aria-current={isHome ? 'page' : undefined}>Ballina</a>
+      <a href="/#qytetet">Qytetet</a>
+      <a href="/#parimet">Udhëto mirë</a>
+    </div>
+    <div class="footer-column">
+      <p class="footer-label">Komuniteti</p>
+      <a href="https://illyrianbrains.org/" target="_blank" rel="noreferrer">Illyrian Brains ↗</a>
+      <a href="https://forum.illyrianbrains.org" target="_blank" rel="noreferrer">Forum ↗</a>
+      <a href="mailto:illyrianbrains@gmail.com">Na shkruaj</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {new Date().getFullYear()} Illyrian Brains Network</span>
+    <span>Me kujdes për Shqipërinë dhe Kosovën</span>
+    <span>locals.illyrianbrains.org</span>
+  </div>
+</footer>

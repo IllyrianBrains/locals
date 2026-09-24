@@ -1,0 +1,91 @@
+---
+import { categoryLabels, getCityPlaces, type OsmCategory, type OsmPlace } from '../data/places';
+
+interface Props { slug: string; limit?: number; /** Cards shown before "show more". */ initial?: number; /** OSM ids already featured elsewhere on the page. */ exclude?: string[] }
+const { slug, limit = 24, initial = 9, exclude = [] } = Astro.props;
+
+const data = getCityPlaces(slug);
+const places = data?.places.filter((p) => !exclude.includes(p.id)).slice(0, limit) ?? [];
+const categories = [...new Set(places.map((p) => p.category))] as OsmCategory[];
+
+/** Albanian text only: the site is in Albanian, so English summaries/taglines are skipped. */
+function blurb(place: OsmPlace): { text: string; source?: string } | undefined {
+  if (place.summary?.lang === 'sq') return { text: shorten(place.summary.text), source: place.summary.source };
+  if (place.description) return { text: shorten(place.description) };
+  if (place.tagline?.lang === 'sq') return { text: place.tagline.text };
+}
+
+function shorten(text: string, max = 220): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const sentenceEnd = cut.lastIndexOf('. ');
+  return sentenceEnd > 80 ? cut.slice(0, sentenceEnd + 1) : `${cut.slice(0, cut.lastIndexOf(' '))}…`;
+}
+
+const mapUrl = (p: OsmPlace) => `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=18/${p.lat}/${p.lon}`;
+const fetched = data ? new Date(data.fetchedAt).toLocaleDateString('sq-AL', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+---
+{places.length > 0 && (
+  <div class="atlas" data-initial={initial}>
+    <div class="atlas-filters" role="group" aria-label="Filtro sipas kategorisë">
+      <button type="button" data-filter="all" aria-pressed="true">Të gjitha <small>{places.length}</small></button>
+      {categories.map((c) => <button type="button" data-filter={c} aria-pressed="false">{categoryLabels[c]} <small>{places.filter((p) => p.category === c).length}</small></button>)}
+    </div>
+    <div class="atlas-grid">
+      {places.map((place) => {
+        const text = blurb(place);
+        return (
+          <article class:list={['atlas-card', { 'has-image': place.image }]} data-category={place.category}>
+            {place.image && <figure><img src={place.image} alt={place.name} loading="lazy" referrerpolicy="no-referrer" /><figcaption>{place.imageCredit}</figcaption></figure>}
+            <div>
+              <span>{categoryLabels[place.category]}</span>
+              <h3>{place.name}</h3>
+              {text && <p>{text.text}</p>}
+              <nav>
+                <a href={mapUrl(place)} target="_blank" rel="noreferrer">Hape në hartë ↗</a>
+                {text?.source && <a href={text.source} target="_blank" rel="noreferrer">Wikipedia ↗</a>}
+                {place.website && <a href={place.website} target="_blank" rel="noreferrer">Faqja ↗</a>}
+              </nav>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+    {places.length > initial && <button type="button" class="atlas-more">Shfaq të gjitha ({places.length})</button>}
+    <p class="atlas-credit">
+      Të dhënat: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a> (ODbL) ·
+      Përshkrimet: Wikipedia (CC BY-SA) · Fotot: Wikimedia Commons, sipas autorëve të shënuar · Përditësuar më {fetched}
+    </p>
+  </div>
+)}
+
+<script>
+  document.querySelectorAll<HTMLElement>('.atlas').forEach((atlas) => {
+    const buttons = atlas.querySelectorAll<HTMLButtonElement>('[data-filter]');
+    const more = atlas.querySelector<HTMLButtonElement>('.atlas-more');
+    const initial = Number(atlas.dataset.initial);
+    let filter = 'all';
+    let expanded = false;
+    const render = () => {
+      atlas.querySelectorAll<HTMLElement>('.atlas-card').forEach((card, index) => {
+        card.hidden = filter === 'all' ? !expanded && index >= initial : card.dataset.category !== filter;
+      });
+      if (more) more.hidden = expanded || filter !== 'all';
+    };
+    buttons.forEach((button) => button.addEventListener('click', () => {
+      filter = button.dataset.filter!;
+      buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+      render();
+    }));
+    more?.addEventListener('click', () => { expanded = true; render(); });
+    render();
+  });
+</script>
+
+<style>
+.atlas-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}.atlas-filters button{padding:9px 14px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 11px var(--sans);cursor:pointer}.atlas-filters button small{margin-left:4px;color:var(--muted);font-size:9px}.atlas-filters button[aria-pressed=true]{border-color:var(--forest);color:#fff;background:var(--forest)}.atlas-filters button[aria-pressed=true] small{color:var(--lime)}
+.atlas-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.atlas-card{overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--paper)}.atlas-card[hidden]{display:none}.atlas-card figure{position:relative;height:210px;margin:0;overflow:hidden;background:var(--line)}.atlas-card img{width:100%;height:100%;object-fit:cover;filter:saturate(.72)}.atlas-card figcaption{position:absolute;right:8px;bottom:5px;left:8px;overflow:hidden;color:#fffc;font-size:7px;text-align:right;text-overflow:ellipsis;white-space:nowrap;text-shadow:0 1px 3px #0009}.atlas-card>div{padding:20px}.atlas-card span{color:var(--clay);font-size:8px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.atlas-card h3{margin:5px 0 0;font:500 23px/1.15 var(--display)}.atlas-card p{margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.55}.atlas-card nav{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}.atlas-card nav a{color:var(--leaf);font-size:9px;font-weight:700}
+.atlas-more{display:block;margin:26px auto 0;padding:13px 22px;border:1px solid var(--forest);border-radius:99px;color:var(--forest);background:none;font:700 12px var(--sans);cursor:pointer}.atlas-more:hover{color:#fff;background:var(--forest)}.atlas-more[hidden]{display:none}
+.atlas-credit{margin:30px 0 0;color:var(--muted);font-size:9px}.atlas-credit a{text-decoration:underline}
+@media(max-width:850px){.atlas-grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.atlas-grid{grid-template-columns:1fr}.atlas-card figure{height:190px}}
+</style>

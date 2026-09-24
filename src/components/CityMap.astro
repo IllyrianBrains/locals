@@ -1,0 +1,98 @@
+---
+import { categoryLabels, getCityPlaces, type OsmCategory, type OsmPlace } from '../data/places';
+
+export interface FeaturedPin { number: string; place: OsmPlace; tone: 'stop' | 'secret' }
+interface Props { slug: string; featured?: FeaturedPin[]; limit?: number }
+const { slug, featured = [], limit = 40 } = Astro.props;
+
+const data = getCityPlaces(slug);
+const featuredIds = new Set(featured.map((f) => f.place.id));
+const places = data?.places.filter((p) => !featuredIds.has(p.id)).slice(0, limit) ?? [];
+
+const categoryColors: Record<OsmCategory, string> = {
+  museum: '#744761',
+  history: '#a8643a',
+  religion: '#3f6f8f',
+  culture: '#8a5aa8',
+  art: '#c24d6b',
+  nature: '#4f8a4b',
+  viewpoint: '#2f8f8a',
+  market: '#b8892b',
+  attraction: '#55565c',
+};
+const firstStop = featured.find((f) => f.tone === 'stop');
+const firstSecret = featured.find((f) => f.tone === 'secret');
+const categories = [...new Set(places.map((p) => p.category))] as OsmCategory[];
+
+const osmUrl = (p: OsmPlace) => `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=18/${p.lat}/${p.lon}`;
+const markers = [
+  ...featured.map(({ number, place, tone }) => ({ name: place.name, lat: place.lat, lon: place.lon, label: tone === 'stop' ? 'Ndalesë kryesore' : 'Sekret', number, tone, url: osmUrl(place) })),
+  ...places.map((p) => ({ name: p.name, lat: p.lat, lon: p.lon, label: categoryLabels[p.category], category: p.category, color: categoryColors[p.category], url: osmUrl(p) })),
+];
+---
+{data && (
+  <div class="city-map">
+    <div class="city-map-canvas" data-markers={JSON.stringify(markers)} role="region" aria-label={`Harta e vendeve për të vizituar në ${data.name}`}></div>
+    <div class="city-map-legend" role="group" aria-label="Shfaq në hartë">
+      {firstStop && <span class="key"><i class="pin">{Number(firstStop.number)}</i>Ndalesat kryesore</span>}
+      {firstSecret && <span class="key"><i class="pin secret">{Number(firstSecret.number)}</i>Sekretet</span>}
+      {categories.map((c) => <button type="button" data-category={c} aria-pressed="true"><i style={`background:${categoryColors[c]}`}></i>{categoryLabels[c]}</button>)}
+    </div>
+  </div>
+)}
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  type Marker = { name: string; lat: number; lon: number; label: string; url: string; number?: string; tone?: string; category?: string; color?: string };
+  const escape = (s: string) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+
+  document.querySelectorAll<HTMLElement>('.city-map').forEach((root) => {
+    const el = root.querySelector<HTMLElement>('.city-map-canvas')!;
+    const markers: Marker[] = JSON.parse(el.dataset.markers!);
+    const map = L.map(el, { scrollWheelZoom: false });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const byCategory = new Map<string, L.Layer[]>();
+    const all = markers.map((m) => {
+      const layer = m.number
+        ? L.marker([m.lat, m.lon], { icon: L.divIcon({ className: `map-pin ${m.tone}`, html: String(Number(m.number)), iconSize: [28, 28] }), zIndexOffset: 1000 })
+        : L.circleMarker([m.lat, m.lon], { radius: 6, weight: 2, color: '#fff', fillColor: m.color, fillOpacity: 1 });
+      layer.bindPopup(`<span>${escape(m.label)}</span><b>${escape(m.name)}</b><a href="${m.url}" target="_blank" rel="noreferrer">Drejtimet ↗</a>`).addTo(map);
+      if (m.category) byCategory.set(m.category, [...(byCategory.get(m.category) ?? []), layer]);
+      return layer;
+    });
+    if (all.length) map.fitBounds(L.featureGroup(all).getBounds(), { padding: [30, 30] });
+    map.once('focus', () => map.scrollWheelZoom.enable());
+
+    root.querySelectorAll<HTMLButtonElement>('button[data-category]').forEach((button) => button.addEventListener('click', () => {
+      const on = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(on));
+      byCategory.get(button.dataset.category!)?.forEach((layer) => (on ? layer.addTo(map) : layer.remove()));
+    }));
+  });
+</script>
+
+<style>
+.city-map-canvas{height:min(66vh,600px);border:1px solid var(--line);border-radius:14px;background:var(--cream);z-index:0}
+.city-map-canvas :global(.leaflet-tile-pane){filter:saturate(.35) contrast(.95)}
+.city-map-canvas :global(.map-pin){display:grid;place-items:center;border:2px solid #fff;border-radius:50%;color:#fff;background:var(--forest);box-shadow:0 2px 8px #0005;font:700 12px var(--sans)}
+.city-map-canvas :global(.map-pin.secret){color:var(--forest);background:var(--lime)}
+.city-map-canvas :global(.leaflet-popup-content-wrapper){border-radius:10px}
+.city-map-canvas :global(.leaflet-popup-content){display:flex;flex-direction:column;gap:3px;margin:12px 16px;font-family:var(--sans)}
+.city-map-canvas :global(.leaflet-popup-content span){color:var(--clay);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.city-map-canvas :global(.leaflet-popup-content b){font:500 17px/1.2 var(--display)}
+.city-map-canvas :global(.leaflet-popup-content a){color:var(--leaf);font-size:11px;font-weight:700}
+.city-map-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
+.city-map-legend .key,.city-map-legend button{display:flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 12px var(--sans)}
+.city-map-legend button{cursor:pointer}
+.city-map-legend button[aria-pressed=false]{color:var(--muted);text-decoration:line-through;opacity:.6}
+.city-map-legend button i{width:10px;height:10px;border-radius:50%}
+.city-map-legend .pin{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;color:#fff;background:var(--forest);font:700 9px var(--sans);font-style:normal}
+.city-map-legend .pin.secret{color:var(--forest);background:var(--lime)}
+@media(max-width:560px){.city-map-canvas{height:440px}}
+</style>

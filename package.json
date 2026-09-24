@@ -1,0 +1,19 @@
+{
+  "name": "ib-locals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "osm": "node scripts/fetch-osm.ts",
+    "boundaries": "node scripts/fetch-boundaries.ts"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.22",
+    "astro": "^7.2.2",
+    "leaflet": "^1.9.4"
+  }
+}

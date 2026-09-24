@@ -1,0 +1,592 @@
+{
+  "city": "korce",
+  "name": "Korçë",
+  "center": {
+    "lat": 40.6186,
+    "lon": 20.7808
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.046Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 35,
+  "places": [
+    {
+      "id": "way/680733620",
+      "name": "Muzeu Arkeologjik Korçë",
+      "nameEn": "Korçë Archaeological Musem",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.615288,
+      "lon": 20.781457,
+      "wikidata": "Q25570525",
+      "wikipedia": "sq:Muzeu arkeologjik i Korçës",
+      "website": "https://muzeuarkeologjik.wordpress.com/",
+      "openingHours": "Mo-Fr 09:00-17:00; Sa-Su 10:00-14:00",
+      "osmUrl": "https://www.openstreetmap.org/way/680733620",
+      "score": 14,
+      "imageFile": "Code4Culture Hackathon Korçë 10.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Code4Culture_Hackathon_Kor%C3%A7%C3%AB_10.jpg/1280px-Code4Culture_Hackathon_Kor%C3%A7%C3%AB_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Silva.1994 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Muze tipologjik arkeologjik, ku janë të ekspozuara objekte arkeologjike, kryesisht të prehistorisë së Korçës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Arkeologjik i Korçës u krijua në vitin 1985 dhe mori formë më të gjerë e më të plotë pas organizimit të vitit 1990. Ky muze është vendosur në dy banesa karakteristike korçare të fillim shekullit XIX, të cilat për vlerat arkitektonike të tyre janë shpallur monumente kulture.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_arkeologjik_i_Kor%C3%A7%C3%ABs"
+      }
+    },
+    {
+      "id": "way/681092970",
+      "name": "Muzeu Kombëtar i Artit Mesjetar",
+      "nameEn": "National Museum of Medieval Art",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.612353,
+      "lon": 20.786708,
+      "wikidata": "Q6974484",
+      "wikipedia": "sq:Muzeu Kombëtar i Artit mesjetar Korçë",
+      "website": "https://muzeumesjetar.gov.al/",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "fee": "700",
+      "osmUrl": "https://www.openstreetmap.org/way/681092970",
+      "score": 14,
+      "imageFile": "Muzeu i Artit Mesjetar.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Muzeu_i_Artit_Mesjetar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Kj1595 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "muze i arteve në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar i Artit Mesjetar, Korçë Muzeu Kombëtar i Artit Mesjetar., u krijua në vitin 1980, dhe përmban një nga koleksionet më të pasura të Mesjetës, të Artit Bizantin dhe Postbizantin, si dhe objekteve të tjera joreligjoze. Në fondet dhe ekspozitat e tij numërohen rreth 8000 objekte,.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_i_Artit_Mesjetar"
+      }
+    },
+    {
+      "id": "way/461159519",
+      "name": "Muzeu Kombëtar i Arsimit",
+      "nameEn": "National Museum of Education",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.616669,
+      "lon": 20.779827,
+      "wikidata": "Q16349431",
+      "wikipedia": "sq:Muzeu Kombëtar i Arsimit",
+      "openingHours": "Mo off; Tu-Su 09:00-14:00, 16:00-18:00",
+      "fee": "yes",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/461159519",
+      "score": 13,
+      "imageFile": "Korçë 04.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kor%C3%A7%C3%AB_04.jpg/1280px-Kor%C3%A7%C3%AB_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "muzeu në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar i Arsimit në Korçë ndodhet në ndërtesën e shkollës së parë shqipe, e hapur më 7 mars 1887 nga ana e mësuesit patriot Pandeli Sotiri. Ky objekt i cili fillimisht ishte shtëpi private e patriotit korçar Diamant Terpo, nga viti 1967 gëzon statusin Muze Kombëtar i Arsimit ndërsa nga viti 1973 është shpallur edhe Monument Kulture.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_i_Arsimit"
+      }
+    },
+    {
+      "id": "way/684036298",
+      "name": "Kulla e Sahatit",
+      "nameEn": "Clock Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.61618,
+      "lon": 20.775194,
+      "wikidata": "Q24175628",
+      "wikipedia": "en:Korçë Clock Tower",
+      "osmUrl": "https://www.openstreetmap.org/way/684036298",
+      "score": 12,
+      "imageFile": "Korça, Uhrturm und Mirahor-Moschee 1496.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Kor%C3%A7a%2C_Uhrturm_und_Mirahor-Moschee_1496.jpg/1280px-Kor%C3%A7a%2C_Uhrturm_und_Mirahor-Moschee_1496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Christian1311 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "kulla e sahatit në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e orës në Korçë është një kullë ore turko-osmane historike që daton nga shekulli 18. dhe rindërtuar kohët e fundit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_or%C3%ABs_n%C3%AB_Kor%C3%A7%C3%AB"
+      }
+    },
+    {
+      "id": "way/1379171568",
+      "name": "Pazari i Korçës",
+      "nameEn": "Old Bazaar of Korçë",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.617308,
+      "lon": 20.774914,
+      "wikidata": "Q7083445",
+      "wikipedia": "en:Old Bazaar of Korçë",
+      "imageFile": "Korca Old Bazaar.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/1379171568",
+      "score": 12,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Korca_Old_Bazaar.jpg/1280px-Korca_Old_Bazaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Name: Armin Flickr: flickr.com/octopuzz/ · CC BY-SA 2.0",
+      "tagline": {
+        "text": "pazari në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Pazari i Korçës është një monument i trashëgimisë kulturore në rrethin e Korçës, në qarkun e Korçës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"1886\" më \"10.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Pazari_i_Kor%C3%A7%C3%ABs"
+      }
+    },
+    {
+      "id": "way/1165161082",
+      "name": "Katedralja Ringjallja",
+      "nameEn": "Cathedral of the Resurrection",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.615736,
+      "lon": 20.780825,
+      "wikidata": "Q7316527",
+      "wikipedia": "sq:Katedralja ortodokse në Korçë",
+      "osmUrl": "https://www.openstreetmap.org/way/1165161082",
+      "score": 10,
+      "imageFile": "Korçë, Albania - panoramio (4).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kor%C3%A7%C3%AB%2C_Albania_-_panoramio_%284%29.jpg/1280px-Kor%C3%A7%C3%AB%2C_Albania_-_panoramio_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "anonymouse1 · CC BY-SA 3.0",
+      "tagline": {
+        "text": "katedrale në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Katedralja Ringjallja e Krishtit në Korçë është një prej ndërtesave më me vlerë të qytetit, jo vetëm për besimtarët ortodoksë, por për të gjithë qytetarët e vizitorët brenda e jashtë Shqipërisë. Guri i dytë i themelit u vu më 28 mars 1979 nga Kryepiskopi Anastas dhe ndërtimi i plotë i tii përfundoi në nëntorin e vitit 1990.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_Ngjallja_e_Krishtit%2C_Kor%C3%A7%C3%AB"
+      }
+    },
+    {
+      "id": "way/896299664",
+      "name": "Kisha arumune Kisha e Shën Sotirit",
+      "nameEn": "Aromanian Church (Saint Sotir)",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.624942,
+      "lon": 20.784138,
+      "wikidata": "Q125441699",
+      "wikipedia": "en:St. Sotir Church, Korçë",
+      "osmUrl": "https://www.openstreetmap.org/way/896299664",
+      "score": 10,
+      "imageFile": "St. Sotir in Korce.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/St._Sotir_in_Korce.jpg/1280px-St._Sotir_in_Korce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Tosunbaci · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Kisha Ortodokse Lindore në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Sotirit ose Kisha e Vllehëve është një kishë Orthodhokse që i shërben komunitetit arumun në qytetin e Korçës, Shqipëri. Kisha u ndërtua midis viteve 1995 dhe 2005 me mbështetje nga Rumania.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Sotirit"
+      }
+    },
+    {
+      "id": "way/612081022",
+      "name": "Muzeu i Artit Oriental \"Bratko\"",
+      "nameEn": "Bratko Museum of Oriental Art",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.612649,
+      "lon": 20.78466,
+      "wikidata": "Q4958051",
+      "wikipedia": "sq:Muzeu Oriental “Bratko”",
+      "osmUrl": "https://www.openstreetmap.org/way/612081022",
+      "score": 10,
+      "tagline": {
+        "text": "muze i arteve në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Oriental “Bratko“ eshte nje muze arti ne Korçë, Shqiperia. Ajo përmban një koleksion të kryesisht art aziatik.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Oriental_%E2%80%9CBratko%E2%80%9D"
+      }
+    },
+    {
+      "id": "way/197795957",
+      "name": "Xhamia e Iljaz Mirahorit",
+      "nameEn": "Mirahori Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.615861,
+      "lon": 20.775411,
+      "wikidata": "Q1586213",
+      "wikipedia": "sq:Xhamia e Iljaz Mirahorit",
+      "osmUrl": "https://www.openstreetmap.org/way/197795957",
+      "score": 10,
+      "imageFile": "Mirahori Mosque Korça.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Mirahori_Mosque_Kor%C3%A7a.jpg/1280px-Mirahori_Mosque_Kor%C3%A7a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulturor dhe xhami në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Iljaz bej Mirahorit është një monument i trashëgimisë kulturore në rrethin e qarkun e Korçës, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Iljaz_bej_Mirahorit"
+      }
+    },
+    {
+      "id": "way/681697674",
+      "name": "Banesa e Andromaqi Melkos",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.61698,
+      "lon": 20.780225,
+      "wikidata": "Q30216752",
+      "wikipedia": "sq:Banesa e Andromaqi Melkos",
+      "osmUrl": "https://www.openstreetmap.org/way/681697674",
+      "score": 9,
+      "imageFile": "House 'Melko' 05.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/House_%27Melko%27_05.jpg/1280px-House_%27Melko%27_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sonia Budini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Andromaqi Melkos është një monument i trashëgimisë kulturore në rrethin e Korçës, në qarkun e Korçës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"266/1\" më \"16.02.1979\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Andromaqi_Melkos"
+      }
+    },
+    {
+      "id": "way/398121535",
+      "name": "Teatri \"Andon Zako Çajupi\"",
+      "nameEn": "Andon Zako Çajupi theatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.618674,
+      "lon": 20.77677,
+      "wikidata": "Q4980130",
+      "wikipedia": "en:Andon Zako Çajupi Theatre",
+      "osmUrl": "https://www.openstreetmap.org/way/398121535",
+      "score": 8,
+      "imageFile": "Teatri \"Andon Zako Çajupi\".jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Teatri_%22Andon_Zako_%C3%87ajupi%22.jpg/1280px-Teatri_%22Andon_Zako_%C3%87ajupi%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bes-ART · CC BY-SA 4.0",
+      "tagline": {
+        "text": "teatër në Korçë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teatri Andon Zako Çajupi thirret teatri i qytetit në Korçë, i themeluar më 1951 dhe nga viti 1971 ka edhe godinën e teatrit. Sot, godina e teatrit shërben si shtëpi kulturore e artistëve profesionist në jug të Shqipërisë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_Andon_Zako_%C3%87ajupi"
+      }
+    },
+    {
+      "id": "way/258612998",
+      "name": "Varrezat e Dëshmorëve",
+      "nameEn": "Martyrs' Cemetery",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.618857,
+      "lon": 20.788362,
+      "wikidata": "Q6777729",
+      "wikipedia": "en:Martyrs' Cemetery (Korçë)",
+      "osmUrl": "https://www.openstreetmap.org/way/258612998",
+      "score": 8,
+      "tagline": {
+        "text": "varreza në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "The Cemetery of the Martyrs, Varrezat e Dëshmorëve, or sometimes Heroes' Cemetery, is a cemetery located above the city of Korçë, Albania. The cemetery features a large statue of a soldier with a raised fist, as a memory for fallen soldiers who died during World War II in Albania.",
+        "lang": "en",
+        "source": "https://en.wikipedia.org/wiki/Martyrs'_Cemetery%2C_Kor%C3%A7%C3%AB"
+      }
+    },
+    {
+      "id": "node/10202035284",
+      "name": "Banesa e Fani Kota (Pjastoros)",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.6153,
+      "lon": 20.781439,
+      "wikidata": "Q30185548",
+      "wikipedia": "sq:Banesa e Fani Kota (Pjastoros)",
+      "osmUrl": "https://www.openstreetmap.org/node/10202035284",
+      "score": 7,
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Fani Kota është një monument i trashëgimisë kulturore në rrethin e Korçës, në qarkun e Korçës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"266/1\" më \"16.02.1977\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Fani_Kota_(Pjastoros)"
+      }
+    },
+    {
+      "id": "way/682761226",
+      "name": "Banesa e Vëllazërisë Frashëri",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.617566,
+      "lon": 20.779727,
+      "wikidata": "Q30216877",
+      "wikipedia": "sq:Banesa e Vëllazërisë Frashëri",
+      "osmUrl": "https://www.openstreetmap.org/way/682761226",
+      "score": 7,
+      "imageFile": "Banesa e Vëllazërisë Frashëri 02.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Banesa_e_V%C3%ABllaz%C3%ABris%C3%AB_Frash%C3%ABri_02.jpg/1280px-Banesa_e_V%C3%ABllaz%C3%ABris%C3%AB_Frash%C3%ABri_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Vëllazërisë Frashëri është një monument i trashëgimisë kulturore në rrethin e Korçës, në qarkun e Korçës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"1886\" më \"10.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_V%C3%ABllaz%C3%ABris%C3%AB_Frash%C3%ABri"
+      }
+    },
+    {
+      "id": "node/6374051761",
+      "name": "Muzeu Gjon Mili",
+      "nameEn": "Gjon Mili Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.616651,
+      "lon": 20.77921,
+      "website": "https://ejalbum.com/gjon-mili-museum/",
+      "openingHours": "Mo off; Tu-Su 09:00-14:00, 17:00-19:00",
+      "wheelchair": "designated",
+      "osmUrl": "https://www.openstreetmap.org/node/6374051761",
+      "score": 5
+    },
+    {
+      "id": "way/1124512047",
+      "name": "Kulla Panoramike",
+      "nameEn": "Red Tower",
+      "category": "viewpoint",
+      "kind": "attraction",
+      "lat": 40.618388,
+      "lon": 20.777468,
+      "openingHours": "Mo-Su 09:00-20:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/1124512047",
+      "score": 4
+    },
+    {
+      "id": "node/10837737866",
+      "name": "Luftëtari Kombëtar",
+      "nameEn": "The National Warrior",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 40.616193,
+      "lon": 20.780096,
+      "wikipedia": "sq:Statuja e luftëtarit Kombëtar (Korçë)",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/10837737866",
+      "score": 3,
+      "summary": {
+        "text": "Statuja e luftëtarit Kombëtar në Korçë është statuja e cila u ndërtua për patriotët korçarë që u organizuan dhe morën pjesë për çlirimin e vendit nga pushtuesit osmanë nga viti 1906 gjer në vitin 1912. Skulptori i shquar shqiptar, Odhise Paskali, e përjetësoi veprën e tyre me një monument kushtuar Luftëtarit Kombëtar që zbret nga mali në vitin 1933.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Statuja_e_luft%C3%ABtarit_Komb%C3%ABtar_(Kor%C3%A7%C3%AB)"
+      }
+    },
+    {
+      "id": "node/2455409632",
+      "name": "Belvedere",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 40.62553,
+      "lon": 20.78622,
+      "osmUrl": "https://www.openstreetmap.org/node/2455409632",
+      "score": 1
+    },
+    {
+      "id": "node/13821765343",
+      "name": "Kalaja e Barcit",
+      "category": "history",
+      "kind": "castle",
+      "lat": 40.621866,
+      "lon": 20.808565,
+      "osmUrl": "https://www.openstreetmap.org/node/13821765343",
+      "score": 1
+    },
+    {
+      "id": "node/5273510927",
+      "name": "Kodrat e Partizanit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.616966,
+      "lon": 20.795467,
+      "osmUrl": "https://www.openstreetmap.org/node/5273510927",
+      "score": 1
+    },
+    {
+      "id": "node/5273510943",
+      "name": "Maja Shëndëllisë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.610304,
+      "lon": 20.81435,
+      "osmUrl": "https://www.openstreetmap.org/node/5273510943",
+      "score": 1
+    },
+    {
+      "id": "way/1230433054",
+      "name": "Parku Japonez",
+      "nameEn": "Japanese Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.61255,
+      "lon": 20.787031,
+      "osmUrl": "https://www.openstreetmap.org/way/1230433054",
+      "score": 1
+    },
+    {
+      "id": "node/13821765342",
+      "name": "Vendodhja e Kalase se Korces",
+      "category": "history",
+      "kind": "castle",
+      "lat": 40.61691,
+      "lon": 20.777487,
+      "osmUrl": "https://www.openstreetmap.org/node/13821765342",
+      "score": 1
+    },
+    {
+      "id": "node/6370673095",
+      "name": "20 Shkurt 90",
+      "nameEn": "20 February 1990",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.616332,
+      "lon": 20.781028,
+      "osmUrl": "https://www.openstreetmap.org/node/6370673095",
+      "score": 0
+    },
+    {
+      "id": "node/6372938360",
+      "name": "9 Shtator 1943",
+      "nameEn": "9 September 1943",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.616342,
+      "lon": 20.779743,
+      "osmUrl": "https://www.openstreetmap.org/node/6372938360",
+      "score": 0
+    },
+    {
+      "id": "way/237965849",
+      "name": "Bashta e Shën Mërisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.621175,
+      "lon": 20.776479,
+      "osmUrl": "https://www.openstreetmap.org/way/237965849",
+      "score": 0
+    },
+    {
+      "id": "way/461376671",
+      "name": "Bashta e Themistokliut ose e Gegës",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.618744,
+      "lon": 20.782337,
+      "osmUrl": "https://www.openstreetmap.org/way/461376671",
+      "score": 0
+    },
+    {
+      "id": "node/6376147334",
+      "name": "Kendi i Lojrave",
+      "category": "attraction",
+      "kind": "theme_park",
+      "lat": 40.629524,
+      "lon": 20.787777,
+      "osmUrl": "https://www.openstreetmap.org/node/6376147334",
+      "score": 0
+    },
+    {
+      "id": "way/675893821",
+      "name": "Lëndina e Lotëve",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.623785,
+      "lon": 20.782397,
+      "osmUrl": "https://www.openstreetmap.org/way/675893821",
+      "score": 0
+    },
+    {
+      "id": "way/1087141384",
+      "name": "Markata e Shijes",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.621175,
+      "lon": 20.77307,
+      "osmUrl": "https://www.openstreetmap.org/way/1087141384",
+      "score": 0
+    },
+    {
+      "id": "way/237662683",
+      "name": "Parku \"Rinia\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.627449,
+      "lon": 20.787365,
+      "osmUrl": "https://www.openstreetmap.org/way/237662683",
+      "score": 0
+    },
+    {
+      "id": "way/197797967",
+      "name": "Parku Vangjush Mio",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.615971,
+      "lon": 20.77825,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/197797967",
+      "score": 0
+    },
+    {
+      "id": "node/6054090086",
+      "name": "Skënderbeu",
+      "nameEn": "Skanderbeg",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.625003,
+      "lon": 20.782762,
+      "osmUrl": "https://www.openstreetmap.org/node/6054090086",
+      "score": 0
+    },
+    {
+      "id": "node/6376525715",
+      "name": "U.S. Albanian Unit",
+      "nameEn": "U.S. Albanian Unit Company B, 2677th Regiment, OSS, Bari, Italy",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.614495,
+      "lon": 20.779435,
+      "osmUrl": "https://www.openstreetmap.org/node/6376525715",
+      "score": 0
+    },
+    {
+      "id": "node/10092434983",
+      "name": "Vila Alketi",
+      "category": "history",
+      "kind": "building",
+      "lat": 40.616608,
+      "lon": 20.781912,
+      "osmUrl": "https://www.openstreetmap.org/node/10092434983",
+      "score": 0
+    }
+  ]
+}

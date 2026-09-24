@@ -1,0 +1,735 @@
+{
+  "city": "berat",
+  "name": "Berat",
+  "center": {
+    "lat": 40.7058,
+    "lon": 19.9522
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.040Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 41,
+  "places": [
+    {
+      "id": "node/2427372803",
+      "name": "Muzeu Kombëtar Ikonografik Onufri",
+      "nameEn": "Onufri Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.708962,
+      "lon": 19.945246,
+      "wikidata": "Q16349422",
+      "wikipedia": "sq:Muzeu Ikonografik Onufri",
+      "imageFile": "Onufri Museum (2).JPG",
+      "website": "muzeumetberat.net",
+      "openingHours": "Tu-Sa 09:00-16:00; Su 09:00-14:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/2427372803",
+      "score": 14,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Onufri_Museum_%282%29.JPG/1280px-Onufri_Museum_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Avi1111 dr. avishai teicher · CC BY-SA 4.0",
+      "tagline": {
+        "text": "muze ikonografik në Berat, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar Onufri në Berat është përshtatur në ambientet e Kishës “Fjetja e Shën Mërisë”, në Kalanë e Beratit, që prej 27 shkurtit të vitit 1986.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Ikonografik_Onufri"
+      }
+    },
+    {
+      "id": "node/3664223267",
+      "name": "Kalaja e Beratit",
+      "nameEn": "Berat Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.708442,
+      "lon": 19.945527,
+      "wikidata": "Q2968550",
+      "wikipedia": "sq:Kalaja e Beratit",
+      "osmUrl": "https://www.openstreetmap.org/node/3664223267",
+      "score": 13,
+      "imageFile": "Berat Castle, Albania.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Berat_Castle%2C_Albania.JPG/1280px-Berat_Castle%2C_Albania.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "User:Terfili · Public domain",
+      "tagline": {
+        "text": "lagja e Beratit, monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Beratit eshte ngritur në një kodër 187 metra të lartë, në të majtë të grykës së lumit Osum. Fillimisht, një vendbanim protourban, në shekullin e VII-V p.e.s, si një pikë strategjike e rëndësishme, ajo u shndërrua në qytet kështjellë me mure që arrinin në gjatësi deri në 1.400 metra dhe me një sipërfaqe prej 10 ha.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Beratit"
+      }
+    },
+    {
+      "id": "way/234491945",
+      "name": "Kisha e Shën Mëri Vllahernës",
+      "nameEn": "St. Mary of Blachernae Church",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.7091,
+      "lon": 19.944446,
+      "wikidata": "Q7590526",
+      "wikipedia": "en:St. Mary of Blachernae Church (Berat)",
+      "openingHours": "Mo-Su 09:30-16:00",
+      "osmUrl": "https://www.openstreetmap.org/way/234491945",
+      "score": 13,
+      "imageFile": "2011 Berat, Cerkiew św. Marii z Vlaherny.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2011_Berat%2C_Cerkiew_%C5%9Bw._Marii_z_Vlaherny.jpg/1280px-2011_Berat%2C_Cerkiew_%C5%9Bw._Marii_z_Vlaherny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "church building in Berat, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kishat e Kalase: Godina e kishes se Shën Mari Vllahernës është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"17.03.194823.09.1971\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kishat_e_Kalase%3A_Godina_e_kishes_se_Sh%C3%ABn_Mari_Vllahern%C3%ABs"
+      }
+    },
+    {
+      "id": "way/234350455",
+      "name": "Kisha e Shën Triadhës",
+      "nameEn": "Holy Trinity Church",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.707858,
+      "lon": 19.944432,
+      "wikidata": "Q15040990",
+      "wikipedia": "en:Church of the Holy Trinity (Berat)",
+      "openingHours": "Mo-Su 09:30-16:00",
+      "osmUrl": "https://www.openstreetmap.org/way/234350455",
+      "score": 13,
+      "imageFile": "Berat, Kostelik sv. trojice v Beratu, 13.stol.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Berat%2C_Kostelik_sv._trojice_v_Beratu%2C_13.stol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Martin Brož · CC BY 3.0",
+      "tagline": {
+        "text": "church building in Berat, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kishat e Kalase: Godina e kishes se Shën Triadhës është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"17.03.194823.09.1971\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kishat_e_Kalase%3A_Godina_e_kishes_se_Sh%C3%ABn_Triadh%C3%ABs"
+      }
+    },
+    {
+      "id": "way/1018606967",
+      "name": "Muzeu Kombëtar Etnografik Berat",
+      "nameEn": "Berat National Ethnographic Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.707671,
+      "lon": 19.950388,
+      "wikidata": "Q3304897",
+      "wikipedia": "en:Ethnographic Museum of Berat",
+      "website": "https://www.muzeumet-berat.al/",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/1018606967",
+      "score": 13,
+      "imageFile": "Muzeu Etnografik ne Berat.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Muzeu_Etnografik_ne_Berat.JPG/1280px-Muzeu_Etnografik_ne_Berat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Tori Oseku · CC BY-SA 4.0",
+      "tagline": {
+        "text": "ethnographic Museum in Berat, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar Etnografik është një muze etnografik në qytetin e Beratit, i përuruar në vitin 1979. Në të përfshihet kultura popullore etnografike e trevës së Beratit, si edhe ajo e Shqipërisë së Jugut.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_Etnografik_Berat"
+      }
+    },
+    {
+      "id": "way/425315929",
+      "name": "Kisha e Shën Spiridhonit",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.702365,
+      "lon": 19.946864,
+      "wikidata": "Q19400493",
+      "wikipedia": "sq:Kisha e Shën Spiridhonit (l. Goricë)",
+      "openingHours": "Mo-Su 08:00-12:00, 16:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/way/425315929",
+      "score": 12,
+      "imageFile": "Berat - Gorica St. Spyridon Innenraum 1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Berat_-_Gorica_St._Spyridon_Innenraum_1.jpg/1280px-Berat_-_Gorica_St._Spyridon_Innenraum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Wolfgang Sauber · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Spiridhonit është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Spiridhonit_(l._Goric%C3%AB)"
+      }
+    },
+    {
+      "id": "way/234933640",
+      "name": "Xhamia e Plumbit",
+      "nameEn": "Lead Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.704572,
+      "lon": 19.955434,
+      "wikidata": "Q883658",
+      "wikipedia": "sq:Xhamia e Plumbit, Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/234933640",
+      "score": 12,
+      "imageFile": "Berat 17.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Berat_17.jpg/1280px-Berat_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arianit · CC BY-SA 4.0",
+      "tagline": {
+        "text": "xhami në Berat",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Plumbit u ndërtua në vitet 30 të sheullit XVI, koha e sundimit të sulltanit Sulejman Konunorit, periudhë kur qyteti i Beratit fillon të rimëkëmbet duke u shndërruar në një qendër të rëndësishme administrative dhe fetare në suazën e Perandorisë Osmane.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Plumbit%2C_Berat"
+      }
+    },
+    {
+      "id": "way/183421894",
+      "name": "Xhamia Mbret",
+      "nameEn": "King’s Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.705682,
+      "lon": 19.952045,
+      "wikidata": "Q1796429",
+      "wikipedia": "en:King Mosque, Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/183421894",
+      "score": 12,
+      "imageFile": "Berat - King Mosque.JPG",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Berat_-_King_Mosque.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia Mbret, Xhamia e Hynqarit ose Xhamia e Sulltanit është një nga xhamitë kryesore të qytetit të Beratit e shpallur monument kulture që në vitin 1948. Ajo është pjesë e kompleksit të Qendrës Islamike dhe është ndërtuar nga Sulltan Bajaziti II në fund të shekullit të XV. Përbëhet nga salla e lutjeve, hajati dhe minareja.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_Mbret%2C_Berat"
+      }
+    },
+    {
+      "id": "way/234491943",
+      "name": "Kisha e Shën Todrit",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.709949,
+      "lon": 19.946288,
+      "wikidata": "Q7591833",
+      "wikipedia": "en:Church of St. Theodore (Berat)",
+      "osmUrl": "https://www.openstreetmap.org/way/234491943",
+      "score": 11,
+      "imageFile": "2011 Berat, Cerkiew św. Teodora.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2011_Berat%2C_Cerkiew_%C5%9Bw._Teodora.JPG/1280px-2011_Berat%2C_Cerkiew_%C5%9Bw._Teodora.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Todrit është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Todrit_(l._Kala)"
+      }
+    },
+    {
+      "id": "node/7810671586",
+      "name": "Muzeu Solomoni",
+      "nameEn": "Solomon Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.706568,
+      "lon": 19.950432,
+      "description": "Jewish Museum in Berat",
+      "wikidata": "Q99299901",
+      "wikipedia": "en:Solomon Museum",
+      "osmUrl": "https://www.openstreetmap.org/node/7810671586",
+      "score": 11,
+      "imageFile": "Solomon Museum, Berat.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Solomon_Museum%2C_Berat.jpg/1280px-Solomon_Museum%2C_Berat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Braveheart · CC BY 4.0",
+      "tagline": {
+        "text": "Jewish museum in Berat, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Solomon është një muze në qytetin shqiptar të Beratit kushtuar historisë së komunitetit hebre në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Solomon"
+      }
+    },
+    {
+      "id": "way/317257888",
+      "name": "Ura e Goricës",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.703206,
+      "lon": 19.944633,
+      "wikidata": "Q1319245",
+      "wikipedia": "sq:Ura e Goricës",
+      "imageFile": "Ura e Goricës 3.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/317257888",
+      "score": 11,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ura_e_Goric%C3%ABs_3.jpg/1280px-Ura_e_Goric%C3%ABs_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "5R-MFT · CC BY-SA 4.0",
+      "tagline": {
+        "text": "bridge in Berat (Albania)",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Ura turke e Goricës ose ura e Ahmet Kurt Pashës është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"17.03.194823.09.1971\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_Kurt_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "way/609904441",
+      "name": "Xhamia e Bardhë",
+      "nameEn": "White mosque",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 40.708434,
+      "lon": 19.945075,
+      "wikidata": "Q723262",
+      "wikipedia": "en:White Mosque, Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/609904441",
+      "score": 11,
+      "imageFile": "Nadvori vnitrniho hradu v Beratu.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Nadvori_vnitrniho_hradu_v_Beratu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Martin Brož · CC BY 3.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Bardhë ose Ak Mesxhid është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"02.06.1961, \".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Bardh%C3%AB"
+      }
+    },
+    {
+      "id": "way/234491946",
+      "name": "Xhamia e Kuqe",
+      "nameEn": "Red Mosque",
+      "category": "religion",
+      "kind": "ruins",
+      "lat": 40.707088,
+      "lon": 19.945862,
+      "wikidata": "Q258036",
+      "wikipedia": "en:Red Mosque, Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/234491946",
+      "score": 11,
+      "imageFile": "Die rote Moschee von der Burg Berat.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Die_rote_Moschee_von_der_Burg_Berat.JPG/1280px-Die_rote_Moschee_von_der_Burg_Berat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Shaban01shabani · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Kuqe është një nga xhamitë më të vjetra që ruhet në qytetin e Beratit. Aktualisht gjendet në rrënojat ku ruhet salla e lutjeve me planimetri thuajse katrore dhe para saj ndodhet hajati me pothuajse të njëjtën gjerësi.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Kuqe%2C_Berat"
+      }
+    },
+    {
+      "id": "way/234491944",
+      "name": "Katedralja Fjetja e Shën Mërisë",
+      "nameEn": "Dormition Cathedral",
+      "category": "religion",
+      "kind": "yes",
+      "lat": 40.709114,
+      "lon": 19.945336,
+      "wikidata": "Q30232175",
+      "wikipedia": "en:Cathedral of Dormition of St. Mary (Berat)",
+      "osmUrl": "https://www.openstreetmap.org/way/234491944",
+      "score": 10,
+      "imageFile": "Church of St Mary, Berat, Albania 2013-09 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Church_of_St_Mary%2C_Berat%2C_Albania_2013-09_01.jpg/1280px-Church_of_St_Mary%2C_Berat%2C_Albania_2013-09_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Katedraja “Fjetja e Shën Mërisë” – Muzeu Onufri është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"17.03.194823.09.197110.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedraja_%E2%80%9CFjetja_e_Sh%C3%ABn_M%C3%ABris%C3%AB%E2%80%9D_%E2%80%93_Muzeu_Onufri"
+      }
+    },
+    {
+      "id": "way/172705725",
+      "name": "Xhamia e Beqarëve",
+      "nameEn": "Bachelors' Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.704744,
+      "lon": 19.950023,
+      "wikidata": "Q1713447",
+      "wikipedia": "sq:Xhamia e Beqarëve",
+      "osmUrl": "https://www.openstreetmap.org/way/172705725",
+      "score": 10,
+      "imageFile": "2011 Berat, Meczet Kawalerów.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/2011_Berat%2C_Meczet_Kawaler%C3%B3w.JPG/1280px-2011_Berat%2C_Meczet_Kawaler%C3%B3w.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Beqarëve ose Xhamia e Sylejman Pashës është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"02.06.1961, \".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Beqar%C3%ABve"
+      }
+    },
+    {
+      "id": "way/1060971016",
+      "name": "Banesa e Bozho Filerit",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.701977,
+      "lon": 19.945818,
+      "wikidata": "Q30231937",
+      "wikipedia": "sq:Banesa e Bozho Filerit",
+      "osmUrl": "https://www.openstreetmap.org/way/1060971016",
+      "score": 9,
+      "imageFile": "House 'Lino' 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/House_%27Lino%27_01.jpg/1280px-House_%27Lino%27_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sonia Budini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Bozho Filerit është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"02.06.1961, 15/01/1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Bozho_Filerit"
+      }
+    },
+    {
+      "id": "node/10202040468",
+      "name": "Banesa e Dud Mishaxhiut",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.707086,
+      "lon": 19.952512,
+      "wikidata": "Q30231946",
+      "wikipedia": "sq:Banesa e Dud Mishaxhiut",
+      "osmUrl": "https://www.openstreetmap.org/node/10202040468",
+      "score": 9,
+      "imageFile": "House of 'Mishaxhiu' 20.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/House_of_%27Mishaxhiu%27_20.jpg/1280px-House_of_%27Mishaxhiu%27_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sonia Budini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Dud Mishaxhiut është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkitekturë\", i miratuar më \"02.06.1961, 15/01/1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Dud_Mishaxhiut"
+      }
+    },
+    {
+      "id": "node/10079781001",
+      "name": "Fortifikimi i Goricës",
+      "nameEn": "Gorica Fort",
+      "category": "history",
+      "kind": "fort",
+      "lat": 40.700388,
+      "lon": 19.943973,
+      "wikidata": "Q30232096",
+      "wikipedia": "sq:Kalaja e Gorices",
+      "osmUrl": "https://www.openstreetmap.org/node/10079781001",
+      "score": 9,
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Gorices është një monument i trashëgimisë kulturore në rrethin e Beratit, në qarkun e Beratit, Shqipëri. Ky monument është i llojit \"Arkeologji\", i miratuar më \"08.01.1977\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Gorices"
+      }
+    },
+    {
+      "id": "way/183422080",
+      "name": "Teqeja e Helvetive",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.706015,
+      "lon": 19.952422,
+      "wikidata": "Q5643755",
+      "wikipedia": "sq:Teqeja e Helvetive",
+      "osmUrl": "https://www.openstreetmap.org/way/183422080",
+      "score": 7,
+      "imageFile": "Halveti Teqe Berat.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Halveti_Teqe_Berat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Decius · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teqeja e Halvetive është një teqe në Berat, Shqipëri. Teqeja e Halvetive në Berati është një nga teqetë me te bukura ne Ballkan.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teqeja_e_Helvetive"
+      }
+    },
+    {
+      "id": "way/183361807",
+      "name": "Xhamia e Sahatit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.706231,
+      "lon": 19.940331,
+      "wikidata": "Q657549",
+      "wikipedia": "en:Hysen Pasha Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/183361807",
+      "score": 7,
+      "imageFile": "Berat Xhamia Sahatit.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Berat_Xhamia_Sahatit.jpg/1280px-Berat_Xhamia_Sahatit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Hysen Pashës ose Xhamia e Sahatit është një xhami historike nga viti 1670 në rrugën Murat Çelebiu, qyteti i Beratit, Shqipëri. Mori statusin monument kulture në vitin 1970.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Hysen_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "way/426410189",
+      "name": "Katedralja Ortodokse Shën Dhimitri",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.703995,
+      "lon": 19.956216,
+      "openingHours": "Mo-Su 07:00-14:00, 16:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/way/426410189",
+      "score": 3
+    },
+    {
+      "id": "way/1124507830",
+      "name": "Sahati i Beratit",
+      "nameEn": "Berat Clock Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.706474,
+      "lon": 19.940421,
+      "osmUrl": "https://www.openstreetmap.org/way/1124507830",
+      "score": 3
+    },
+    {
+      "id": "way/234491947",
+      "name": "Sternë",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.707408,
+      "lon": 19.945618,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/234491947",
+      "score": 3
+    },
+    {
+      "id": "way/234491940",
+      "name": "Kisha e Shën Kollit",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.708966,
+      "lon": 19.944465,
+      "osmUrl": "https://www.openstreetmap.org/way/234491940",
+      "score": 2
+    },
+    {
+      "id": "node/13233616245",
+      "name": "Konakët e Dervishëve",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.705869,
+      "lon": 19.952545,
+      "osmUrl": "https://www.openstreetmap.org/node/13233616245",
+      "score": 2
+    },
+    {
+      "id": "node/11762211076",
+      "name": "Porta e Pashait",
+      "nameEn": "Gate of the Pasha",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 40.70593,
+      "lon": 19.951077,
+      "osmUrl": "https://www.openstreetmap.org/node/11762211076",
+      "score": 2
+    },
+    {
+      "id": "node/9111599774",
+      "name": "The house of Stavri Duhanxhiu",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.702305,
+      "lon": 19.947293,
+      "osmUrl": "https://www.openstreetmap.org/node/9111599774",
+      "score": 2
+    },
+    {
+      "id": "node/5316299701",
+      "name": "Kodra Billës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.714137,
+      "lon": 19.949001,
+      "osmUrl": "https://www.openstreetmap.org/node/5316299701",
+      "score": 1
+    },
+    {
+      "id": "node/5316299714",
+      "name": "Kodra Kondusit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.707664,
+      "lon": 19.978386,
+      "osmUrl": "https://www.openstreetmap.org/node/5316299714",
+      "score": 1
+    },
+    {
+      "id": "node/4341417489",
+      "name": "Robert Schuman",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.703651,
+      "lon": 19.955812,
+      "imageFile": "Robert Schuman Memorial at Berat.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/4341417489",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Robert_Schuman_Memorial_at_Berat.jpg/1280px-Robert_Schuman_Memorial_at_Berat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "5R-MFT · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/9683390872",
+      "name": "Sunrise Point",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 40.704819,
+      "lon": 19.947683,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/9683390872",
+      "score": 1
+    },
+    {
+      "id": "node/5590183383",
+      "name": "TV tower",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 40.697754,
+      "lon": 19.948281,
+      "osmUrl": "https://www.openstreetmap.org/node/5590183383",
+      "score": 1
+    },
+    {
+      "id": "node/6053786686",
+      "name": "13 Shtator 1944",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.710808,
+      "lon": 19.938661,
+      "description": "lapidar",
+      "osmUrl": "https://www.openstreetmap.org/node/6053786686",
+      "score": 0
+    },
+    {
+      "id": "node/12285163501",
+      "name": "Art Gallery \"Edward Lear\"",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 40.705125,
+      "lon": 19.950859,
+      "osmUrl": "https://www.openstreetmap.org/node/12285163501",
+      "score": 0
+    },
+    {
+      "id": "node/2427372799",
+      "name": "Konstandini i Madh",
+      "nameEn": "Constantine the Great",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 40.709102,
+      "lon": 19.944318,
+      "osmUrl": "https://www.openstreetmap.org/node/2427372799",
+      "score": 0
+    },
+    {
+      "id": "node/3013688053",
+      "name": "Në kujtim të luftës kundër Gjermanisë naziste",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.711396,
+      "lon": 19.946784,
+      "osmUrl": "https://www.openstreetmap.org/node/3013688053",
+      "score": 0
+    },
+    {
+      "id": "way/469691051",
+      "name": "Parku Celepias",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.705141,
+      "lon": 19.94185,
+      "osmUrl": "https://www.openstreetmap.org/way/469691051",
+      "score": 0
+    },
+    {
+      "id": "way/414829040",
+      "name": "Parku i Osumit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.703685,
+      "lon": 19.95232,
+      "osmUrl": "https://www.openstreetmap.org/way/414829040",
+      "score": 0
+    },
+    {
+      "id": "way/169413818",
+      "name": "Stadiumi i Vjeter",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.701101,
+      "lon": 19.958036,
+      "osmUrl": "https://www.openstreetmap.org/way/169413818",
+      "score": 0
+    },
+    {
+      "id": "way/729199791",
+      "name": "Tregu i Përgjithshëm Berat",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.711259,
+      "lon": 19.936524,
+      "osmUrl": "https://www.openstreetmap.org/way/729199791",
+      "score": 0
+    },
+    {
+      "id": "node/6071674891",
+      "name": "Varrezat e deshmoreve te kombit",
+      "nameEn": "Cemetery of \"witnesses of the nation\"",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.70482,
+      "lon": 19.942737,
+      "osmUrl": "https://www.openstreetmap.org/node/6071674891",
+      "score": 0
+    }
+  ]
+}

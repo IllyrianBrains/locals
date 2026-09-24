@@ -1,0 +1,504 @@
+{
+  "city": "vlore",
+  "name": "Vlorë",
+  "center": {
+    "lat": 40.4661,
+    "lon": 19.4914
+  },
+  "radius": 5000,
+  "fetchedAt": "2026-09-24T09:26:09.056Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 41,
+  "places": [
+    {
+      "id": "way/498238530",
+      "name": "Kalaja e Kaninës",
+      "nameEn": "Kaninë Castle",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 40.444671,
+      "lon": 19.521661,
+      "wikidata": "Q3299266",
+      "wikipedia": "en:Kaninë Castle",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/498238530",
+      "score": 11,
+      "imageFile": "Kalaja e Kaninës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kalaja_e_Kanin%C3%ABs.jpg/1280px-Kalaja_e_Kanin%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Nikol Likja · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Kaninës është një monument i trashëgimisë kulturore në Kaninë, Rrethi i Vlorës, në qarkun e Vlorës, Shqipëri. Ky monument është i llojit \"Arkeologji\", i miratuar me numër \"Nr.95 Dt.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Kanin%C3%ABs"
+      }
+    },
+    {
+      "id": "node/6861399593",
+      "name": "Muret e Aulonës Antike",
+      "nameEn": "The Walls of Ancient Aulon",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.470373,
+      "lon": 19.490282,
+      "wikidata": "Q21589819",
+      "wikipedia": "hu:Aulón (Illíria)",
+      "osmUrl": "https://www.openstreetmap.org/node/6861399593",
+      "score": 11,
+      "imageFile": "Vlorë - Ancient walls 2015.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vlor%C3%AB_-_Ancient_walls_2015.jpg/1280px-Vlor%C3%AB_-_Ancient_walls_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "ancient Greek city in Illyria",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/1003616059",
+      "name": "Muzeu Kombëtar i Pavarësisë",
+      "nameEn": "National Museum of Independence",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.452199,
+      "lon": 19.485273,
+      "wikidata": "Q961493",
+      "wikipedia": "sq:Muzeu Kombëtar i Pavarësisë",
+      "openingHours": "Tu-Sa 09:00-17:00; Su 10:00-14:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/1003616059",
+      "score": 11,
+      "imageFile": "Godina Ku Ka Pasur Seline Qeveria Provizore E Ismail Qemalit.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Godina_Ku_Ka_Pasur_Seline_Qeveria_Provizore_E_Ismail_Qemalit.jpg/1280px-Godina_Ku_Ka_Pasur_Seline_Qeveria_Provizore_E_Ismail_Qemalit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Shpat Buzoku · CC BY-SA 4.0",
+      "summary": {
+        "text": "Muzeu Kombëtar i Pavarësisë është krijuar në vitin 1936 në Vlorë dhe është muzeu i parë shqiptar. Ndodhet në ndërtesën ku ka qëndruar qeveria e parë shqiptare.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_i_Pavar%C3%ABsis%C3%AB"
+      }
+    },
+    {
+      "id": "node/2991902065",
+      "name": "Monumenti i Pavarësisë",
+      "nameEn": "Independence Monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.470672,
+      "lon": 19.490657,
+      "wikidata": "Q6016129",
+      "wikipedia": "en:Independence Monument (Albania)",
+      "osmUrl": "https://www.openstreetmap.org/node/2991902065",
+      "score": 10,
+      "imageFile": "Statue, Vlora, Albania.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Statue%2C_Vlora%2C_Albania.jpg/1280px-Statue%2C_Vlora%2C_Albania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Timuspics · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Monument në Vlorë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Monumenti i Pavarësisë është një monument në Vlorë, Shqipëri, kushtuar Shpalljes së Pavarësisë së Shqipërisë, i ndërtuar nga Kristaq Rama, Muntaz Dhrami, Sh.Hadëri në Vlorë në vitin 1972 dhe i mbuluar me bronz, është i lartë 17 metra. Ky monument ngrihet në qendër të qytetit në Sheshin e Flamurit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_i_Pavar%C3%ABsis%C3%AB"
+      }
+    },
+    {
+      "id": "way/533050655",
+      "name": "Xhamia e Muradis",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.471557,
+      "lon": 19.492774,
+      "wikidata": "Q1953480",
+      "wikipedia": "en:Muradie Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/533050655",
+      "score": 9,
+      "imageFile": "2011 Wlora, Meczet Murada 01.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/2011_Wlora%2C_Meczet_Murada_01.JPG/1280px-2011_Wlora%2C_Meczet_Murada_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Plumbit, e cila nga fillimshekulli XX u njoh si Xhamia e Muradies ndodhet në qytetin e Vlorës, në aksin rrugor Vlorë-Skelë, ne zonën arkeologjike A, pranë Sheshit te Flamurit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Muradies"
+      }
+    },
+    {
+      "id": "node/5174493439",
+      "name": "Lapidari ALI DEMI",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.436163,
+      "lon": 19.507999,
+      "wheelchair": "no",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/5174493439",
+      "score": 3
+    },
+    {
+      "id": "node/9153939513",
+      "name": "Muzeu Etnografik Vlore",
+      "nameEn": "Ethnographic Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.472244,
+      "lon": 19.491705,
+      "osmUrl": "https://www.openstreetmap.org/node/9153939513",
+      "score": 3
+    },
+    {
+      "id": "way/1160181169",
+      "name": "Muzeu Hebraik Shqiptar",
+      "nameEn": "Albanian Jewish Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.472339,
+      "lon": 19.491716,
+      "osmUrl": "https://www.openstreetmap.org/way/1160181169",
+      "score": 3
+    },
+    {
+      "id": "way/1123126697",
+      "name": "Sahati",
+      "nameEn": "Clock Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.473021,
+      "lon": 19.490851,
+      "osmUrl": "https://www.openstreetmap.org/way/1123126697",
+      "score": 3
+    },
+    {
+      "id": "node/4321332991",
+      "name": "Alexandria",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.457452,
+      "lon": 19.487712,
+      "osmUrl": "https://www.openstreetmap.org/node/4321332991",
+      "score": 2
+    },
+    {
+      "id": "node/4327108589",
+      "name": "Çobo Center",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.45344,
+      "lon": 19.486748,
+      "osmUrl": "https://www.openstreetmap.org/node/4327108589",
+      "score": 2
+    },
+    {
+      "id": "node/4200238202",
+      "name": "Fairgrounds",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.458914,
+      "lon": 19.487853,
+      "osmUrl": "https://www.openstreetmap.org/node/4200238202",
+      "score": 2
+    },
+    {
+      "id": "node/13069783833",
+      "name": "Mosaic of Bestrovë",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.507226,
+      "lon": 19.485052,
+      "osmUrl": "https://www.openstreetmap.org/node/13069783833",
+      "score": 2
+    },
+    {
+      "id": "way/1160181187",
+      "name": "Museum of History",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.472541,
+      "lon": 19.490841,
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/1160181187",
+      "score": 2
+    },
+    {
+      "id": "node/4328283742",
+      "name": "Vodafone",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.455521,
+      "lon": 19.486699,
+      "osmUrl": "https://www.openstreetmap.org/node/4328283742",
+      "score": 2
+    },
+    {
+      "id": "node/5188038461",
+      "name": "Kodra e Topit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.48039,
+      "lon": 19.492168,
+      "osmUrl": "https://www.openstreetmap.org/node/5188038461",
+      "score": 1
+    },
+    {
+      "id": "node/5188038460",
+      "name": "Kodra Kuzbabait",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.467229,
+      "lon": 19.494324,
+      "osmUrl": "https://www.openstreetmap.org/node/5188038460",
+      "score": 1
+    },
+    {
+      "id": "node/2863195694",
+      "name": "Luani",
+      "nameEn": "Lion Fountain",
+      "category": "nature",
+      "kind": "drinking_water",
+      "lat": 40.42985,
+      "lon": 19.493391,
+      "osmUrl": "https://www.openstreetmap.org/node/2863195694",
+      "score": 1
+    },
+    {
+      "id": "node/5186165474",
+      "name": "Maja Derrit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.489289,
+      "lon": 19.506432,
+      "osmUrl": "https://www.openstreetmap.org/node/5186165474",
+      "score": 1
+    },
+    {
+      "id": "node/5186165470",
+      "name": "Maja Kaçimares",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.508345,
+      "lon": 19.509819,
+      "osmUrl": "https://www.openstreetmap.org/node/5186165470",
+      "score": 1
+    },
+    {
+      "id": "node/5188038619",
+      "name": "Maja Kevel",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.477593,
+      "lon": 19.510528,
+      "osmUrl": "https://www.openstreetmap.org/node/5188038619",
+      "score": 1
+    },
+    {
+      "id": "node/5174261889",
+      "name": "Maja Ledhes",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.42561,
+      "lon": 19.515746,
+      "osmUrl": "https://www.openstreetmap.org/node/5174261889",
+      "score": 1
+    },
+    {
+      "id": "node/5188038723",
+      "name": "Maja Neruskos",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.473739,
+      "lon": 19.525888,
+      "osmUrl": "https://www.openstreetmap.org/node/5188038723",
+      "score": 1
+    },
+    {
+      "id": "node/5186165472",
+      "name": "Maja Rixhës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.495834,
+      "lon": 19.523345,
+      "osmUrl": "https://www.openstreetmap.org/node/5186165472",
+      "score": 1
+    },
+    {
+      "id": "node/5188038457",
+      "name": "Maja Vreshtave",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.467179,
+      "lon": 19.513012,
+      "osmUrl": "https://www.openstreetmap.org/node/5188038457",
+      "score": 1
+    },
+    {
+      "id": "way/965240672",
+      "name": "Parku i Shtëpisë së Pavarësisë",
+      "nameEn": "Home of Independence Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.452381,
+      "lon": 19.485324,
+      "osmUrl": "https://www.openstreetmap.org/way/965240672",
+      "score": 1
+    },
+    {
+      "id": "way/857337874",
+      "name": "Vjeter",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.458792,
+      "lon": 19.466548,
+      "osmUrl": "https://www.openstreetmap.org/way/857337874",
+      "score": 1
+    },
+    {
+      "id": "node/12894364101",
+      "name": "CONAD",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.45203,
+      "lon": 19.487127,
+      "osmUrl": "https://www.openstreetmap.org/node/12894364101",
+      "score": 0
+    },
+    {
+      "id": "node/9153938452",
+      "name": "Dede Ahmet Myftar Ahmataj",
+      "nameEn": "Statue",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.468197,
+      "lon": 19.491849,
+      "osmUrl": "https://www.openstreetmap.org/node/9153938452",
+      "score": 0
+    },
+    {
+      "id": "node/4785435402",
+      "name": "Drinking water springs",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 40.421278,
+      "lon": 19.487706,
+      "osmUrl": "https://www.openstreetmap.org/node/4785435402",
+      "score": 0
+    },
+    {
+      "id": "way/1222923148",
+      "name": "Kuzum Baba",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.467372,
+      "lon": 19.493307,
+      "osmUrl": "https://www.openstreetmap.org/way/1222923148",
+      "score": 0
+    },
+    {
+      "id": "node/2991886217",
+      "name": "Lapidar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.444904,
+      "lon": 19.519108,
+      "osmUrl": "https://www.openstreetmap.org/node/2991886217",
+      "score": 0
+    },
+    {
+      "id": "node/2991909646",
+      "name": "Memorial of 1920",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.484001,
+      "lon": 19.508581,
+      "osmUrl": "https://www.openstreetmap.org/node/2991909646",
+      "score": 0
+    },
+    {
+      "id": "node/6845643727",
+      "name": "Natural",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.460889,
+      "lon": 19.488971,
+      "osmUrl": "https://www.openstreetmap.org/node/6845643727",
+      "score": 0
+    },
+    {
+      "id": "node/9153939477",
+      "name": "Peshkatari me Peshk",
+      "nameEn": "Fisherman with Fish",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 40.451081,
+      "lon": 19.488704,
+      "osmUrl": "https://www.openstreetmap.org/node/9153939477",
+      "score": 0
+    },
+    {
+      "id": "way/282409911",
+      "name": "Rrapi (Sheshi Wilson)",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.430376,
+      "lon": 19.493662,
+      "osmUrl": "https://www.openstreetmap.org/way/282409911",
+      "score": 0
+    },
+    {
+      "id": "node/11755216869",
+      "name": "Rruga e Hebrenjve",
+      "nameEn": "The Jewish Street",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.473198,
+      "lon": 19.491658,
+      "osmUrl": "https://www.openstreetmap.org/node/11755216869",
+      "score": 0
+    },
+    {
+      "id": "way/491621848",
+      "name": "Teatri Petro Marko",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.464884,
+      "lon": 19.490683,
+      "osmUrl": "https://www.openstreetmap.org/way/491621848",
+      "score": 0
+    },
+    {
+      "id": "node/4321342495",
+      "name": "Tregu Industrial",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.472616,
+      "lon": 19.490266,
+      "osmUrl": "https://www.openstreetmap.org/node/4321342495",
+      "score": 0
+    },
+    {
+      "id": "way/1270829099",
+      "name": "Vlora Park Pyramid",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.451498,
+      "lon": 19.484992,
+      "osmUrl": "https://www.openstreetmap.org/way/1270829099",
+      "score": 0
+    },
+    {
+      "id": "node/6861428185",
+      "name": "Vlorë Street Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.461908,
+      "lon": 19.488351,
+      "osmUrl": "https://www.openstreetmap.org/node/6861428185",
+      "score": 0
+    }
+  ]
+}

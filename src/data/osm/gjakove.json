@@ -1,0 +1,446 @@
+{
+  "city": "gjakove",
+  "name": "Gjakovë",
+  "center": {
+    "lat": 42.3803,
+    "lon": 20.4308
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.106Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 35,
+  "places": [
+    {
+      "id": "way/490743943",
+      "name": "Xhamia e Hadum Agës",
+      "nameEn": "Hadumi mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.379188,
+      "lon": 20.427321,
+      "wikidata": "Q3324861",
+      "wikipedia": "sq:Xhamia e Hadumit",
+      "heritage": "2",
+      "osmUrl": "https://www.openstreetmap.org/way/490743943",
+      "score": 12,
+      "imageFile": "Kompleksi Xhamija e Hadumit 03.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Kompleksi_Xhamija_e_Hadumit_03.jpg/1280px-Kompleksi_Xhamija_e_Hadumit_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kompleksi Xhamija e Hadumit është një objekt sakral në Gjakovë, Kosovë. Xhamia e Hadumit është një monument i trashëgimisë kulturore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Hadumit"
+      }
+    },
+    {
+      "id": "way/222092359",
+      "name": "Kulla e Avdullah Pashe Drenit",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.38316,
+      "lon": 20.427762,
+      "wikidata": "Q26951420",
+      "wikipedia": "sq:Kulla e Abdullah Pashë Drenit",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/222092359",
+      "score": 9,
+      "imageFile": "Gjakovë, Kosovo – Abdullah Dreni's kulla 2017 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gjakov%C3%AB%2C_Kosovo_%E2%80%93_Abdullah_Dreni%27s_kulla_2017_01.jpg/1280px-Gjakov%C3%AB%2C_Kosovo_%E2%80%93_Abdullah_Dreni%27s_kulla_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e Abdullah Pashë Drenit është një monument i trashëgimisë kulturore në Gjakovë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_Abdullah_Pash%C3%AB_Drenit"
+      }
+    },
+    {
+      "id": "way/371157901",
+      "name": "Kulla e Currit",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.383011,
+      "lon": 20.425173,
+      "wikidata": "Q26951435",
+      "wikipedia": "sq:Kulla e Currit",
+      "osmUrl": "https://www.openstreetmap.org/way/371157901",
+      "score": 9,
+      "imageFile": "Kulla e Currit 19.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kulla_e_Currit_19.jpg/1280px-Kulla_e_Currit_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arianit · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e Currit është një monument i trashëgimisë kulturore në Gjakovë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_Currit"
+      }
+    },
+    {
+      "id": "node/2316292845",
+      "name": "Sylejman Vokshi",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.383429,
+      "lon": 20.427697,
+      "wikidata": "Q746959",
+      "wikipedia": "en:Sulejman Vokshi",
+      "osmUrl": "https://www.openstreetmap.org/node/2316292845",
+      "score": 9,
+      "imageFile": "Sulejman Vokshi.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sulejman_Vokshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Unknown authorUnknown author · Public domain",
+      "tagline": {
+        "text": "politikan kosovar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Sylejman Vokshi ishte komandant ushtarak shqiptar dhe udhëheqës i Lidhjes së Prizrenit. Anëtar i Komitetit Qendror të Lidhjes si kreu i komisionit të financave, Vokshi ishte gjithashtu një drejtues i rëndësishëm i degës ushtarake të organizatës shqiptare dhe oficer i stafit të saj ushtarak.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sulejman_Vokshi"
+      }
+    },
+    {
+      "id": "way/1094358205",
+      "name": "Shkugeza",
+      "category": "nature",
+      "kind": "nature_reserve",
+      "lat": 42.35794,
+      "lon": 20.424219,
+      "wikidata": "Q120764834",
+      "osmUrl": "https://www.openstreetmap.org/way/1094358205",
+      "score": 6,
+      "imageFile": "Shkogezi Panorame 08 06 2010 Foliage.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Shkogezi_Panorame_08_06_2010_Foliage.jpg/1280px-Shkogezi_Panorame_08_06_2010_Foliage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Protected Area near Gjakova, Kosovo",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "node/7343418520",
+      "name": "SHTEPIA TRADICIONALE E FAMILJES QERKEZI MUZEU HISTORIK 1999",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.372875,
+      "lon": 20.438999,
+      "description": "Ferdonije Qerkezi’s husband and 4 sons were abducted by the Serbian police in 1999. The remains of 2 of her sons have since been found and buried, but her husband and the other 2 sons are still missing. For women like Ferdonije, time does not move on. She",
+      "openingHours": "Mo-Su 10:00-16:00",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/7343418520",
+      "score": 4
+    },
+    {
+      "id": "way/222090586",
+      "name": "Ura e Tabakve",
+      "nameEn": "The Tabak Bridge",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.370475,
+      "lon": 20.420838,
+      "osmUrl": "https://www.openstreetmap.org/way/222090586",
+      "score": 3
+    },
+    {
+      "id": "node/3762037371",
+      "name": "Kulla e Koshit",
+      "nameEn": "Koshi Tower",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.381658,
+      "lon": 20.426983,
+      "osmUrl": "https://www.openstreetmap.org/node/3762037371",
+      "score": 2
+    },
+    {
+      "id": "way/275466162",
+      "name": "Muzeu Etnografik",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.379471,
+      "lon": 20.430584,
+      "osmUrl": "https://www.openstreetmap.org/way/275466162",
+      "score": 2
+    },
+    {
+      "id": "node/13739644722",
+      "name": "Muzeu i Zejtarisë",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.378463,
+      "lon": 20.426917,
+      "osmUrl": "https://www.openstreetmap.org/node/13739644722",
+      "score": 2
+    },
+    {
+      "id": "node/5582074822",
+      "name": "Ottoman Bridge",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.370457,
+      "lon": 20.420793,
+      "osmUrl": "https://www.openstreetmap.org/node/5582074822",
+      "score": 2
+    },
+    {
+      "id": "way/359511359",
+      "name": "BONEVET Green Area",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.380036,
+      "lon": 20.428751,
+      "website": "https://www.bonevet.org/",
+      "osmUrl": "https://www.openstreetmap.org/way/359511359",
+      "score": 1
+    },
+    {
+      "id": "node/4966718632",
+      "name": "Burim i ujit, damar, pusë",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 42.377663,
+      "lon": 20.399052,
+      "description": "Burim i ujit",
+      "osmUrl": "https://www.openstreetmap.org/node/4966718632",
+      "score": 1
+    },
+    {
+      "id": "node/5150309912",
+      "name": "Kodra e Çabratit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.386691,
+      "lon": 20.416432,
+      "osmUrl": "https://www.openstreetmap.org/node/5150309912",
+      "score": 1
+    },
+    {
+      "id": "way/234123545",
+      "name": "Kulla e Sylejman Vokshit",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.382208,
+      "lon": 20.429416,
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/234123545",
+      "score": 1
+    },
+    {
+      "id": "node/10755352606",
+      "name": "Parku rinia",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.392368,
+      "lon": 20.428049,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/10755352606",
+      "score": 1
+    },
+    {
+      "id": "node/7343433860",
+      "name": "Teqjar Haxhi Shejh Hakiut",
+      "nameEn": "Teqjar Haxhi Shejh Hakiut",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.379867,
+      "lon": 20.430453,
+      "osmUrl": "https://www.openstreetmap.org/node/7343433860",
+      "score": 1
+    },
+    {
+      "id": "way/369240155",
+      "name": "Tregu i Gjelbërt",
+      "nameEn": "Vegetable Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.388299,
+      "lon": 20.431431,
+      "osmUrl": "https://www.openstreetmap.org/way/369240155",
+      "score": 1
+    },
+    {
+      "id": "node/4491317101",
+      "name": "Curri",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.37667,
+      "lon": 20.442791,
+      "osmUrl": "https://www.openstreetmap.org/node/4491317101",
+      "score": 0
+    },
+    {
+      "id": "node/11773457481",
+      "name": "Çarshija e Madhe",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.379217,
+      "lon": 20.427975,
+      "osmUrl": "https://www.openstreetmap.org/node/11773457481",
+      "score": 0
+    },
+    {
+      "id": "node/4491318910",
+      "name": "Haxhibeqiri",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.37987,
+      "lon": 20.42764,
+      "osmUrl": "https://www.openstreetmap.org/node/4491318910",
+      "score": 0
+    },
+    {
+      "id": "way/507079254",
+      "name": "Kompleksi Memorial i Martirëve në Mejë",
+      "category": "nature",
+      "kind": "monument",
+      "lat": 42.376878,
+      "lon": 20.395892,
+      "description": "A memorial dedicated to the 376 civilian victims of the Meja massacre that took place on April 27, 1999, during the Kosovo War. It is the largest mass killing of civilians in the conflict.",
+      "osmUrl": "https://www.openstreetmap.org/way/507079254",
+      "score": 0
+    },
+    {
+      "id": "node/6912742648",
+      "name": "Kroni i ftohtë",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 42.371036,
+      "lon": 20.402154,
+      "osmUrl": "https://www.openstreetmap.org/node/6912742648",
+      "score": 0
+    },
+    {
+      "id": "node/12833822287",
+      "name": "Kroni i Panaxhallës",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.376573,
+      "lon": 20.429425,
+      "osmUrl": "https://www.openstreetmap.org/node/12833822287",
+      "score": 0
+    },
+    {
+      "id": "node/4491317109",
+      "name": "Landi Star 3",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.375873,
+      "lon": 20.427971,
+      "osmUrl": "https://www.openstreetmap.org/node/4491317109",
+      "score": 0
+    },
+    {
+      "id": "node/3751747431",
+      "name": "Pallati i Kulturës \"Asim Vokshi\"",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.384619,
+      "lon": 20.430415,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/3751747431",
+      "score": 0
+    },
+    {
+      "id": "way/222036367",
+      "name": "Parku i Lirisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.373909,
+      "lon": 20.431779,
+      "osmUrl": "https://www.openstreetmap.org/way/222036367",
+      "score": 0
+    },
+    {
+      "id": "way/222092370",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.384116,
+      "lon": 20.430257,
+      "osmUrl": "https://www.openstreetmap.org/way/222092370",
+      "score": 0
+    },
+    {
+      "id": "way/486727599",
+      "name": "Parku i shkolles “Zekeria Rexha”",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.38904,
+      "lon": 20.42758,
+      "osmUrl": "https://www.openstreetmap.org/way/486727599",
+      "score": 0
+    },
+    {
+      "id": "way/511821093",
+      "name": "Parku i Shkugzës",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.357989,
+      "lon": 20.424327,
+      "osmUrl": "https://www.openstreetmap.org/way/511821093",
+      "score": 0
+    },
+    {
+      "id": "node/12809174092",
+      "name": "Rotary",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.383448,
+      "lon": 20.430356,
+      "osmUrl": "https://www.openstreetmap.org/node/12809174092",
+      "score": 0
+    },
+    {
+      "id": "node/2310414282",
+      "name": "Sahatkulla",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.380518,
+      "lon": 20.428083,
+      "osmUrl": "https://www.openstreetmap.org/node/2310414282",
+      "score": 0
+    },
+    {
+      "id": "way/451332362",
+      "name": "Sheshi \"Zekeria Cana\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.388488,
+      "lon": 20.427366,
+      "osmUrl": "https://www.openstreetmap.org/way/451332362",
+      "score": 0
+    },
+    {
+      "id": "node/9103438741",
+      "name": "Tyrbja Shpejtim",
+      "category": "history",
+      "kind": "tomb",
+      "lat": 42.375106,
+      "lon": 20.429892,
+      "osmUrl": "https://www.openstreetmap.org/node/9103438741",
+      "score": 0
+    },
+    {
+      "id": "node/5226864322",
+      "name": "Vula Servicing",
+      "nameEn": "Vula Servicing",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.36999,
+      "lon": 20.437904,
+      "osmUrl": "https://www.openstreetmap.org/node/5226864322",
+      "score": 0
+    }
+  ]
+}

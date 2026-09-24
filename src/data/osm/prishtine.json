@@ -1,0 +1,1827 @@
+{
+  "city": "prishtine",
+  "name": "Prishtinë",
+  "center": {
+    "lat": 42.6629,
+    "lon": 21.1655
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-24T09:26:09.082Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 143,
+  "places": [
+    {
+      "id": "way/124951398",
+      "name": "Biblioteka Kombëtare e Kosovës \"Pjetër Bogdani\"",
+      "nameEn": "Kosovo National Library \"Pjetër Bogdani\"",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.657507,
+      "lon": 21.162318,
+      "wikidata": "Q856462",
+      "wikipedia": "en:National Library of Kosovo",
+      "website": "http://www.biblioteka-ks.org/",
+      "openingHours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00; Su closed",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/124951398",
+      "score": 14,
+      "imageFile": "NationalLibrary.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NationalLibrary.jpg/1280px-NationalLibrary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arianselmani · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Bibliotekë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Biblioteka Kombëtare e Kosovës Pjeter Bogdani është institucioni më i madh biblotekar i Kosovës i themeluar nga Kuvendi i Komunës së Prishtinës si një qendër e rëndësishme kulturore, kërkimore, shkencore dhe arsimore. Që nga themelimi i saj në vitin 1962, Biblioteka Kombëtare e Kosovës dëshmoi një zhvillim monumental.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Biblioteka_Komb%C3%ABtare_e_Kosov%C3%ABs_%E2%80%9CPjet%C3%ABr_Bogdani%E2%80%9D"
+      }
+    },
+    {
+      "id": "way/124951399",
+      "name": "Katedralja Krishti Shpëtimtar",
+      "nameEn": "Christ the Saviour Cathedral",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.658485,
+      "lon": 21.163574,
+      "wikidata": "Q16761400",
+      "wikipedia": "sq:Katedralja e Krishtit shpëtimtar",
+      "openingHours": "24/7",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/124951399",
+      "score": 14,
+      "imageFile": "Serbian Ortodox Christ the Savior Cathedral - Outside - Pristina 2012 - 2 (cropped).JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Serbian_Ortodox_Christ_the_Savior_Cathedral_-_Outside_-_Pristina_2012_-_2_%28cropped%29.JPG/1280px-Serbian_Ortodox_Christ_the_Savior_Cathedral_-_Outside_-_Pristina_2012_-_2_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bdx · CC0",
+      "tagline": {
+        "text": "unfinished Serbian Orthodox Christian church in Pristina, Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha ose Katedralja e Krishtit shpëtimtar është një kishë e papërfunduar serbe ortodokse ndërtimi i së cilës nisi më 1992. Duke qenë se duhej të përfundonte si ndërtim më 1999 në kampusin e paraluftës së Universitetit të Prishtinës, përmbyllja e punimeve u ndërpre për shkak të luftës së Kosovës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_e_Krishtit_shp%C3%ABtimtar"
+      }
+    },
+    {
+      "id": "way/105555618",
+      "name": "Katedralja Shën Nënë Tereza",
+      "nameEn": "Cathedral of Saint Mother Teresa",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.656375,
+      "lon": 21.159347,
+      "wikidata": "Q1115637",
+      "wikipedia": "en:Cathedral of Saint Mother Teresa",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/105555618",
+      "score": 13,
+      "imageFile": "Catedral de la Madre Teresa, Pristina, Kosovo, 2014-04-16, DD 11.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Catedral_de_la_Madre_Teresa%2C_Pristina%2C_Kosovo%2C_2014-04-16%2C_DD_11.JPG/1280px-Catedral_de_la_Madre_Teresa%2C_Pristina%2C_Kosovo%2C_2014-04-16%2C_DD_11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Diego Delso · CC BY-SA 3.0",
+      "tagline": {
+        "text": "kishë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Katedralja e \"Nënë Terezës\" në Prishtinë është një Katedrale Katolike në Prishtinë, Kosovë. Në vitin 2007, Qeveria e Kosovës miratoi planet për ndërtimin e katedrales së dedikuar shenjtores shqiptare Nënë Tereza.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_e_N%C3%ABn%C3%AB_Terez%C3%ABs_n%C3%AB_Prishtin%C3%AB"
+      }
+    },
+    {
+      "id": "way/136354953",
+      "name": "Muzeu i Kosovës",
+      "nameEn": "Museum of Kosovo",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.665678,
+      "lon": 21.166259,
+      "wikidata": "Q16854755",
+      "wikipedia": "en:Kosovo Museum",
+      "openingHours": "Tu-Su 10:00-18:00",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/136354953",
+      "score": 13,
+      "imageFile": "Muzeu i Kosovës.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Muzeu_i_Kosov%C3%ABs.JPG/1280px-Muzeu_i_Kosov%C3%ABs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "IsmailGagica · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar i Kosovës është institucioni më i vjetër dhe më i rëndësishëm muzeal në vend, i themeluar në vitin 1949. Ndodhet në Prishtinë, në një ndërtesë me arkitekturë Austro-Hungareze të ndërtuar në vitin 1889, e cila më parë shërbente si seli e komandës së lartë ushtarake.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Komb%C3%ABtar_i_Kosov%C3%ABs"
+      }
+    },
+    {
+      "id": "way/206455042",
+      "name": "NEWBORN",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.660733,
+      "lon": 21.158407,
+      "description": "NEW10RN to celebrate the 10th anniversry of the Republic of Kosovo",
+      "wikidata": "Q12063972",
+      "wikipedia": "en:Newborn monument",
+      "openingHours": "24/7",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/206455042",
+      "score": 13,
+      "imageFile": "NEWBORN Monument.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/NEWBORN_Monument.jpg/1280px-NEWBORN_Monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Karrota · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Monumenti i pavarsise se Kosoves",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Monumenti i Newborn është një skulpturë tipografike dhe tërheqje turistike në Prishtina, Kosova. Është e lokalizuar përballë Pallatit të Rinisë dhe Sporteve, dhe është promovuar më 17 Shkurt 2008, në të njëjtën ditë kur Kosova shpalli pavarësinë nga Serbia.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Newborn"
+      }
+    },
+    {
+      "id": "way/380558378",
+      "name": "Xhamia e Çarshisë",
+      "nameEn": "Çarshi Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.665508,
+      "lon": 21.16545,
+      "wikidata": "Q272635",
+      "wikipedia": "en:Çarshi Mosque",
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/380558378",
+      "score": 13,
+      "imageFile": "Carshi Mosque in Pristina.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Carshi_Mosque_in_Pristina.JPG/1280px-Carshi_Mosque_in_Pristina.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Çarshisë, Xhamia e Gurit ose Xhamia e Sulltan Muratit është një monument i trashëgimisë kulturore në Prishtinë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_%C3%87arshis%C3%AB"
+      }
+    },
+    {
+      "id": "way/679772218",
+      "name": "Muzeu Etnologjik Emin Gjiku",
+      "nameEn": "Ethnological Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.668688,
+      "lon": 21.168193,
+      "wikidata": "Q16957435",
+      "wikipedia": "en:Ethnological Museum, Pristina",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/679772218",
+      "score": 12,
+      "imageFile": "Muzeu Entologjik i Kosoves.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Muzeu_Entologjik_i_Kosoves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "MirjetaMelody1 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Etnologjik i Prishtinës i njohur edhe si Kompleks banimi është një monument i trashëgimisë kulturore në Prishtinë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër 953/1955.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Etnologjik_i_Prishtin%C3%ABs"
+      }
+    },
+    {
+      "id": "way/363552289",
+      "name": "Pishina e Gërmisë",
+      "nameEn": "Gërmia Swimming Pool",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.673605,
+      "lon": 21.201207,
+      "wikidata": "Q120754644",
+      "wikipedia": "en:Germia swimming pool",
+      "osmUrl": "https://www.openstreetmap.org/way/363552289",
+      "score": 12,
+      "imageFile": "Swimming pool Germia Park in Prishtina 2.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Swimming_pool_Germia_Park_in_Prishtina_2.JPG/1280px-Swimming_pool_Germia_Park_in_Prishtina_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bdx · CC BY-SA 4.0",
+      "tagline": {
+        "text": "swimming pool in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Pishina e Gërmisë e njohur edhe si Liqeni i Gërmisë është një pishinë e tipit të hapur me ujë të freskët që ndodhet në pjesën periferike të kryeqytetit të Kosovës, në një distancë prej afër 5 km nga qendra e Prishtinës. Operator i pishinës është ndërmarrja publike lokale e objekteve sportive dhe rekreative të kryeqytetit, Sport Marketing.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Pishina_e_G%C3%ABrmis%C3%AB"
+      }
+    },
+    {
+      "id": "node/4591682869",
+      "name": "Sheshi Gjergj Kastrioti Skënderbeu",
+      "nameEn": "Gjergj Kastrioti Skënderbeu Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.663694,
+      "lon": 21.163852,
+      "wikidata": "Q65084697",
+      "wikipedia": "en:Skanderbeg Square, Pristina",
+      "osmUrl": "https://www.openstreetmap.org/node/4591682869",
+      "score": 12,
+      "imageFile": "PRISHTINA 2013 (13).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/PRISHTINA_2013_%2813%29.jpg/1280px-PRISHTINA_2013_%2813%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arben Llapashtica · CC BY-SA 3.0",
+      "tagline": {
+        "text": "public square in Pristina",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Sheshi Skënderbeu është një shesh në Prishtinë, Kosovë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sheshi_Sk%C3%ABnderbeu%2C_Prishtin%C3%AB"
+      }
+    },
+    {
+      "id": "way/428466385",
+      "name": "Xhamia e Jashar Pashës",
+      "nameEn": "Xhamia Jashar Pasha",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.666021,
+      "lon": 21.166384,
+      "wikidata": "Q1254341",
+      "wikipedia": "de:Jashar-Pascha-Moschee",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/428466385",
+      "score": 12,
+      "imageFile": "Jashar Pasha mosque.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jashar_Pasha_mosque.jpg/1280px-Jashar_Pasha_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Martijn Munneke · CC BY 2.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Jashar Pashës është ndërtuar në vitin 1834 nga kryetari i Shkupit Jashar Mehmet Pasha. Xhamia ndodhet në rrugën Nazim Gafurri, Prishtinë dhe është një nga xhamitë më të vjetra në Republiken e Kosoves.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Jashar_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "way/506203101",
+      "name": "Xhamia e Llapit",
+      "nameEn": "Llapi Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.671168,
+      "lon": 21.161623,
+      "wikidata": "Q16361973",
+      "wikipedia": "en:Llapi Mosque",
+      "openingHours": "24/7",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/506203101",
+      "score": 11,
+      "imageFile": "Xhamia 42.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Xhamia_42.jpg/1280px-Xhamia_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arianit · CC BY-SA 4.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Llapit në Prishtinë u ndërtua në vitin 1470 gjatë Perandorisë Osmane dhe është një ndër ndërtimet më të lashta në Prishtinë. Ajo gjendet në afërsi të qendrës së Prishtinës në rr.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Llapit"
+      }
+    },
+    {
+      "id": "way/788632139",
+      "name": "Kisha e Shën Nikollës",
+      "nameEn": "St. Nicholas Church",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.66794,
+      "lon": 21.172167,
+      "wikidata": "Q25462779",
+      "wikipedia": "sr:Црква Светог Николе у Приштини",
+      "osmUrl": "https://www.openstreetmap.org/way/788632139",
+      "score": 10,
+      "imageFile": "Pristina - Serbian orthodox church of St. Nicholas.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pristina_-_Serbian_orthodox_church_of_St._Nicholas.jpg/1280px-Pristina_-_Serbian_orthodox_church_of_St._Nicholas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek (Marcin Szala) · CC BY-SA 3.0"
+    },
+    {
+      "id": "node/7927911887",
+      "name": "Parku i Gërmisë",
+      "nameEn": "Park of Gërmia",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.675087,
+      "lon": 21.204837,
+      "wikidata": "Q12757016",
+      "wikipedia": "sq:Parku i Gërmisë",
+      "osmUrl": "https://www.openstreetmap.org/node/7927911887",
+      "score": 10,
+      "imageFile": "Germia 1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Germia_1.jpg/1280px-Germia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Fitore Syla · CC BY-SA 3.0",
+      "tagline": {
+        "text": "City park of Pristina, Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Parku i Gërmisë është një park që ndodhet në Prishtinë, Kosovë. Ka një sipërfaqe prej 1126 ha.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Parku_i_G%C3%ABrmis%C3%AB"
+      }
+    },
+    {
+      "id": "way/1366369553",
+      "name": "Sahat Kulla",
+      "nameEn": "Clock Tower",
+      "category": "viewpoint",
+      "kind": "monument",
+      "lat": 42.66674,
+      "lon": 21.167276,
+      "wikidata": "Q1486421",
+      "wikipedia": "en:Clock Tower of Pristina",
+      "osmUrl": "https://www.openstreetmap.org/way/1366369553",
+      "score": 10,
+      "imageFile": "Kulla e Sahatit në Prishtinë.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Kulla_e_Sahatit_n%C3%AB_Prishtin%C3%AB.jpg/1280px-Kulla_e_Sahatit_n%C3%AB_Prishtin%C3%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "GentiBehramaj · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e orës në Prishtinë e njohur edhe si Sahat kulla në Prishtinë është një monument i vjetër i trashëgimisë kulturore e që ndodhet në kryeqendrën e Republikës së Kosovës, Prishtinë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_or%C3%ABs_n%C3%AB_Prishtin%C3%AB"
+      }
+    },
+    {
+      "id": "way/208281366",
+      "name": "Përmendore",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.658812,
+      "lon": 21.175517,
+      "wikidata": "Q25463557",
+      "wikipedia": "sq:Varrezat e LNÇ",
+      "osmUrl": "https://www.openstreetmap.org/way/208281366",
+      "score": 9,
+      "imageFile": "Pristina martyr monument.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pristina_martyr_monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Kulmalukko · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Varrezat e LNÇ është një monument i trashëgimisë kulturore në Prishtinë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Varrezat_e_LN%C3%87"
+      }
+    },
+    {
+      "id": "node/1705748097",
+      "name": "Vëllazërim dhe Bashkim",
+      "nameEn": "Brotherhood and Unity",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.665725,
+      "lon": 21.164556,
+      "wikidata": "Q25463537",
+      "osmUrl": "https://www.openstreetmap.org/node/1705748097",
+      "score": 9,
+      "imageFile": "Monument of Brotherhood and Unity in Pristina.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Monument_of_Brotherhood_and_Unity_in_Pristina.jpg/1280px-Monument_of_Brotherhood_and_Unity_in_Pristina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Martijn Munneke · CC BY 2.0",
+      "tagline": {
+        "text": "monument in Kosovo",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/525903102",
+      "name": "Xhamia e Madhe",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.666986,
+      "lon": 21.16701,
+      "wikidata": "Q513756",
+      "wikipedia": "sq:Xhamia e Mbretit",
+      "osmUrl": "https://www.openstreetmap.org/way/525903102",
+      "score": 9,
+      "imageFile": "Xhamia e Madhe DSCN4659.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Xhamia_e_Madhe_DSCN4659.JPG/1280px-Xhamia_e_Madhe_DSCN4659.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "IsmailGagica · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Mbretit e njohur edhe si Xhamia e Madhe ose Xhamia e Sulltan Mehmet Fatihut II është në rrugën “Nazim Gafurri”, oborri i saj është në formë trekëndëshi dhe kufizohet me tri rrugë, dy rrugët anësorë qojnë drejt tregut të gjelbër, ndërsa rruga në anën e kiblës në anë djathit shkon drejt qendrës së tashmë të qytetit, ndërsa në anën e majtë drejt parkut “Gërmia”. Xhamia e Mbretit është një monument i trashëgimisë kulturore në Prishtinë, Kosovë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Mbretit"
+      }
+    },
+    {
+      "id": "way/587126240",
+      "name": "Xhamia e Pirinazit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.665697,
+      "lon": 21.172939,
+      "wikidata": "Q27868695",
+      "wikipedia": "en:Pirinaz Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/587126240",
+      "score": 9,
+      "imageFile": "Pirinaz Mosque in Prishtina, Kosovo.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Pirinaz_Mosque_in_Prishtina%2C_Kosovo.JPG/1280px-Pirinaz_Mosque_in_Prishtina%2C_Kosovo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Eraalickaj · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Pirinazit ose Xhamia Pirinez është një monument i trashëgimisë kulturore në Prishtinë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër 02/53/1/1967.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Pirinazit"
+      }
+    },
+    {
+      "id": "way/511842774",
+      "name": "Gazimestan",
+      "category": "nature",
+      "kind": "nature_reserve",
+      "lat": 42.689452,
+      "lon": 21.126902,
+      "wikidata": "Q25572250",
+      "wikipedia": "sq:Gazimestani",
+      "osmUrl": "https://www.openstreetmap.org/way/511842774",
+      "score": 7,
+      "imageFile": "Gazimestani 2014 DSCN6944.JPG",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Gazimestani_2014_DSCN6944.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "IsmailGagica · CC BY-SA 4.0",
+      "summary": {
+        "text": "Gazimestani është një zonë e mbrojtur natyrore dhe hapësirë memoriale në afërsi të Prishtinës, në Kosovë. Zona ndodhet në hapësirën e Fushës së Kosovës dhe lidhet me peizazhin historik, natyror dhe kulturor të kësaj pjese të vendit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Gazimestani"
+      }
+    },
+    {
+      "id": "node/2171134819",
+      "name": "Memorial \"23. Tetor 1944\"",
+      "nameEn": "23 October 1944 memorial",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.655551,
+      "lon": 21.16384,
+      "wikidata": "Q27216247",
+      "osmUrl": "https://www.openstreetmap.org/node/2171134819",
+      "score": 7,
+      "imageFile": "23 October 1944 Memorial, Pristina, Kosovo 01.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/23_October_1944_Memorial%2C_Pristina%2C_Kosovo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Andy Mabbett · CC BY-SA 3.0",
+      "tagline": {
+        "text": "war memorial in Pristina, Kosovo",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "node/4313093018",
+      "name": "Hamami i Prishtinës",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666916,
+      "lon": 21.166519,
+      "wikidata": "Q16840000",
+      "osmUrl": "https://www.openstreetmap.org/node/4313093018",
+      "score": 6,
+      "imageFile": "Prishtina and the great Hamam.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Prishtina_and_the_great_Hamam.jpg/1280px-Prishtina_and_the_great_Hamam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bujar Imer Gashi · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Ottoman-era monument in Pristina, Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Hamami i Madh ose Hamami i Sulltan Mehmet Fatihut është ndër të paktat monumente të periudhës osmane, i cilësuar si monument i trashëgimisë kulturore në Prishtinë, Kosovë. Është ndërtuar në shekullin e XV dhe ishte pjesë e kompleksit të Xhamisë Mbret.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Hamami_i_Madh%2C_Prishtin%C3%AB"
+      }
+    },
+    {
+      "id": "way/206457190",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.661828,
+      "lon": 21.170281,
+      "wikidata": "Q108700690",
+      "osmUrl": "https://www.openstreetmap.org/way/206457190",
+      "score": 6,
+      "imageFile": "Park - panoramio - Black Iris (1).jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Park_-_panoramio_-_Black_Iris_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Black Iris · CC BY 3.0"
+    },
+    {
+      "id": "node/2164150701",
+      "name": "Muzeu i Burgut të Prishtinës - Burgu i Idealit",
+      "nameEn": "Prison of Pristina",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.662992,
+      "lon": 21.159887,
+      "openingHours": "Tu-Su 10:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2164150701",
+      "score": 4
+    },
+    {
+      "id": "way/259076101",
+      "name": "Shtëpia e Pavarësisë së Kosovës \"Dr. Ibrahim Rugova\"",
+      "nameEn": "House of Independence of Kosovo \"Ibrahim Rugova\"",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.664126,
+      "lon": 21.157577,
+      "openingHours": "Mo-Sa 10:00-17:00",
+      "osmUrl": "https://www.openstreetmap.org/way/259076101",
+      "score": 4
+    },
+    {
+      "id": "way/813985091",
+      "name": "Teatri i Pupetave Dodona",
+      "nameEn": "Dodona Puppet Theatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.664526,
+      "lon": 21.170519,
+      "website": "https://teatridodona.org/",
+      "osmUrl": "https://www.openstreetmap.org/way/813985091",
+      "score": 4
+    },
+    {
+      "id": "node/7096681186",
+      "name": "KOGE LIGHT",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.630462,
+      "lon": 21.153185,
+      "website": "http://www.kogelight.com",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7096681186",
+      "score": 3
+    },
+    {
+      "id": "way/348440606",
+      "name": "Kooperativa Kreative e Kosovës",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.655037,
+      "lon": 21.171425,
+      "description": "Qëllimi i kooperativës kreative të kosovës - k3 është përkrahja e komunitetit kreativ të kosovës dhe zgjerimit të tij me anëtarë të rinj.",
+      "website": "http://k-tre.com",
+      "openingHours": "09:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/way/348440606",
+      "score": 3
+    },
+    {
+      "id": "node/5026577326",
+      "name": "Pema Olimpike",
+      "nameEn": "Olympic Tree",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.663824,
+      "lon": 21.163596,
+      "osmUrl": "https://www.openstreetmap.org/node/5026577326",
+      "score": 3
+    },
+    {
+      "id": "node/10233340085",
+      "name": "Project Space 17",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.667611,
+      "lon": 21.167288,
+      "website": "https://foundation17.org/sq/hapesirat-e-shtatembedhjete/project-space-17/",
+      "osmUrl": "https://www.openstreetmap.org/node/10233340085",
+      "score": 3
+    },
+    {
+      "id": "node/5228579288",
+      "name": "Qendra Historike",
+      "nameEn": "Old Town",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.666655,
+      "lon": 21.166044,
+      "osmUrl": "https://www.openstreetmap.org/node/5228579288",
+      "score": 3
+    },
+    {
+      "id": "node/5407300432",
+      "name": "Rrethi I Flamurit",
+      "nameEn": "The Flag Roundabout",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.647452,
+      "lon": 21.157454,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/5407300432",
+      "score": 3
+    },
+    {
+      "id": "node/4860057822",
+      "name": "Sheshi Edith Durham",
+      "nameEn": "Edith Durham Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.661055,
+      "lon": 21.16014,
+      "osmUrl": "https://www.openstreetmap.org/node/4860057822",
+      "score": 3
+    },
+    {
+      "id": "node/4591682870",
+      "name": "Sheshi Ibrahim Rugova",
+      "nameEn": "Ibrahim Rugova Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.664175,
+      "lon": 21.164536,
+      "osmUrl": "https://www.openstreetmap.org/node/4591682870",
+      "score": 3
+    },
+    {
+      "id": "node/4702036161",
+      "name": "Sheshi Madeleine Albright",
+      "nameEn": "Madeleine Albright Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.660849,
+      "lon": 21.158465,
+      "osmUrl": "https://www.openstreetmap.org/node/4702036161",
+      "score": 3
+    },
+    {
+      "id": "node/4665644889",
+      "name": "Sheshi Nëna Terezë",
+      "nameEn": "Mother Teresa Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.662381,
+      "lon": 21.163164,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/4665644889",
+      "score": 3
+    },
+    {
+      "id": "node/4591682871",
+      "name": "Sheshi Zahir Pajaziti",
+      "nameEn": "Zahir Pajaziti Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.66028,
+      "lon": 21.161124,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/4591682871",
+      "score": 3
+    },
+    {
+      "id": "way/807870190",
+      "name": "Shtepi Banimi Muharrem Sejdiu",
+      "nameEn": "House of Muharrem Sejdiu",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666285,
+      "lon": 21.165983,
+      "osmUrl": "https://www.openstreetmap.org/way/807870190",
+      "score": 3
+    },
+    {
+      "id": "way/860363114",
+      "name": "Shtëpi banimi Fitim Gjata",
+      "nameEn": "House of Fitim Gjata",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666773,
+      "lon": 21.165459,
+      "imageFile": "House of Fitim Gjata 02.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/860363114",
+      "score": 3,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/House_of_Fitim_Gjata_02.jpg/1280px-House_of_Fitim_Gjata_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "I have permission from the photographer to publish this p… · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/813984985",
+      "name": "Shtëpi Banimi Imer Mehmetaj",
+      "nameEn": "Residential House Imer Mehmetaj",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.666046,
+      "lon": 21.17149,
+      "osmUrl": "https://www.openstreetmap.org/way/813984985",
+      "score": 3
+    },
+    {
+      "id": "way/807870180",
+      "name": "Shtëpi Banimi Kurtesh Sulejmani",
+      "nameEn": "House of Kurtesh Sulejmani",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666371,
+      "lon": 21.165807,
+      "osmUrl": "https://www.openstreetmap.org/way/807870180",
+      "score": 3
+    },
+    {
+      "id": "way/813476234",
+      "name": "Shtëpia e Herticëve",
+      "nameEn": "Hertic House",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.677512,
+      "lon": 21.157628,
+      "osmUrl": "https://www.openstreetmap.org/way/813476234",
+      "score": 3
+    },
+    {
+      "id": "way/518331032",
+      "name": "Tregu i Vjetër",
+      "nameEn": "Old Green Market",
+      "category": "market",
+      "kind": "attraction",
+      "lat": 42.668436,
+      "lon": 21.165589,
+      "osmUrl": "https://www.openstreetmap.org/way/518331032",
+      "score": 3
+    },
+    {
+      "id": "node/2432920688",
+      "name": "Bill Klinton",
+      "nameEn": "Bill Clinton",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.654062,
+      "lon": 21.153157,
+      "osmUrl": "https://www.openstreetmap.org/node/2432920688",
+      "score": 2
+    },
+    {
+      "id": "way/105216476",
+      "name": "Fontana e Qytetit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.650985,
+      "lon": 21.16288,
+      "osmUrl": "https://www.openstreetmap.org/way/105216476",
+      "score": 2
+    },
+    {
+      "id": "way/807870204",
+      "name": "House Sali (Hyrie) Shafqiu",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666279,
+      "lon": 21.165709,
+      "imageFile": "House Sali (Hyrie) Shafqiu 02.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/807870204",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/House_Sali_%28Hyrie%29_Shafqiu_02.jpg/1280px-House_Sali_%28Hyrie%29_Shafqiu_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Agron Berisha · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/5175043787",
+      "name": "LambdaLambdaLambda",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.659248,
+      "lon": 21.159657,
+      "website": "https://www.lambdalambdalambda.org/",
+      "openingHours": "Th-Sa 14:00-18:00 || \"by appointment\"",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/5175043787",
+      "score": 2
+    },
+    {
+      "id": "node/2153350985",
+      "name": "Meridian Express Market",
+      "nameEn": "Meridian express",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.655929,
+      "lon": 21.175416,
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2153350985",
+      "score": 2
+    },
+    {
+      "id": "node/5758610861",
+      "name": "Museum of Broken Relationships Kosovo",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.666089,
+      "lon": 21.165931,
+      "osmUrl": "https://www.openstreetmap.org/node/5758610861",
+      "score": 2
+    },
+    {
+      "id": "node/8270870317",
+      "name": "Simfonia e Artev",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.644635,
+      "lon": 21.168096,
+      "osmUrl": "https://www.openstreetmap.org/node/8270870317",
+      "score": 2
+    },
+    {
+      "id": "way/679772229",
+      "name": "Stacion - Center for Contemporary Art Prishtina",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.668309,
+      "lon": 21.167629,
+      "osmUrl": "https://www.openstreetmap.org/way/679772229",
+      "score": 2
+    },
+    {
+      "id": "node/7830247485",
+      "name": "Shpia e molerit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.640817,
+      "lon": 21.192281,
+      "osmUrl": "https://www.openstreetmap.org/node/7830247485",
+      "score": 2
+    },
+    {
+      "id": "way/860308899",
+      "name": "Shtëpi banimi - Imer Berisha, Prishtinë",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.66669,
+      "lon": 21.165336,
+      "imageFile": "House of Imer Berisha 01.jpg",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/860308899",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/House_of_Imer_Berisha_01.jpg/1280px-House_of_Imer_Berisha_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "I have permission from the photographer to publish this p… · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/5884709",
+      "name": "Varrezat e Dëshmorëve",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.658417,
+      "lon": 21.175587,
+      "osmUrl": "https://www.openstreetmap.org/way/5884709",
+      "score": 2
+    },
+    {
+      "id": "node/5081377823",
+      "name": "بيتي",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.665844,
+      "lon": 21.15195,
+      "osmUrl": "https://www.openstreetmap.org/node/5081377823",
+      "score": 2
+    },
+    {
+      "id": "node/6813209985",
+      "name": "144",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.670811,
+      "lon": 21.171287,
+      "osmUrl": "https://www.openstreetmap.org/node/6813209985",
+      "score": 1
+    },
+    {
+      "id": "node/595459360",
+      "name": "Akademia e Shkencave dhe Arteve",
+      "nameEn": "Shoqata e ish-burgosurve politik e Kosovës",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666749,
+      "lon": 21.167095,
+      "osmUrl": "https://www.openstreetmap.org/node/595459360",
+      "score": 1
+    },
+    {
+      "id": "node/2153344101",
+      "name": "Albi Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.654084,
+      "lon": 21.173008,
+      "openingHours": "07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2153344101",
+      "score": 1
+    },
+    {
+      "id": "node/8359906917",
+      "name": "Cernaveri home",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.653943,
+      "lon": 21.19389,
+      "osmUrl": "https://www.openstreetmap.org/node/8359906917",
+      "score": 1
+    },
+    {
+      "id": "node/5923163557",
+      "name": "Fellini Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.675589,
+      "lon": 21.169082,
+      "openingHours": "Mo-Su 08:00-11:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5923163557",
+      "score": 1
+    },
+    {
+      "id": "node/14163268729",
+      "name": "Galeria e Arteve e Prishtinës",
+      "nameEn": "Prishtina Art Gallery",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.660843,
+      "lon": 21.157658,
+      "osmUrl": "https://www.openstreetmap.org/node/14163268729",
+      "score": 1
+    },
+    {
+      "id": "way/124916224",
+      "name": "Galeria e Arteve te Kosovës",
+      "nameEn": "Kosova Art Gallery",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.65706,
+      "lon": 21.164021,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/124916224",
+      "score": 1
+    },
+    {
+      "id": "node/601574476",
+      "name": "Gjergj Kastrioti Skënderbeu",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.663782,
+      "lon": 21.163701,
+      "osmUrl": "https://www.openstreetmap.org/node/601574476",
+      "score": 1
+    },
+    {
+      "id": "node/11143096285",
+      "name": "Hasan Prishtina",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.65865,
+      "lon": 21.161164,
+      "osmUrl": "https://www.openstreetmap.org/node/11143096285",
+      "score": 1
+    },
+    {
+      "id": "node/4424369689",
+      "name": "Heroinat",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.660359,
+      "lon": 21.158835,
+      "website": "https://molosgroup.com/heroinat-memorial-2/",
+      "osmUrl": "https://www.openstreetmap.org/node/4424369689",
+      "score": 1
+    },
+    {
+      "id": "node/2613923349",
+      "name": "Ibrahim Rugova",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.664038,
+      "lon": 21.164728,
+      "osmUrl": "https://www.openstreetmap.org/node/2613923349",
+      "score": 1
+    },
+    {
+      "id": "node/11209519149",
+      "name": "Kabashi Art Gallery",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.654258,
+      "lon": 21.157376,
+      "openingHours": "Mo-Fr 11:00-19:30; Sa 11:00-16:00",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/11209519149",
+      "score": 1
+    },
+    {
+      "id": "node/8087751131",
+      "name": "LIVING GROUP",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.656102,
+      "lon": 21.148304,
+      "osmUrl": "https://www.openstreetmap.org/node/8087751131",
+      "score": 1
+    },
+    {
+      "id": "node/8516522298",
+      "name": "Market ENISI",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.671173,
+      "lon": 21.153833,
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/8516522298",
+      "score": 1
+    },
+    {
+      "id": "way/1115239774",
+      "name": "Park Mharrem Fejza",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.646212,
+      "lon": 21.169388,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1115239774",
+      "score": 1
+    },
+    {
+      "id": "way/893958832",
+      "name": "Park Rruga B",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.651972,
+      "lon": 21.174604,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/893958832",
+      "score": 1
+    },
+    {
+      "id": "way/1378155163",
+      "name": "Parku \"Bregu i Diellit\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.6509,
+      "lon": 21.16837,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1378155163",
+      "score": 1
+    },
+    {
+      "id": "way/331375785",
+      "name": "Parku Arbëria",
+      "nameEn": "Arbëria Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.668446,
+      "lon": 21.150866,
+      "osmUrl": "https://www.openstreetmap.org/way/331375785",
+      "score": 1
+    },
+    {
+      "id": "way/490604642",
+      "name": "Parku Arkeologjik i Kosovës",
+      "nameEn": "Archaeological Park of Kosovo",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.665871,
+      "lon": 21.165658,
+      "osmUrl": "https://www.openstreetmap.org/way/490604642",
+      "score": 1
+    },
+    {
+      "id": "way/973192294",
+      "name": "Parku Banesat e Albvizionit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.651565,
+      "lon": 21.179491,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/973192294",
+      "score": 1
+    },
+    {
+      "id": "way/494768062",
+      "name": "Parku i Pavarësisë",
+      "nameEn": "Independence Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.664024,
+      "lon": 21.164793,
+      "osmUrl": "https://www.openstreetmap.org/way/494768062",
+      "score": 1
+    },
+    {
+      "id": "relation/18991391",
+      "name": "Parku i Tregtisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.649793,
+      "lon": 21.181113,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/relation/18991391",
+      "score": 1
+    },
+    {
+      "id": "way/1354713848",
+      "name": "Prapa \"1 Tetorit\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.654426,
+      "lon": 21.166266,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1354713848",
+      "score": 1
+    },
+    {
+      "id": "way/860336044",
+      "name": "Residential Building \"Laziq\"",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666158,
+      "lon": 21.164873,
+      "description": "adjacent to Old Municipal Building of Prishtina",
+      "osmUrl": "https://www.openstreetmap.org/way/860336044",
+      "score": 1
+    },
+    {
+      "id": "way/125540939",
+      "name": "Restaurimi i Teatrit Kombëtar të Kosovës",
+      "nameEn": "Restoration of the National Theatre of Kosovo",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.66323,
+      "lon": 21.164465,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/125540939",
+      "score": 1
+    },
+    {
+      "id": "node/5343782021",
+      "name": "Sgjukaj 2",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.643143,
+      "lon": 21.167374,
+      "osmUrl": "https://www.openstreetmap.org/node/5343782021",
+      "score": 1
+    },
+    {
+      "id": "node/5343815821",
+      "name": "sgjukaj 3",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.677779,
+      "lon": 21.181132,
+      "osmUrl": "https://www.openstreetmap.org/node/5343815821",
+      "score": 1
+    },
+    {
+      "id": "node/4766289124",
+      "name": "Sofalia/Zylfije Gashi",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.668811,
+      "lon": 21.195097,
+      "osmUrl": "https://www.openstreetmap.org/node/4766289124",
+      "score": 1
+    },
+    {
+      "id": "node/6018871135",
+      "name": "Teslić",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.67377,
+      "lon": 21.180615,
+      "osmUrl": "https://www.openstreetmap.org/node/6018871135",
+      "score": 1
+    },
+    {
+      "id": "node/4525064689",
+      "name": "Ali Hadri",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.655212,
+      "lon": 21.16338,
+      "osmUrl": "https://www.openstreetmap.org/node/4525064689",
+      "score": 0
+    },
+    {
+      "id": "node/4970463852",
+      "name": "Amfiteatri i Gërmisë",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.673112,
+      "lon": 21.199814,
+      "osmUrl": "https://www.openstreetmap.org/node/4970463852",
+      "score": 0
+    },
+    {
+      "id": "way/498820450",
+      "name": "Amfiteatri i Qendres Studentore",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.652396,
+      "lon": 21.164279,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/498820450",
+      "score": 0
+    },
+    {
+      "id": "way/125494604",
+      "name": "Ansambli Kombëtar Shota",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.663089,
+      "lon": 21.155523,
+      "osmUrl": "https://www.openstreetmap.org/way/125494604",
+      "score": 0
+    },
+    {
+      "id": "node/1908108868",
+      "name": "Apple store",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.658289,
+      "lon": 21.155453,
+      "osmUrl": "https://www.openstreetmap.org/node/1908108868",
+      "score": 0
+    },
+    {
+      "id": "node/3858548801",
+      "name": "Bardha 4",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.654774,
+      "lon": 21.17049,
+      "osmUrl": "https://www.openstreetmap.org/node/3858548801",
+      "score": 0
+    },
+    {
+      "id": "node/8795667347",
+      "name": "Bini Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.67664,
+      "lon": 21.174572,
+      "osmUrl": "https://www.openstreetmap.org/node/8795667347",
+      "score": 0
+    },
+    {
+      "id": "way/105765731",
+      "name": "Dardani Kurriz",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.652476,
+      "lon": 21.151448,
+      "osmUrl": "https://www.openstreetmap.org/way/105765731",
+      "score": 0
+    },
+    {
+      "id": "node/7392174533",
+      "name": "Deppo Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.666972,
+      "lon": 21.174212,
+      "osmUrl": "https://www.openstreetmap.org/node/7392174533",
+      "score": 0
+    },
+    {
+      "id": "node/14064472613",
+      "name": "Eksodi '99",
+      "category": "history",
+      "kind": "museum",
+      "lat": 42.658833,
+      "lon": 21.151581,
+      "osmUrl": "https://www.openstreetmap.org/node/14064472613",
+      "score": 0
+    },
+    {
+      "id": "node/3858596142",
+      "name": "Eni Adu Ars",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.666561,
+      "lon": 21.160464,
+      "osmUrl": "https://www.openstreetmap.org/node/3858596142",
+      "score": 0
+    },
+    {
+      "id": "way/1115508220",
+      "name": "Farmer Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.66827,
+      "lon": 21.162522,
+      "osmUrl": "https://www.openstreetmap.org/way/1115508220",
+      "score": 0
+    },
+    {
+      "id": "node/4689195090",
+      "name": "Florim Pacolli Brumar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.676251,
+      "lon": 21.175679,
+      "osmUrl": "https://www.openstreetmap.org/node/4689195090",
+      "score": 0
+    },
+    {
+      "id": "node/4405821691",
+      "name": "Gazeta Liria",
+      "nameEn": "Gazeta Liria",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.652513,
+      "lon": 21.159626,
+      "osmUrl": "https://www.openstreetmap.org/node/4405821691",
+      "score": 0
+    },
+    {
+      "id": "node/2153344104",
+      "name": "Gezimi Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.653257,
+      "lon": 21.172227,
+      "osmUrl": "https://www.openstreetmap.org/node/2153344104",
+      "score": 0
+    },
+    {
+      "id": "node/2017920425",
+      "name": "Hamami i Madh",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.667096,
+      "lon": 21.165816,
+      "osmUrl": "https://www.openstreetmap.org/node/2017920425",
+      "score": 0
+    },
+    {
+      "id": "node/4570083890",
+      "name": "Henry Dunant",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.652211,
+      "lon": 21.160802,
+      "osmUrl": "https://www.openstreetmap.org/node/4570083890",
+      "score": 0
+    },
+    {
+      "id": "node/2017924789",
+      "name": "Hyniler Konak",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.666196,
+      "lon": 21.1711,
+      "osmUrl": "https://www.openstreetmap.org/node/2017924789",
+      "score": 0
+    },
+    {
+      "id": "node/4321142010",
+      "name": "Ismail Qemali",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.659833,
+      "lon": 21.156903,
+      "osmUrl": "https://www.openstreetmap.org/node/4321142010",
+      "score": 0
+    },
+    {
+      "id": "node/10563662187",
+      "name": "Jusuf Gërvalla",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.658122,
+      "lon": 21.160718,
+      "osmUrl": "https://www.openstreetmap.org/node/10563662187",
+      "score": 0
+    },
+    {
+      "id": "node/5688768058",
+      "name": "Kino Armata",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.660702,
+      "lon": 21.160153,
+      "osmUrl": "https://www.openstreetmap.org/node/5688768058",
+      "score": 0
+    },
+    {
+      "id": "node/3858628152",
+      "name": "Kopeshti i enderrave",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.677467,
+      "lon": 21.181384,
+      "osmUrl": "https://www.openstreetmap.org/node/3858628152",
+      "score": 0
+    },
+    {
+      "id": "node/3858645320",
+      "name": "Kopshti Princess",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.655403,
+      "lon": 21.168139,
+      "osmUrl": "https://www.openstreetmap.org/node/3858645320",
+      "score": 0
+    },
+    {
+      "id": "node/10251654088",
+      "name": "Memoriali \"Never Say Never\"",
+      "nameEn": "\"Never Say Never\" Memorial",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.646208,
+      "lon": 21.15642,
+      "osmUrl": "https://www.openstreetmap.org/node/10251654088",
+      "score": 0
+    },
+    {
+      "id": "way/1005014907",
+      "name": "MIRË SE VINI NË PRISHTINË-WELCOME TO PRISHTINA",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.652232,
+      "lon": 21.145907,
+      "osmUrl": "https://www.openstreetmap.org/way/1005014907",
+      "score": 0
+    },
+    {
+      "id": "way/1071371955",
+      "name": "Muharrem Fejza Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.645766,
+      "lon": 21.170227,
+      "osmUrl": "https://www.openstreetmap.org/way/1071371955",
+      "score": 0
+    },
+    {
+      "id": "node/6281715340",
+      "name": "Next Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.686653,
+      "lon": 21.15918,
+      "osmUrl": "https://www.openstreetmap.org/node/6281715340",
+      "score": 0
+    },
+    {
+      "id": "node/4437592891",
+      "name": "NRG Band Office",
+      "nameEn": "NRG Band Office",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.654589,
+      "lon": 21.149976,
+      "osmUrl": "https://www.openstreetmap.org/node/4437592891",
+      "score": 0
+    },
+    {
+      "id": "node/2185508862",
+      "name": "Opera",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.66091,
+      "lon": 21.163282,
+      "osmUrl": "https://www.openstreetmap.org/node/2185508862",
+      "score": 0
+    },
+    {
+      "id": "way/1097589928",
+      "name": "Park memorial \"të pagjeturit\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.657859,
+      "lon": 21.162775,
+      "osmUrl": "https://www.openstreetmap.org/way/1097589928",
+      "score": 0
+    },
+    {
+      "id": "way/495271278",
+      "name": "Parku \"Heroinat\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.660317,
+      "lon": 21.158829,
+      "osmUrl": "https://www.openstreetmap.org/way/495271278",
+      "score": 0
+    },
+    {
+      "id": "way/136332889",
+      "name": "Parku i Fakulteti Teknik",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.647879,
+      "lon": 21.164395,
+      "osmUrl": "https://www.openstreetmap.org/way/136332889",
+      "score": 0
+    },
+    {
+      "id": "way/1296948104",
+      "name": "Parku i Ri",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.660272,
+      "lon": 21.157694,
+      "osmUrl": "https://www.openstreetmap.org/way/1296948104",
+      "score": 0
+    },
+    {
+      "id": "way/281464437",
+      "name": "Parku i Spitalit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.645122,
+      "lon": 21.165874,
+      "osmUrl": "https://www.openstreetmap.org/way/281464437",
+      "score": 0
+    },
+    {
+      "id": "way/1105152803",
+      "name": "Parku Linear",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.646989,
+      "lon": 21.164292,
+      "osmUrl": "https://www.openstreetmap.org/way/1105152803",
+      "score": 0
+    },
+    {
+      "id": "way/1125034238",
+      "name": "Parku Mati 1",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.654332,
+      "lon": 21.180499,
+      "osmUrl": "https://www.openstreetmap.org/way/1125034238",
+      "score": 0
+    },
+    {
+      "id": "way/676109884",
+      "name": "Parku në Arbëri",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.673058,
+      "lon": 21.155337,
+      "osmUrl": "https://www.openstreetmap.org/way/676109884",
+      "score": 0
+    },
+    {
+      "id": "way/513374154",
+      "name": "Parku Rekreativo Sportiv 1 Tetori",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.653995,
+      "lon": 21.167024,
+      "osmUrl": "https://www.openstreetmap.org/way/513374154",
+      "score": 0
+    },
+    {
+      "id": "way/1116645470",
+      "name": "Parku Shinzo Abe",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.661334,
+      "lon": 21.152359,
+      "osmUrl": "https://www.openstreetmap.org/way/1116645470",
+      "score": 0
+    },
+    {
+      "id": "node/5095376236",
+      "name": "Passenger",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.667513,
+      "lon": 21.169592,
+      "osmUrl": "https://www.openstreetmap.org/node/5095376236",
+      "score": 0
+    },
+    {
+      "id": "node/5613688221",
+      "name": "Personat e Pagjetur nga Lufta e Fundit në Kosovë",
+      "nameEn": "Missing persons from the last war in Kosovo",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.664203,
+      "lon": 21.164426,
+      "osmUrl": "https://www.openstreetmap.org/node/5613688221",
+      "score": 0
+    },
+    {
+      "id": "node/14206585114",
+      "name": "REmbrandt art centre",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.663549,
+      "lon": 21.165374,
+      "osmUrl": "https://www.openstreetmap.org/node/14206585114",
+      "score": 0
+    },
+    {
+      "id": "way/495688688",
+      "name": "Sheshi \"Adem Demaçi\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.646618,
+      "lon": 21.156634,
+      "osmUrl": "https://www.openstreetmap.org/way/495688688",
+      "score": 0
+    },
+    {
+      "id": "way/49516466",
+      "name": "Sheshi \"Idriz Seferi\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.647447,
+      "lon": 21.157491,
+      "osmUrl": "https://www.openstreetmap.org/way/49516466",
+      "score": 0
+    },
+    {
+      "id": "node/5661388722",
+      "name": "Shyt Mareci",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.673193,
+      "lon": 21.165974,
+      "osmUrl": "https://www.openstreetmap.org/node/5661388722",
+      "score": 0
+    },
+    {
+      "id": "way/464513994",
+      "name": "Taukbahçe",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.664938,
+      "lon": 21.182805,
+      "osmUrl": "https://www.openstreetmap.org/way/464513994",
+      "score": 0
+    },
+    {
+      "id": "node/8176516618",
+      "name": "Te Pasqyrja",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.689442,
+      "lon": 21.162748,
+      "osmUrl": "https://www.openstreetmap.org/node/8176516618",
+      "score": 0
+    },
+    {
+      "id": "node/1764213742",
+      "name": "Teatri Oda",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.661741,
+      "lon": 21.156792,
+      "osmUrl": "https://www.openstreetmap.org/node/1764213742",
+      "score": 0
+    },
+    {
+      "id": "way/105551609",
+      "name": "Termokos Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.648101,
+      "lon": 21.156891,
+      "osmUrl": "https://www.openstreetmap.org/way/105551609",
+      "score": 0
+    },
+    {
+      "id": "way/413131215",
+      "name": "Tregu i Automjeteve",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.648923,
+      "lon": 21.128118,
+      "osmUrl": "https://www.openstreetmap.org/way/413131215",
+      "score": 0
+    },
+    {
+      "id": "way/413069999",
+      "name": "Tregu i Gjelbërt",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.64261,
+      "lon": 21.131015,
+      "osmUrl": "https://www.openstreetmap.org/way/413069999",
+      "score": 0
+    },
+    {
+      "id": "node/2020296802",
+      "name": "Tyrbja e Bajraktarëve",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.68557,
+      "lon": 21.13048,
+      "osmUrl": "https://www.openstreetmap.org/node/2020296802",
+      "score": 0
+    },
+    {
+      "id": "node/13133926693",
+      "name": "Ulpiana Art Centre",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.651274,
+      "lon": 21.161257,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/13133926693",
+      "score": 0
+    },
+    {
+      "id": "way/911392854",
+      "name": "Varri i Adem Demaçit",
+      "nameEn": "Adem Demaçi Grave",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.659053,
+      "lon": 21.176102,
+      "osmUrl": "https://www.openstreetmap.org/way/911392854",
+      "score": 0
+    },
+    {
+      "id": "way/499959267",
+      "name": "Varri i Presidentit Ibrahim Rugova",
+      "nameEn": "President Ibrahim Rugova Grave",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.658622,
+      "lon": 21.176326,
+      "osmUrl": "https://www.openstreetmap.org/way/499959267",
+      "score": 0
+    },
+    {
+      "id": "node/595372882",
+      "name": "Villa Pikniku",
+      "category": "nature",
+      "kind": "picnic_site",
+      "lat": 42.641593,
+      "lon": 21.203115,
+      "osmUrl": "https://www.openstreetmap.org/node/595372882",
+      "score": 0
+    },
+    {
+      "id": "node/6281514408",
+      "name": "Viva Fresh Store",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.677791,
+      "lon": 21.162222,
+      "osmUrl": "https://www.openstreetmap.org/node/6281514408",
+      "score": 0
+    },
+    {
+      "id": "way/670062581",
+      "name": "Viva Fresh Store",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.677519,
+      "lon": 21.170726,
+      "osmUrl": "https://www.openstreetmap.org/way/670062581",
+      "score": 0
+    },
+    {
+      "id": "node/896632531",
+      "name": "Zahir Pajaziti",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.660102,
+      "lon": 21.161376,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/896632531",
+      "score": 0
+    },
+    {
+      "id": "node/8177385992",
+      "name": "Zone e Gjelbert",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.651586,
+      "lon": 21.16205,
+      "osmUrl": "https://www.openstreetmap.org/node/8177385992",
+      "score": 0
+    }
+  ]
+}

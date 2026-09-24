@@ -1,0 +1,912 @@
+{
+  "city": "prizren",
+  "name": "Prizren",
+  "center": {
+    "lat": 42.2139,
+    "lon": 20.7397
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.094Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 64,
+  "places": [
+    {
+      "id": "way/136001313",
+      "name": "Kalaja e Prizrenit",
+      "nameEn": "Fortress of Prizren",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.209495,
+      "lon": 20.74556,
+      "wikidata": "Q3078443",
+      "wikipedia": "sq:Kalaja e Prizrenit",
+      "osmUrl": "https://www.openstreetmap.org/way/136001313",
+      "score": 13,
+      "imageFile": "Kalaja e Prizreniit.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kalaja_e_Prizreniit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Bleart kabashi · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Prizrenit është një monument i trashëgimisë kulturore në Prizren, Kosovë. Kalaja e Prizrenit konsiderohet të jetë simboli i qytetit të Prizrenit dhe një element me rëndësi në identitetin kulturor të Kosovës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Prizrenit"
+      }
+    },
+    {
+      "id": "way/223660159",
+      "name": "Kisha e Shën Premtës",
+      "nameEn": "Our Lady of Ljeviš",
+      "category": "religion",
+      "kind": "yes",
+      "lat": 42.211605,
+      "lon": 20.735889,
+      "description": "Monument of culture of exceptional importance. UNESCO world heritage site since 2006.",
+      "wikidata": "Q890652",
+      "wikipedia": "en:Our Lady of Ljeviš",
+      "heritage": "1",
+      "osmUrl": "https://www.openstreetmap.org/way/223660159",
+      "score": 13,
+      "imageFile": "Bogorodica Ljeviska1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bogorodica_Ljeviska1.jpg/1280px-Bogorodica_Ljeviska1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Vladimir Vukotic · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Premtës ose Xhamia e Xhumasë është një kishe dhe ish-xhami e vjetër në rrugën e qytetit të Prizrenit. Ajo është meremetuar në vitin 1306 nga Shtjefën Millutini.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Premt%C3%ABs_(Prizren)"
+      }
+    },
+    {
+      "id": "way/432380499",
+      "name": "Kompleksi i Lidhjes së Prizrenit",
+      "nameEn": "Prizren League Complex",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.21148,
+      "lon": 20.743765,
+      "wikidata": "Q26985832",
+      "wikipedia": "en:Monumental Complex of the Albanian League of Prizren",
+      "openingHours": "Tu-Su 10:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/432380499",
+      "score": 13,
+      "imageFile": "Lidhja e Prizrenit, By MIBER.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Lidhja_e_Prizrenit%2C_By_MIBER.jpg/1280px-Lidhja_e_Prizrenit%2C_By_MIBER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Musli Berisha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kompleksi i Lidhjes së Prizrenit është një kompleks muzeor dhe monument i trashëgimisë kulturore në qytetin historik të Prizrenit, Kosovë. Ky monument është i kategorisë \"arkitekturor\", i miratuar me numër 414/77 dhe ndodhet nën mbrojtjen e shtetit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kompleksi_i_Lidhjes_s%C3%AB_Prizrenit"
+      }
+    },
+    {
+      "id": "node/5849692995",
+      "name": "Manastiri i Kryeengjëjve të Shenjtë",
+      "nameEn": "Monastery of the Holy Archangels",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.200579,
+      "lon": 20.763514,
+      "description": "Манастир je задужбина српског цара Душана Силног, и налази се у кањону реке Призренске Бистрице недалеко од града Призрена у Метохији. Грађен je у периоду од 1343. до 1352. године, на месту старије цркве у склопу тврђаве Вишеград као гробна црква цара Душ",
+      "wikidata": "Q1365953",
+      "wikipedia": "sr:Манастир Светих архангела (Призрен)",
+      "osmUrl": "https://www.openstreetmap.org/node/5849692995",
+      "score": 13,
+      "imageFile": "Erzengelkloster1.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Erzengelkloster1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Sonaz · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Manastiri i Arkangjelit të Shenjtë është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 464/48.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Manastiri_i_Arkangjelit_t%C3%AB_Shenjt%C3%AB"
+      }
+    },
+    {
+      "id": "way/426583120",
+      "name": "Kisha e Shën Gjergjit",
+      "nameEn": "Saint George Orthodox Cathedral",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.208359,
+      "lon": 20.740113,
+      "wikidata": "Q940447",
+      "wikipedia": "en:Cathedral of Saint George, Prizren",
+      "osmUrl": "https://www.openstreetmap.org/way/426583120",
+      "score": 12,
+      "imageFile": "St. George Cathedral (Saborni hram Svetog Đorđa), Prizren.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/St._George_Cathedral_%28Saborni_hram_Svetog_%C4%90or%C4%91a%29%2C_Prizren.JPG/1280px-St._George_Cathedral_%28Saborni_hram_Svetog_%C4%90or%C4%91a%29%2C_Prizren.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "church in Prizren, Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Katedralja e Shën Gjergjit ose Kisha e Shën Gjergjit është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky katedrale ortodokse serbe është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Gjergjit_(Sinodale)"
+      }
+    },
+    {
+      "id": "node/4817909821",
+      "name": "Kisha e Shën Nedeljës",
+      "nameEn": "St. Nedelja Church",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.209494,
+      "lon": 20.743441,
+      "wikidata": "Q9188001",
+      "wikipedia": "sr:Црква Свете Недеље у Призрену",
+      "osmUrl": "https://www.openstreetmap.org/node/4817909821",
+      "score": 12,
+      "imageFile": "Serbian part of Prizren2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Serbian_part_of_Prizren2.jpg/1280px-Serbian_part_of_Prizren2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "a.dombrowski · CC BY-SA 2.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Dielës Dëftimi i Shën Mërisë është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 02-983/1/66.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Diel%C3%ABs_D%C3%ABftimi_i_Sh%C3%ABn_M%C3%ABris%C3%AB"
+      }
+    },
+    {
+      "id": "way/382537329",
+      "name": "Kisha e Shën Shpëtimtarit",
+      "nameEn": "Church of the Holy Saviour",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.208123,
+      "lon": 20.743301,
+      "wikidata": "Q3132366",
+      "wikipedia": "en:Church of the Holy Saviour, Prizren",
+      "osmUrl": "https://www.openstreetmap.org/way/382537329",
+      "score": 12,
+      "imageFile": "Church of the Holy Saviour, Prizren (by Pudelek).JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Church_of_the_Holy_Saviour%2C_Prizren_%28by_Pudelek%29.JPG/1280px-Church_of_the_Holy_Saviour%2C_Prizren_%28by_Pudelek%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Spasit është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 1598/48.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Spasit_(Prizren)"
+      }
+    },
+    {
+      "id": "way/426596865",
+      "name": "Xhamia e Gazi Mehmed Pashës",
+      "nameEn": "Gazi Mehmet Pasha's Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.211407,
+      "lon": 20.743169,
+      "wikidata": "Q5529123",
+      "wikipedia": "en:Gazi Mehmet Pasha's Mosque",
+      "heritage": "2",
+      "osmUrl": "https://www.openstreetmap.org/way/426596865",
+      "score": 12,
+      "imageFile": "Xhamia e Bajraklise.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Xhamia_e_Bajraklise.JPG/1280px-Xhamia_e_Bajraklise.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Fissnik · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Gazi Mehmet Pashës ose Xhamia e Bajraklisë është një nga xhamitë e vjetra në Prizren, i cili u ndërtua në vitin 1561. Xhamia e Mehmed Pashës është një monument i trashëgimisë kulturore në Kosovë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Gazi_Mehmet_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "way/421601776",
+      "name": "Xhamia e Sinan Pashës",
+      "nameEn": "Sinan Pasha Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.209023,
+      "lon": 20.741379,
+      "wikidata": "Q2097655",
+      "wikipedia": "en:Sinan Pasha Mosque (Prizren)",
+      "osmUrl": "https://www.openstreetmap.org/way/421601776",
+      "score": 12,
+      "imageFile": "Sinan Paşa Camii - Prizren 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Sinan_Pa%C5%9Fa_Camii_-_Prizren_01.jpg/1280px-Sinan_Pa%C5%9Fa_Camii_-_Prizren_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Photo Balkan · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Sinan Pashës është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër 1599/48.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Sinan_Pash%C3%ABs%2C_Prizren"
+      }
+    },
+    {
+      "id": "way/88338996",
+      "name": "Ura e Gurit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.209568,
+      "lon": 20.740615,
+      "wikidata": "Q6085799",
+      "wikipedia": "en:Old Stone Bridge, Prizren",
+      "osmUrl": "https://www.openstreetmap.org/way/88338996",
+      "score": 11,
+      "imageFile": "Stone Bridge in Prizren (by Pudelek).JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Stone_Bridge_in_Prizren_%28by_Pudelek%29.JPG/1280px-Stone_Bridge_in_Prizren_%28by_Pudelek%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Ura e vjetër e gurit në Prizren, Kosovë.",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Ura e vjetër e gurit në Prizren është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 2345/48.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_gurit_(Prizren)"
+      }
+    },
+    {
+      "id": "way/472683583",
+      "name": "Katedralja Katolike e Zojës Ndihmëtare",
+      "nameEn": "Cathedral of Our Lady of Perpetual Succour",
+      "category": "religion",
+      "kind": "cathedral",
+      "lat": 42.207765,
+      "lon": 20.738407,
+      "wikidata": "Q4451245",
+      "wikipedia": "pl:Katedra Matki Bożej Nieustającej Pomocy w Prizrenie",
+      "osmUrl": "https://www.openstreetmap.org/way/472683583",
+      "score": 10,
+      "imageFile": "Konkatedrala Zonja Ndihmëtare 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Konkatedrala_Zonja_Ndihm%C3%ABtare_2.jpg/1280px-Konkatedrala_Zonja_Ndihm%C3%ABtare_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Konkatedrala Zonja Ndihmëtare është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është një katedrale katolike romake në Prizren, Kosovë, selia e Dioqezës Katolike Shqiptare të Prizrenit-Prishtinë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Konkatedrala_Zonja_Ndihm%C3%ABtare"
+      }
+    },
+    {
+      "id": "way/173084601",
+      "name": "Gazi Mehmed Pasa Hamami",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.210941,
+      "lon": 20.741477,
+      "wikidata": "Q3126508",
+      "wikipedia": "sq:Hamami i Prizrenit",
+      "osmUrl": "https://www.openstreetmap.org/way/173084601",
+      "score": 9,
+      "imageFile": "Gazi Mehmed Paşa Hamamı - Prizren 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Gazi_Mehmed_Pa%C5%9Fa_Hamam%C4%B1_-_Prizren_01.jpg/1280px-Gazi_Mehmed_Pa%C5%9Fa_Hamam%C4%B1_-_Prizren_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Photo Balkan · CC BY-SA 3.0",
+      "tagline": {
+        "text": "building and immovable cultural property in Prizren Administrative District, Serbia",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Hamami i Prizrenit ose Hamami i Shemsedin Beut është një hamam i cili ndodhet në Prizren, Kosovë. Hamami është ndërtuar në fund të shekullit XV, prandaj edhe është në Listën e Monumenteve të Kosovës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Hamami_i_Prizrenit"
+      }
+    },
+    {
+      "id": "way/472683166",
+      "name": "Kisha e Shën Kosës dhe Damiane",
+      "nameEn": "Saint Kosmas and Damian Church",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.20838,
+      "lon": 20.742719,
+      "wikidata": "Q25462925",
+      "wikipedia": "sr:Црква Светих Козме и Дамјана у Призрену",
+      "osmUrl": "https://www.openstreetmap.org/way/472683166",
+      "score": 8,
+      "tagline": {
+        "text": "church building in Serbia",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/469038111",
+      "name": "Xhamia e Çatip Sinanit",
+      "nameEn": "Katip Sinan Qelebi Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.213922,
+      "lon": 20.741635,
+      "wikidata": "Q16953559",
+      "wikipedia": "en:Katip Sinan Qelebi Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/469038111",
+      "score": 8,
+      "imageFile": "Xhamia e Sinan Katip.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Xhamia_e_Sinan_Katip.JPG/1280px-Xhamia_e_Sinan_Katip.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Fissnik · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Jazixhi Sinanit ose e Qatip Sinanit apo Ljevishës është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Sinan_Qatipit"
+      }
+    },
+    {
+      "id": "node/3661439582",
+      "name": "Xhamia e Tabakhanës",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.21031,
+      "lon": 20.732654,
+      "wikidata": "Q26985844",
+      "wikipedia": "sq:Xhamia e Ahmed beut",
+      "osmUrl": "https://www.openstreetmap.org/node/3661439582",
+      "score": 7,
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Ahmed Beut ose Xhamia Ahmetbeu është një monument i trashëgimisë kulturore në Prizren, Kosovë. Ky monument është i kategorisë \"Arkitekturor\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Ahmed_beut"
+      }
+    },
+    {
+      "id": "node/9726437617",
+      "name": "Trungu i Rrapit",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.212035,
+      "lon": 20.745553,
+      "description": "Old and very thick tree",
+      "wikidata": "Q31664998",
+      "osmUrl": "https://www.openstreetmap.org/node/9726437617",
+      "score": 6,
+      "imageFile": "Rrapi Prizren1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Rrapi_Prizren1.jpg/1280px-Rrapi_Prizren1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Mergim.emini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Maple tree in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Rrapi i Marashit është një monument i mbrojtur me ligj me karakter botanik i cili ndodhet në kuadër të Kompleksit të Mahallës së Marashit në qytetin historik të Prizrenit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Rrapi_i_Marashit%2C_Prizren"
+      }
+    },
+    {
+      "id": "way/875576856",
+      "name": "Kisha e Shën Nikollës Tutiqëve",
+      "nameEn": "Saint Nicholas Church",
+      "category": "religion",
+      "kind": "church",
+      "lat": 42.208297,
+      "lon": 20.739371,
+      "wikipedia": "pl:Cerkiew św. Mikołaja w Prizrenie",
+      "osmUrl": "https://www.openstreetmap.org/way/875576856",
+      "score": 4
+    },
+    {
+      "id": "way/173070741",
+      "name": "Lidhja Shqiptare e Prizrenit - 10 Qershor 1878",
+      "nameEn": "Albanian League of Prizren - 10th June 1878",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.211481,
+      "lon": 20.743565,
+      "osmUrl": "https://www.openstreetmap.org/way/173070741",
+      "score": 3
+    },
+    {
+      "id": "node/14081772586",
+      "name": "Mother Teresa Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.207418,
+      "lon": 20.738558,
+      "openingHours": "Tu-Fr 09:00-16:00; Sa-Su 09:00-12:00,13:00-16:00",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/14081772586",
+      "score": 3
+    },
+    {
+      "id": "way/489644517",
+      "name": "Muzeu Etnologjik i Prizrenit",
+      "nameEn": "Ethnological Museum of Prizren",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.211532,
+      "lon": 20.739269,
+      "osmUrl": "https://www.openstreetmap.org/way/489644517",
+      "score": 3
+    },
+    {
+      "id": "way/473814368",
+      "name": "Muzeu i Elektroekonomisë (Hidroelektrana)",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.201667,
+      "lon": 20.761924,
+      "website": "https://dtk.rks-gov.net/tkk_objekti.aspx?id=4591",
+      "osmUrl": "https://www.openstreetmap.org/way/473814368",
+      "score": 3
+    },
+    {
+      "id": "way/466471422",
+      "name": "Muzeu i Kalajës",
+      "nameEn": "Museum of the Fortress of Prizren",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.20924,
+      "lon": 20.745423,
+      "osmUrl": "https://www.openstreetmap.org/way/466471422",
+      "score": 3
+    },
+    {
+      "id": "node/6066401861",
+      "name": "Archaeological Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.211269,
+      "lon": 20.736665,
+      "osmUrl": "https://www.openstreetmap.org/node/6066401861",
+      "score": 2
+    },
+    {
+      "id": "node/8958136574",
+      "name": "ART theatre Café",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 42.211624,
+      "lon": 20.739581,
+      "website": "https://www.facebook.com/arttheatre.ks",
+      "openingHours": "10:30-18:00",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/8958136574",
+      "score": 2
+    },
+    {
+      "id": "way/509266896",
+      "name": "Depo e Armëve",
+      "nameEn": "Armory",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.210024,
+      "lon": 20.745597,
+      "osmUrl": "https://www.openstreetmap.org/way/509266896",
+      "score": 2
+    },
+    {
+      "id": "node/4817909022",
+      "name": "Kalaja e qikës",
+      "nameEn": "Girl's fortress",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.199571,
+      "lon": 20.761892,
+      "osmUrl": "https://www.openstreetmap.org/node/4817909022",
+      "score": 2
+    },
+    {
+      "id": "node/3597870883",
+      "name": "Pamje nga Kalaja e Prizrenit",
+      "nameEn": "View from the Fortress of Prizren",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.209317,
+      "lon": 20.744851,
+      "osmUrl": "https://www.openstreetmap.org/node/3597870883",
+      "score": 2
+    },
+    {
+      "id": "node/14203687153",
+      "name": "Prizren",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.208909,
+      "lon": 20.741679,
+      "osmUrl": "https://www.openstreetmap.org/node/14203687153",
+      "score": 2
+    },
+    {
+      "id": "way/509262030",
+      "name": "Xhamia",
+      "nameEn": "Mosque",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.209713,
+      "lon": 20.745636,
+      "osmUrl": "https://www.openstreetmap.org/way/509262030",
+      "score": 2
+    },
+    {
+      "id": "node/6054048743",
+      "name": "Xhamia e Arastes",
+      "nameEn": "Arasta mosque",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.210356,
+      "lon": 20.741949,
+      "openingHours": "24/7",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/6054048743",
+      "score": 2
+    },
+    {
+      "id": "node/10125014525",
+      "name": "Čuka",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.221006,
+      "lon": 20.766921,
+      "osmUrl": "https://www.openstreetmap.org/node/10125014525",
+      "score": 1
+    },
+    {
+      "id": "node/14084786344",
+      "name": "Krua uji",
+      "nameEn": "Water fountain",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.210164,
+      "lon": 20.74239,
+      "osmUrl": "https://www.openstreetmap.org/node/14084786344",
+      "score": 1
+    },
+    {
+      "id": "node/14083621231",
+      "name": "Roman Villa",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.2101,
+      "lon": 20.742256,
+      "osmUrl": "https://www.openstreetmap.org/node/14083621231",
+      "score": 1
+    },
+    {
+      "id": "node/2486588263",
+      "name": "Sahat kulla",
+      "nameEn": "Clock tower",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.211272,
+      "lon": 20.736614,
+      "osmUrl": "https://www.openstreetmap.org/node/2486588263",
+      "score": 1
+    },
+    {
+      "id": "node/14081772588",
+      "name": "Agim Nezaj",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.207822,
+      "lon": 20.739224,
+      "osmUrl": "https://www.openstreetmap.org/node/14081772588",
+      "score": 0
+    },
+    {
+      "id": "node/4881627428",
+      "name": "ARS SHOP",
+      "nameEn": "ARS SHOP",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.207919,
+      "lon": 20.739282,
+      "osmUrl": "https://www.openstreetmap.org/node/4881627428",
+      "score": 0
+    },
+    {
+      "id": "node/8588155567",
+      "name": "Asllani",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.208665,
+      "lon": 20.727168,
+      "osmUrl": "https://www.openstreetmap.org/node/8588155567",
+      "score": 0
+    },
+    {
+      "id": "node/14080677546",
+      "name": "Bekim Fehmiu",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.210823,
+      "lon": 20.740499,
+      "osmUrl": "https://www.openstreetmap.org/node/14080677546",
+      "score": 0
+    },
+    {
+      "id": "node/8806355683",
+      "name": "Bingo market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.206267,
+      "lon": 20.734864,
+      "osmUrl": "https://www.openstreetmap.org/node/8806355683",
+      "score": 0
+    },
+    {
+      "id": "node/8799231749",
+      "name": "CCM Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.21251,
+      "lon": 20.745437,
+      "osmUrl": "https://www.openstreetmap.org/node/8799231749",
+      "score": 0
+    },
+    {
+      "id": "way/925368044",
+      "name": "EURO GSM - Depo",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.205693,
+      "lon": 20.718332,
+      "osmUrl": "https://www.openstreetmap.org/way/925368044",
+      "score": 0
+    },
+    {
+      "id": "node/8588142261",
+      "name": "EURO GSM - Depo │ Prizren",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.205717,
+      "lon": 20.718359,
+      "osmUrl": "https://www.openstreetmap.org/node/8588142261",
+      "score": 0
+    },
+    {
+      "id": "node/8588080748",
+      "name": "Gagi Dekor",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.204417,
+      "lon": 20.712484,
+      "osmUrl": "https://www.openstreetmap.org/node/8588080748",
+      "score": 0
+    },
+    {
+      "id": "node/14080007422",
+      "name": "Hunyadi Janos and Gjergj Kastrioti",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.207849,
+      "lon": 20.737988,
+      "osmUrl": "https://www.openstreetmap.org/node/14080007422",
+      "score": 0
+    },
+    {
+      "id": "node/8800193937",
+      "name": "Market \"Muhteshimi:",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.215459,
+      "lon": 20.744495,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/8800193937",
+      "score": 0
+    },
+    {
+      "id": "node/8800558320",
+      "name": "Market \"Ylli\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.216036,
+      "lon": 20.743976,
+      "osmUrl": "https://www.openstreetmap.org/node/8800558320",
+      "score": 0
+    },
+    {
+      "id": "node/7458675084",
+      "name": "Market Moni",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.210543,
+      "lon": 20.739943,
+      "osmUrl": "https://www.openstreetmap.org/node/7458675084",
+      "score": 0
+    },
+    {
+      "id": "way/878706510",
+      "name": "NAJKE DEKOR",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.208246,
+      "lon": 20.725106,
+      "osmUrl": "https://www.openstreetmap.org/way/878706510",
+      "score": 0
+    },
+    {
+      "id": "way/1561055660",
+      "name": "Namazxhah",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.214032,
+      "lon": 20.730881,
+      "osmUrl": "https://www.openstreetmap.org/way/1561055660",
+      "score": 0
+    },
+    {
+      "id": "node/14083621230",
+      "name": "Në Thellësinë e Natës Qielli Sheh Diellein",
+      "nameEn": "In the Depth of yhe Night the Sky Sees the Sun",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.210172,
+      "lon": 20.742188,
+      "osmUrl": "https://www.openstreetmap.org/node/14083621230",
+      "score": 0
+    },
+    {
+      "id": "node/8588138521",
+      "name": "Orange-T Sh.P.K",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.205289,
+      "lon": 20.717908,
+      "osmUrl": "https://www.openstreetmap.org/node/8588138521",
+      "score": 0
+    },
+    {
+      "id": "node/8800554551",
+      "name": "Parku i Komandant Drinit",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.214544,
+      "lon": 20.741229,
+      "osmUrl": "https://www.openstreetmap.org/node/8800554551",
+      "score": 0
+    },
+    {
+      "id": "way/243338877",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.207069,
+      "lon": 20.726656,
+      "osmUrl": "https://www.openstreetmap.org/way/243338877",
+      "score": 0
+    },
+    {
+      "id": "node/8800030756",
+      "name": "Parku I Shtepisë së Bardhë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.215683,
+      "lon": 20.741731,
+      "osmUrl": "https://www.openstreetmap.org/node/8800030756",
+      "score": 0
+    },
+    {
+      "id": "node/8799272500",
+      "name": "Parku i Xhamisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.213822,
+      "lon": 20.742049,
+      "osmUrl": "https://www.openstreetmap.org/node/8799272500",
+      "score": 0
+    },
+    {
+      "id": "node/11336800140",
+      "name": "Profilpass Kosova",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.219652,
+      "lon": 20.750174,
+      "osmUrl": "https://www.openstreetmap.org/node/11336800140",
+      "score": 0
+    },
+    {
+      "id": "node/8807713443",
+      "name": "Rrapi Shekullor",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.2123,
+      "lon": 20.745058,
+      "osmUrl": "https://www.openstreetmap.org/node/8807713443",
+      "score": 0
+    },
+    {
+      "id": "way/1224389269",
+      "name": "Sunflower Fields 2022",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.222554,
+      "lon": 20.751552,
+      "osmUrl": "https://www.openstreetmap.org/way/1224389269",
+      "score": 0
+    },
+    {
+      "id": "node/8588143592",
+      "name": "Super VIVA",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.207128,
+      "lon": 20.721404,
+      "osmUrl": "https://www.openstreetmap.org/node/8588143592",
+      "score": 0
+    },
+    {
+      "id": "way/354007146",
+      "name": "Tregu",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.206379,
+      "lon": 20.718474,
+      "osmUrl": "https://www.openstreetmap.org/way/354007146",
+      "score": 0
+    },
+    {
+      "id": "node/8588138670",
+      "name": "Tregu Fatoni",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.206421,
+      "lon": 20.718345,
+      "osmUrl": "https://www.openstreetmap.org/node/8588138670",
+      "score": 0
+    },
+    {
+      "id": "way/171792607",
+      "name": "Tregu i Qylhanit",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.217199,
+      "lon": 20.74006,
+      "osmUrl": "https://www.openstreetmap.org/way/171792607",
+      "score": 0
+    },
+    {
+      "id": "node/3857422393",
+      "name": "UÇK",
+      "nameEn": "Xhevat Berisha",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.209281,
+      "lon": 20.740392,
+      "osmUrl": "https://www.openstreetmap.org/node/3857422393",
+      "score": 0
+    },
+    {
+      "id": "node/8312336017",
+      "name": "Xhamia",
+      "nameEn": "Mosque",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.214202,
+      "lon": 20.747674,
+      "osmUrl": "https://www.openstreetmap.org/node/8312336017",
+      "score": 0
+    }
+  ]
+}

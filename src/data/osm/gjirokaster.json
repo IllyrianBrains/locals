@@ -1,0 +1,434 @@
+{
+  "city": "gjirokaster",
+  "name": "Gjirokastër",
+  "center": {
+    "lat": 40.0758,
+    "lon": 20.1389
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.050Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 30,
+  "places": [
+    {
+      "id": "way/468404999",
+      "name": "Kalaja e Gjirokastrës",
+      "nameEn": "Gjirokastër Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.073205,
+      "lon": 20.140109,
+      "wikidata": "Q636638",
+      "wikipedia": "en:Gjirokastër Fortress",
+      "osmUrl": "https://www.openstreetmap.org/way/468404999",
+      "score": 11,
+      "imageFile": "Kalaja e Gjirokastrës 15.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kalaja_e_Gjirokastr%C3%ABs_15.jpg/1280px-Kalaja_e_Gjirokastr%C3%ABs_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore të Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Gjirokastrës është një nga monumentet më të rëndësishme historike dhe kulturore të Shqipërisë. Kalaja është ndërtuar në shekullin XIII si një fortifikim i hershëm dhe ka pësuar zgjerime të rëndësishme gjatë periudhave osmane dhe të Ali Pashë Tepelenës në shekullin XIX. Ajo është e pozicionuar mbi një kodër që dominon qytetin dhe Luginën e Drinos, duke ofruar pamje mbresëlënëse.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Gjirokastr%C3%ABs"
+      }
+    },
+    {
+      "id": "way/240627391",
+      "name": "Zekate House",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.074853,
+      "lon": 20.132326,
+      "wikidata": "Q8068639",
+      "wikipedia": "en:Zekate House",
+      "osmUrl": "https://www.openstreetmap.org/way/240627391",
+      "score": 11,
+      "imageFile": "Banesa Zapanaja e Zekatëve 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Banesa_Zapanaja_e_Zekat%C3%ABve_01.jpg/1280px-Banesa_Zapanaja_e_Zekat%C3%ABve_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ShkelzenRexha · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Zapanaja e Zekatëve është një banesë e familjes së Zekatëve, monument i trashëgimisë kulturore në rrethin e Gjirokastrës, në qarkun e Gjirokastrës, Shqipëri. Ky monument është i miratuar me numër \"615.01.1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Zapanaja_e_Zekat%C3%ABve"
+      }
+    },
+    {
+      "id": "node/10202022670",
+      "name": "Banesa e Abdyl Babaramos e Isuf Jahos",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.074942,
+      "lon": 20.134674,
+      "description": "Monument i mbrojtur në Shqipëri sipas Ministrisë së Kulturës së Shqipërisë",
+      "wikidata": "Q27954966",
+      "wikipedia": "sq:Banesa e Abdyl Babaramos e Isuf Jahos",
+      "osmUrl": "https://www.openstreetmap.org/node/10202022670",
+      "score": 10,
+      "imageFile": "House 'Jaho-Babaramo' 06.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/House_%27Jaho-Babaramo%27_06.jpg/1280px-House_%27Jaho-Babaramo%27_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sonia Budini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Abdyl Babaramos e Isuf Jahos është një monument i trashëgimisë kulturore në rrethin e Gjirokastrës, në qarkun e Gjirokastrës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"6-15.01.1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Abdyl_Babaramos_e_Isuf_Jahos"
+      }
+    },
+    {
+      "id": "way/398116239",
+      "name": "Ish-hammam",
+      "nameEn": "Former Turkish bath",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.076563,
+      "lon": 20.14091,
+      "wikidata": "Q27955014",
+      "wikipedia": "sq:Hamami i Meçites",
+      "osmUrl": "https://www.openstreetmap.org/way/398116239",
+      "score": 10,
+      "imageFile": "Turkish Bath, Mecite, Gjirokaster.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Turkish_Bath%2C_Mecite%2C_Gjirokaster.jpg/1280px-Turkish_Bath%2C_Mecite%2C_Gjirokaster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Balkanique · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banjat e Qytetit Gjirokastër ose Hamami i Meçites është një monument i trashëgimisë kulturore në rrethin e Gjirokastrës, në qarkun e Gjirokastrës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"615.01.1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Hamami_i_Me%C3%A7ites"
+      }
+    },
+    {
+      "id": "way/227703638",
+      "name": "Lockheed T-33 Shooting Star",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.073721,
+      "lon": 20.1401,
+      "wikidata": "Q58725",
+      "wikipedia": "en:Lockheed T-33",
+      "osmUrl": "https://www.openstreetmap.org/way/227703638",
+      "score": 9,
+      "imageFile": "Thunderbirds Lockheed T-33 Shooting Star, Chino, California.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Thunderbirds_Lockheed_T-33_Shooting_Star%2C_Chino%2C_California.jpg/1280px-Thunderbirds_Lockheed_T-33_Shooting_Star%2C_Chino%2C_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Greg Goebel · CC BY-SA 2.0",
+      "tagline": {
+        "text": "military trainer aircraft family by Lockheed",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "The Lockheed T-33 Shooting Star is a subsonic jet trainer designed and produced by the American aircraft manufacturer Lockheed. Originally designated TP-80C/TF-80C at an early stage of its development, the T-33 was derived from the Lockheed P-80/F-80 jet fighter by lengthening the fuselage and adding a second seat.",
+        "lang": "en",
+        "source": "https://en.wikipedia.org/wiki/Lockheed_T-33"
+      }
+    },
+    {
+      "id": "way/397930869",
+      "name": "Xhamia e Teqes",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.07389,
+      "lon": 20.138411,
+      "wikidata": "Q7701411",
+      "wikipedia": "en:Teqe Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/397930869",
+      "score": 9,
+      "imageFile": "Medreseja Gjirokaster.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Medreseja_Gjirokaster.jpg/1280px-Medreseja_Gjirokaster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Teqesë ose Xhamia e Meshit është një xhami në qytetin e Gjirokastrës, Shqipëri. E shpallur monument kulture, u miratua më 10 qershor 1973.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Teqes%C3%AB"
+      }
+    },
+    {
+      "id": "way/227945040",
+      "name": "Ura e Ali Pasha",
+      "nameEn": "Ali Pasha's Bridge",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.064727,
+      "lon": 20.131684,
+      "wikidata": "Q135509135",
+      "osmUrl": "https://www.openstreetmap.org/way/227945040",
+      "score": 7,
+      "imageFile": "Pont dit d'Ali Pacha, vestige de l'aqueduc de Gjirokastër.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Pont_dit_d%27Ali_Pacha%2C_vestige_de_l%27aqueduc_de_Gjirokast%C3%ABr.jpg/1280px-Pont_dit_d%27Ali_Pacha%2C_vestige_de_l%27aqueduc_de_Gjirokast%C3%ABr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Benjamin Pepiot · CC BY 4.0",
+      "tagline": {
+        "text": "Former Ottoman aqueduct in Albania, built by Ali Pasha in the early 19th century (mostly destroyed)",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Ura e Ali Pashës, është një sistem hidraulik osman i ndërtuar ndërmjet viteve 1811 dhe 1812 me iniciativën e Ali Pashë Tepelenës, guvernator gjysmë-autonom i një territori të gjerë që përfshinte Shqipërinë e Jugut dhe Epirin. I konceptuar dhe realizuar nën drejtimin e arkitektit Petro Korçari, ai transportonte me gravitacion ujin nga burimet karstike të masivit të Malit të Gjerë, në sektorin e Sopotit, deri te cisternet e Kalasë së Gjirokastrës përgjatë një shtegu prej rreth 12 kilometrash, duke kaluar nëpër disa gryka të masivit të Malit të Gjerë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_Ali_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "node/2441732517",
+      "name": "Muzeu Etnografik",
+      "nameEn": "Ethnographic Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.075658,
+      "lon": 20.1348,
+      "website": "https://akt.gov.al/en/attractions/ethnographic-museum/",
+      "osmUrl": "https://www.openstreetmap.org/node/2441732517",
+      "score": 4
+    },
+    {
+      "id": "way/235721398",
+      "name": "Shtëpia e Kadaresë",
+      "nameEn": "Ismail Kadare House",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.076191,
+      "lon": 20.136266,
+      "description": "House where the writer Ismail Kadare lived.",
+      "osmUrl": "https://www.openstreetmap.org/way/235721398",
+      "score": 4
+    },
+    {
+      "id": "node/13014482457",
+      "name": "Muza Ime Musine Kokalari",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.073983,
+      "lon": 20.135586,
+      "website": "https://www.musine-kokalari.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/13014482457",
+      "score": 3
+    },
+    {
+      "id": "way/468405013",
+      "name": "Muzeu Ushtarak",
+      "nameEn": "Military Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.072729,
+      "lon": 20.139477,
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/468405013",
+      "score": 3
+    },
+    {
+      "id": "way/236110436",
+      "name": "Skënduli House",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.075196,
+      "lon": 20.135357,
+      "openingHours": "Mo-Su,PH 09:00-19:30",
+      "fee": "300",
+      "osmUrl": "https://www.openstreetmap.org/way/236110436",
+      "score": 3
+    },
+    {
+      "id": "node/12458835761",
+      "name": "Bunker",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.085169,
+      "lon": 20.153406,
+      "osmUrl": "https://www.openstreetmap.org/node/12458835761",
+      "score": 2
+    },
+    {
+      "id": "way/468405010",
+      "name": "City Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.073031,
+      "lon": 20.14002,
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/468405010",
+      "score": 2
+    },
+    {
+      "id": "way/398306489",
+      "name": "Fico House",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.075407,
+      "lon": 20.136602,
+      "osmUrl": "https://www.openstreetmap.org/way/398306489",
+      "score": 2
+    },
+    {
+      "id": "way/468405008",
+      "name": "Former Prison",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.072991,
+      "lon": 20.139838,
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/468405008",
+      "score": 2
+    },
+    {
+      "id": "node/13134489701",
+      "name": "Tunnel Nostalgia",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.073804,
+      "lon": 20.139198,
+      "osmUrl": "https://www.openstreetmap.org/node/13134489701",
+      "score": 2
+    },
+    {
+      "id": "node/5239387174",
+      "name": "Gërmadha",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 40.085607,
+      "lon": 20.171006,
+      "osmUrl": "https://www.openstreetmap.org/node/5239387174",
+      "score": 1
+    },
+    {
+      "id": "node/5239387168",
+      "name": "Kodra Bardhë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.089728,
+      "lon": 20.1668,
+      "osmUrl": "https://www.openstreetmap.org/node/5239387168",
+      "score": 1
+    },
+    {
+      "id": "node/5240730942",
+      "name": "Kodra Viroit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.091468,
+      "lon": 20.122983,
+      "osmUrl": "https://www.openstreetmap.org/node/5240730942",
+      "score": 1
+    },
+    {
+      "id": "way/398133177",
+      "name": "Musine Kokalari House",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 40.073815,
+      "lon": 20.134978,
+      "osmUrl": "https://www.openstreetmap.org/way/398133177",
+      "score": 1
+    },
+    {
+      "id": "way/1202785837",
+      "name": "Pazari i Pleshtit",
+      "nameEn": "Flea Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 40.083313,
+      "lon": 20.13113,
+      "osmUrl": "https://www.openstreetmap.org/way/1202785837",
+      "score": 1
+    },
+    {
+      "id": "node/14008485524",
+      "name": "Shpella Nënujore e Viroit",
+      "nameEn": "Viroi Underwater Cave",
+      "category": "nature",
+      "kind": "cave_entrance",
+      "lat": 40.098028,
+      "lon": 20.119745,
+      "osmUrl": "https://www.openstreetmap.org/node/14008485524",
+      "score": 1
+    },
+    {
+      "id": "node/10228761592",
+      "name": "Zako Cajupi",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.078347,
+      "lon": 20.137563,
+      "imageFile": "Andon Zako Cajupi.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/10228761592",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Andon_Zako_Cajupi.jpg/1280px-Andon_Zako_Cajupi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "5R-MFT · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/6877456085",
+      "name": "Bardhyl Kadilli (1952-1992)",
+      "nameEn": "Traffic victim",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.071673,
+      "lon": 20.140717,
+      "osmUrl": "https://www.openstreetmap.org/node/6877456085",
+      "score": 0
+    },
+    {
+      "id": "node/4346240295",
+      "name": "Çerçiz Topulli",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.074739,
+      "lon": 20.140101,
+      "osmUrl": "https://www.openstreetmap.org/node/4346240295",
+      "score": 0
+    },
+    {
+      "id": "way/468405060",
+      "name": "Festivali Folklorik Kombëtar i Gjirokastrës",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.074231,
+      "lon": 20.14138,
+      "osmUrl": "https://www.openstreetmap.org/way/468405060",
+      "score": 0
+    },
+    {
+      "id": "way/1153431747",
+      "name": "Kinoteatri Andon Zako Çajupi",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.07877,
+      "lon": 20.137248,
+      "osmUrl": "https://www.openstreetmap.org/way/1153431747",
+      "score": 0
+    },
+    {
+      "id": "node/2991884246",
+      "name": "Lapidar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.07379,
+      "lon": 20.139553,
+      "osmUrl": "https://www.openstreetmap.org/node/2991884246",
+      "score": 0
+    },
+    {
+      "id": "node/9945567807",
+      "name": "Qyteti-Myze i Gjirokastrës",
+      "nameEn": "The Museum City of Gjirokastra",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.07452,
+      "lon": 20.13942,
+      "osmUrl": "https://www.openstreetmap.org/node/9945567807",
+      "score": 0
+    }
+  ]
+}

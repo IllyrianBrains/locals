@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+const { title = 'Locals · Guida vendase për Shqipërinë dhe Kosovën', description = 'Guida të shkurtra për qytetet e Shqipërisë dhe Kosovës, me vende të zgjedhura dhe këshilla praktike nga vendasit.' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href="/assets/fv.png" />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <title>{title}</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Illyrian Brains Network" />
+    <meta property="og:image" content="https://illyrianbrains.org/assets/og-image.png" />
+    <meta property="og:locale" content="sq_AL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+  </head>
+  <body><slot /></body>
+</html>

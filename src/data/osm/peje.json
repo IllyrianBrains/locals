@@ -1,0 +1,341 @@
+{
+  "city": "peje",
+  "name": "Pejë",
+  "center": {
+    "lat": 42.6593,
+    "lon": 20.2887
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-24T09:26:09.099Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 31,
+  "places": [
+    {
+      "id": "node/1019515103",
+      "name": "Hamami i Haxhi Beut",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 42.658557,
+      "lon": 20.296782,
+      "imageFile": "Hamami i haxhi beut peje.png",
+      "osmUrl": "https://www.openstreetmap.org/node/1019515103",
+      "score": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hamami_i_haxhi_beut_peje.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "good · CC BY-SA 3.0"
+    },
+    {
+      "id": "node/7724867885",
+      "name": "Lihad",
+      "nameEn": "Livadhi Ugiqit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.649067,
+      "lon": 20.273937,
+      "osmUrl": "https://www.openstreetmap.org/node/7724867885",
+      "score": 3
+    },
+    {
+      "id": "node/2017881750",
+      "name": "Muzeu i Pejës",
+      "nameEn": "Peja Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.658704,
+      "lon": 20.292203,
+      "osmUrl": "https://www.openstreetmap.org/node/2017881750",
+      "score": 3
+    },
+    {
+      "id": "node/4840505452",
+      "name": "Parku i Aventurave",
+      "nameEn": "Adventure Park",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.651882,
+      "lon": 20.272175,
+      "osmUrl": "https://www.openstreetmap.org/node/4840505452",
+      "score": 3
+    },
+    {
+      "id": "node/4985117111",
+      "name": "Qarshia e Vjetër",
+      "nameEn": "Old Bazaar of Peja",
+      "category": "market",
+      "kind": "attraction",
+      "lat": 42.660478,
+      "lon": 20.294801,
+      "osmUrl": "https://www.openstreetmap.org/node/4985117111",
+      "score": 3
+    },
+    {
+      "id": "node/4827887240",
+      "name": "Sheshi i Pejës",
+      "nameEn": "Square of Peja",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.659123,
+      "lon": 20.288618,
+      "osmUrl": "https://www.openstreetmap.org/node/4827887240",
+      "score": 3
+    },
+    {
+      "id": "relation/18519212",
+      "name": "Xhamia paminare",
+      "nameEn": "The Great Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 42.6614,
+      "lon": 20.292532,
+      "osmUrl": "https://www.openstreetmap.org/relation/18519212",
+      "score": 3
+    },
+    {
+      "id": "node/6532816086",
+      "name": "Centralla te TETË MARSI",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.658524,
+      "lon": 20.301098,
+      "osmUrl": "https://www.openstreetmap.org/node/6532816086",
+      "score": 2
+    },
+    {
+      "id": "node/6532712985",
+      "name": "Fabrika e mobileve GACAFERI",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.656248,
+      "lon": 20.323094,
+      "osmUrl": "https://www.openstreetmap.org/node/6532712985",
+      "score": 2
+    },
+    {
+      "id": "node/8637486657",
+      "name": "Kinemaja \"Jusuf Gërvalla\"",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.657836,
+      "lon": 20.286792,
+      "imageFile": "Kinema Jusuf Gërvalla.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/8637486657",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Kinema_Jusuf_G%C3%ABrvalla.jpg/1280px-Kinema_Jusuf_G%C3%ABrvalla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Evelien-Eef · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/1083502364",
+      "name": "Kulla e Goskës",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.661422,
+      "lon": 20.287267,
+      "osmUrl": "https://www.openstreetmap.org/way/1083502364",
+      "score": 2
+    },
+    {
+      "id": "way/878761993",
+      "name": "Kulla e Zenel Beut",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.660946,
+      "lon": 20.285412,
+      "osmUrl": "https://www.openstreetmap.org/way/878761993",
+      "score": 2
+    },
+    {
+      "id": "node/7724863585",
+      "name": "Livadhi Sakes",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.647999,
+      "lon": 20.256509,
+      "osmUrl": "https://www.openstreetmap.org/node/7724863585",
+      "score": 2
+    },
+    {
+      "id": "node/2017883305",
+      "name": "Mulliri i Haxhi Zekës",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.662971,
+      "lon": 20.299485,
+      "osmUrl": "https://www.openstreetmap.org/node/2017883305",
+      "score": 2
+    },
+    {
+      "id": "node/6541841785",
+      "name": "RRETHI NE KALE",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.656894,
+      "lon": 20.301409,
+      "osmUrl": "https://www.openstreetmap.org/node/6541841785",
+      "score": 2
+    },
+    {
+      "id": "node/6541526686",
+      "name": "Rrethi te dylija",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.65447,
+      "lon": 20.292678,
+      "osmUrl": "https://www.openstreetmap.org/node/6541526686",
+      "score": 2
+    },
+    {
+      "id": "node/6541526685",
+      "name": "Rrethi tek voret",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.641087,
+      "lon": 20.294176,
+      "osmUrl": "https://www.openstreetmap.org/node/6541526685",
+      "score": 2
+    },
+    {
+      "id": "node/7724866285",
+      "name": "Zatra",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.646946,
+      "lon": 20.27911,
+      "osmUrl": "https://www.openstreetmap.org/node/7724866285",
+      "score": 2
+    },
+    {
+      "id": "way/273648011",
+      "name": "Parku i Paqës Dr. Ibrahim Rugova",
+      "nameEn": "Dr. Ibrahim Rugova Peace Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.658383,
+      "lon": 20.287992,
+      "osmUrl": "https://www.openstreetmap.org/way/273648011",
+      "score": 1
+    },
+    {
+      "id": "way/490744471",
+      "name": "Shkolla e Parë Shqipe",
+      "nameEn": "1st Albanian School",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.658788,
+      "lon": 20.297183,
+      "osmUrl": "https://www.openstreetmap.org/way/490744471",
+      "score": 1
+    },
+    {
+      "id": "node/5038318729",
+      "name": "E Lumtur Nëna Terezë",
+      "nameEn": "Blessed Mother Teresa",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.658878,
+      "lon": 20.288282,
+      "osmUrl": "https://www.openstreetmap.org/node/5038318729",
+      "score": 0
+    },
+    {
+      "id": "way/274357945",
+      "name": "Istref Begolli",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.658246,
+      "lon": 20.287236,
+      "osmUrl": "https://www.openstreetmap.org/way/274357945",
+      "score": 0
+    },
+    {
+      "id": "node/11897189469",
+      "name": "Kroi Adem Kelmendit",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 42.648317,
+      "lon": 20.279828,
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/11897189469",
+      "score": 0
+    },
+    {
+      "id": "node/2017882552",
+      "name": "Kulla e Pashës",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.658589,
+      "lon": 20.294605,
+      "osmUrl": "https://www.openstreetmap.org/node/2017882552",
+      "score": 0
+    },
+    {
+      "id": "node/12693363200",
+      "name": "Majlinda Kelmendi",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.661361,
+      "lon": 20.289773,
+      "osmUrl": "https://www.openstreetmap.org/node/12693363200",
+      "score": 0
+    },
+    {
+      "id": "way/273648411",
+      "name": "Parku Diaspora Shqiptare",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.658382,
+      "lon": 20.288943,
+      "osmUrl": "https://www.openstreetmap.org/way/273648411",
+      "score": 0
+    },
+    {
+      "id": "way/367139016",
+      "name": "Parku i Qytetit \"Karagaç\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.653551,
+      "lon": 20.290219,
+      "osmUrl": "https://www.openstreetmap.org/way/367139016",
+      "score": 0
+    },
+    {
+      "id": "way/273700610",
+      "name": "Parku i vogël i qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.661455,
+      "lon": 20.289913,
+      "osmUrl": "https://www.openstreetmap.org/way/273700610",
+      "score": 0
+    },
+    {
+      "id": "way/1352195949",
+      "name": "Qendra Zejtare",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.661364,
+      "lon": 20.299009,
+      "osmUrl": "https://www.openstreetmap.org/way/1352195949",
+      "score": 0
+    },
+    {
+      "id": "way/511825003",
+      "name": "Rezervat Strikt i Natyrës \"Gubavc\"",
+      "category": "nature",
+      "kind": "nature_reserve",
+      "lat": 42.650299,
+      "lon": 20.263589,
+      "osmUrl": "https://www.openstreetmap.org/way/511825003",
+      "score": 0
+    },
+    {
+      "id": "node/1019527687",
+      "name": "Tregu I Gjelbert",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.6545,
+      "lon": 20.301417,
+      "osmUrl": "https://www.openstreetmap.org/node/1019527687",
+      "score": 0
+    }
+  ]
+}

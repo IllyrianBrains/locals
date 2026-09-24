@@ -1,0 +1,2315 @@
+{
+  "city": "tirane",
+  "name": "Tiranë",
+  "center": {
+    "lat": 41.3275,
+    "lon": 19.8187
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-24T10:24:21.032Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 150,
+  "places": [
+    {
+      "id": "way/471372812",
+      "name": "Mozaiku i Tiranës",
+      "nameEn": "Tirana Mosaic",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.330083,
+      "lon": 19.804254,
+      "description": "The mosaics of an ancient Roman house from the 3rd century AD",
+      "wikidata": "Q7809116",
+      "wikipedia": "en:Tirana Mosaic",
+      "website": "https://tirana.al/en/points-of-interest/attractions-and-sights/the-tirana-mosaic",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/471372812",
+      "score": 15,
+      "imageFile": "Vila romake me mozaik.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Vila_romake_me_mozaik.jpg/1280px-Vila_romake_me_mozaik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ardit Ajdini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "historic site in Tirana",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Mozaiku i Tiranës është i vetmi monument arkeologjik brenda territorit të qytetit të Tiranës. Në vitin 1972, gjatë punës për ndërtimin e pallateve të bllokut “Partizani” në lagjen nr.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Mozaiku_i_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "node/10010944519",
+      "name": "Muzeu Arkeologjik i Tiranës",
+      "nameEn": "Tirana Archeological Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.318262,
+      "lon": 19.821892,
+      "wikidata": "Q637170",
+      "wikipedia": "en:National Archaeological Museum (Tirana)",
+      "website": "http://asa.edu.al/site/ma/",
+      "openingHours": "09:00-14:00",
+      "fee": "yes",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/10010944519",
+      "score": 14,
+      "imageFile": "Artemis Hekate, 3rd century B. C., Apollonia. - Limestone, 91.5 cm. Archaeological Museum of Tirana.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Artemis_Hekate%2C_3rd_century_B._C.%2C_Apollonia._-_Limestone%2C_91.5_cm._Archaeological_Museum_of_Tirana.jpg/1280px-Artemis_Hekate%2C_3rd_century_B._C.%2C_Apollonia._-_Limestone%2C_91.5_cm._Archaeological_Museum_of_Tirana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Fanny Schertzer · CC BY-SA 3.0",
+      "tagline": {
+        "text": "national museum",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Arkeologjik Kombëtar në Tiranë e ka zanafillën në vitin 1948 me emërtimin Muzeu Etnografik-Arkeologjik. Me zgjerimin e kërkimeve dhe studimeve në vitin 1976 u kthye plotësisht në muze arkeologjik.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Arkeologjik_Komb%C3%ABtar"
+      }
+    },
+    {
+      "id": "way/418943098",
+      "name": "Shtëpia me Gjethe - Muzeu i Përgjimeve të Sigurimit të Shtetit",
+      "nameEn": "House of Leaves - The Museum of Secret Surveillance",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.326467,
+      "lon": 19.816327,
+      "wikidata": "Q37858697",
+      "wikipedia": "en:Museum of Secret Surveillance",
+      "website": "https://muzeugjethi.gov.al",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/418943098",
+      "score": 14,
+      "imageFile": "Muzeu Kombëtar i Përgjimeve, “Shtëpia me Gjethe”.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Muzeu_Komb%C3%ABtar_i_P%C3%ABrgjimeve%2C_%E2%80%9CSht%C3%ABpia_me_Gjethe%E2%80%9D.jpg/1280px-Muzeu_Komb%C3%ABtar_i_P%C3%ABrgjimeve%2C_%E2%80%9CSht%C3%ABpia_me_Gjethe%E2%80%9D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Bes-ART · CC BY-SA 3.0",
+      "tagline": {
+        "text": "communism history museum in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu i Përgjimeve të Sigurimit të Shtetit, i njohur edhe si Shtëpia me Gjethe është një muze historik në Tiranë, kryeqytetin e Shqiperisë. Ajo u hap më 23 maj 2017 në objektin që shërbeu si dega e Sigurimit në kohën e komunizmit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_P%C3%ABrgjimeve_t%C3%AB_Sigurimit_t%C3%AB_Shtetit"
+      }
+    },
+    {
+      "id": "node/4512200081",
+      "name": "Bunk'Art 2",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.327022,
+      "lon": 19.819551,
+      "wikidata": "Q31666886",
+      "wikipedia": "fr:Bunk'Art 2",
+      "website": "https://bunkart.al/2/home",
+      "openingHours": "Mo-Th, Su 09:30-18:00; Fr, Sa 09:30-20:00",
+      "fee": "yes",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/4512200081",
+      "score": 13,
+      "imageFile": "0685 July 2017 in Tirana.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/0685_July_2017_in_Tirana.jpg/1280px-0685_July_2017_in_Tirana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Rakoon · CC0",
+      "tagline": {
+        "text": "museum in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "\"Bunk’Art 2\" pranë Ministrisë së Brendshme në Tiranë zë një sipërfaqje prej 1.000 metrash katrorë dhe përbëhet nga 40 dhoma, të cilat prezantojnë historinë nga viti 1912 deri në 1991-shin përmes fakteve të marra nga Arkiva e Shtetit dhe Ministria e Brendshme. Nga dhoma në dhomë, historia shpaloset që me krijimin e Xhandarmërisë së parë, Xhandarmërinë e Mbretërisë zogiste, Policinë Popullore, për të vijuar me kampet me telat me gjemba, e deri te burgjet, internimet dhe dëbimet.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Bunk%E2%80%99Art_2"
+      }
+    },
+    {
+      "id": "way/467590550",
+      "name": "Kryegjyshata Botërore e Bektashinjve",
+      "nameEn": "The World Headquarters of the Bektashi Order",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 41.331208,
+      "lon": 19.849571,
+      "wikidata": "Q42757437",
+      "wikipedia": "sq:Kryegjyshata Botërore Bektashiane",
+      "website": "https://kryegjyshataboterorebektashiane.org/",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/467590550",
+      "score": 13,
+      "imageFile": "Qendra Botërore Bektashiane.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Qendra_Bot%C3%ABrore_Bektashiane.jpg/1280px-Qendra_Bot%C3%ABrore_Bektashiane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · Public domain",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kryegjyshata Botërore Bektashiane është selia qëndrore ndërkombëtare e Urdhrit Bektashi. Ndodhet në rrugën Dhimitër Kamarda në skajin lindor të qytetit të Tiranës, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kryegjyshata_Bot%C3%ABrore_Bektashiane"
+      }
+    },
+    {
+      "id": "relation/2342359",
+      "name": "Muzeu Historik Kombëtar",
+      "nameEn": "National Historical Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.329419,
+      "lon": 19.817132,
+      "description": "Ne vendodhjen qe sot ka Muzeu, ndodhej ndertesa e Bashkise se pare. Projekti u realizua nga Florestano Di Fausto nga 1928 dhe u ndërtua në 1931.",
+      "wikidata": "Q1581154",
+      "wikipedia": "en:National History Museum (Albania)",
+      "website": "https://www.mhk.gov.al/",
+      "openingHours": "Tu-Sa 09:00-16:00; Su 10:00-15:00",
+      "osmUrl": "https://www.openstreetmap.org/relation/2342359",
+      "score": 13,
+      "imageFile": "Museo Nacional de Historia, Tirana, Albania, 2014-04-17, DD 10.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Museo_Nacional_de_Historia%2C_Tirana%2C_Albania%2C_2014-04-17%2C_DD_10.JPG/1280px-Museo_Nacional_de_Historia%2C_Tirana%2C_Albania%2C_2014-04-17%2C_DD_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Diego Delso · CC BY-SA 3.0",
+      "tagline": {
+        "text": "national historical museum in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Historik Kombëtar synon të nxisë mirëkuptimin dhe vlerësimin e historisë së Shqipërisë tek publiku vendor, kombëtar dhe ndërkombëtar dhe të inkurajojë dialogun midis qytetarëve, mbi të kaluarën, të tashmen dhe të ardhmen shqiptare. Për këtë qëllim, ai përfton, ruan dhe studion, provat materiale dhe jo materiale të trashëgimisë historike dhe kulturore të Shqipërisë, të cilat i komunikon dhe i paraqet në një mjedis, që nxit edukimin dhe argëtimin.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Historik_Komb%C3%ABtar"
+      }
+    },
+    {
+      "id": "way/382263661",
+      "name": "Muzeu i Shkencave të Natyrës \"Sabiha Kasimati\"",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.325521,
+      "lon": 19.834549,
+      "wikidata": "Q6980610",
+      "wikipedia": "en:Natural Sciences Museum Sabiha Kasimati",
+      "website": "https://tirana.al/pika-interesi/muzeu-i-shkencave-te-natyres",
+      "openingHours": "Mo-Fr 09:00-15:00",
+      "osmUrl": "https://www.openstreetmap.org/way/382263661",
+      "score": 13,
+      "imageFile": "Muzeu i Shkencave të Natyrës, Tiranë, foto Dritan Mardodaj.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Muzeu_i_Shkencave_t%C3%AB_Natyr%C3%ABs%2C_Tiran%C3%AB%2C_foto_Dritan_Mardodaj.jpg/1280px-Muzeu_i_Shkencave_t%C3%AB_Natyr%C3%ABs%2C_Tiran%C3%AB%2C_foto_Dritan_Mardodaj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Dritan Mardodaj · CC0",
+      "tagline": {
+        "text": "museum in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeumi i Shkencave të Natyrës \"Sabiha Kasimati\" në Tiranë u themelua në vitin 1948, si pjesë e Institutit të Shkencave. Nëntë vjet më pas, në kohën e krijimit të Universitetit të Tiranës, ai kaloi nën vartësinë e Fakultetit të Shkencave të Natyrës, pranë Katedrës së Zoologjisë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_Shkencave_Natyrore"
+      }
+    },
+    {
+      "id": "way/174510408",
+      "name": "Piramida e Tiranës",
+      "nameEn": "Pyramid of Tirana",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.32304,
+      "lon": 19.821536,
+      "wikidata": "Q177335",
+      "wikipedia": "en:Pyramid of Tirana",
+      "website": "https://piramida.edu.al/",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/174510408",
+      "score": 13,
+      "imageFile": "Pyramid of Tirana October 2023.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pyramid_of_Tirana_October_2023.jpg/1280px-Pyramid_of_Tirana_October_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "BBB2021 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "building in Tirana",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Qendra Ndërkombëtare e Kulturës \"Pjetër Arbnori\", Piramida ose Ish-Muzeu \"Enver Hoxha\", u ndërtua dhe u inaugurua si muzeu \"Enver Hoxha\" në vitin 1988 në Tiranë, pra tre vjet pas vdekjes së Enver Hoxhës. Ai u projektua nga një grup arkitektësh ku merrnin pjesë Klement Kolaneci, Pranvera Hoxha, Pirro Vaso dhe Vladimir Bregu, dhe si inxhinier zbatues ishte Xhorxhi Mita.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Piramida_e_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "way/175108083",
+      "name": "Xhamia e Et'hem Beut",
+      "nameEn": "Et'hem Bey Mosque",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 41.327802,
+      "lon": 19.819327,
+      "wikidata": "Q798610",
+      "wikipedia": "sq:Xhamia e Et'hem Beut",
+      "openingHours": "Mo-Th,Sa-Su 09:00-12:00,13:30-16:00,17:30-19:00; Fr 09:00-11:00,14:00-16:00",
+      "fee": "donation",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/175108083",
+      "score": 13,
+      "imageFile": "Ethem Bey mosque, Tirana (by Pudelek).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ethem_Bey_mosque%2C_Tirana_%28by_Pudelek%29.jpg/1280px-Ethem_Bey_mosque%2C_Tirana_%28by_Pudelek%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Haxhi Et'hem Beut, është një xhami historike dhe monument kulture në mes të Tiranës, e cila nisi të ndërtohej nga stërnipi i Sulejman Pashës, Molla Beu i Petrelës rreth 1793 dhe e përfundoi i biri, Haxhi Et'hem Beu më 1238 H.Xhamia ndodhet afersisht ne mes te Tiranes,prane sheshit Skenderbe.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Et'hem_Beut"
+      }
+    },
+    {
+      "id": "node/3845187200",
+      "name": "Kalaja e Tiranës",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.326545,
+      "lon": 19.822575,
+      "wikidata": "Q1106373",
+      "wikipedia": "sq:Kalaja e Tiranës",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/3845187200",
+      "score": 12,
+      "imageFile": "Kalaja e Tiranës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Kalaja_e_Tiran%C3%ABs.jpg/1280px-Kalaja_e_Tiran%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ardit Ajdini · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Kalaja e Tiranes",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja ne qytetin e Tiranës është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i miratuar me numër \"1886 më 10.06.1973.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "way/410298399",
+      "name": "Kopshti Botanik i Tiranës",
+      "nameEn": "Botanical Garden of Tirana",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 41.309798,
+      "lon": 19.806149,
+      "wikidata": "Q894658",
+      "wikipedia": "sq:Kopshti Botanik i Tiranës",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/410298399",
+      "score": 12,
+      "imageFile": "ALB 20070713 img 1204.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/ALB_20070713_img_1204.jpg/1280px-ALB_20070713_img_1204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Dori · CC BY-SA 3.0",
+      "tagline": {
+        "text": "botanical gardens located in southern Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kopshti Botanik i Tiranës është themeluar në vitin 1971 nga botanisti Mustafa Demiri. Kopshti zë një sipërfaqe prej rreth 15 ha.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kopshti_Botanik_i_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "way/233519333",
+      "name": "Kulla e Sahatit",
+      "nameEn": "Clock Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.327703,
+      "lon": 19.819682,
+      "wikidata": "Q2474224",
+      "wikipedia": "en:Tirana Clock Tower",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/233519333",
+      "score": 12,
+      "imageFile": "Tirana - Clock Tower (by Pudelek).JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Tirana_-_Clock_Tower_%28by_Pudelek%29.JPG/1280px-Tirana_-_Clock_Tower_%28by_Pudelek%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kulla e orës në Tiranë është ndërtuar në shekullin e XIX midis viteve 1822-1840 nga Haxhi Etëhem bej Mollaj së bashku me Xhaminë e Et'hem Beut. Kulla e orës të Tiranës është monument kulture i kategorisë së I, shpallur me Ligjin nr.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kulla_e_or%C3%ABs_n%C3%AB_Tiran%C3%AB"
+      }
+    },
+    {
+      "id": "way/248349387",
+      "name": "Monumenti i Skënderbeut",
+      "nameEn": "Skanderbeg Monument",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.327738,
+      "lon": 19.818568,
+      "wikidata": "Q609021",
+      "wikipedia": "sq:Monumenti i Skënderbeut në Tiranë",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/248349387",
+      "score": 12,
+      "imageFile": "Ruiterstandbeeld Skanderbeg in Tirana.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ruiterstandbeeld_Skanderbeg_in_Tirana.jpg/1280px-Ruiterstandbeeld_Skanderbeg_in_Tirana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "ReinderH · CC BY-SA 3.0",
+      "tagline": {
+        "text": "bronze sculpture in Tirana",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Monumenti i Skënderbeut në Tiranë i ngritur më 1968, dhe ndodhet ne zemrën e Tiranës, sheshi Skënderbej. Ky monument është një vepër e tre bashkëautorëve Andrea Mano; Janaq Paço dhe Odhise Paskalit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_i_Sk%C3%ABnderbeut_n%C3%AB_Tiran%C3%AB"
+      }
+    },
+    {
+      "id": "way/233519313",
+      "name": "Parku Zoologjik i Tiranës",
+      "nameEn": "Tirana Zoo",
+      "category": "nature",
+      "kind": "zoo",
+      "lat": 41.307222,
+      "lon": 19.809509,
+      "wikidata": "Q3302134",
+      "wikipedia": "en:Zoopark Tirana",
+      "website": "https://aprtirana.al/parqe-rekreative/parku-zoologjik/",
+      "openingHours": "Tu-Su 09:00-17:00",
+      "fee": "400 ALL",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/233519313",
+      "score": 12,
+      "imageFile": "Lion in the zoo.JPG",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lion_in_the_zoo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Kevinalbania · CC BY-SA 3.0",
+      "tagline": {
+        "text": "zoo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kopshti zoologjik i Tiranës është një kopsht zoologjik publik i vendosur në Tiranë, Shqipëri dhe është i vetmi kopsht zoologjik i këtij lloji në vend. Kopshti është ndërtuar gjatë viteve 1960-1961 dhe është i përqendruar në një sipërfaqe prej 6.09 hectares në pjesën jugore të qytetit, midis Parkut të Madh dhe Kopshtit Botanik.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kopshti_zoologjik_i_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "way/480510821",
+      "name": "Pazari i Ri",
+      "nameEn": "The New Bazaar",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.330247,
+      "lon": 19.824583,
+      "wikidata": "Q7156966",
+      "wikipedia": "en:New Bazaar, Tirana",
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/480510821",
+      "score": 12,
+      "imageFile": "Pazari i ri.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Pazari_i_ri.jpg/1280px-Pazari_i_ri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Kevin Jasini · CC BY-SA 2.0",
+      "tagline": {
+        "text": "Lagja e Tiranës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Blloku i Vilave - Sheshi Avni Rustemi është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i miratuar me numër \"122 më 05.03.2007\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Blloku_i_Vilave_-_Sheshi_Avni_Rustemi"
+      }
+    },
+    {
+      "id": "way/1292145197",
+      "name": "Sheshi Nënë Tereza",
+      "nameEn": "Mother Teresa Square",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.317864,
+      "lon": 19.821309,
+      "wikidata": "Q3372379",
+      "wikipedia": "en:Mother Teresa Square (Tirana)",
+      "osmUrl": "https://www.openstreetmap.org/way/1292145197",
+      "score": 12,
+      "imageFile": "Tirana, palazzo dell'università 08.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Tirana%2C_palazzo_dell%27universit%C3%A0_08.JPG/1280px-Tirana%2C_palazzo_dell%27universit%C3%A0_08.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sailko · CC BY-SA 4.0",
+      "tagline": {
+        "text": "square in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Sheshi \"Nënë Tereza\" është një nga sheshet kryesore të Tiranës, në Shqipëri. I kushtuar shenjtores Nënë Tereza, është sheshi është i dyti për nga madhësia ndër sheshet e kryeqytetit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sheshi_N%C3%ABn%C3%AB_Tereza"
+      }
+    },
+    {
+      "id": "way/627129048",
+      "name": "Ura e Tabakëve",
+      "nameEn": "Tanners' Bridge",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.326424,
+      "lon": 19.82605,
+      "wikidata": "Q1630016",
+      "wikipedia": "sq:Ura e Tabakëve, Tiranë",
+      "osmUrl": "https://www.openstreetmap.org/way/627129048",
+      "score": 12,
+      "imageFile": "Puente de Tabak, Tirana, Albania, 2014-04-17, DD 18.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Puente_de_Tabak%2C_Tirana%2C_Albania%2C_2014-04-17%2C_DD_18.JPG/1280px-Puente_de_Tabak%2C_Tirana%2C_Albania%2C_2014-04-17%2C_DD_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Diego Delso · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Ura e Tabakëve është një monument kulture i ndërtuar në Tirane në shekullin e XVII - XVIII-të afër Xhamisë së Lëkurës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_Tabak%C3%ABve%2C_Tiran%C3%AB"
+      }
+    },
+    {
+      "id": "way/468719345",
+      "name": "Varrezat e Dëshmorëve të Kombit",
+      "nameEn": "National Martyrs Cemetery of Albania",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308993,
+      "lon": 19.839501,
+      "wikidata": "Q8508918",
+      "wikipedia": "sq:Varrezat e Dëshmorëve të Kombit të Shqipërisë",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/468719345",
+      "score": 12,
+      "imageFile": "Martyr's Cemetery (43669805610).jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Martyr%27s_Cemetery_%2843669805610%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+      "tagline": {
+        "text": "Memorial cemetery in Tirana",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Varrezat e Dëshmorëve të Kombit të Shqipërisë është varreza më e madhe në Shqipëri, e vendosur në një kodër me pamje nga Tirana.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Varrezat_e_D%C3%ABshmor%C3%ABve_t%C3%AB_Kombit_t%C3%AB_Shqip%C3%ABris%C3%AB"
+      }
+    },
+    {
+      "id": "node/4576891450",
+      "name": "Muzeu i Forcave të Armatosura",
+      "nameEn": "Armed Forces Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.341699,
+      "lon": 19.838272,
+      "wikidata": "Q31666843",
+      "wikipedia": "sq:Muzeu i Forcave të Armatosura Shqiptare",
+      "website": "https://www.muzeu-fa.gov.al/",
+      "fee": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/4576891450",
+      "score": 11,
+      "summary": {
+        "text": "Muzeu i Forcave të Armatosura është muze tipologjik dhe pasqyron ngjarjet më të rëndësishme ushtarake dhe vlerat më të mira të trashëguara nga kombi ynë gjatë historisë së tij në shekuj. Në esencë ai shpreh identitetin, kujtesën dhe progres-zhvillimin e Forcave të Armatosura të Republikës së Shqipërisë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_Forcave_t%C3%AB_Armatosura_Shqiptare"
+      }
+    },
+    {
+      "id": "way/405351517",
+      "name": "Sarajet",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.327066,
+      "lon": 19.821287,
+      "wikidata": "Q37311789",
+      "wikipedia": "sq:Banesa e Ish Toptanasve",
+      "osmUrl": "https://www.openstreetmap.org/way/405351517",
+      "score": 11,
+      "imageFile": "TOPTANI’S SARAJET.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/TOPTANI%E2%80%99S_SARAJET.jpg/1280px-TOPTANI%E2%80%99S_SARAJET.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "JoraK · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Banesa e Ish Toptanasve është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i miratuar me numër \"6 më 15.01.1963\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Banesa_e_Ish_Toptanasve"
+      }
+    },
+    {
+      "id": "way/369730252",
+      "name": "Teatri Kombëtar i Operas dhe Baletit",
+      "nameEn": "National Theatre of Opera and Ballet of Albania",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.329083,
+      "lon": 19.819707,
+      "wikidata": "Q597564",
+      "wikipedia": "en:National Theatre (Albania)",
+      "website": "https://www.tkob.gov.al/",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/369730252",
+      "score": 11,
+      "imageFile": "Pallati i Kultures 2, Tirane.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Pallati_i_Kultures_2%2C_Tirane.jpg/1280px-Pallati_i_Kultures_2%2C_Tirane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Eri85 · CC BY-SA 4.0",
+      "tagline": {
+        "text": "teatër në Tiranë, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teatri Kombëtar i Operas, Baletit dhe Ansamblit Popullor në Tiranë është një teatër kombëtar në varësi të Ministrisë e Kulturës së Shqipërisë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_Komb%C3%ABtar_i_Operas_dhe_Baletit"
+      }
+    },
+    {
+      "id": "way/236566862",
+      "name": "Teatri Kombëtar Shqiptar i Fëmijëve",
+      "nameEn": "National Theatre for Children",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.327259,
+      "lon": 19.817585,
+      "wikidata": "Q1968343",
+      "wikipedia": "sq:Teatri Kombëtar i Fëmijëve",
+      "website": "https://qkkf.gov.al/",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/236566862",
+      "score": 11,
+      "imageFile": "Puppet Theater 1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Puppet_Theater_1.jpg/1280px-Puppet_Theater_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "JoraK · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Puppet theatre in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Teatri Kombëtar i Kukullave në Tiranë, është krijuar në vitin 1950 nga një trupë profesioniste dhe jepte çdo vit 500 shfaqje, në të gjithë vendin. Në shfaqjet e Teatrit Kombëtar për Fëmijë përdoren kukulla me tela, kukulla marionetë, maska, teatro hijesh e pantomima, si dhe shfaqje me aktorë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_Komb%C3%ABtar_i_F%C3%ABmij%C3%ABve"
+      }
+    },
+    {
+      "id": "node/4631971351",
+      "name": "Nëna Shqipëri",
+      "nameEn": "Mother Albania",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.30854,
+      "lon": 19.840069,
+      "wikidata": "Q1639016",
+      "wikipedia": "sq:Monumenti Nëna Shqipëri",
+      "osmUrl": "https://www.openstreetmap.org/node/4631971351",
+      "score": 10,
+      "imageFile": "Tirana – Mother Albania 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tirana_%E2%80%93_Mother_Albania_2.jpg/1280px-Tirana_%E2%80%93_Mother_Albania_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Julian Nyča · CC BY-SA 3.0",
+      "tagline": {
+        "text": "statue located at the National Martyrs Cemetery of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Nëna Shqipëri ndodhet në hyrje të kompleksit të \"Varrezave të dëshmorëve të Luftës së Dytë Botërore\" në Tiranë dhe është 12 metër i lartë. Statuja është në beton dhe është përuruar në varrezat \"Dëshmorët e Kombit\" në vitin 1971.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_N%C3%ABna_Shqip%C3%ABri"
+      }
+    },
+    {
+      "id": "way/359190869",
+      "name": "Pallati i Brigadave",
+      "nameEn": "Presidential Palace",
+      "category": "history",
+      "kind": "building",
+      "lat": 41.311668,
+      "lon": 19.833579,
+      "wikidata": "Q473371",
+      "wikipedia": "en:Presidential Palace, Tirana",
+      "osmUrl": "https://www.openstreetmap.org/way/359190869",
+      "score": 10,
+      "imageFile": "Pallati i Brigadave South side.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Pallati_i_Brigadave_South_side.jpg/1280px-Pallati_i_Brigadave_South_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 4.0",
+      "tagline": {
+        "text": "cultural heritage monument of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Pallati Presidencial apo Pallati i Brigadave është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"752 më 11.11.2004\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Pallati_presidencial"
+      }
+    },
+    {
+      "id": "way/248355618",
+      "name": "Parku Rinia",
+      "nameEn": "Rinia Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.324798,
+      "lon": 19.818217,
+      "wikidata": "Q195228",
+      "wikipedia": "en:Rinia Park",
+      "osmUrl": "https://www.openstreetmap.org/way/248355618",
+      "score": 10,
+      "imageFile": "Parku Rinia.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Parku_Rinia.jpg/1280px-Parku_Rinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "a.dombrowski · CC BY-SA 2.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Parku Rinia është parku kryesor i Tiranës. Ky park në lindje kufizohet nga bulevari \"Dëshmorët e Kombit\", në perëndim nga Pallatet e Shallvareve, në veri nga Ministria e Mbrojtjes dhe në jug nga lumi i Lanës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Parku_Rinia"
+      }
+    },
+    {
+      "id": "node/4530435531",
+      "name": "Tyrbja e Kapllan Pashës",
+      "nameEn": "Tyrbe of Kapllan Pasha",
+      "category": "history",
+      "kind": "yes",
+      "lat": 41.327842,
+      "lon": 19.821645,
+      "wikidata": "Q6366870",
+      "wikipedia": "en:Kapllan Pasha Tomb",
+      "osmUrl": "https://www.openstreetmap.org/node/4530435531",
+      "score": 10,
+      "imageFile": "Tirana Kapllan Pasha Tomb.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tirana_Kapllan_Pasha_Tomb.jpg/1280px-Tirana_Kapllan_Pasha_Tomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Tyrbja e Kapllan Pashës është një varr monumental i kajmekamit të Tiranës të fillimshekullit 19, Kapllan pashë Toptanit. Tyrbja është ndërtuar për të shënjuar vendvarrimin e pashait që ndërroi jetë më 1819, dhe është një monument i trashëgimisë kulturore i kategorisë I-rë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Tyrbja_e_Kapllan_Pash%C3%ABs"
+      }
+    },
+    {
+      "id": "node/3006044550",
+      "name": "Ushtari i Panjohur",
+      "nameEn": "The Unknown Soldier",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.328203,
+      "lon": 19.821905,
+      "wikidata": "Q7896978",
+      "wikipedia": "en:The Unknown Soldier (statue)",
+      "osmUrl": "https://www.openstreetmap.org/node/3006044550",
+      "score": 10,
+      "imageFile": "Unknown Soldier (Statue) (BLGU Spring School 2013) 02.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Unknown_Soldier_%28Statue%29_%28BLGU_Spring_School_2013%29_02.JPG/1280px-Unknown_Soldier_%28Statue%29_%28BLGU_Spring_School_2013%29_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "MirkoS18 · CC BY-SA 3.0",
+      "tagline": {
+        "text": "statue in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "The Unknown Soldier is a war memorial statue in Tirana for the soldiers that fell in the struggle against the Italian invaders during Second World War. The statue is located near the Albanian parliament and the Tomb of Kapllan Pasha.",
+        "lang": "en",
+        "source": "https://en.wikipedia.org/wiki/The_Unknown_Soldier_(statue)"
+      }
+    },
+    {
+      "id": "way/461375120",
+      "name": "Xhamia e Namazgjasë",
+      "nameEn": "Great Mosque of Tirana",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.325699,
+      "lon": 19.824202,
+      "wikidata": "Q18715177",
+      "wikipedia": "sq:Xhamia e Namazgjasë",
+      "osmUrl": "https://www.openstreetmap.org/way/461375120",
+      "score": 10,
+      "imageFile": "Great Mosque of Tirana (2020).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Great_Mosque_of_Tirana_%282020%29.jpg/1280px-Great_Mosque_of_Tirana_%282020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "P4Jags · CC BY-SA 2.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Namazgjasë, e njohur edhe si Xhamia e Madhe e Tiranës, është një xhami e re e ndërtuar në Tiranë, kryeqytetin e Shqipërisë. Vendndodhja e xhamisë do të jetë në vendin e quajtur Namazgjah, një park i papërdorur mes ndërtesës së Kuvendit të Shqipërisë dhe lumit Lana.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Namazgjas%C3%AB"
+      }
+    },
+    {
+      "id": "way/237087572",
+      "name": "Kisha Katolike \"Zemra e Krishtit\"",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.327257,
+      "lon": 19.809562,
+      "wikidata": "Q4135100",
+      "wikipedia": "en:Sacred Heart Church (Tirana)",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/237087572",
+      "score": 9,
+      "imageFile": "Tirana church 2016.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Tirana_church_2016.jpg/1280px-Tirana_church_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "cameron lucida - @Flickr: https://www.flickr.com/photos/1… · CC BY-SA 2.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha Katolike Zemra Krishtit është një kishë katolike e ritit latin në kryeqytetin shqiptar Tiranë, Shqipëri, në rrugën e Kavajës në perëndim të Sheshit Skënderbej. E ndërtuar në fund të viteve 1930, ishte një nga tre kishat katolike të Tiranës në epokën parakomuniste.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Zemr%C3%ABs_s%C3%AB_Shenjt%C3%AB_t%C3%AB_Krishtit"
+      }
+    },
+    {
+      "id": "way/485197107",
+      "name": "Kisha Ortodokse Autoqefale e Shqipërisë",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.326476,
+      "lon": 19.806728,
+      "wikidata": "Q323819",
+      "wikipedia": "en:Albanian Orthodox Church",
+      "osmUrl": "https://www.openstreetmap.org/way/485197107",
+      "score": 9,
+      "imageFile": "Orthodox Church Tirana 2016 albania.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Orthodox_Church_Tirana_2016_albania.jpg/1280px-Orthodox_Church_Tirana_2016_albania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Photo: Daniel Flickr: https://www.flickr.com/photos/da-ni… · CC BY-SA 2.0",
+      "tagline": {
+        "text": "autocephalous Eastern Orthodox church",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha Ortodokse Autoqefale e Shqipërisë, e njohur gjerësisht si Kisha Ortodokse Shqiptare ose Kisha Ortodokse e Shqipërisë është një Kishë Ortodokse Lindore autoqefale. Zë vendin e 13-të në diptikët e Patrikanës së Kostandinopojës dhe të 12-të në diptikët e Patrikanës së Moskës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_Ortodokse_e_Shqip%C3%ABris%C3%AB"
+      }
+    },
+    {
+      "id": "way/623070113",
+      "name": "Teqja e Sheh Dyrrit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.332685,
+      "lon": 19.819283,
+      "wikidata": "Q7492828",
+      "wikipedia": "en:Sheh Dyrri Tekke",
+      "osmUrl": "https://www.openstreetmap.org/way/623070113",
+      "score": 9,
+      "imageFile": "Tirana, Teqja e Sheh Dyrrit, 2024-10 CN-02.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Tirana%2C_Teqja_e_Sheh_Dyrrit%2C_2024-10_CN-02.jpg/1280px-Tirana%2C_Teqja_e_Sheh_Dyrrit%2C_2024-10_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Steffen Schmitz (more photos) · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teqja e Sheh Dyrrit është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Kjo teqe është kryeqendra e Tarikatit Kadri të Shqipërisë e cila u rihap të Enjten më datë 19 shtator 1991 pas një heshtje prej afërsisht 30 vjetësh mbyllur me forcë nga regjimi komunist.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teqja_e_Sheh_Dyrrit"
+      }
+    },
+    {
+      "id": "way/177188065",
+      "name": "Xhamia e Kokonozit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.330086,
+      "lon": 19.824945,
+      "wikidata": "Q13047909",
+      "wikipedia": "en:Kokonozi Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/177188065",
+      "score": 9,
+      "imageFile": "Pazari i Ri.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pazari_i_Ri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Albinfo · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Kokonozit, e njohur edhe si Xhamia e Pazarit të Ri, ndodhet në pjesën verilindore të qendrës së qytetit të Tiranës. Ndërtimi i xhamisë u nis më 1750 me bamirësinë e Mahmut agë Kokonozit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Kokonozit"
+      }
+    },
+    {
+      "id": "node/3837057226",
+      "name": "DEBATIK",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.314141,
+      "lon": 19.822371,
+      "description": "DEBATIK - Djemtë e Bashkuar Anëtarë të Idealeve Komuniste In memoriam to antifascist children's organization in Abania during WW2.",
+      "wikidata": "Q17014052",
+      "wikipedia": "sq:DEBATIK",
+      "osmUrl": "https://www.openstreetmap.org/node/3837057226",
+      "score": 8,
+      "tagline": {
+        "text": "Children and youth communist organization from Albania.",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Shih gjithashtu Debatik",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/DEBATIK"
+      }
+    },
+    {
+      "id": "node/4545059450",
+      "name": "Frederik Shopen",
+      "nameEn": "Frédéric Chopin",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.316888,
+      "lon": 19.819478,
+      "wikidata": "Q11823200",
+      "wikipedia": "pl:Pomnik Fryderyka Chopina w Tiranie",
+      "osmUrl": "https://www.openstreetmap.org/node/4545059450",
+      "score": 8,
+      "imageFile": "F.Shopen.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/F.Shopen.jpg/1280px-F.Shopen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Stiopa · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument in Albania",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "relation/6786176",
+      "name": "Katedralja e Shën Palit",
+      "nameEn": "Saint Paul's Cathedral",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.324797,
+      "lon": 19.821659,
+      "wikidata": "Q600175",
+      "wikipedia": "en:St. Paul's Cathedral, Tirana",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/relation/6786176",
+      "score": 8,
+      "imageFile": "Moderni katolicka katedrala v Tirane, v popredi ricka Lan.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Moderni_katolicka_katedrala_v_Tirane%2C_v_popredi_ricka_Lan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Martin Brož · CC BY 3.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Katedralja e Shën Palit është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"122 më 05.03.2007\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_e_Sh%C3%ABn_Palit"
+      }
+    },
+    {
+      "id": "relation/7753718",
+      "name": "Katedralja Ngjallja e Krishtit",
+      "nameEn": "Orthodox Cathedral of the Resurrection of Christ",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.326553,
+      "lon": 19.817574,
+      "wikidata": "Q1736146",
+      "wikipedia": "sq:Katedralja Ngjallja e Krishtit, Tiranë",
+      "osmUrl": "https://www.openstreetmap.org/relation/7753718",
+      "score": 8,
+      "imageFile": "Albanisch-Orthodoxe Auferstehungskathedrale in Tirana Katedralja Orthodhokse Ngjallja e Krishtit Foto 2014 Wolfgang Pehlemann DSC005851.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Albanisch-Orthodoxe_Auferstehungskathedrale_in_Tirana_Katedralja_Orthodhokse_Ngjallja_e_Krishtit_Foto_2014_Wolfgang_Pehlemann_DSC005851.jpg/1280px-Albanisch-Orthodoxe_Auferstehungskathedrale_in_Tirana_Katedralja_Orthodhokse_Ngjallja_e_Krishtit_Foto_2014_Wolfgang_Pehlemann_DSC005851.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Wolfgang Pehlemann · CC BY-SA 3.0 de",
+      "tagline": {
+        "text": "Tiranë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Katedralja Ngjallja e Krishtit është një kishë ortodokse shqiptare, e vendosur në qendër të Tiranës, Shqipëri. Është kisha e tretë më e madhe ortodokse në Evropë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Katedralja_Ngjallja_e_Krishtit%2C_Tiran%C3%AB"
+      }
+    },
+    {
+      "id": "way/744868434",
+      "name": "Kisha Ungjillore \"Drita per Shqiperine\"",
+      "nameEn": "Evangelical Brotherhood of Albania",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.326943,
+      "lon": 19.77398,
+      "wikidata": "Q13047718",
+      "wikipedia": "sq:Vëllazëria Ungjillore e Shqipërisë",
+      "osmUrl": "https://www.openstreetmap.org/way/744868434",
+      "score": 8,
+      "tagline": {
+        "text": "Albanian evangelical Christian organisation",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Vëllazëria Ungjillore e Shqipërisë ose VUSH Në 14 nëntor 1892, Gjerasim Qiriazi me një grup atdhetaresh Ungjillore ku ndër te tjerë vlen te përmendim edhe kontributin e atdhetarit Petro Nini Luarasin, themelojnë \"Vëllazërinë UNGJILLORE\". Synimi i tyre ishte i trefishte: 1) përhapja e Ungjillit në Shqipëri; 2) botimi i letërsisë shqipe; 3) hapja dhe drejtimi i shkollave shqipe.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/V%C3%ABllaz%C3%ABria_Ungjillore_e_Shqip%C3%ABris%C3%AB"
+      }
+    },
+    {
+      "id": "way/1290965486",
+      "name": "Mauzoleumi i Familjes Mbretërore",
+      "nameEn": "Mausoleum of the Albanian Royal Family",
+      "category": "history",
+      "kind": "tomb",
+      "lat": 41.314751,
+      "lon": 19.833207,
+      "wikidata": "Q15040985",
+      "wikipedia": "sq:Mauzoleumi i Familjes Mbretërore",
+      "osmUrl": "https://www.openstreetmap.org/way/1290965486",
+      "score": 8,
+      "imageFile": "Mausoleum of the Albanian Royal Family.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Mausoleum_of_the_Albanian_Royal_Family.jpg/1280px-Mausoleum_of_the_Albanian_Royal_Family.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Mauzoleumi i Familjes Mbretërore ose Varri i Nënës Mbretëreshë është një monument i trashëgimisë kulturore në rrethin e Tiranës, në qarkun e Tiranës, Shqipëri. Ky monument është i miratuar me numër \"383 më 16.07.2010\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Mauzoleumi_i_Familjes_Mbret%C3%ABrore"
+      }
+    },
+    {
+      "id": "relation/3351946",
+      "name": "Parku i Madh i Tiranës",
+      "nameEn": "Grand Park of Tirana",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.311501,
+      "lon": 19.824728,
+      "wikidata": "Q73397",
+      "wikipedia": "en:Grand Park of Tirana",
+      "osmUrl": "https://www.openstreetmap.org/relation/3351946",
+      "score": 8,
+      "imageFile": "Tirana from South.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Tirana_from_South.jpg/1280px-Tirana_from_South.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 3.0",
+      "tagline": {
+        "text": "artificial lake park in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Parku i Tiranës ose Liqeni Artificial i Tiranës është një park i madh në jug të Tiranës, i ndërtuar në vitet 1950.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Parku_i_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "node/3841572655",
+      "name": "Qemal Stafa",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.319821,
+      "lon": 19.819939,
+      "description": "A memorial bust of Qemal Stafa ( 1920 - 1942). Qemal Stafa was a founding member of the Albanian Communist Party, and the leader of its youth section.",
+      "wikidata": "Q16353897",
+      "wikipedia": "sq:Qemal Stafa (libër 1976)",
+      "osmUrl": "https://www.openstreetmap.org/node/3841572655",
+      "score": 8,
+      "tagline": {
+        "text": "book by Nasho V. Jorgaqi",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Qemal Stafa libër me Autor: Nasho V. Jorgaqi. Faqe: 370.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Qemal_Stafa_(lib%C3%ABr_1976)"
+      }
+    },
+    {
+      "id": "way/449752064",
+      "name": "Shtëpia e Piktorit Sali Shijaku",
+      "nameEn": "House of painter Sali Shijaku",
+      "category": "history",
+      "kind": "building",
+      "lat": 41.335938,
+      "lon": 19.819964,
+      "wikidata": "Q20578850",
+      "wikipedia": "sq:Shtëpia e Piktorit Sali Shijaku",
+      "osmUrl": "https://www.openstreetmap.org/way/449752064",
+      "score": 8,
+      "summary": {
+        "text": "Shtëpia e Piktorit Sali Shijaku është një Monument Kulture dhe muze që ndodhet në Tiranë, në rrugën “Vildan Luarasi”. Është një shtëpi e vjetër me arkitekturë tipike tiranase dhe është ndërtuar në fillim të shekullit XIX. Shtëpia shërben si bar-restorant si dhe muze në formën e një galerie arti ku janë të ekspozuara veprat e piktorit Sali Shijaku.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sht%C3%ABpia_e_Piktorit_Sali_Shijaku"
+      }
+    },
+    {
+      "id": "way/249187589",
+      "name": "Amphitheatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.313694,
+      "lon": 19.820445,
+      "wikidata": "Q55867092",
+      "wikipedia": "en:Open Theatre of Tirana",
+      "osmUrl": "https://www.openstreetmap.org/way/249187589",
+      "score": 7,
+      "imageFile": "Amfiteatr - panoramio - MSzybalski.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Amfiteatr_-_panoramio_-_MSzybalski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "MSzybalski · CC BY-SA 3.0",
+      "tagline": {
+        "text": "open-air theatre in the Grand Park of Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Teatri i Hapur i Tiranës ose Amfiteatri i Tiranës është arena më e madhe e kryeqytetit me një kapacitet prej 1334 vendesh. I pajisur me një skenë të mbuluar e me ndriçim të përshtatshëm do mirëpresë publikun me koncerte, festivale, teatër, shfaqje të cirkut e kinema verore në të katër stinët, duke e shndërruar këtë pjesë të Tiranës në një pikë të rëndësishme kulturore e argëtimi për qytetarët.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_i_Hapur_i_Tiran%C3%ABs"
+      }
+    },
+    {
+      "id": "node/4550053417",
+      "name": "Avni Rustemi",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.329361,
+      "lon": 19.824944,
+      "wikidata": "Q13037854",
+      "wikipedia": "sq:Busti i Avni Rustemit në Tiranë",
+      "osmUrl": "https://www.openstreetmap.org/node/4550053417",
+      "score": 7,
+      "imageFile": "Avni Rustemi, spomenik u Tirani.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Avni_Rustemi%2C_spomenik_u_Tirani.JPG/1280px-Avni_Rustemi%2C_spomenik_u_Tirani.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Antidiskriminator · Public domain",
+      "tagline": {
+        "text": "bust in Tirana, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Busti i Avni Rustemit në Tiranë ndodhet në sheshin me të njëjtin emër pranë Pazarit të ri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Busti_i_Avni_Rustemit_n%C3%AB_Tiran%C3%AB"
+      }
+    },
+    {
+      "id": "way/1314438876",
+      "name": "Kisha e Shën Prokopit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.313964,
+      "lon": 19.819187,
+      "wikidata": "Q7402117",
+      "wikipedia": "en:Saint Procopius Church of Tirana",
+      "osmUrl": "https://www.openstreetmap.org/way/1314438876",
+      "score": 7,
+      "tagline": {
+        "text": "church building in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha e Shën Prokopit' është ndërtuar ne vitin 1780 për nder të Shenjtorit mbrojtës të Tiranës, Shën Prokopit, i cili kremton më 8 korrik. Në historinë e kishës së Shën Prokopit bën pjesë gjithashtu edhe Skënderbeu.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Prokopit"
+      }
+    },
+    {
+      "id": "way/910984506",
+      "name": "Xhamia e Tabakëve",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.32678,
+      "lon": 19.828006,
+      "wikidata": "Q1291116",
+      "wikipedia": "en:Tanners' Mosque",
+      "osmUrl": "https://www.openstreetmap.org/way/910984506",
+      "score": 7,
+      "imageFile": "Tirana - Colourful houses at Lana.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tirana_-_Colourful_houses_at_Lana.jpg/1280px-Tirana_-_Colourful_houses_at_Lana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Tabakëve është një nga xhamitë e Tiranës e vendosur pranë Urës së Tabakëve. Kjo monument kulture osmane e ndërtuar në lagjen e esnafit të Tabakëve rreth shekullit të XVII, ajo u demtua nga goditja e nje rrufeje por vazhdon te funksionojë ne saje te nje riparimi te bere nga familja Resmja e cila edhe sot vazhdon te kujdeset per te.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Tabak%C3%ABve"
+      }
+    },
+    {
+      "id": "node/5179401322",
+      "name": "Bunkeri i Memorialit \"Postbllok\"",
+      "nameEn": "Bunker",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.320962,
+      "lon": 19.820149,
+      "osmUrl": "https://www.openstreetmap.org/node/5179401322",
+      "score": 5
+    },
+    {
+      "id": "node/5179412421",
+      "name": "Fragment i Murit të Berlinit (Nr. 28/40)",
+      "nameEn": "Fragment of Berlin Wall (No. 28/40)",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.321014,
+      "lon": 19.820076,
+      "osmUrl": "https://www.openstreetmap.org/node/5179412421",
+      "score": 5
+    },
+    {
+      "id": "node/4190306392",
+      "name": "Kolona nga Miniera e Spaçit",
+      "nameEn": "Columns from Spaç Labor Camp Mine",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.320886,
+      "lon": 19.820061,
+      "osmUrl": "https://www.openstreetmap.org/node/4190306392",
+      "score": 5
+    },
+    {
+      "id": "relation/17721294",
+      "name": "Memoriali Postbllok",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.32095,
+      "lon": 19.820105,
+      "wikidata": "Q15880887",
+      "osmUrl": "https://www.openstreetmap.org/relation/17721294",
+      "score": 4,
+      "imageFile": "Tirana Park+Statues.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tirana_Park%2BStatues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Kj1595 · CC BY-SA 3.0",
+      "tagline": {
+        "text": "installation memorial in Tirana",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Memoriali \"Postbllok\" është një vepër e ndërtuar nga ish i dënuari politik dhe intelektuali Fatos Lubonja dhe artisti Ardian Isufi. Postbllok është një vepër monumentale me qëllim kujtimn dhe mosharresën e krimeve dhe vuajtjeve të shkakatuara nga diktatura komuniste në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Memoriali_Postbllok"
+      }
+    },
+    {
+      "id": "node/12107120762",
+      "name": "Muzeu i Gruas",
+      "nameEn": "Museum of Women",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.325528,
+      "lon": 19.815317,
+      "website": "https://www.womensmuseumalbania.org/",
+      "osmUrl": "https://www.openstreetmap.org/node/12107120762",
+      "score": 4
+    },
+    {
+      "id": "node/9128750021",
+      "name": "Posta Shqiptare Sh.A. Muzeu",
+      "nameEn": "Albanian Post Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.326329,
+      "lon": 19.816024,
+      "website": "https://www.iett.al/muzeu-i-pulles-shqiptare/",
+      "osmUrl": "https://www.openstreetmap.org/node/9128750021",
+      "score": 4
+    },
+    {
+      "id": "node/12837252401",
+      "name": "Alter Panzer",
+      "nameEn": "Old tank",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.339492,
+      "lon": 19.814993,
+      "osmUrl": "https://www.openstreetmap.org/node/12837252401",
+      "score": 3
+    },
+    {
+      "id": "node/9990070668",
+      "name": "Arinjtë",
+      "nameEn": "Bears",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.305417,
+      "lon": 19.808244,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070668",
+      "score": 3
+    },
+    {
+      "id": "node/9990070656",
+      "name": "Drerët",
+      "nameEn": "Deer",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.307859,
+      "lon": 19.809557,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070656",
+      "score": 3
+    },
+    {
+      "id": "node/10956974693",
+      "name": "Dhelpra",
+      "nameEn": "Fox",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308553,
+      "lon": 19.809822,
+      "osmUrl": "https://www.openstreetmap.org/node/10956974693",
+      "score": 3
+    },
+    {
+      "id": "node/10957036104",
+      "name": "Dhi & Dele",
+      "nameEn": "Goats & Sheep",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.307172,
+      "lon": 19.808954,
+      "osmUrl": "https://www.openstreetmap.org/node/10957036104",
+      "score": 3
+    },
+    {
+      "id": "node/6841216686",
+      "name": "Family House of Mother Teresa",
+      "nameEn": "Family House of Mother Teresa",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.326355,
+      "lon": 19.812821,
+      "osmUrl": "https://www.openstreetmap.org/node/6841216686",
+      "score": 3
+    },
+    {
+      "id": "node/10956974694",
+      "name": "Huta & Skifteri",
+      "nameEn": "Buzzard & Hawk",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308307,
+      "lon": 19.809644,
+      "osmUrl": "https://www.openstreetmap.org/node/10956974694",
+      "score": 3
+    },
+    {
+      "id": "node/9990070658",
+      "name": "Kafshët e Fermës",
+      "nameEn": "Farm Animals",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306932,
+      "lon": 19.809017,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070658",
+      "score": 3
+    },
+    {
+      "id": "node/10957041805",
+      "name": "Kuajt",
+      "nameEn": "Horses",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306724,
+      "lon": 19.808839,
+      "osmUrl": "https://www.openstreetmap.org/node/10957041805",
+      "score": 3
+    },
+    {
+      "id": "node/10957036102",
+      "name": "Lama",
+      "nameEn": "Llama",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.307039,
+      "lon": 19.809303,
+      "osmUrl": "https://www.openstreetmap.org/node/10957036102",
+      "score": 3
+    },
+    {
+      "id": "node/9990070653",
+      "name": "Lemurët",
+      "nameEn": "Lemurs",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308256,
+      "lon": 19.810467,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070653",
+      "score": 3
+    },
+    {
+      "id": "node/10957041807",
+      "name": "Lepuri",
+      "nameEn": "Rabbit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306819,
+      "lon": 19.80892,
+      "osmUrl": "https://www.openstreetmap.org/node/10957041807",
+      "score": 3
+    },
+    {
+      "id": "node/10957041806",
+      "name": "Lopa",
+      "nameEn": "Cow",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306954,
+      "lon": 19.808765,
+      "osmUrl": "https://www.openstreetmap.org/node/10957041806",
+      "score": 3
+    },
+    {
+      "id": "node/9990070667",
+      "name": "Luanët",
+      "nameEn": "Lions",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306289,
+      "lon": 19.808663,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070667",
+      "score": 3
+    },
+    {
+      "id": "node/9990070654",
+      "name": "Palloi",
+      "nameEn": "Peacock",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308442,
+      "lon": 19.809729,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070654",
+      "score": 3
+    },
+    {
+      "id": "node/4391192652",
+      "name": "Përmendorja e Pavarësisë",
+      "nameEn": "Independence Monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.325447,
+      "lon": 19.818509,
+      "osmUrl": "https://www.openstreetmap.org/node/4391192652",
+      "score": 3
+    },
+    {
+      "id": "node/10957036103",
+      "name": "Struci",
+      "nameEn": "Ostrich",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306636,
+      "lon": 19.809008,
+      "osmUrl": "https://www.openstreetmap.org/node/10957036103",
+      "score": 3
+    },
+    {
+      "id": "node/9990070659",
+      "name": "Shpendët e Moçalit",
+      "nameEn": "Birds of the Swamp",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.306836,
+      "lon": 19.809573,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070659",
+      "score": 3
+    },
+    {
+      "id": "node/9990070655",
+      "name": "Shqiponja",
+      "nameEn": "Eagle",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.308105,
+      "lon": 19.80971,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070655",
+      "score": 3
+    },
+    {
+      "id": "node/9990070666",
+      "name": "Tigrat",
+      "nameEn": "Tigers",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.305991,
+      "lon": 19.80829,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070666",
+      "score": 3
+    },
+    {
+      "id": "node/9990070657",
+      "name": "Ujqërit",
+      "nameEn": "Wolves",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.307498,
+      "lon": 19.809422,
+      "osmUrl": "https://www.openstreetmap.org/node/9990070657",
+      "score": 3
+    },
+    {
+      "id": "way/256162004",
+      "name": "Vila e Enver Hoxhës",
+      "nameEn": "Enver Hoxha's House",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.321086,
+      "lon": 19.817218,
+      "osmUrl": "https://www.openstreetmap.org/way/256162004",
+      "score": 3
+    },
+    {
+      "id": "node/6024812300",
+      "name": "Avullorja 02 (Lokomotivë)",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.339571,
+      "lon": 19.815599,
+      "osmUrl": "https://www.openstreetmap.org/node/6024812300",
+      "score": 2
+    },
+    {
+      "id": "node/6841226998",
+      "name": "Dedë Gjon Luli",
+      "nameEn": "Ded Gjo Luli",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.329118,
+      "lon": 19.816415,
+      "imageFile": "Ded Gjo Luli.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/6841226998",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ded_Gjo_Luli.jpg/1280px-Ded_Gjo_Luli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/624093809",
+      "name": "Friendship Monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.328151,
+      "lon": 19.82108,
+      "imageFile": "Friendship Monument, Tirana.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/624093809",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Friendship_Monument%2C_Tirana.jpg/1280px-Friendship_Monument%2C_Tirana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/9169778296",
+      "name": "Grand Bazaar",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.339276,
+      "lon": 19.814708,
+      "description": "Produces, appliances, cloths, etc.",
+      "openingHours": "Mo-Su 07:00-15:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9169778296",
+      "score": 2
+    },
+    {
+      "id": "node/4647394950",
+      "name": "Ismail Qemal Vlora",
+      "nameEn": "Monument of Ismail Qemal Vlora",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.320574,
+      "lon": 19.820227,
+      "imageFile": "Ismail Qemal Vlora statue.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/4647394950",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ismail_Qemal_Vlora_statue.jpg/1280px-Ismail_Qemal_Vlora_statue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/5879400690",
+      "name": "Lake view",
+      "nameEn": "Lake view",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 41.31301,
+      "lon": 19.816268,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/5879400690",
+      "score": 2
+    },
+    {
+      "id": "way/623438669",
+      "name": "Markata e Frutave dhe Perimeve",
+      "nameEn": "Fruits and Vegetables Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.330214,
+      "lon": 19.824268,
+      "website": "https://agjenciaetregjeve.tirana.al",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/623438669",
+      "score": 2
+    },
+    {
+      "id": "node/9727822259",
+      "name": "Mezuraj Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.32838,
+      "lon": 19.8146,
+      "description": "Within Sun Tower next to the Raiffeisen Bank building;restricted exhibition due to renovation works (as of 2022-05-09).",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/9727822259",
+      "score": 2
+    },
+    {
+      "id": "node/13285838493",
+      "name": "Old locomotive",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.33961,
+      "lon": 19.815549,
+      "osmUrl": "https://www.openstreetmap.org/node/13285838493",
+      "score": 2
+    },
+    {
+      "id": "node/4464782054",
+      "name": "Papa Françesku",
+      "nameEn": "Pope Francis",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.323187,
+      "lon": 19.820145,
+      "imageFile": "Papa Frani bust.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/4464782054",
+      "score": 2,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Papa_Frani_bust.jpg/1280px-Papa_Frani_bust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/471096495",
+      "name": "Tregu \"1 Maji\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.321385,
+      "lon": 19.810142,
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/471096495",
+      "score": 2
+    },
+    {
+      "id": "way/712661140",
+      "name": "Tregu \"4 Dëshmorët\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.336872,
+      "lon": 19.830961,
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/712661140",
+      "score": 2
+    },
+    {
+      "id": "way/712661137",
+      "name": "Tregu i Fruta-Perimeve Petro-Nini",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.325548,
+      "lon": 19.828578,
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-19:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/712661137",
+      "score": 2
+    },
+    {
+      "id": "way/475524297",
+      "name": "Tregu Lapraka \"Pandi Dardha\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.336952,
+      "lon": 19.797549,
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/475524297",
+      "score": 2
+    },
+    {
+      "id": "way/344108187",
+      "name": "Tregu Ushqimor",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.319975,
+      "lon": 19.789357,
+      "website": "https://agjenciaetregjeve.tirana.al/",
+      "openingHours": "Mo-Su 08:00-17:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/344108187",
+      "score": 2
+    },
+    {
+      "id": "node/13171657172",
+      "name": "The Truck That Brought Freedom",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.329156,
+      "lon": 19.80705,
+      "osmUrl": "https://www.openstreetmap.org/node/13171657172",
+      "score": 2
+    },
+    {
+      "id": "node/4596339934",
+      "name": "307",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.304226,
+      "lon": 19.794981,
+      "osmUrl": "https://www.openstreetmap.org/node/4596339934",
+      "score": 1
+    },
+    {
+      "id": "way/1169435981",
+      "name": "arTurbina - Teatri Kombetar Eksperimental",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.31464,
+      "lon": 19.814856,
+      "website": "https://teatrikombetar.gov.al/",
+      "osmUrl": "https://www.openstreetmap.org/way/1169435981",
+      "score": 1
+    },
+    {
+      "id": "node/10183645859",
+      "name": "Azem Hajdari & Besim Çera",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.327457,
+      "lon": 19.821973,
+      "imageFile": "Azem Besim memorial.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/10183645859",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Azem_Besim_memorial.jpg/1280px-Azem_Besim_memorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/10030327413",
+      "name": "Color Wine",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 41.324144,
+      "lon": 19.816932,
+      "website": "https://colourwine.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/10030327413",
+      "score": 1
+    },
+    {
+      "id": "way/457888631",
+      "name": "Çerdhja Nr. 62",
+      "category": "nature",
+      "kind": "kindergarten",
+      "lat": 41.331942,
+      "lon": 19.864902,
+      "website": "https://femijetetiranes.al/",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/457888631",
+      "score": 1
+    },
+    {
+      "id": "node/4072769799",
+      "name": "Fruit and vegetable market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.320604,
+      "lon": 19.802288,
+      "openingHours": "08:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4072769799",
+      "score": 1
+    },
+    {
+      "id": "node/11177666566",
+      "name": "Galeria FAB",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 41.318024,
+      "lon": 19.819243,
+      "website": "https://tirana.al/pika-interesi/galeria-fab",
+      "osmUrl": "https://www.openstreetmap.org/node/11177666566",
+      "score": 1
+    },
+    {
+      "id": "node/6317389181",
+      "name": "Hafiz Ibrahim Dalliu",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.338368,
+      "lon": 19.82603,
+      "osmUrl": "https://www.openstreetmap.org/node/6317389181",
+      "score": 1
+    },
+    {
+      "id": "node/9264662755",
+      "name": "Hotspot Tirana",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 41.333828,
+      "lon": 19.824942,
+      "website": "https://www.instagram.com/hotspot_tirana/",
+      "osmUrl": "https://www.openstreetmap.org/node/9264662755",
+      "score": 1
+    },
+    {
+      "id": "node/3734986128",
+      "name": "Instituti Italian i Kultures",
+      "nameEn": "Institute of Italian Culture",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 41.328534,
+      "lon": 19.820272,
+      "osmUrl": "https://www.openstreetmap.org/node/3734986128",
+      "score": 1
+    },
+    {
+      "id": "node/4596338844",
+      "name": "Ish-Parku i Mallrave",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.321817,
+      "lon": 19.793155,
+      "osmUrl": "https://www.openstreetmap.org/node/4596338844",
+      "score": 1
+    },
+    {
+      "id": "node/6442499069",
+      "name": "Jeronim de Rada",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.326547,
+      "lon": 19.824245,
+      "imageFile": "Jeronim De Rada.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/6442499069",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jeronim_De_Rada.jpg/1280px-Jeronim_De_Rada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/4596338869",
+      "name": "Kodra Barakut",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.356292,
+      "lon": 19.795808,
+      "osmUrl": "https://www.openstreetmap.org/node/4596338869",
+      "score": 1
+    },
+    {
+      "id": "node/4596339936",
+      "name": "Kodra Guri i Mullirit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.309835,
+      "lon": 19.791248,
+      "osmUrl": "https://www.openstreetmap.org/node/4596339936",
+      "score": 1
+    },
+    {
+      "id": "node/4596339937",
+      "name": "Kodra Kalasë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.311987,
+      "lon": 19.793737,
+      "osmUrl": "https://www.openstreetmap.org/node/4596339937",
+      "score": 1
+    },
+    {
+      "id": "node/4596339939",
+      "name": "Kodra Kazazit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.308288,
+      "lon": 19.79938,
+      "osmUrl": "https://www.openstreetmap.org/node/4596339939",
+      "score": 1
+    },
+    {
+      "id": "node/4596685388",
+      "name": "Kodra Pal Mnet",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.310647,
+      "lon": 19.857091,
+      "osmUrl": "https://www.openstreetmap.org/node/4596685388",
+      "score": 1
+    },
+    {
+      "id": "node/4596339938",
+      "name": "Kodra Selitës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.30612,
+      "lon": 19.792868,
+      "osmUrl": "https://www.openstreetmap.org/node/4596339938",
+      "score": 1
+    },
+    {
+      "id": "node/4596685387",
+      "name": "Kodra Sen Hajdarit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.313902,
+      "lon": 19.854784,
+      "osmUrl": "https://www.openstreetmap.org/node/4596685387",
+      "score": 1
+    },
+    {
+      "id": "node/4597145479",
+      "name": "Kodra Trollit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.29495,
+      "lon": 19.82058,
+      "osmUrl": "https://www.openstreetmap.org/node/4597145479",
+      "score": 1
+    },
+    {
+      "id": "node/6851456534",
+      "name": "Lapidari Sauk",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.291813,
+      "lon": 19.816216,
+      "description": "This historical monument is dedicated to the battles the local partisans fought. Placed on top of the hills of Sauk, the monument has the shape of a vertically elongated 4-sided pyramid with a star at its peak.",
+      "osmUrl": "https://www.openstreetmap.org/node/6851456534",
+      "score": 1
+    },
+    {
+      "id": "way/836446505",
+      "name": "Parku Gintash",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.338747,
+      "lon": 19.791057,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/836446505",
+      "score": 1
+    },
+    {
+      "id": "way/957688195",
+      "name": "Parku Helen",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.313889,
+      "lon": 19.863416,
+      "description": "This park was dedicated to the great relations between Albania and Greece.",
+      "osmUrl": "https://www.openstreetmap.org/way/957688195",
+      "score": 1
+    },
+    {
+      "id": "relation/15019457",
+      "name": "Parku i Liqenit të Paskuqanit",
+      "nameEn": "Paskquan Lake Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.363142,
+      "lon": 19.797952,
+      "osmUrl": "https://www.openstreetmap.org/relation/15019457",
+      "score": 1
+    },
+    {
+      "id": "node/5100486821",
+      "name": "REJA",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.325528,
+      "lon": 19.819735,
+      "osmUrl": "https://www.openstreetmap.org/node/5100486821",
+      "score": 1
+    },
+    {
+      "id": "node/11971958053",
+      "name": "Rinush Idrizi",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.315598,
+      "lon": 19.829313,
+      "imageFile": "Rinush Idrizi bust.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/11971958053",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Rinush_Idrizi_bust.jpg/1280px-Rinush_Idrizi_bust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "way/1121231421",
+      "name": "Shatërvani i Miqësisë",
+      "nameEn": "Friendship Fountain",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.328083,
+      "lon": 19.820703,
+      "osmUrl": "https://www.openstreetmap.org/way/1121231421",
+      "score": 1
+    },
+    {
+      "id": "way/657621678",
+      "name": "Sheshi Adem Jashari",
+      "nameEn": "Adem Jashari Square",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.331666,
+      "lon": 19.807757,
+      "osmUrl": "https://www.openstreetmap.org/way/657621678",
+      "score": 1
+    },
+    {
+      "id": "node/4900675715",
+      "name": "Teatri Metropol",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.330371,
+      "lon": 19.817093,
+      "website": "http://tiranakulturore.al/",
+      "osmUrl": "https://www.openstreetmap.org/node/4900675715",
+      "score": 1
+    },
+    {
+      "id": "node/11228917339",
+      "name": "Teatro Zonja e Bytinës",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.34615,
+      "lon": 19.849349,
+      "website": "https://teatrizonjaebujtines.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/11228917339",
+      "score": 1
+    },
+    {
+      "id": "node/10265552833",
+      "name": "Tregu i Ri Elektrik",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.331616,
+      "lon": 19.844549,
+      "openingHours": "Mo-Fr 06:00-15:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/node/10265552833",
+      "score": 1
+    },
+    {
+      "id": "way/456810587",
+      "name": "Tregu Industrial \"Lahi\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.340767,
+      "lon": 19.827456,
+      "openingHours": "05:00-14:00",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/456810587",
+      "score": 1
+    },
+    {
+      "id": "node/9524687816",
+      "name": "Zâni",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.331189,
+      "lon": 19.817929,
+      "imageFile": "Zâni.jpg",
+      "osmUrl": "https://www.openstreetmap.org/node/9524687816",
+      "score": 1,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Z%C3%A2ni.jpg/1280px-Z%C3%A2ni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Ivan Ruggiero I'd appreciate if you could mail me (ivanru… · CC BY-SA 4.0"
+    },
+    {
+      "id": "node/9124938933",
+      "name": "2 Korrik 1990",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.329099,
+      "lon": 19.808267,
+      "osmUrl": "https://www.openstreetmap.org/node/9124938933",
+      "score": 0
+    },
+    {
+      "id": "way/1291703569",
+      "name": "American Corner",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.326136,
+      "lon": 19.825611,
+      "osmUrl": "https://www.openstreetmap.org/way/1291703569",
+      "score": 0
+    },
+    {
+      "id": "node/12122731491",
+      "name": "Art Gallery Muhamet Kërpaçi",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 41.322907,
+      "lon": 19.817469,
+      "osmUrl": "https://www.openstreetmap.org/node/12122731491",
+      "score": 0
+    },
+    {
+      "id": "node/6861185476",
+      "name": "Bardhoshi Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.329856,
+      "lon": 19.776406,
+      "osmUrl": "https://www.openstreetmap.org/node/6861185476",
+      "score": 0
+    },
+    {
+      "id": "node/4576610748",
+      "name": "Big Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.346114,
+      "lon": 19.841096,
+      "osmUrl": "https://www.openstreetmap.org/node/4576610748",
+      "score": 0
+    },
+    {
+      "id": "node/6802931047",
+      "name": "Bulmet",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.338211,
+      "lon": 19.833611,
+      "osmUrl": "https://www.openstreetmap.org/node/6802931047",
+      "score": 0
+    },
+    {
+      "id": "node/13938507213",
+      "name": "Debussy Fine Art",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 41.31996,
+      "lon": 19.817926,
+      "osmUrl": "https://www.openstreetmap.org/node/13938507213",
+      "score": 0
+    },
+    {
+      "id": "node/10204085754",
+      "name": "Hasan Prishtina",
+      "nameEn": "Hasan Prishtina",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.329929,
+      "lon": 19.817636,
+      "osmUrl": "https://www.openstreetmap.org/node/10204085754",
+      "score": 0
+    },
+    {
+      "id": "node/10895946897",
+      "name": "Këmbana e Paqes",
+      "nameEn": "Peace Bell",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.323465,
+      "lon": 19.82041,
+      "osmUrl": "https://www.openstreetmap.org/node/10895946897",
+      "score": 0
+    },
+    {
+      "id": "node/10202980081",
+      "name": "Kërpudha",
+      "nameEn": "Mushroom",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.321457,
+      "lon": 19.820849,
+      "osmUrl": "https://www.openstreetmap.org/node/10202980081",
+      "score": 0
+    },
+    {
+      "id": "node/2615905228",
+      "name": "Kinema Agimi",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 41.322627,
+      "lon": 19.814695,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/2615905228",
+      "score": 0
+    },
+    {
+      "id": "way/1233915392",
+      "name": "Kinema Maks Velo",
+      "category": "culture",
+      "kind": "arts_centre",
+      "lat": 41.338322,
+      "lon": 19.793892,
+      "osmUrl": "https://www.openstreetmap.org/way/1233915392",
+      "score": 0
+    },
+    {
+      "id": "node/6810294056",
+      "name": "KMY",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.341132,
+      "lon": 19.841541,
+      "osmUrl": "https://www.openstreetmap.org/node/6810294056",
+      "score": 0
+    },
+    {
+      "id": "node/3006052706",
+      "name": "Lapidar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.330257,
+      "lon": 19.824546,
+      "osmUrl": "https://www.openstreetmap.org/node/3006052706",
+      "score": 0
+    },
+    {
+      "id": "node/2991919994",
+      "name": "Lapidari",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.29551,
+      "lon": 19.808902,
+      "osmUrl": "https://www.openstreetmap.org/node/2991919994",
+      "score": 0
+    },
+    {
+      "id": "way/657646043",
+      "name": "Lulishtja Fan Stilian Noli",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.326506,
+      "lon": 19.823752,
+      "osmUrl": "https://www.openstreetmap.org/way/657646043",
+      "score": 0
+    },
+    {
+      "id": "node/6818445174",
+      "name": "Markata e Peshkut",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.335301,
+      "lon": 19.837535,
+      "osmUrl": "https://www.openstreetmap.org/node/6818445174",
+      "score": 0
+    },
+    {
+      "id": "node/6813066815",
+      "name": "Market Mish Viçi I Freskët",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.344458,
+      "lon": 19.838965,
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/node/6813066815",
+      "score": 0
+    },
+    {
+      "id": "node/6864382178",
+      "name": "Market Niku",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.333328,
+      "lon": 19.779399,
+      "osmUrl": "https://www.openstreetmap.org/node/6864382178",
+      "score": 0
+    },
+    {
+      "id": "node/4551484162",
+      "name": "Mbreti Zog I",
+      "nameEn": "King Zog I",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.335771,
+      "lon": 19.816703,
+      "osmUrl": "https://www.openstreetmap.org/node/4551484162",
+      "score": 0
+    },
+    {
+      "id": "node/4717813500",
+      "name": "MC Ministria e Komunikimit",
+      "nameEn": "MC Ministry of Communication",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.313536,
+      "lon": 19.816359,
+      "osmUrl": "https://www.openstreetmap.org/node/4717813500",
+      "score": 0
+    },
+    {
+      "id": "node/6800692561",
+      "name": "Mini Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.335626,
+      "lon": 19.832365,
+      "osmUrl": "https://www.openstreetmap.org/node/6800692561",
+      "score": 0
+    },
+    {
+      "id": "node/6812929854",
+      "name": "Mini Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.342464,
+      "lon": 19.833656,
+      "osmUrl": "https://www.openstreetmap.org/node/6812929854",
+      "score": 0
+    },
+    {
+      "id": "node/12851503702",
+      "name": "Minus Art Space",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 41.329351,
+      "lon": 19.828673,
+      "osmUrl": "https://www.openstreetmap.org/node/12851503702",
+      "score": 0
+    },
+    {
+      "id": "node/5061033221",
+      "name": "Nënë Tereza",
+      "nameEn": "Mother Theresa",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.324638,
+      "lon": 19.822163,
+      "osmUrl": "https://www.openstreetmap.org/node/5061033221",
+      "score": 0
+    },
+    {
+      "id": "way/543914248",
+      "name": "Panorama",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.336074,
+      "lon": 19.810491,
+      "osmUrl": "https://www.openstreetmap.org/way/543914248",
+      "score": 0
+    },
+    {
+      "id": "node/8167752400",
+      "name": "Papa Gjon Pali II",
+      "nameEn": "Pope John Paul II",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 41.319757,
+      "lon": 19.823283,
+      "osmUrl": "https://www.openstreetmap.org/node/8167752400",
+      "score": 0
+    },
+    {
+      "id": "way/379558197",
+      "name": "Parku 1 Kilometër",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.332851,
+      "lon": 19.792472,
+      "osmUrl": "https://www.openstreetmap.org/way/379558197",
+      "score": 0
+    }
+  ]
+}
