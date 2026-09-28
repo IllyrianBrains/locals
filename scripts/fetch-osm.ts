@@ -1,47 +1,48 @@
 /**
- * Extracts places to visit and things to see from OpenStreetMap (Overpass API)
- * for every city in src/data/cities.ts and writes src/data/osm/<slug>.json.
+ * Extracts places to visit and things to see from OpenStreetMap (the Geofabrik extracts of Albania and Kosovo,
+ * see pbf.ts) for every city in src/data/cities.ts and writes src/data/osm/<slug>.json.
  *
  *   npm run osm                 # all cities
  *   npm run osm -- tirane berat # selected cities
- *   npm run osm -- --offline    # re-process cached raw responses in .cache/osm
+ *   npm run osm -- --offline    # skip Wikimedia: use only what is already in .cache/osm/wiki.json
  *
  * Places are then enriched from Wikidata, Wikipedia and Wikimedia Commons (see enrich-wiki.ts).
  *
  * Data © OpenStreetMap contributors, ODbL 1.0 — attribution must be shown wherever it is used.
  */
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { cities, type City } from '../src/data/cities.ts';
 import { enrichPlaces } from './enrich-wiki.ts';
-import { dedupe, fetchOverpass, placeFilters, toPlace, type OverpassElement } from './osm-common.ts';
+import { dedupe, isPlace, toPlace, type OverpassElement } from './osm-common.ts';
+import { readPbf, type PbfCountry } from './pbf.ts';
 import type { OsmPlace, OsmCityData } from '../src/data/places.ts';
 
-const CACHE_DIR = new URL('../.cache/osm/', import.meta.url);
 const OUT_DIR = new URL('../src/data/osm/', import.meta.url);
 const MAX_PLACES = 150;
 
-function buildQuery({ osm: { lat, lon, radius } }: City): string {
-  return `[out:json][timeout:120];
-(
-${placeFilters(`(around:${radius},${lat},${lon})`)}
-);
-out center tags;`;
+const PBF_COUNTRY: Record<City['country'], PbfCountry> = { al: 'albania', xk: 'kosovo' };
+const extracts = new Map<PbfCountry, Promise<OverpassElement[]>>();
+const extractOf = (city: City) => {
+  const country = PBF_COUNTRY[city.country];
+  if (!extracts.has(country)) extracts.set(country, readPbf(country));
+  return extracts.get(country)!;
+};
+
+/** Metres between two points, close enough at this scale for a search radius. */
+function metersFrom(city: City, lat: number, lon: number): number {
+  const dLat = (lat - city.osm.lat) * 111_320;
+  const dLon = (lon - city.osm.lon) * 111_320 * Math.cos((city.osm.lat * Math.PI) / 180);
+  return Math.hypot(dLat, dLon);
 }
 
 async function processCity(city: City, offline: boolean): Promise<void> {
-  const cacheFile = new URL(`${city.slug}.raw.json`, CACHE_DIR);
-  let raw: { elements: OverpassElement[] };
-  if (offline) {
-    const cached = await readFile(cacheFile, 'utf8').catch(() => null);
-    if (!cached) throw new Error(`no cached response yet; run \`npm run osm -- ${city.slug}\` online first`);
-    raw = JSON.parse(cached);
-  } else {
-    raw = await fetchOverpass(buildQuery(city));
-    await writeFile(cacheFile, JSON.stringify(raw));
-  }
+  const nearby = (await extractOf(city)).filter((e) => {
+    const lat = e.lat ?? e.center?.lat, lon = e.lon ?? e.center?.lon;
+    return lat !== undefined && lon !== undefined && isPlace(e.tags ?? {}) && metersFrom(city, lat, lon) <= city.osm.radius;
+  });
 
   // Negative scores are mostly small busts, plaques and unnamed-looking artworks.
-  const places = dedupe(raw.elements.map(toPlace).filter((p): p is OsmPlace => p !== null && p.score >= 0))
+  const places = dedupe(nearby.map(toPlace).filter((p): p is OsmPlace => p !== null && p.score >= 0))
     .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, 'sq'))
     .slice(0, MAX_PLACES);
   await enrichPlaces(places, offline);
@@ -62,7 +63,7 @@ async function processCity(city: City, offline: boolean): Promise<void> {
   const byCategory = Object.entries(Object.groupBy(places, (p) => p.category)).map(([c, list]) => `${c} ${list!.length}`).join(', ');
   const withSummary = places.filter((p) => p.summary).length;
   const withImage = places.filter((p) => p.image).length;
-  console.log(`✓ ${city.name}: ${raw.elements.length} raw → ${places.length} places (${byCategory}); ${withSummary} summaries, ${withImage} images`);
+  console.log(`✓ ${city.name}: ${nearby.length} nearby → ${places.length} places (${byCategory}); ${withSummary} summaries, ${withImage} images`);
 }
 
 const args = process.argv.slice(2);
@@ -75,10 +76,9 @@ if (unknown.length) {
   process.exit(1);
 }
 
-await mkdir(CACHE_DIR, { recursive: true });
+await mkdir(new URL('../.cache/osm/', import.meta.url), { recursive: true }); // Wikimedia cache
 await mkdir(OUT_DIR, { recursive: true });
-for (const [i, city] of selected.entries()) {
-  if (i > 0 && !offline) await new Promise((r) => setTimeout(r, 3000)); // be polite to the public Overpass servers
+for (const city of selected) {
   try {
     await processCity(city, offline);
   } catch (error) {

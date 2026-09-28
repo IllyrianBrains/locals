@@ -72,14 +72,33 @@ export function topPlaces(slug: string, limit = 12, category?: OsmCategory): Osm
 }
 
 /**
- * How much there is to see and do, from quiet (1) to packed (5), named like musical dynamics.
- * Each municipality's level is computed by scripts/fetch-boundaries.ts into municipalities.json.
+ * How much a municipality offers for sustainable tourism, from little mapped (1) to very rich (5), named like
+ * musical dynamics. Each level is computed by scripts/fetch-boundaries.ts into municipalities.json.
  */
 export const sightLevels = [
-  { mark: 'pp', label: 'Qetësi' },
-  { mark: 'p', label: 'Pak për të parë' },
+  { mark: 'pp', label: 'Pak e hartuar' },
+  { mark: 'p', label: 'Fillestare' },
   { mark: 'mf', label: 'Mjaftueshëm' },
-  { mark: 'f', label: 'Shumë për të parë' },
-  { mark: 'ff', label: 'Plot' },
+  { mark: 'f', label: 'E pasur' },
+  { mark: 'ff', label: 'Shumë e pasur' },
 ] as const;
+
+/** The five things counted for the level: protected nature, trails, heritage, local businesses, car-free access. */
+export type Pillar = 'nature' | 'trails' | 'heritage' | 'local' | 'access';
+export const pillarLabels: Record<Pillar, string> = {
+  nature: 'Natyrë',
+  trails: 'Shtigje',
+  heritage: 'Trashëgimi',
+  local: 'Prodhues vendas',
+  access: 'Pa makinë',
+};
+
+/** One line on what each pillar counts, for the city guides. */
+export const pillarHints: Record<Pillar, string> = {
+  nature: 'Zona të mbrojtura, maja, burime, shpella dhe ujëvara.',
+  trails: 'Shtigje ecjeje e biçiklete, kasolle malore dhe kampe.',
+  heritage: 'Kala, vende arkeologjike, manastire dhe muze.',
+  local: 'Guesthouse-e, zanate, tregje dhe prodhues vendas.',
+  access: 'Stacione treni e autobusi dhe biçikleta me qira.',
+};
 

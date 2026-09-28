@@ -1,0 +1,89 @@
+{
+  "city": "istog",
+  "name": "Istog",
+  "center": {
+    "lat": 42.7833,
+    "lon": 20.4833
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:33.989Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 7,
+  "places": [
+    {
+      "id": "node/5620404121",
+      "name": "Burimi i ujit",
+      "nameEn": "Water spring",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.789199,
+      "lon": 20.481184,
+      "osmUrl": "https://www.openstreetmap.org/node/5620404121",
+      "score": 3
+    },
+    {
+      "id": "way/734854581",
+      "name": "ETC-Elkos Trading Center",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.760128,
+      "lon": 20.48674,
+      "website": "https://www.etc-ks.com/",
+      "openingHours": "Mo-Su 07:00-22:30",
+      "osmUrl": "https://www.openstreetmap.org/way/734854581",
+      "score": 2
+    },
+    {
+      "id": "way/244935867",
+      "name": "Viewpoint   Istog",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 42.789191,
+      "lon": 20.481353,
+      "osmUrl": "https://www.openstreetmap.org/way/244935867",
+      "score": 2
+    },
+    {
+      "id": "node/5552409726",
+      "name": "Plantacioni i Arres “Skifterit”",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.775555,
+      "lon": 20.514397,
+      "osmUrl": "https://www.openstreetmap.org/node/5552409726",
+      "score": 1
+    },
+    {
+      "id": "node/7341706057",
+      "name": "Viva Fresh Store",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.778162,
+      "lon": 20.488419,
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7341706057",
+      "score": 1
+    },
+    {
+      "id": "way/249716162",
+      "name": "Kompleksi Memorial „Ibrahim Rugova“",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.781878,
+      "lon": 20.485323,
+      "osmUrl": "https://www.openstreetmap.org/way/249716162",
+      "score": 0
+    },
+    {
+      "id": "way/887704143",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.780981,
+      "lon": 20.487941,
+      "osmUrl": "https://www.openstreetmap.org/way/887704143",
+      "score": 0
+    }
+  ]
+}

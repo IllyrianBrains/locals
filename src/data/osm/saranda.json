@@ -1,0 +1,312 @@
+{
+  "city": "saranda",
+  "name": "Sarandë",
+  "center": {
+    "lat": 39.875,
+    "lon": 20.01
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:26.973Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 25,
+  "places": [
+    {
+      "id": "way/283271857",
+      "name": "Kalaja e Lëkurësit",
+      "nameEn": "Lëkurësi Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 39.865858,
+      "lon": 20.025748,
+      "wikidata": "Q3304541",
+      "wikipedia": "en:Lëkurësi Castle",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/283271857",
+      "score": 14,
+      "imageFile": "Lëkurësi Castle, Saranda, Albania 2015-09-25 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/L%C3%ABkur%C3%ABsi_Castle%2C_Saranda%2C_Albania_2015-09-25_01.jpg/1280px-L%C3%ABkur%C3%ABsi_Castle%2C_Saranda%2C_Albania_2015-09-25_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla¨aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Lëkurësit është një kala e ndërtuar në Lëkurës, në jug të Shqipërisë. Kalaja është në një pikë kodre strategjike me pamje nga qyteti i Sarandës, në juglindje të qendrës së qytetit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_L%C3%ABkur%C3%ABsit"
+      }
+    },
+    {
+      "id": "way/439495677",
+      "name": "Manastiri i 40 Shenjtorëve",
+      "nameEn": "Forty Saints Monastery",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 39.872259,
+      "lon": 20.021684,
+      "wikidata": "Q5472986",
+      "wikipedia": "en:Forty Saints Monastery, Sarandë",
+      "osmUrl": "https://www.openstreetmap.org/way/439495677",
+      "score": 13,
+      "imageFile": "Manastiri i 40 Shenjtoreve.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Manastiri_i_40_Shenjtoreve.jpg/1280px-Manastiri_i_40_Shenjtoreve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Manastir në Sarandë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Manastiri i 40 Shenjtorëve është një manastir i shkatërruar në Sarandë, Shqipëri, i dedikuar për Dyzet Martirët e Sebaste. Manastiri ndodhet mbi kodrën e fshatit Qafë Gjashtë, një pozitë e favorshme për kohën ku kishin mundësi të kontrollonin qytetin e Ankiazmit bashkë me portin e tij, i cili ka luajtur rol të rëndësishëm në periudhën e Antikitetit të Vonë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Manastiri_i_40_Shenjtor%C3%ABve"
+      }
+    },
+    {
+      "id": "node/6870927701",
+      "name": "Muzeu Arkeologjik",
+      "nameEn": "Archeological Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 39.874227,
+      "lon": 20.009076,
+      "website": "https://saranda-explore.al/en/museum-of-archaeology/",
+      "osmUrl": "https://www.openstreetmap.org/node/6870927701",
+      "score": 4
+    },
+    {
+      "id": "node/9489868295",
+      "name": "Anija e mbytur SS Probitas",
+      "nameEn": "SS Probitas Shipwreck",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 39.870515,
+      "lon": 20.011635,
+      "osmUrl": "https://www.openstreetmap.org/node/9489868295",
+      "score": 3
+    },
+    {
+      "id": "way/283271843",
+      "name": "Muzeu i Traditës",
+      "nameEn": "Museum of Tradition",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 39.874024,
+      "lon": 20.00903,
+      "osmUrl": "https://www.openstreetmap.org/way/283271843",
+      "score": 3
+    },
+    {
+      "id": "way/235457913",
+      "name": "Plazh publik",
+      "nameEn": "Public beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 39.87268,
+      "lon": 20.012191,
+      "openingHours": "Mo-Su 07:00-22:00",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/235457913",
+      "score": 3
+    },
+    {
+      "id": "way/285639634",
+      "name": "Plazhi Mango",
+      "nameEn": "Mango Beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 39.852734,
+      "lon": 20.020531,
+      "openingHours": "Mo-Su 07:00-22:00",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/285639634",
+      "score": 3
+    },
+    {
+      "id": "node/11759155933",
+      "name": "Vasil Llaçi, Mitro Xhani e Lefter Talo busteve",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 39.873458,
+      "lon": 20.007063,
+      "description": "busteve të Heronjve të Popullit: Vasil Llaçi, Mitro Xhani e Lefter Talo.",
+      "website": "https://bashkiasarande.gov.al/category/lajme-nga-saranda/page/101/?page_number_0=5&page_number_2=1",
+      "osmUrl": "https://www.openstreetmap.org/node/11759155933",
+      "score": 3
+    },
+    {
+      "id": "node/13188633001",
+      "name": "Bunker",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 39.865326,
+      "lon": 20.025459,
+      "osmUrl": "https://www.openstreetmap.org/node/13188633001",
+      "score": 2
+    },
+    {
+      "id": "node/11758799427",
+      "name": "Hillary Rodham Clinton",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 39.874227,
+      "lon": 20.007894,
+      "description": "The Hillary Clinton Monument is a bronze buste of the former First Lady and presidential candidate of the United States, Hillary Rodham Clinton. The buste was created by the Albanian sculptor Idriz Balani and officially unveiled by the first female mayor ",
+      "osmUrl": "https://www.openstreetmap.org/node/11758799427",
+      "score": 2
+    },
+    {
+      "id": "way/235457916",
+      "name": "Plazhi Kodër",
+      "nameEn": "Kodra (Hill) Beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 39.869804,
+      "lon": 19.996828,
+      "osmUrl": "https://www.openstreetmap.org/way/235457916",
+      "score": 2
+    },
+    {
+      "id": "node/5172820105",
+      "name": "Kurrizi Hundës Madhe",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.875496,
+      "lon": 19.983282,
+      "osmUrl": "https://www.openstreetmap.org/node/5172820105",
+      "score": 1
+    },
+    {
+      "id": "node/5820495243",
+      "name": "Maestral",
+      "category": "nature",
+      "kind": "resort",
+      "lat": 39.866578,
+      "lon": 20.016122,
+      "osmUrl": "https://www.openstreetmap.org/node/5820495243",
+      "score": 1
+    },
+    {
+      "id": "node/5172468481",
+      "name": "Maja Emerecit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.894233,
+      "lon": 19.99812,
+      "osmUrl": "https://www.openstreetmap.org/node/5172468481",
+      "score": 1
+    },
+    {
+      "id": "node/5172820781",
+      "name": "Maja Garmalit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.878033,
+      "lon": 20.017636,
+      "osmUrl": "https://www.openstreetmap.org/node/5172820781",
+      "score": 1
+    },
+    {
+      "id": "node/11093632445",
+      "name": "Onhezmus Castle",
+      "category": "history",
+      "kind": "castle",
+      "lat": 39.874716,
+      "lon": 20.006684,
+      "osmUrl": "https://www.openstreetmap.org/node/11093632445",
+      "score": 1
+    },
+    {
+      "id": "way/283271864",
+      "name": "Parku Miqësia",
+      "nameEn": "Friendship Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 39.874951,
+      "lon": 20.007205,
+      "osmUrl": "https://www.openstreetmap.org/way/283271864",
+      "score": 1
+    },
+    {
+      "id": "way/235457917",
+      "name": "Plazh publik",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 39.872852,
+      "lon": 20.005,
+      "osmUrl": "https://www.openstreetmap.org/way/235457917",
+      "score": 1
+    },
+    {
+      "id": "node/12242411791",
+      "name": "Ruins of a 5th Century Synagogue",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 39.874529,
+      "lon": 20.006484,
+      "osmUrl": "https://www.openstreetmap.org/node/12242411791",
+      "score": 1
+    },
+    {
+      "id": "node/13665280001",
+      "name": "Sunset viewpoint",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 39.878996,
+      "lon": 19.987603,
+      "osmUrl": "https://www.openstreetmap.org/node/13665280001",
+      "score": 1
+    },
+    {
+      "id": "node/11725486370",
+      "name": "Tempulli Antik",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 39.872293,
+      "lon": 20.033632,
+      "osmUrl": "https://www.openstreetmap.org/node/11725486370",
+      "score": 1
+    },
+    {
+      "id": "node/6870927297",
+      "name": "Wall Remains of Ancient Onchesmus",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 39.872958,
+      "lon": 20.005282,
+      "osmUrl": "https://www.openstreetmap.org/node/6870927297",
+      "score": 1
+    },
+    {
+      "id": "node/13201239007",
+      "name": "Hasan Tahsini 1811-1881",
+      "category": "history",
+      "kind": "monument",
+      "lat": 39.873212,
+      "lon": 20.005649,
+      "osmUrl": "https://www.openstreetmap.org/node/13201239007",
+      "score": 0
+    },
+    {
+      "id": "node/9135696078",
+      "name": "Luna park \"Gjika\"",
+      "category": "attraction",
+      "kind": "theme_park",
+      "lat": 39.87296,
+      "lon": 20.003513,
+      "osmUrl": "https://www.openstreetmap.org/node/9135696078",
+      "score": 0
+    },
+    {
+      "id": "node/5922864885",
+      "name": "Nicolae Iorga",
+      "nameEn": "Nicolae Iorga",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 39.873436,
+      "lon": 20.006948,
+      "osmUrl": "https://www.openstreetmap.org/node/5922864885",
+      "score": 0
+    }
+  ]
+}

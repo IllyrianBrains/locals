@@ -1,0 +1,443 @@
+{
+  "source": "Wikidata (CC0), Wikipedia (CC BY-SA)",
+  "fetchedAt": "2026-09-28T12:48:31.937Z",
+  "cities": {
+    "tirane": {
+      "wikidata": {
+        "town": "Q19689",
+        "municipality": "Q13037436"
+      },
+      "description": {
+        "text": "Kryeqyteti i Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Tirana është kryeqendra e qarkut dhe rrethit me të njëjtin emër dhe kryeqyteti i Shqipërisë. Tirana ndodhet në qendër të Shqipërisë, rreth 35 km në lindje të Durrësit dhe rreth 40 km në veriperëndim të Elbasanit, në një luginë të rrethuar nga Mali i Dajtit në lindje, kodrat e Kërrabës dhe Saukut në jug, kodrat e Vaqarrit dhe Yzberishtit në perëndim dhe ato të Kamzës në veri. Në vitin 1614, valiu i Shkodrës, Sylejman pashë Bargjini nga Mulleti e ngriti në rangun e kasabasë, por haset e përmendur që në vitin 1418 në një dokument të Venedikut, duke qenë pjesë e viseve të banuara vazhdimisht që nga Epoka e Hekurit.",
+        "source": "https://sq.wikipedia.org/wiki/Tirana",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 557422,
+        "year": 2011
+      },
+      "areaKm2": 1088,
+      "elevationM": 110,
+      "website": "http://www.tirana.gov.al/"
+    },
+    "shkoder": {
+      "wikidata": {
+        "town": "Q131638",
+        "municipality": "Q16350146"
+      },
+      "description": {
+        "text": "Qyteti i pestë më i madh në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Shkodra është qytet dhe bashki në Shqipërinë Veriperëndimore, si dhe qendra e rrethit dhe e qarkut Shkodër. Është një nga qytetet më të vjetra të Shqipërisë me një histori banimi mijëvjeçare në qytet dhe krahinë. Shkodra është konsideruar një nyjë e rëndësishme gjeostrategjike prej afërsisë mes maleve, liqenit, detit dhe rrugëve me rëndësi në kuadrin e Ballkanit Perëndimor.",
+        "source": "https://sq.wikipedia.org/wiki/Shkodra",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 142513,
+        "year": 2011
+      },
+      "areaKm2": 908,
+      "elevationM": 13,
+      "website": "http://www.bashkiashkoder.gov.al/"
+    },
+    "berat": {
+      "wikidata": {
+        "town": "Q170244",
+        "municipality": "Q16350054"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Berati është një qytet në jug të Shqipërisë dhe njëkohësisht qendra administrative e Qarkut të Beratit. Sipas regjistrimit të popullsisë të vitit 2011, qyteti ka një popullsi prej 60,031 banorësh, duke e renditur të nëntin për nga madhësia e popullsisë në Republikën e Shqipërisë. Gjendet rreth 70 km në vijë ajrore në jug të Tiranës dhe përshkohet nga lumi Osum.",
+        "source": "https://sq.wikipedia.org/wiki/Berati",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 62232,
+        "year": 2023
+      },
+      "areaKm2": 418,
+      "elevationM": 58,
+      "website": "http://bashkiaberat.gov.al/"
+    },
+    "korce": {
+      "wikidata": {
+        "town": "Q116341",
+        "municipality": "Q13037414"
+      },
+      "description": {
+        "text": "qytet i vjetër i Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Korça është një qytet në Shqipërinë e Jugut. Korça është edhe qendra e prefekturës me të njëjtin emër. Është një nga bashkitë më të mëdha të vendit me rreth 90.000 banorë të regjistruar.",
+        "source": "https://sq.wikipedia.org/wiki/Kor%C3%A7a",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 75994,
+        "year": 2011
+      },
+      "areaKm2": 802,
+      "elevationM": 850,
+      "website": "http://www.bashkiakorce.gov.al/"
+    },
+    "gjirokaster": {
+      "wikidata": {
+        "town": "Q173690",
+        "municipality": "Q16350087"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Gjirokastra është qytet në Shqipërinë jugore, banorët e të cilit quhen gjirokastritë. Qytet i përfshirë në Listën e Trashëgimisë Botërore të UNESKO-s më 2005, si një nga pak shembujt e mbijetuar në Ballkan të qyteteve tregtare të stilit osman.",
+        "source": "https://sq.wikipedia.org/wiki/Gjirokastra",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 23270
+      },
+      "areaKm2": 469,
+      "elevationM": 190,
+      "website": "https://bashkiagjirokaster.gov.al/"
+    },
+    "vlore": {
+      "wikidata": {
+        "town": "Q159610",
+        "municipality": "Q16350151"
+      },
+      "description": {
+        "text": "Qyteti i tretë më i madh i Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Vlora është një qytet bregdetar në jugperëndim të Shqipërisë. Vlora është qyteti i dytë më i madh portual pas Durrësit, me një popullsi prej 188.922 banorë. Ndodhet në jugperëndim të Shqipërisë, në Detin Adriatik dhe është qendra e Bashkisë së Vlorës dhe Qarkut të Vlorës.",
+        "source": "https://sq.wikipedia.org/wiki/Vlora",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 104827,
+        "year": 2011
+      },
+      "areaKm2": 644,
+      "website": "http://bashkiavlore.org/"
+    },
+    "prishtine": {
+      "wikidata": {
+        "town": "Q25270",
+        "municipality": "Q3625575"
+      },
+      "description": {
+        "text": "Kryeqyteti i Kosovës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Prishtina është kryeqyteti i Kosovës dhe selia e komunës dhe rajonit të njëjtë. Është qyteti i dytë më i madh i banuar me shqiptarë në Evropë, pas Tiranës. Prishtina është nyja më e rëndësishme e transportit të Kosovës, për ajrin, hekurudhat dhe rrugët.",
+        "source": "https://sq.wikipedia.org/wiki/Prishtina",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 227154,
+        "year": 2024
+      },
+      "areaKm2": 520,
+      "elevationM": 652,
+      "website": "https://prishtinaonline.com/"
+    },
+    "prizren": {
+      "wikidata": {
+        "town": "Q200061",
+        "municipality": "Q2507200"
+      },
+      "description": {
+        "text": "Qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Prizreni është qytet në pjesën jug-perëndimore të Republikës së Kosovës, si dhe i dyti në Kosovë për nga madhësia dhe popullsia pas Prishtinës. Prizreni po ashtu është qendër e komunës dhe rajonit me të njëjtin emër. Qyteti i Prizrenit ka një popullsi prej rreth 76.850 banorësh, ndërsa komuna ka 147.246, përfshi këtu qytetin dhe 76 fshatrat e Prizrenit.",
+        "source": "https://sq.wikipedia.org/wiki/Prizreni",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 147428,
+        "year": 2024
+      },
+      "areaKm2": 621,
+      "elevationM": 450,
+      "website": "https://prizren.rks-gov.net/"
+    },
+    "peje": {
+      "wikidata": {
+        "town": "Q112657",
+        "municipality": "Q2507287"
+      },
+      "description": {
+        "text": "Qytet ne Kosove",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Peja është qytet dhe komunë ndodhur në Rajonin e Pejës në Dardani-Kosovë. Po ashtu Peja është qendër e komunës dhe rajonit e të njëjtit emër.",
+        "source": "https://sq.wikipedia.org/wiki/Peja",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 82661,
+        "year": 2024
+      },
+      "areaKm2": 599,
+      "elevationM": 550,
+      "website": "https://peja.rks-gov.net/"
+    },
+    "gjakove": {
+      "wikidata": {
+        "town": "Q474651",
+        "municipality": "Q3656386"
+      },
+      "description": {
+        "text": "Qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Gjakova është qytet në pjesën perëndimore të Kosovës. Gjakova është qendër e komunës dhe rajonit me të njëjtin emër. Toka ku filloj të ngrihet qyteti ishte në pronësi të një shqiptari të besimit katolik të quajtur Jakë Vula (prej Merturit), nga e mori edhe emrin.",
+        "source": "https://sq.wikipedia.org/wiki/Gjakova",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 78824,
+        "year": 2024
+      },
+      "areaKm2": 582,
+      "elevationM": 360,
+      "website": "https://gjakova.rks-gov.net/"
+    },
+    "permet": {
+      "wikidata": {
+        "town": "Q642856",
+        "municipality": "Q13037431"
+      },
+      "description": {
+        "text": "town of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Përmeti është qytet në juglindje të Shqipërisë dhe qendër e njësisë administrative me të njëjtin emër Rrethi i Përmetit.",
+        "source": "https://sq.wikipedia.org/wiki/P%C3%ABrmeti",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 10614,
+        "year": 2011
+      },
+      "areaKm2": 600,
+      "elevationM": 240,
+      "website": "https://bashkiapermet.gov.al/"
+    },
+    "pogradec": {
+      "wikidata": {
+        "town": "Q73639",
+        "municipality": "Q22005546"
+      },
+      "description": {
+        "text": "Qytet ne juglindje te Shqiperise",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Pogradeci është qytet në Shqipërinë juglindore, në bregun jugperëndimor të liqenit të Ohrit. Qyteti numëronte rreth 21 000 banorë në vitin 2011. Ndërkohë Bashkia e Pogradecit, e cila përfshin edhe njësitë administrative fqinje, numëron rreth 61 000 banorë.",
+        "source": "https://sq.wikipedia.org/wiki/Pogradeci",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 61530,
+        "year": 2011
+      },
+      "areaKm2": 607,
+      "elevationM": 700,
+      "website": "http://bashkiapogradec.al/"
+    },
+    "saranda": {
+      "wikidata": {
+        "town": "Q193226",
+        "municipality": "Q16350136"
+      },
+      "description": {
+        "text": "Qytet në Shqipërinë e Jugut",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Saranda është një qytet bregdetar i cili ndodhet në jug të Shqipërisë.",
+        "source": "https://sq.wikipedia.org/wiki/Saranda",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 20227,
+        "year": 2011
+      },
+      "areaKm2": 36,
+      "website": "http://bashkiasarande.gov.al/"
+    },
+    "kruje": {
+      "wikidata": {
+        "town": "Q194164",
+        "municipality": "Q194164"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kruja është një qytet dhe bashki në Shqipërinë qendër-veriore, mes malit të Sari Salltikut dhe lumit Ishëm, vetëm 20 km në veri të kryeqytetit të Shqipërisë, Tiranës. Me vlerësimin e vitit 2004, Kruja ka rreth 19 400 banorë, banorët i thonë vetes \"krutonë\" ose \"krotonë\".",
+        "source": "https://sq.wikipedia.org/wiki/Kruja",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 11721,
+        "year": 2011
+      },
+      "areaKm2": 345,
+      "elevationM": 532,
+      "website": "http://www.kruja.gov.al"
+    },
+    "bajram-curri": {
+      "wikidata": {
+        "town": "Q18705",
+        "municipality": "Q909791"
+      },
+      "description": {
+        "text": "qytet në Shqipëri, në Qarkun e Kukësit",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Bajram Curri është territor në veri të Shqipërisë. Ai bën pjesë në Rrethin e Tropojës. Si njësi administrative ajo përfshihet në qarkun e Kukësit.Qyteti i Bajram Currit është qëndra më e rëndësishme administrative dhe funksionale e rrethit te Tropojës.",
+        "source": "https://sq.wikipedia.org/wiki/Bajram_Curri_(qytet)",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 20517,
+        "year": 2011
+      },
+      "areaKm2": 1048,
+      "elevationM": 360,
+      "website": "https://tropoje.gov.al/"
+    },
+    "mitrovice": {
+      "wikidata": {
+        "town": "Q178168",
+        "municipality": "Q3657448"
+      },
+      "description": {
+        "text": "Qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Mitrovica është qytet në pjesën veriore të Republikës së Kosovës si dhe qendër e komunës dhe rajonit me të njëjtin emër. Pozita e mirë gjeografike në mes të dy lumenjve Ibrit dhe Sitnicës kanë ndikuar që në parahistori ky territor të banohet. Me zhvillimin e xehetarisë këtij territori i shtohet edhe një komponent i rëndësishëm në ngritjen e një qendre të rëndësishme të vendbanimit.",
+        "source": "https://sq.wikipedia.org/wiki/Mitrovica",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 64680,
+        "year": 2024
+      },
+      "areaKm2": 328,
+      "elevationM": 500,
+      "website": "https://mitroviceejugut.rks-gov.net/"
+    },
+    "rahovec": {
+      "wikidata": {
+        "town": "Q733155",
+        "municipality": "Q794039"
+      },
+      "description": {
+        "text": "qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Rahoveci është qytet dhe komunë në pjesën jug-perëndimore të Kosovës. Në veri kufizohet me Klinën, në lindje me Suharekën, në pjesën jugore gjendet komuna e Prizrenit, ndërsa në tërë pjesën perëndimore kufizohet me komunën e Gjakovës. Përafërsisht ka diku 276 km2 dhe është vendbanim i 76,577 banorëve.",
+        "source": "https://sq.wikipedia.org/wiki/Rahoveci",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 41777,
+        "year": 2024
+      },
+      "areaKm2": 275,
+      "elevationM": 477,
+      "website": "https://rahovec.rks-gov.net/"
+    },
+    "decan": {
+      "wikidata": {
+        "town": "Q939112",
+        "municipality": "Q860148"
+      },
+      "description": {
+        "text": "town in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Deçani është qytet në pjesën perëndimore të Kosovës. Kufizohet me komunën e Pejës, Gjakovës, dhe me Republikën e Shqipërisë. Është i njohur për rrugët historike në mes Pejës dhe Gjakovës.",
+        "source": "https://sq.wikipedia.org/wiki/De%C3%A7ani",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 27758,
+        "year": 2024
+      },
+      "areaKm2": 293,
+      "elevationM": 587,
+      "website": "https://decan.rks-gov.net/"
+    },
+    "gjilan": {
+      "wikidata": {
+        "town": "Q739808",
+        "municipality": "Q2513453"
+      },
+      "description": {
+        "text": "qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Gjilani është një nga shtatë qytetet më të mëdha të Kosovës. Është vendosur në fushën e Gjilanit gjegjësisht në jug-lindje të Kosovës në Anamoravë. Lumi Morava shtrihet në juglindje të Kosovës në rrugën për Preshevë, rreth 4 kilometra larg qendrës së qytetit të Gjilanit.",
+        "source": "https://sq.wikipedia.org/wiki/Gjilani",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 82901,
+        "year": 2024
+      },
+      "areaKm2": 388,
+      "elevationM": 508,
+      "website": "https://gjilan.rks-gov.net/"
+    },
+    "istog": {
+      "wikidata": {
+        "town": "Q991332",
+        "municipality": "Q2043104"
+      },
+      "description": {
+        "text": "qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Istogu, njohur zyrtarisht si Burimi, është qytet në Kosovë dhe ndodhet në rafshin e Dukagjinit dhe bënë pjesë në regjionin e Pejës.",
+        "source": "https://sq.wikipedia.org/wiki/Burimi_(qytet)",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 33066,
+        "year": 2024
+      },
+      "areaKm2": 451,
+      "elevationM": 480,
+      "website": "https://istog.rks-gov.net/"
+    }
+  }
+}

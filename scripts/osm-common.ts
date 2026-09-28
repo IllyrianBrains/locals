@@ -4,7 +4,7 @@
  *
  * Data © OpenStreetMap contributors, ODbL 1.0.
  */
-import type { OsmCategory, OsmPlace } from '../src/data/places.ts';
+import type { OsmCategory, OsmPlace, Pillar } from '../src/data/places.ts';
 
 export const ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
 export const USER_AGENT = 'ib-locals/0.1 (https://locals.illyrianbrains.org)';
@@ -18,15 +18,34 @@ export interface OverpassElement {
   tags?: Record<string, string>;
 }
 
-/** Overpass statements for every kind of place worth visiting, limited to `scope`, e.g. `(around:4000,41.3,19.8)` or `(area.c)`. */
-export function placeFilters(scope: string): string {
-  return `  nwr${scope}["tourism"~"^(attraction|museum|gallery|viewpoint|artwork|zoo|theme_park)$"]["name"];
-  nwr${scope}["historic"]["historic"!~"^(yes|boundary_stone|milestone|district)$"]["name"];
-  nwr${scope}["leisure"~"^(park|garden|nature_reserve)$"]["name"];
-  nwr${scope}["amenity"~"^(theatre|arts_centre|marketplace|planetarium)$"]["name"];
-  nwr${scope}["amenity"="place_of_worship"]["name"]["wikidata"];
-  nwr${scope}["natural"~"^(peak|cave_entrance|spring|beach)$"]["name"];
-  nwr${scope}["man_made"~"^(tower|lighthouse)$"]["tourism"]["name"];`;
+/** Every kind of place worth visiting: the tag rules `toPlace` starts from. Nameless features are never places. */
+export function isPlace(t: Record<string, string>): boolean {
+  if (!t.name) return false;
+  return /^(attraction|museum|gallery|viewpoint|artwork|zoo|theme_park)$/.test(t.tourism ?? '')
+    || (!!t.historic && !/^(yes|boundary_stone|milestone|district)$/.test(t.historic))
+    || /^(park|garden|nature_reserve)$/.test(t.leisure ?? '')
+    || /^(theatre|arts_centre|marketplace|planetarium)$/.test(t.amenity ?? '')
+    || (t.amenity === 'place_of_worship' && !!t.wikidata)
+    || /^(peak|cave_entrance|spring|beach)$/.test(t.natural ?? '')
+    || (/^(tower|lighthouse)$/.test(t.man_made ?? '') && !!t.tourism);
+}
+
+/**
+ * Sustainable-tourism features, used for the region map. Unlike `isPlace` this leaves out what mostly draws
+ * crowds (theme parks, zoos, statues and plaques, generic attractions, beaches) and looks for what supports
+ * low-impact travel: protected nature, trails, heritage, local businesses and ways to arrive without a car.
+ * Routes and protected areas are matched by their centre point.
+ */
+export const pillars: Pillar[] = ['nature', 'trails', 'heritage', 'local', 'access'];
+
+export function pillarOf(t: Record<string, string>): Pillar | null {
+  const named = !!t.name;
+  if (named && (/^(national_park|protected_area)$/.test(t.boundary ?? '') || t.leisure === 'nature_reserve' || t.waterway === 'waterfall' || /^(peak|spring|cave_entrance)$/.test(t.natural ?? ''))) return 'nature';
+  if (/^(hiking|foot|bicycle|mtb)$/.test(t.route ?? '') || /^(alpine_hut|wilderness_hut|camp_site)$/.test(t.tourism ?? '')) return 'trails';
+  if (named && (/^(castle|fort|archaeological_site|monastery|ruins|city_gate|manor|tomb)$/.test(t.historic ?? '') || t.heritage || t.tourism === 'museum' || (t.amenity === 'place_of_worship' && t.wikidata))) return 'heritage';
+  if (/^(guest_house|farm_stay|chalet|wine_cellar)$/.test(t.tourism ?? '') || t.craft || /^(farm|craft)$/.test(t.shop ?? '') || (named && t.amenity === 'marketplace')) return 'local';
+  if ((named && /^(station|halt)$/.test(t.railway ?? '')) || /^(bus_station|bicycle_rental)$/.test(t.amenity ?? '')) return 'access';
+  return null;
 }
 
 export async function fetchOverpass(query: string): Promise<{ elements: OverpassElement[] }> {

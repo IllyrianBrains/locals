@@ -1,0 +1,430 @@
+{
+  "city": "mitrovice",
+  "name": "Mitrovicë",
+  "center": {
+    "lat": 42.8833,
+    "lon": 20.8667
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:30.820Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 36,
+  "places": [
+    {
+      "id": "node/2522361036",
+      "name": "Muzeu i Mitrovicës",
+      "nameEn": "Museum of Mitrovica",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.887281,
+      "lon": 20.86859,
+      "wikidata": "Q28403037",
+      "wikipedia": "en:City Museum of Mitrovica",
+      "openingHours": "Mo-Fr 08:00-16:00; Sa-Su 12:00-13:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/2522361036",
+      "score": 13,
+      "imageFile": "Muzeu i Mitrovicës.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Muzeu_i_Mitrovic%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Drenisa · CC BY-SA 4.0",
+      "tagline": {
+        "text": "museum in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu i qytetit të Mitrovicës është një muze i cili ndodhet në qytetin e Mitrovicës, Kosovë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_Mitrovic%C3%ABs"
+      }
+    },
+    {
+      "id": "node/6148332486",
+      "name": "Monumenti i Minatorëve",
+      "nameEn": "Miners' Monument",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.895862,
+      "lon": 20.860123,
+      "wikidata": "Q20437047",
+      "wikipedia": "sr:Споменик рударима јунацима из НОБ",
+      "osmUrl": "https://www.openstreetmap.org/node/6148332486",
+      "score": 12,
+      "imageFile": "Kosovska Mitrovica monument.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kosovska_Mitrovica_monument.jpg/1280px-Kosovska_Mitrovica_monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Tiia Monto · CC BY-SA 3.0",
+      "tagline": {
+        "text": "memorial",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Monumenti i minatorëve të rënë në Mitrovicë është një trashëgimi kulturore që i kushtohet minatorëve partizanë të Mitrovicës të rënë gjatë Luftës së Dytë Botërore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_i_minator%C3%ABve_(Mitrovic%C3%AB)"
+      }
+    },
+    {
+      "id": "way/174504772",
+      "name": "Manastiri i Shën Dhimitrit",
+      "nameEn": "Church of Saint Demetrius",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.895428,
+      "lon": 20.862577,
+      "wikidata": "Q25460939",
+      "wikipedia": "en:Church of Saint Demetrius in Kosovo Mitrovica",
+      "osmUrl": "https://www.openstreetmap.org/way/174504772",
+      "score": 8,
+      "imageFile": "Church in Northern Kosovska Mitrovica, Kosovo.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Church_in_Northern_Kosovska_Mitrovica%2C_Kosovo.jpg/1280px-Church_in_Northern_Kosovska_Mitrovica%2C_Kosovo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Tiia Monto · CC BY-SA 3.0",
+      "tagline": {
+        "text": "church",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha e Shën Dhimitrit është kishë e Kishës Ortodokse Serbe, në territorin e dioqezës së Rashkë-Prizrenit, në qytetin e Mitrovicës, Kosovë. Pas bombardimeve të Jugosllavisë nga NATO, Mitrovica u nda në pjesë veriore dhe jugore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Dhimitrit_n%C3%AB_Mitrovic%C3%AB"
+      }
+    },
+    {
+      "id": "way/177641522",
+      "name": "Kalaja e Zveçanit",
+      "nameEn": "Zvečan Fortress",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.904589,
+      "lon": 20.847729,
+      "wikipedia": "sr:Средњовековни град Звечан",
+      "osmUrl": "https://www.openstreetmap.org/way/177641522",
+      "score": 5
+    },
+    {
+      "id": "way/147017060",
+      "name": "Jadrani",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.889024,
+      "lon": 20.869665,
+      "website": "https://dtk.rks-gov.net/tkk_objekti.aspx?id=1631",
+      "osmUrl": "https://www.openstreetmap.org/way/147017060",
+      "score": 3
+    },
+    {
+      "id": "node/6649827600",
+      "name": "Xhamia Hysen Nimon Hyseni",
+      "nameEn": "Hysen Hyseni Mosque",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.858863,
+      "lon": 20.862841,
+      "osmUrl": "https://www.openstreetmap.org/node/6649827600",
+      "score": 3
+    },
+    {
+      "id": "way/459459934",
+      "name": "Miti",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.893932,
+      "lon": 20.883752,
+      "osmUrl": "https://www.openstreetmap.org/way/459459934",
+      "score": 2
+    },
+    {
+      "id": "way/592190019",
+      "name": "Ura e Liqenit te Mitrovicës",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.883188,
+      "lon": 20.848137,
+      "osmUrl": "https://www.openstreetmap.org/way/592190019",
+      "score": 2
+    },
+    {
+      "id": "way/1263349819",
+      "name": "Ballkoni Panoramik",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.886344,
+      "lon": 20.898322,
+      "osmUrl": "https://www.openstreetmap.org/way/1263349819",
+      "score": 1
+    },
+    {
+      "id": "node/6374614185",
+      "name": "Familja ZEQIRI",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 42.877668,
+      "lon": 20.858708,
+      "osmUrl": "https://www.openstreetmap.org/node/6374614185",
+      "score": 1
+    },
+    {
+      "id": "way/146825481",
+      "name": "Nënë Tereza",
+      "nameEn": "Mother Teresa",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.889106,
+      "lon": 20.866421,
+      "osmUrl": "https://www.openstreetmap.org/way/146825481",
+      "score": 1
+    },
+    {
+      "id": "way/147144896",
+      "name": "Shtëpija e Xhafer Devës",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 42.889474,
+      "lon": 20.870256,
+      "osmUrl": "https://www.openstreetmap.org/way/147144896",
+      "score": 1
+    },
+    {
+      "id": "node/6657223836",
+      "name": "Adem Jashari",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.888273,
+      "lon": 20.869687,
+      "osmUrl": "https://www.openstreetmap.org/node/6657223836",
+      "score": 0
+    },
+    {
+      "id": "node/11145701689",
+      "name": "Galeria e Fakultetit të Arteve",
+      "category": "museum",
+      "kind": "gallery",
+      "lat": 42.892918,
+      "lon": 20.861902,
+      "osmUrl": "https://www.openstreetmap.org/node/11145701689",
+      "score": 0
+    },
+    {
+      "id": "way/148179101",
+      "name": "Kopshti i Hamamit",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.887932,
+      "lon": 20.871061,
+      "osmUrl": "https://www.openstreetmap.org/way/148179101",
+      "score": 0
+    },
+    {
+      "id": "node/7658783290",
+      "name": "Lagjia \"TE BUNARI\"",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.888819,
+      "lon": 20.872592,
+      "osmUrl": "https://www.openstreetmap.org/node/7658783290",
+      "score": 0
+    },
+    {
+      "id": "node/2545214733",
+      "name": "Marketi Florenti",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.88668,
+      "lon": 20.866434,
+      "osmUrl": "https://www.openstreetmap.org/node/2545214733",
+      "score": 0
+    },
+    {
+      "id": "node/1578116162",
+      "name": "Mehe Uka",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.889466,
+      "lon": 20.868932,
+      "osmUrl": "https://www.openstreetmap.org/node/1578116162",
+      "score": 0
+    },
+    {
+      "id": "node/6657223839",
+      "name": "Monumenti i Trepces",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.890157,
+      "lon": 20.867381,
+      "osmUrl": "https://www.openstreetmap.org/node/6657223839",
+      "score": 0
+    },
+    {
+      "id": "way/146478678",
+      "name": "Parku Adem Demaçi",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.887403,
+      "lon": 20.868869,
+      "osmUrl": "https://www.openstreetmap.org/way/146478678",
+      "score": 0
+    },
+    {
+      "id": "way/144092561",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.889419,
+      "lon": 20.862733,
+      "osmUrl": "https://www.openstreetmap.org/way/144092561",
+      "score": 0
+    },
+    {
+      "id": "way/300831754",
+      "name": "Parku Xheva dhe Fehmi Lladrovci",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.875658,
+      "lon": 20.864775,
+      "osmUrl": "https://www.openstreetmap.org/way/300831754",
+      "score": 0
+    },
+    {
+      "id": "node/6657223840",
+      "name": "Posta dhe Telekomi i Kosoves",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.88893,
+      "lon": 20.867866,
+      "osmUrl": "https://www.openstreetmap.org/node/6657223840",
+      "score": 0
+    },
+    {
+      "id": "way/303387163",
+      "name": "QMP",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.886925,
+      "lon": 20.881897,
+      "osmUrl": "https://www.openstreetmap.org/way/303387163",
+      "score": 0
+    },
+    {
+      "id": "way/243053536",
+      "name": "Rethi i Teqes",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.887733,
+      "lon": 20.865463,
+      "osmUrl": "https://www.openstreetmap.org/way/243053536",
+      "score": 0
+    },
+    {
+      "id": "way/146626542",
+      "name": "Rrethi",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.882282,
+      "lon": 20.866094,
+      "osmUrl": "https://www.openstreetmap.org/way/146626542",
+      "score": 0
+    },
+    {
+      "id": "way/146626535",
+      "name": "Rrethi te BVI",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.886286,
+      "lon": 20.868898,
+      "osmUrl": "https://www.openstreetmap.org/way/146626535",
+      "score": 0
+    },
+    {
+      "id": "node/2545187838",
+      "name": "Safet Boletini",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.886283,
+      "lon": 20.868911,
+      "osmUrl": "https://www.openstreetmap.org/node/2545187838",
+      "score": 0
+    },
+    {
+      "id": "way/146654851",
+      "name": "Sheshi i Adriatikut",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.887857,
+      "lon": 20.870131,
+      "osmUrl": "https://www.openstreetmap.org/way/146654851",
+      "score": 0
+    },
+    {
+      "id": "way/459474085",
+      "name": "Shtëpia e Buzëqeshje",
+      "nameEn": "House Of Laughter",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.887436,
+      "lon": 20.875003,
+      "osmUrl": "https://www.openstreetmap.org/way/459474085",
+      "score": 0
+    },
+    {
+      "id": "way/148176717",
+      "name": "Te Luli OKARINA",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.888581,
+      "lon": 20.870608,
+      "osmUrl": "https://www.openstreetmap.org/way/148176717",
+      "score": 0
+    },
+    {
+      "id": "way/148176722",
+      "name": "Te Misint",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.888524,
+      "lon": 20.870398,
+      "osmUrl": "https://www.openstreetmap.org/way/148176722",
+      "score": 0
+    },
+    {
+      "id": "way/147144902",
+      "name": "Tregu i Gjelbërt",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.887503,
+      "lon": 20.862455,
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/147144902",
+      "score": 0
+    },
+    {
+      "id": "way/1083230571",
+      "name": "Tregu i Qytetit",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.891403,
+      "lon": 20.864156,
+      "osmUrl": "https://www.openstreetmap.org/way/1083230571",
+      "score": 0
+    },
+    {
+      "id": "way/303384295",
+      "name": "Trepca",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.888371,
+      "lon": 20.879736,
+      "osmUrl": "https://www.openstreetmap.org/way/303384295",
+      "score": 0
+    },
+    {
+      "id": "node/5696482948",
+      "name": "Xhama Lëvizës",
+      "nameEn": "Glass",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.889828,
+      "lon": 20.87024,
+      "osmUrl": "https://www.openstreetmap.org/node/5696482948",
+      "score": 0
+    }
+  ]
+}

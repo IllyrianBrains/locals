@@ -1,0 +1,270 @@
+{
+  "city": "gjilan",
+  "name": "Gjilan",
+  "center": {
+    "lat": 42.4635,
+    "lon": 21.4694
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:33.943Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 23,
+  "places": [
+    {
+      "id": "way/460202585",
+      "name": "Xhamia Medresesë '' Atik Xhamia''",
+      "nameEn": "Mosque of Madrasah",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.467784,
+      "lon": 21.467761,
+      "description": "Atik Mosque, otherwise known as Madrasah Mosque, was built in the 17th century. It is the first mosque built in the city. The notes speak of the completion of the works in 1606, but there are also writings that speak of the year 1609.",
+      "wikidata": "Q25572431",
+      "wikipedia": "sq:Xhamia Atik",
+      "imageFile": "Xhamia Atik.jpg",
+      "osmUrl": "https://www.openstreetmap.org/way/460202585",
+      "score": 11,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Xhamia_Atik.jpg/1280px-Xhamia_Atik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "IsmailGagica · CC BY-SA 4.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia Atik e njohur edhe si Xhamia e Medresesë është një monument i trashëgimisë kulturore në Gjilan, Kosovë. Është xhamia e parë e ndërtuar në qytet, në shekullin e XVII, dhe që mendohet të ketë përfunduar ndërtimi në vitet 1606-1609.Atik xhamia eshte ndertuar me materiale te ndryshme: gure, tulla, hatulla vertikale dhe horizontale, llaq gelqereje dhe thupra te shtypurua.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_Atik"
+      }
+    },
+    {
+      "id": "node/5375735221",
+      "name": "Bilardo Te Smalovit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.440215,
+      "lon": 21.478725,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5375735221",
+      "score": 3
+    },
+    {
+      "id": "way/793202492",
+      "name": "BUM Market 1",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.469572,
+      "lon": 21.469342,
+      "website": "https://www.facebook.com/bummarket",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/793202492",
+      "score": 2
+    },
+    {
+      "id": "way/781551993",
+      "name": "Vyrtyti",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.440083,
+      "lon": 21.477676,
+      "description": "Previously known as Market \"LUMI\". Now it has changed the name to Vyrtyti Market",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/781551993",
+      "score": 2
+    },
+    {
+      "id": "node/6738859985",
+      "name": "EMD Projekt",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.468856,
+      "lon": 21.461548,
+      "description": "Marketing & Printing",
+      "website": "https://emdprojekt.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/6738859985",
+      "score": 1
+    },
+    {
+      "id": "way/459216128",
+      "name": "Teatri i Qytetit të Gjilanit",
+      "nameEn": "Gjilan City Theatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.462591,
+      "lon": 21.469338,
+      "osmUrl": "https://www.openstreetmap.org/way/459216128",
+      "score": 1
+    },
+    {
+      "id": "node/429721912",
+      "name": "28 Nëntori '68",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.468907,
+      "lon": 21.465322,
+      "osmUrl": "https://www.openstreetmap.org/node/429721912",
+      "score": 0
+    },
+    {
+      "id": "way/650706956",
+      "name": "Arlind Halili",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.459689,
+      "lon": 21.452895,
+      "osmUrl": "https://www.openstreetmap.org/way/650706956",
+      "score": 0
+    },
+    {
+      "id": "way/460177729",
+      "name": "Bumi",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.461317,
+      "lon": 21.455435,
+      "osmUrl": "https://www.openstreetmap.org/way/460177729",
+      "score": 0
+    },
+    {
+      "id": "node/410812157",
+      "name": "familja Zuka",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.458678,
+      "lon": 21.491384,
+      "osmUrl": "https://www.openstreetmap.org/node/410812157",
+      "score": 0
+    },
+    {
+      "id": "node/8131374780",
+      "name": "Fatoni",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.469377,
+      "lon": 21.459814,
+      "osmUrl": "https://www.openstreetmap.org/node/8131374780",
+      "score": 0
+    },
+    {
+      "id": "way/460215307",
+      "name": "Oborret e shtepive",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.470225,
+      "lon": 21.458184,
+      "osmUrl": "https://www.openstreetmap.org/way/460215307",
+      "score": 0
+    },
+    {
+      "id": "way/1265665283",
+      "name": "Parku \" Banja\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.472926,
+      "lon": 21.460117,
+      "osmUrl": "https://www.openstreetmap.org/way/1265665283",
+      "score": 0
+    },
+    {
+      "id": "way/36942879",
+      "name": "Parku Gavranit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.468746,
+      "lon": 21.455552,
+      "osmUrl": "https://www.openstreetmap.org/way/36942879",
+      "score": 0
+    },
+    {
+      "id": "way/264979236",
+      "name": "Parku i lagjes",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.454243,
+      "lon": 21.469957,
+      "osmUrl": "https://www.openstreetmap.org/way/264979236",
+      "score": 0
+    },
+    {
+      "id": "way/459215762",
+      "name": "Parku i Lagjes Arbëria",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.446306,
+      "lon": 21.473027,
+      "osmUrl": "https://www.openstreetmap.org/way/459215762",
+      "score": 0
+    },
+    {
+      "id": "way/460142624",
+      "name": "Parku sekondar i qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.455097,
+      "lon": 21.465074,
+      "osmUrl": "https://www.openstreetmap.org/way/460142624",
+      "score": 0
+    },
+    {
+      "id": "node/11110348206",
+      "name": "Permendorja e Avdullah Tahirit",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.465952,
+      "lon": 21.474463,
+      "osmUrl": "https://www.openstreetmap.org/node/11110348206",
+      "score": 0
+    },
+    {
+      "id": "node/4416579390",
+      "name": "Qendra e Aktivizmit të Rinisë",
+      "nameEn": "Youth Activism Center",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 42.47127,
+      "lon": 21.45219,
+      "osmUrl": "https://www.openstreetmap.org/node/4416579390",
+      "score": 0
+    },
+    {
+      "id": "way/460306972",
+      "name": "Qerdha e Qytetit \"Integj\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.458536,
+      "lon": 21.471818,
+      "osmUrl": "https://www.openstreetmap.org/way/460306972",
+      "score": 0
+    },
+    {
+      "id": "node/7778111084",
+      "name": "Sahatkulla",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.460152,
+      "lon": 21.466137,
+      "osmUrl": "https://www.openstreetmap.org/node/7778111084",
+      "score": 0
+    },
+    {
+      "id": "relation/19408477",
+      "name": "Tregu i Veturave",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.462025,
+      "lon": 21.445129,
+      "osmUrl": "https://www.openstreetmap.org/relation/19408477",
+      "score": 0
+    },
+    {
+      "id": "way/477939487",
+      "name": "Varrezat e Dëshmorëve",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.457767,
+      "lon": 21.45802,
+      "osmUrl": "https://www.openstreetmap.org/way/477939487",
+      "score": 0
+    }
+  ]
+}

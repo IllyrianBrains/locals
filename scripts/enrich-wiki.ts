@@ -25,7 +25,7 @@ interface Cache {
 
 const chunk = <T,>(list: T[], size: number) => Array.from({ length: Math.ceil(list.length / size) }, (_, i) => list.slice(i * size, i * size + size));
 
-async function api(base: string, params: Record<string, string>): Promise<any> {
+export async function api(base: string, params: Record<string, string>): Promise<any> {
   const url = `${base}?${new URLSearchParams({ format: 'json', formatversion: '2', ...params })}`;
   for (let attempt = 1; attempt <= 3; attempt++) {
     const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
@@ -107,7 +107,7 @@ async function fetchWikipedia(keys: string[], cache: Cache): Promise<void> {
 }
 
 /** Cleanup applied on output (not in the cache), so it can be tuned and re-run with --offline. */
-const cleanExtract = (text: string) => text
+export const cleanExtract = (text: string) => text
   .replace(/\s*\([^()]*\)/, '') // drop the pronunciation/date parenthesis
   .replace(/\s+/g, ' ').replace(/\s+([,.;:])/g, '$1').replace(/^[^\p{L}\d"“„]+/u, '').trim();
 

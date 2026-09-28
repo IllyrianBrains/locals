@@ -7,10 +7,12 @@ import CityMap, { type FeaturedPin } from '../components/CityMap.astro';
 import { cities, countries, type CountryCode } from '../data/cities';
 import { getCityPlaces } from '../data/places';
 import { getOutdoors, levelLabels } from '../data/outdoors';
+import { factLines, getFacts, wikidataUrl } from '../data/cityFacts';
 
 const city = cities.find((c) => c.slug === 'tirane')!;
 const nextStops = (Object.keys(countries) as CountryCode[]).map((code) => ({ ...countries[code], cities: cities.filter((c) => c.country === code && c !== city) }));
 
+const facts = getFacts('tirane');
 const osmPlaces = getCityPlaces('tirane')?.places ?? [];
 const osm = (name: string) => {
   const place = osmPlaces.find((p) => p.name === name);
@@ -63,7 +65,7 @@ const itinerary = [
         <a class="back" href="/#qytetet">← Të gjitha qytetet</a>
         <h1>Tirana</h1>
         <p>Kryeqyteti plot ngjyra i Shqipërisë—kafe në çdo qoshe, histori në çdo shesh dhe male në horizont.</p>
-        <ul class="hero-facts"><li><b>2–3</b> ditë ideale</li><li><b>{featured.length}</b> ndalesa në hartë</li><li><b>{outdoors.length}</b> dalje në natyrë</li><li><b>✓</b> gjithçka në këmbë</li></ul>
+        <ul class="hero-facts">{facts && factLines(facts).map((f) => <li><b>{f.value}</b> {f.label.toLowerCase()}</li>)}<li><b>2–3</b> ditë ideale</li><li><b>{featured.length}</b> ndalesa në hartë</li><li><b>{outdoors.length}</b> dalje në natyrë</li><li><b>✓</b> gjithçka në këmbë</li></ul>
       </div>
       <small class="hero-credit">Leeturtle · CC BY-SA 3.0</small>
     </section>

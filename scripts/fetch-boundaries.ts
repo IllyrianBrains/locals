@@ -1,21 +1,23 @@
 /**
  * Builds the region map: every municipality of Albania (Bashki) and Kosovo (Komuna) with its outline and
- * a 1–5 level of how much there is to see, and writes src/data/municipalities.json.
+ * a 1–5 level of how much it offers for sustainable tourism, and writes src/data/municipalities.json.
  *
  *   npm run boundaries             # fetch and build
  *   npm run boundaries -- --offline  # rebuild from the responses cached in .cache/boundaries/
  *
  * 1. Lists the municipalities from Overpass, with their seat to get a plain city name.
- * 2. Pulls every place worth visiting in each country (same filters and scoring as fetch-osm.ts).
+ * 2. Reads the sustainable-tourism features of each country from its Geofabrik .osm.pbf extract (scripts/pbf.ts):
+ *    protected nature, trails, heritage, local businesses and ways to arrive without a car (`pillarOf` in osm-common.ts).
  * 3. Fetches simplified outlines from Nominatim.
- * 4. Places each point in its municipality and sums the scores into a level.
+ * 4. Places each feature in its municipality, counts them per pillar and turns the counts into a level.
  *
  * Data © OpenStreetMap contributors, ODbL 1.0 — attribution must be shown wherever it is used.
  */
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { cities } from '../src/data/cities.ts';
-import { dedupe, fetchOverpass, placeFilters, toPlace, USER_AGENT, type OverpassElement } from './osm-common.ts';
-import type { OsmPlace } from '../src/data/places.ts';
+import { fetchOverpass, normalize, pillarOf, pillars, USER_AGENT } from './osm-common.ts';
+import { readPbf } from './pbf.ts';
+import type { Pillar } from '../src/data/places.ts';
 
 const CACHE_DIR = new URL('../.cache/boundaries/', import.meta.url);
 const OUT_FILE = new URL('../src/data/municipalities.json', import.meta.url);
@@ -23,8 +25,8 @@ const OUT_FILE = new URL('../src/data/municipalities.json', import.meta.url);
 const THRESHOLD = 0.003;
 const COUNTRIES = [
   // Albanian seats carry the definite form in name:sq ("Durrësi"), Kosovar seats their Albanian name there.
-  { code: 'al', iso: 'AL', adminLevel: 7, prefix: /^Bashkia /, keep: /^Bashkia /, seatName: ['name', 'name:sq'] },
-  { code: 'xk', iso: 'XK', adminLevel: 6, prefix: /^Komuna e /, keep: /^Komuna /, seatName: ['name:sq', 'name'] },
+  { code: 'al', pbf: 'albania', iso: 'AL', adminLevel: 7, prefix: /^Bashkia /, keep: /^Bashkia /, seatName: ['name', 'name:sq'] },
+  { code: 'xk', pbf: 'kosovo', iso: 'XK', adminLevel: 6, prefix: /^Komuna e /, keep: /^Komuna /, seatName: ['name:sq', 'name'] },
 ] as const;
 
 type Ring = [number, number][];
@@ -50,13 +52,6 @@ rel(area.c)["boundary"="administrative"]["admin_level"="${level}"]->.m;
 .m out body;
 node(r.m:"admin_centre");
 out tags;`;
-
-const placesQuery = (iso: string) => `[out:json][timeout:300];
-area["ISO3166-1"="${iso}"][admin_level=2]->.c;
-(
-${placeFilters('(area.c)')}
-);
-out center tags;`;
 
 async function nominatimOutlines(ids: number[]): Promise<Map<number, Geometry>> {
   const outlines = new Map<number, Geometry>();
@@ -87,8 +82,9 @@ const contains = (g: Geometry, point: [number, number]) => g.type === 'Polygon' 
 const slugify = (s: string) => s.toLocaleLowerCase('sq').replaceAll('ë', 'e').replaceAll('ç', 'c').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 await mkdir(CACHE_DIR, { recursive: true });
-const municipalities: { id: number; name: string; area: string; country: string; geometry: Geometry; places: OsmPlace[] }[] = [];
-let allPlaces: OsmPlace[] = [];
+interface Feature { pillar: Pillar; name?: string; notable: boolean; point: [number, number] }
+const municipalities: { id: number; name: string; area: string; country: string; population?: number; geometry: Geometry; features: Feature[] }[] = [];
+let allFeatures: Feature[] = [];
 
 for (const [i, country] of COUNTRIES.entries()) {
   if (i > 0 && !offline) await new Promise((r) => setTimeout(r, 5000)); // be polite to the public Overpass servers
@@ -107,39 +103,58 @@ for (const [i, country] of COUNTRIES.entries()) {
     const area = (rel.tags['name:sq'] ?? rel.tags.name).split(' / ')[0];
     const seatName = seatTags && country.seatName.map((key) => seatTags[key]).find(Boolean);
     const name = (seatName ?? area.replace(country.prefix, '')).split(' / ')[0];
-    municipalities.push({ id: rel.id, name, area, country: country.code, geometry, places: [] });
+    municipalities.push({ id: rel.id, name, area, country: country.code, population: Number(rel.tags.population) || undefined, geometry, features: [] });
   }
-  if (i > 0 && !offline) await new Promise((r) => setTimeout(r, 5000));
-  const raw = await cached(`${country.code}-places`, () => fetchOverpass(placesQuery(country.iso)));
-  allPlaces = allPlaces.concat(raw.elements.map((e: OverpassElement) => toPlace(e)).filter((p): p is OsmPlace => p !== null && p.score >= 0));
+  const elements = await readPbf(country.pbf);
+  for (const e of elements) {
+    const t = e.tags ?? {};
+    const pillar = pillarOf(t);
+    const lat = e.lat ?? e.center?.lat, lon = e.lon ?? e.center?.lon;
+    if (pillar && lat !== undefined && lon !== undefined) allFeatures.push({ pillar, name: t['name:sq'] ?? t.name, notable: !!(t.wikidata || t.wikipedia), point: [lon, lat] });
+  }
 }
 
-// Negative scores are mostly small busts and plaques; duplicates are features mapped twice.
-const places = dedupe(allPlaces);
 let unplaced = 0;
-for (const place of places) {
-  const home = municipalities.find((m) => contains(m.geometry, [place.lon, place.lat]));
-  if (home) home.places.push(place); else unplaced++;
+for (const feature of allFeatures) {
+  const home = municipalities.find((m) => contains(m.geometry, feature.point));
+  if (home) home.features.push(feature); else unplaced++;
 }
 
-// Levels by rank, so the map uses its whole range of tones: the top fifth is "ff", the next fifth "f", and so on.
-// Municipalities with nothing mapped stay at level 1.
-const scoreOf = (m: (typeof municipalities)[number]) => m.places.reduce((sum, p) => sum + p.score + 1, 0);
+/** Counts per pillar. A feature mapped twice (a node inside its own outline) counts once: same pillar and name. */
+function countPillars(m: (typeof municipalities)[number]): Record<Pillar, number> {
+  const counts = Object.fromEntries(pillars.map((p) => [p, 0])) as Record<Pillar, number>;
+  const seen = new Set<string>();
+  for (const f of m.features) {
+    const key = f.name && `${f.pillar}:${normalize(f.name)}`;
+    if (key && seen.has(key)) continue;
+    if (key) seen.add(key);
+    counts[f.pillar]++;
+  }
+  return counts;
+}
+
+// Each pillar counts by its square root, so a town full of guesthouses does not outrank a valley that is rich in
+// nature, trails and heritage: the mix matters more than the sheer number. Levels are by rank, so the map uses its
+// whole range of tones: the top fifth is "ff", the next fifth "f", and so on. Nothing mapped stays at level 1.
+const pillarsOf = new Map(municipalities.map((m) => [m, countPillars(m)]));
+const scoreOf = (m: (typeof municipalities)[number]) => Math.round(10 * pillars.reduce((sum, p) => sum + Math.sqrt(pillarsOf.get(m)![p]), 0));
 const ranked = [...municipalities].sort((a, b) => scoreOf(a) - scoreOf(b));
 const guideSlugs = new Map(cities.map((city) => [city.osm.boundary, city.slug]));
 
 const features = municipalities.map((m) => {
   const score = scoreOf(m);
   const level = score === 0 ? 1 : Math.min(5, 1 + Math.floor((ranked.indexOf(m) / ranked.length) * 5));
-  const top = m.places.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name, 'sq')).slice(0, 3).map((p) => p.name);
+  // Headline features: named nature and heritage first, the ones with a Wikidata/Wikipedia entry before the rest.
+  const top = [...new Set(m.features.filter((f) => f.name && (f.pillar === 'nature' || f.pillar === 'heritage')).sort((a, b) => Number(b.notable) - Number(a.notable) || a.name!.localeCompare(b.name!, 'sq')).map((f) => f.name!))].slice(0, 3);
+  const counts = pillarsOf.get(m)!;
   const geometry = m.geometry.type === 'Polygon'
     ? { type: 'Polygon', coordinates: round(m.geometry.coordinates) }
     : { type: 'MultiPolygon', coordinates: m.geometry.coordinates.map(round) };
-  return { type: 'Feature', properties: { id: m.id, slug: guideSlugs.get(m.id) ?? slugify(m.name), name: m.name, area: m.area, country: m.country, guide: guideSlugs.has(m.id), count: m.places.length, score, level, top }, geometry };
+  return { type: 'Feature', properties: { id: m.id, slug: guideSlugs.get(m.id) ?? slugify(m.name), name: m.name, area: m.area, country: m.country, population: m.population, guide: guideSlugs.has(m.id), count: Object.values(counts).reduce((a, b) => a + b, 0), pillars: counts, score, level, top }, geometry };
 }).sort((a, b) => a.properties.name.localeCompare(b.properties.name, 'sq'));
 
 for (const city of cities) if (!municipalities.some((m) => m.id === city.osm.boundary)) console.warn(`✗ ${city.slug}: its boundary ${city.osm.boundary} is not in the list`);
 await writeFile(OUT_FILE, JSON.stringify({ type: 'FeatureCollection', attribution: '© OpenStreetMap contributors', license: 'ODbL-1.0', fetchedAt: new Date().toISOString(), features }) + '\n');
 
 const perLevel = [1, 2, 3, 4, 5].map((l) => `${l}: ${features.filter((f) => f.properties.level === l).length}`).join(', ');
-console.log(`✓ ${features.length} municipalities (${COUNTRIES.map((c) => `${c.code} ${features.filter((f) => f.properties.country === c.code).length}`).join(', ')}), ${places.length} places (${unplaced} outside every outline); levels ${perLevel}`);
+console.log(`✓ ${features.length} municipalities (${COUNTRIES.map((c) => `${c.code} ${features.filter((f) => f.properties.country === c.code).length}`).join(', ')}), ${allFeatures.length} features (${unplaced} outside every outline); levels ${perLevel}`);

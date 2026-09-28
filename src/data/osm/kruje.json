@@ -1,0 +1,295 @@
+{
+  "city": "kruje",
+  "name": "Krujë",
+  "center": {
+    "lat": 41.5108,
+    "lon": 19.7925
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:28.229Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 16,
+  "places": [
+    {
+      "id": "way/226764512",
+      "name": "Muzeu Kombëtar Etnografik",
+      "nameEn": "National Ethnographic Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.506696,
+      "lon": 19.793723,
+      "wikidata": "Q13043204",
+      "wikipedia": "sq:Muzeu_Etnografik_në_Krujë",
+      "openingHours": "Mo-Su 09:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/way/226764512",
+      "score": 13,
+      "imageFile": "Ethnographic Museum of Kruja 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ethnographic_Museum_of_Kruja_2.jpg/1280px-Ethnographic_Museum_of_Kruja_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Andisrado · CC BY-SA 4.0",
+      "tagline": {
+        "text": "muze në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Etnografik i Krujës ndodhet brënda kalasë së Krujës. Ky muzeum është ngritur në shtëpinë e familjes së Toptanve, e cila është një ndërtesë e tipit “çardak” e vitit 1764.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Etnografik_n%C3%AB_Kruj%C3%AB"
+      }
+    },
+    {
+      "id": "way/226764514",
+      "name": "Muzeu Historik Kombëtar \"Gjergj Kastriot Skëndërbeu\"",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.507457,
+      "lon": 19.793973,
+      "wikidata": "Q3303191",
+      "wikipedia": "sq:Muzeu Kombëtar Gjergj Kastrioti Skënderbeu",
+      "openingHours": "Tu-Su 09:00-17:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/226764514",
+      "score": 12,
+      "imageFile": "Muzeum Skanderbega w Kruji 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Muzeum_Skanderbega_w_Kruji_2.jpg/1280px-Muzeum_Skanderbega_w_Kruji_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "muze në Krujë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Kombëtar Gjergj Kastrioti Skënderbeu i njohur edhe si Muzeu i Skënderbeut dhe Muzeu i Krujës, ndodhet në Krujë dhe është një nga më të vizituarit në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_Sk%C3%ABnderbeut"
+      }
+    },
+    {
+      "id": "way/226764511",
+      "name": "Kalaja e Krujës",
+      "nameEn": "Krujë Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.506873,
+      "lon": 19.793994,
+      "wikidata": "Q1409023",
+      "wikipedia": "en:Castle of Krujë",
+      "osmUrl": "https://www.openstreetmap.org/way/226764511",
+      "score": 11,
+      "imageFile": "Kalaja e Krujes 8.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kalaja_e_Krujes_8.jpg/1280px-Kalaja_e_Krujes_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "AgronBeqiriPh · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Krujës është një kala në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Kruj%C3%ABs"
+      }
+    },
+    {
+      "id": "way/226793335",
+      "name": "Xhamia e Pazarit",
+      "nameEn": "Bazaar Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.509666,
+      "lon": 19.794561,
+      "wikidata": "Q809778",
+      "wikipedia": "sq:Xhamia e Pazarit, Krujë",
+      "osmUrl": "https://www.openstreetmap.org/way/226793335",
+      "score": 10,
+      "imageFile": "A mosque in Krujë.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/A_mosque_in_Kruj%C3%AB.JPG/1280px-A_mosque_in_Kruj%C3%AB.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Avi1111 dr. avishai teicher · CC BY-SA 4.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Pazarit ose Xhamia Muratbeu, i njohur edhe si Xhamia e Varoshit, është një xhami në qytetin e Krujës, Shqipëria, që daton në epokën otomane dhe është konsideruar madhështore. Xhamia e Pazarit është një nga shumë \"monument kulture\" (Monumentet Kulturore Shqiptare) të Shqipërisë dhe është konsideruar si një nga xhamitë e pakta të mbetura që kanë mbijetuar periudhën komuniste 1945-1990.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Pazarit%2C_Kruj%C3%AB"
+      }
+    },
+    {
+      "id": "way/609926338",
+      "name": "Xhamia e Pazarit Kruje",
+      "category": "religion",
+      "kind": "ruins",
+      "lat": 41.507215,
+      "lon": 19.793656,
+      "wikidata": "Q26133556",
+      "wikipedia": "sq:Xhamia e Fatihut, Krujë",
+      "osmUrl": "https://www.openstreetmap.org/way/609926338",
+      "score": 10,
+      "imageFile": "Castillo de Kruja, Kruja, Albania, 2014-04-18, DD 18.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Castillo_de_Kruja%2C_Kruja%2C_Albania%2C_2014-04-18%2C_DD_18.JPG/1280px-Castillo_de_Kruja%2C_Kruja%2C_Albania%2C_2014-04-18%2C_DD_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Diego Delso · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Fet'hijes ose Xhamia Sultan Mehmed Fatih e Krujës është një xhami e epokës otomane ndërtuar para vitit 1481. Kjo është pranë hyrjes së Kalanë e Krujës dhe Muzeut Skenderbeu.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Fatihut%2C_Kruj%C3%AB"
+      }
+    },
+    {
+      "id": "way/753077479",
+      "name": "Teqeja e Dollmës",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.50608,
+      "lon": 19.792797,
+      "wikidata": "Q7701412",
+      "wikipedia": "sq:Teqja e Dollmës",
+      "osmUrl": "https://www.openstreetmap.org/way/753077479",
+      "score": 9,
+      "imageFile": "Dollma Tekke in Krujë (5).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Dollma_Tekke_in_Kruj%C3%AB_%285%29.jpg/1280px-Dollma_Tekke_in_Kruj%C3%AB_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marie Čcheidzeová · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Teqja në Krujë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teqeja e Dollmës ose Teqeja Haxhi Mustafa Baba është një teqe në Kalanë e Krujës, Kruja, Durrës, Shqipëri. Mori statusin monument kulture në vitin 1973.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teqja_e_Dollm%C3%ABs"
+      }
+    },
+    {
+      "id": "node/2418817658",
+      "name": "Statuja e Skënderbeut",
+      "nameEn": "Skanderbeg Statue",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.510909,
+      "lon": 19.792503,
+      "wikidata": "Q20577012",
+      "wikipedia": "sq:Monumenti i Skënderbeut në Krujë",
+      "osmUrl": "https://www.openstreetmap.org/node/2418817658",
+      "score": 8,
+      "summary": {
+        "text": "Monumenti i Skënderbeut në Krujë U ngrit në Krujë më 1949. Ishte i pari monument i Skënderbeut në Shqipëri, vepër e Janaq Paços, skulptor i talentuar.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_i_Sk%C3%ABnderbeut_n%C3%AB_Kruj%C3%AB"
+      }
+    },
+    {
+      "id": "relation/15950028",
+      "name": "Pazari i Krujës",
+      "nameEn": "Old Bazaar",
+      "category": "market",
+      "kind": "attraction",
+      "lat": 41.509323,
+      "lon": 19.79462,
+      "wikidata": "Q13044052",
+      "osmUrl": "https://www.openstreetmap.org/relation/15950028",
+      "score": 7,
+      "imageFile": "Pazari i vjeter i Krujes.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Pazari_i_vjeter_i_Krujes.jpg/1280px-Pazari_i_vjeter_i_Krujes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "SualdoDino · CC BY-SA 4.0",
+      "tagline": {
+        "text": "cultural monument in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Pazari i Krujës ndryshe i njohur edhe si Pazari i Derexhikut, shtrihet në të dy anët e rrugës së shtruar me kalldrëm që të çon drejt kalasë së Krujës. Nga vendasit njihet ndryshe me emrin Pazari i Derexhikut.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Pazari_i_Kruj%C3%ABs"
+      }
+    },
+    {
+      "id": "way/505051362",
+      "name": "Tyrbja Haxhi Hamza Baba",
+      "nameEn": "Türbe of Haxhi Hamza Baba",
+      "category": "history",
+      "kind": "tomb",
+      "lat": 41.510198,
+      "lon": 19.792382,
+      "wikidata": "Q42687705",
+      "osmUrl": "https://www.openstreetmap.org/way/505051362",
+      "score": 5,
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore të Shqipërisë",
+        "lang": "sq"
+      }
+    },
+    {
+      "id": "node/8838932057",
+      "name": "Shpella e Sari Salltikut",
+      "nameEn": "Sari Salltiku's Cave",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 41.517444,
+      "lon": 19.802136,
+      "osmUrl": "https://www.openstreetmap.org/node/8838932057",
+      "score": 3
+    },
+    {
+      "id": "way/609926330",
+      "name": "Stonebridge",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.506202,
+      "lon": 19.792681,
+      "osmUrl": "https://www.openstreetmap.org/way/609926330",
+      "score": 2
+    },
+    {
+      "id": "node/12806349496",
+      "name": "Teqeja e Sari Salltikut",
+      "nameEn": "Temple of Sari Salltiku",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.517024,
+      "lon": 19.801743,
+      "osmUrl": "https://www.openstreetmap.org/node/12806349496",
+      "score": 2
+    },
+    {
+      "id": "node/10202038478",
+      "name": "Kalaja e Irmajt",
+      "category": "history",
+      "kind": "castle",
+      "lat": 41.52795,
+      "lon": 19.779151,
+      "osmUrl": "https://www.openstreetmap.org/node/10202038478",
+      "score": 1
+    },
+    {
+      "id": "node/1143153221",
+      "name": "Mali i Krujes",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.517831,
+      "lon": 19.803527,
+      "osmUrl": "https://www.openstreetmap.org/node/1143153221",
+      "score": 1
+    },
+    {
+      "id": "node/10098530217",
+      "name": "View Point over City",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 41.518065,
+      "lon": 19.799703,
+      "osmUrl": "https://www.openstreetmap.org/node/10098530217",
+      "score": 1
+    },
+    {
+      "id": "node/9970177433",
+      "name": "Teqja Baba Maksurir",
+      "category": "history",
+      "kind": "tomb",
+      "lat": 41.507872,
+      "lon": 19.794817,
+      "osmUrl": "https://www.openstreetmap.org/node/9970177433",
+      "score": 0
+    }
+  ]
+}

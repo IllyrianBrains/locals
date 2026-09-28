@@ -1,0 +1,156 @@
+{
+  "city": "pogradec",
+  "name": "Pogradec",
+  "center": {
+    "lat": 40.9,
+    "lon": 20.65
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:26.131Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 11,
+  "places": [
+    {
+      "id": "node/10038199740",
+      "name": "Kalaja e Pogradecit",
+      "nameEn": "Pogradec Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 40.908181,
+      "lon": 20.646132,
+      "wikidata": "Q3298922",
+      "wikipedia": "en:Pogradec Castle",
+      "osmUrl": "https://www.openstreetmap.org/node/10038199740",
+      "score": 13,
+      "imageFile": "Pogradec Castle, Albania 2018 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Pogradec_Castle%2C_Albania_2018_01.jpg/1280px-Pogradec_Castle%2C_Albania_2018_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Pogradecit është e vendosur në majën e kodrës, në pjesën perëndimore të qytetit të Pogradecit, me lartësi 205 m mbi nivelin e liqenit të Ohrit. Ka filluar të banohej që në shek.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Pogradecit"
+      }
+    },
+    {
+      "id": "node/14088434664",
+      "name": "Lasgush Poradeci",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.903882,
+      "lon": 20.656428,
+      "wikidata": "Q140982091",
+      "osmUrl": "https://www.openstreetmap.org/node/14088434664",
+      "score": 6,
+      "imageFile": "Pogradec, Albania – Promenade 2018 13.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Pogradec%2C_Albania_%E2%80%93_Promenade_2018_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Statujë e poetit Lasgush Poradeci në Pogradec",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Monumenti i Lasgush Poradecit ndodhet në qytetin e Pogradecit dhe është i lartë 3 m e 40 cm. Skulptori i Popullit, Muntaz Dhrami është realizuesi i këtij monumenti.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Monumenti_i_Lasgush_Poradecit"
+      }
+    },
+    {
+      "id": "way/538861048",
+      "name": "Muzeu i Pogradecit",
+      "nameEn": "Pogradec Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.900658,
+      "lon": 20.660477,
+      "osmUrl": "https://www.openstreetmap.org/way/538861048",
+      "score": 3
+    },
+    {
+      "id": "way/1314833965",
+      "name": "Muzeu i Dëshmorëve",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.897772,
+      "lon": 20.665496,
+      "osmUrl": "https://www.openstreetmap.org/way/1314833965",
+      "score": 2
+    },
+    {
+      "id": "node/3746063435",
+      "name": "Kalaja Pogradec",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 40.908509,
+      "lon": 20.64652,
+      "osmUrl": "https://www.openstreetmap.org/node/3746063435",
+      "score": 1
+    },
+    {
+      "id": "node/5313459826",
+      "name": "Maja Kalasë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.908299,
+      "lon": 20.646144,
+      "osmUrl": "https://www.openstreetmap.org/node/5313459826",
+      "score": 1
+    },
+    {
+      "id": "node/5313459829",
+      "name": "Maja Muçit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.884805,
+      "lon": 20.623796,
+      "osmUrl": "https://www.openstreetmap.org/node/5313459829",
+      "score": 1
+    },
+    {
+      "id": "node/5313459873",
+      "name": "Maja Shullërit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.909374,
+      "lon": 20.623041,
+      "osmUrl": "https://www.openstreetmap.org/node/5313459873",
+      "score": 1
+    },
+    {
+      "id": "way/1489714495",
+      "name": "Odeon Square",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.903473,
+      "lon": 20.65729,
+      "openingHours": "24/7",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/1489714495",
+      "score": 1
+    },
+    {
+      "id": "node/14086719001",
+      "name": "Komandant Shefki Myftar Muco",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.905519,
+      "lon": 20.637247,
+      "osmUrl": "https://www.openstreetmap.org/node/14086719001",
+      "score": 0
+    },
+    {
+      "id": "way/557348379",
+      "name": "Teatri i Kukullave \"Pirro Xëci\"",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 40.901289,
+      "lon": 20.662162,
+      "osmUrl": "https://www.openstreetmap.org/way/557348379",
+      "score": 0
+    }
+  ]
+}

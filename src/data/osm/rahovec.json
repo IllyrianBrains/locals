@@ -1,0 +1,358 @@
+{
+  "city": "rahovec",
+  "name": "Rahovec",
+  "center": {
+    "lat": 42.3994,
+    "lon": 20.6547
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:32.347Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 30,
+  "places": [
+    {
+      "id": "way/1107032346",
+      "name": "Manastiri Hoçë e Madhe",
+      "nameEn": "Velika Hoca Monastery",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.388789,
+      "lon": 20.680053,
+      "wikidata": "Q3582113",
+      "wikipedia": "sr:Црква Светог Јована Крститеља у Великој Хочи",
+      "heritage": "2",
+      "osmUrl": "https://www.openstreetmap.org/way/1107032346",
+      "score": 12,
+      "imageFile": "Sv Jovan, Velika Hoča.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Sv_Jovan%2C_Velika_Ho%C4%8Da.jpg/1280px-Sv_Jovan%2C_Velika_Ho%C4%8Da.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Paweł Cecha · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha varrezore e Shën Gjonit ne Hoçë te Madhe është një monument i trashëgimisë kulturore në Hoçë e Madhe, Rahovec, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 02-54/58.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_varrezore_e_Sh%C3%ABn_Gjonit_ne_Ho%C3%A7%C3%AB_te_Madhe"
+      }
+    },
+    {
+      "id": "way/754333758",
+      "name": "Kisha e Shën Nikollës",
+      "nameEn": "St. Nicholas Church",
+      "category": "religion",
+      "kind": "yes",
+      "lat": 42.383398,
+      "lon": 20.672849,
+      "wikidata": "Q2402336",
+      "wikipedia": "sr:Црква Светог Николе у Великој Хочи",
+      "heritage": "2",
+      "osmUrl": "https://www.openstreetmap.org/way/754333758",
+      "score": 10,
+      "imageFile": "Church of St. Nicholas and St. John, Velika Hoča, Orahovac.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Church_of_St._Nicholas_and_St._John%2C_Velika_Ho%C4%8Da%2C_Orahovac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Gregor Joham · CC BY-SA 2.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha varrezore e Shën Nikollës është një monument i trashëgimisë kulturore në Hoçë e Madhe, Rahovec, Kosovë. Ky monument është i kategorisë \"Arkeologjik\", i miratuar me numër 02-237/58.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_varrezore_e_Sh%C3%ABn_Nikoll%C3%ABs"
+      }
+    },
+    {
+      "id": "node/4380215973",
+      "name": "Maja e Shkodranit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.418885,
+      "lon": 20.655758,
+      "wikidata": "Q27343950",
+      "osmUrl": "https://www.openstreetmap.org/node/4380215973",
+      "score": 5
+    },
+    {
+      "id": "node/1379508785",
+      "name": "Mala Krasta",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.402709,
+      "lon": 20.671274,
+      "wikidata": "Q27343946",
+      "osmUrl": "https://www.openstreetmap.org/node/1379508785",
+      "score": 5,
+      "tagline": {
+        "text": "mountain in Kosovo",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "node/1379511734",
+      "name": "Velika Krasta",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.410816,
+      "lon": 20.665908,
+      "wikidata": "Q27343948",
+      "osmUrl": "https://www.openstreetmap.org/node/1379511734",
+      "score": 5,
+      "tagline": {
+        "text": "mountain in Kosovo",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "node/1379509206",
+      "name": "Muzeu Bibliote",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.400431,
+      "lon": 20.653138,
+      "osmUrl": "https://www.openstreetmap.org/node/1379509206",
+      "score": 2
+    },
+    {
+      "id": "way/440293287",
+      "name": "Kalaja e Shkodranit",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.418741,
+      "lon": 20.656,
+      "osmUrl": "https://www.openstreetmap.org/way/440293287",
+      "score": 1
+    },
+    {
+      "id": "node/8833531591",
+      "name": "“Ardi” Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.396316,
+      "lon": 20.657631,
+      "osmUrl": "https://www.openstreetmap.org/node/8833531591",
+      "score": 0
+    },
+    {
+      "id": "way/123824730",
+      "name": "Afërdita Ukshini",
+      "category": "history",
+      "kind": "Mark Sopjani",
+      "lat": 42.399234,
+      "lon": 20.649183,
+      "osmUrl": "https://www.openstreetmap.org/way/123824730",
+      "score": 0
+    },
+    {
+      "id": "way/123829688",
+      "name": "EDI",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.393326,
+      "lon": 20.64928,
+      "osmUrl": "https://www.openstreetmap.org/way/123829688",
+      "score": 0
+    },
+    {
+      "id": "node/13100621745",
+      "name": "Grape City",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.407828,
+      "lon": 20.660742,
+      "osmUrl": "https://www.openstreetmap.org/node/13100621745",
+      "score": 0
+    },
+    {
+      "id": "node/8833404358",
+      "name": "HADIS market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.39852,
+      "lon": 20.658382,
+      "osmUrl": "https://www.openstreetmap.org/node/8833404358",
+      "score": 0
+    },
+    {
+      "id": "node/8826099018",
+      "name": "Hani Komerc",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.408073,
+      "lon": 20.655597,
+      "osmUrl": "https://www.openstreetmap.org/node/8826099018",
+      "score": 0
+    },
+    {
+      "id": "node/11659355846",
+      "name": "Kisha Karlj Stefan",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.384466,
+      "lon": 20.677132,
+      "osmUrl": "https://www.openstreetmap.org/node/11659355846",
+      "score": 0
+    },
+    {
+      "id": "node/11659594442",
+      "name": "Kishe",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.384056,
+      "lon": 20.677838,
+      "osmUrl": "https://www.openstreetmap.org/node/11659594442",
+      "score": 0
+    },
+    {
+      "id": "node/8824487851",
+      "name": "Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.394427,
+      "lon": 20.650899,
+      "osmUrl": "https://www.openstreetmap.org/node/8824487851",
+      "score": 0
+    },
+    {
+      "id": "node/8833394632",
+      "name": "Market “Agro”",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.399439,
+      "lon": 20.658113,
+      "osmUrl": "https://www.openstreetmap.org/node/8833394632",
+      "score": 0
+    },
+    {
+      "id": "node/8833403713",
+      "name": "Market “MEMI”",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.398785,
+      "lon": 20.658541,
+      "osmUrl": "https://www.openstreetmap.org/node/8833403713",
+      "score": 0
+    },
+    {
+      "id": "node/8826081020",
+      "name": "Market Isma",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.410213,
+      "lon": 20.652518,
+      "osmUrl": "https://www.openstreetmap.org/node/8826081020",
+      "score": 0
+    },
+    {
+      "id": "node/8833476888",
+      "name": "N.t.p “Doni”",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.399007,
+      "lon": 20.653535,
+      "osmUrl": "https://www.openstreetmap.org/node/8833476888",
+      "score": 0
+    },
+    {
+      "id": "node/8833490310",
+      "name": "N.t.p “Harea”",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.401371,
+      "lon": 20.651147,
+      "osmUrl": "https://www.openstreetmap.org/node/8833490310",
+      "score": 0
+    },
+    {
+      "id": "way/917629279",
+      "name": "Ramsha",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.392888,
+      "lon": 20.648797,
+      "osmUrl": "https://www.openstreetmap.org/way/917629279",
+      "score": 0
+    },
+    {
+      "id": "node/1379511731",
+      "name": "Sahat Kulla",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.40197,
+      "lon": 20.657528,
+      "osmUrl": "https://www.openstreetmap.org/node/1379511731",
+      "score": 0
+    },
+    {
+      "id": "node/7340325273",
+      "name": "Smoklin Nargilashop",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.39886,
+      "lon": 20.653627,
+      "osmUrl": "https://www.openstreetmap.org/node/7340325273",
+      "score": 0
+    },
+    {
+      "id": "node/8833411262",
+      "name": "Sokoli-B",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.40126,
+      "lon": 20.655669,
+      "osmUrl": "https://www.openstreetmap.org/node/8833411262",
+      "score": 0
+    },
+    {
+      "id": "node/7343269460",
+      "name": "Sylka SHPK",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 42.415794,
+      "lon": 20.651705,
+      "osmUrl": "https://www.openstreetmap.org/node/7343269460",
+      "score": 0
+    },
+    {
+      "id": "node/7342879835",
+      "name": "SHEHU Tex",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.398879,
+      "lon": 20.653998,
+      "osmUrl": "https://www.openstreetmap.org/node/7342879835",
+      "score": 0
+    },
+    {
+      "id": "node/8522726565",
+      "name": "Shtepia e Kultures",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.40086,
+      "lon": 20.657285,
+      "osmUrl": "https://www.openstreetmap.org/node/8522726565",
+      "score": 0
+    },
+    {
+      "id": "way/167085655",
+      "name": "Xhamia e Kasumit",
+      "category": "religion",
+      "kind": "monument",
+      "lat": 42.402696,
+      "lon": 20.655718,
+      "osmUrl": "https://www.openstreetmap.org/way/167085655",
+      "score": 0
+    },
+    {
+      "id": "way/123829548",
+      "name": "Xhamia e Sokolit",
+      "category": "religion",
+      "kind": "monument",
+      "lat": 42.402887,
+      "lon": 20.656396,
+      "osmUrl": "https://www.openstreetmap.org/way/123829548",
+      "score": 0
+    }
+  ]
+}

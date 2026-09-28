@@ -1,0 +1,109 @@
+{
+  "city": "decan",
+  "name": "Deçan",
+  "center": {
+    "lat": 42.5333,
+    "lon": 20.2833
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:33.312Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 7,
+  "places": [
+    {
+      "id": "way/760904648",
+      "name": "Manastiri i Deçanit",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.546425,
+      "lon": 20.269165,
+      "wikidata": "Q849517",
+      "wikipedia": "en:Visoki Dečani",
+      "website": "https://www.decani.org/en/",
+      "openingHours": "Mo-Su 09:30-17:30",
+      "heritage": "1",
+      "osmUrl": "https://www.openstreetmap.org/way/760904648",
+      "score": 14,
+      "imageFile": "Visoki Dečani, exterior view (Julian Nyča).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Visoki_De%C4%8Dani%2C_exterior_view_%28Julian_Ny%C4%8Da%29.jpg/1280px-Visoki_De%C4%8Dani%2C_exterior_view_%28Julian_Ny%C4%8Da%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Julian Nyča · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Manastiri i Deçanit është një manastir mesjetar i krishterë ortodoks i vendosur afër Deçanit, Kosovë. Ishte themeluar në gjysmën e parë të shekullit të 14-të.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Manastiri_i_De%C3%A7anit"
+      }
+    },
+    {
+      "id": "node/8941507134",
+      "name": "Kuća brvnara u Loćanama",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.513062,
+      "lon": 20.282548,
+      "wikidata": "Q20436722",
+      "wikipedia": "sr:Кућа брвнара у Лоћанама",
+      "heritage": "2",
+      "osmUrl": "https://www.openstreetmap.org/node/8941507134",
+      "score": 9,
+      "tagline": {
+        "text": "building in Serbia",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/529062831",
+      "name": "Kulla Haxhi Ramë Mazrekaj",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.51305,
+      "lon": 20.295406,
+      "osmUrl": "https://www.openstreetmap.org/way/529062831",
+      "score": 2
+    },
+    {
+      "id": "way/529062829",
+      "name": "Kulla Isuf Mazrekaj",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.513477,
+      "lon": 20.295585,
+      "osmUrl": "https://www.openstreetmap.org/way/529062829",
+      "score": 2
+    },
+    {
+      "id": "way/529062830",
+      "name": "Kulla Shaban Binakaj",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.512851,
+      "lon": 20.296359,
+      "osmUrl": "https://www.openstreetmap.org/way/529062830",
+      "score": 2
+    },
+    {
+      "id": "node/5140184829",
+      "name": "Lagjja Mazrekaj",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.513031,
+      "lon": 20.296236,
+      "osmUrl": "https://www.openstreetmap.org/node/5140184829",
+      "score": 2
+    },
+    {
+      "id": "node/11773323882",
+      "name": "Kulla e Zymer Himes",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.535727,
+      "lon": 20.294334,
+      "osmUrl": "https://www.openstreetmap.org/node/11773323882",
+      "score": 0
+    }
+  ]
+}

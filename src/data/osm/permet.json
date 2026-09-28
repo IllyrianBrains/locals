@@ -1,0 +1,169 @@
+{
+  "city": "permet",
+  "name": "Përmet",
+  "center": {
+    "lat": 40.2333,
+    "lon": 20.35
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T12:44:25.321Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 13,
+  "places": [
+    {
+      "id": "way/183207364",
+      "name": "Kisha e Shën Premtes",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.230659,
+      "lon": 20.353967,
+      "wikidata": "Q7590897",
+      "wikipedia": "en:Church of St. Paraskevi (Përmet)",
+      "osmUrl": "https://www.openstreetmap.org/way/183207364",
+      "score": 11,
+      "imageFile": "Kisha e Shën Premtes, Përmet 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Kisha_e_Sh%C3%ABn_Premtes%2C_P%C3%ABrmet_01.jpg/1280px-Kisha_e_Sh%C3%ABn_Premtes%2C_P%C3%ABrmet_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Malenki · CC BY-SA 4.0",
+      "tagline": {
+        "text": "historic site in Përmet",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha e Shen Premtes është një kishë në Përmet, Qarku Gjirokastër, Shqipëri. Ajo u u fut Listën e Monumenteve Kulturore të Shqipërisë në vitin 1963.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Premtes%2C_P%C3%ABrmet"
+      }
+    },
+    {
+      "id": "way/183207363",
+      "name": "Kisha e Shën Kollit",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.230829,
+      "lon": 20.351573,
+      "wikidata": "Q42694742",
+      "osmUrl": "https://www.openstreetmap.org/way/183207363",
+      "score": 6,
+      "tagline": {
+        "text": "cultural heritage monument of Albania",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/227004571",
+      "name": "Kisha Fjetja e Shën Mërisë",
+      "nameEn": "Church of St. Mary",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.219764,
+      "lon": 20.357212,
+      "osmUrl": "https://www.openstreetmap.org/way/227004571",
+      "score": 3
+    },
+    {
+      "id": "relation/18148735",
+      "name": "Teqeja Bektashije, Përmet",
+      "nameEn": "Tekke of Permet",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 40.228939,
+      "lon": 20.348339,
+      "osmUrl": "https://www.openstreetmap.org/relation/18148735",
+      "score": 3
+    },
+    {
+      "id": "node/5937249413",
+      "name": "Guri i Qytetit",
+      "nameEn": "City's Stone",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 40.236442,
+      "lon": 20.351892,
+      "osmUrl": "https://www.openstreetmap.org/node/5937249413",
+      "score": 2
+    },
+    {
+      "id": "way/183210723",
+      "name": "Ish Muzeu i Përmetit",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.231531,
+      "lon": 20.353165,
+      "osmUrl": "https://www.openstreetmap.org/way/183210723",
+      "score": 2
+    },
+    {
+      "id": "way/183211089",
+      "name": "Kongresi i Përmetit",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.229747,
+      "lon": 20.358313,
+      "osmUrl": "https://www.openstreetmap.org/way/183211089",
+      "score": 2
+    },
+    {
+      "id": "node/4728565191",
+      "name": "EM architecture&design",
+      "nameEn": "EM architecture&design",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 40.23116,
+      "lon": 20.358643,
+      "osmUrl": "https://www.openstreetmap.org/node/4728565191",
+      "score": 0
+    },
+    {
+      "id": "way/233770330",
+      "name": "Kongresi i Përmetit",
+      "nameEn": "Congress of Përmet",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 40.233416,
+      "lon": 20.353945,
+      "osmUrl": "https://www.openstreetmap.org/way/233770330",
+      "score": 0
+    },
+    {
+      "id": "node/1935789250",
+      "name": "Lapidari",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.23483,
+      "lon": 20.355289,
+      "osmUrl": "https://www.openstreetmap.org/node/1935789250",
+      "score": 0
+    },
+    {
+      "id": "node/5239387188",
+      "name": "Monument Kulture",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.219778,
+      "lon": 20.35741,
+      "osmUrl": "https://www.openstreetmap.org/node/5239387188",
+      "score": 0
+    },
+    {
+      "id": "node/5244407423",
+      "name": "Monument Kulture",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.212752,
+      "lon": 20.371077,
+      "osmUrl": "https://www.openstreetmap.org/node/5244407423",
+      "score": 0
+    },
+    {
+      "id": "way/175977036",
+      "name": "Parku i Vjosës",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.234157,
+      "lon": 20.35365,
+      "osmUrl": "https://www.openstreetmap.org/way/175977036",
+      "score": 0
+    }
+  ]
+}

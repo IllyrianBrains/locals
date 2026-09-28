@@ -1,0 +1,176 @@
+{
+  "city": "bajram-curri",
+  "name": "Bajram Curri",
+  "center": {
+    "lat": 42.3567,
+    "lon": 20.0781
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-28T12:44:28.712Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 15,
+  "places": [
+    {
+      "id": "way/1123559913",
+      "name": "Kulla e Mic Sokolit",
+      "nameEn": "Mic Sokoli Tower",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.325326,
+      "lon": 20.07413,
+      "wikidata": "Q42667621",
+      "osmUrl": "https://www.openstreetmap.org/way/1123559913",
+      "score": 7,
+      "tagline": {
+        "text": "cultural heritage monument of Albania",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/976383075",
+      "name": "Sheshi Azem Hajdari",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.357152,
+      "lon": 20.074491,
+      "wikidata": "Q2041426",
+      "osmUrl": "https://www.openstreetmap.org/way/976383075",
+      "score": 4,
+      "imageFile": "Sheshi Azem Hajdari en Rruga Agim Ramadani.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sheshi_Azem_Hajdari_en_Rruga_Agim_Ramadani.jpg/1280px-Sheshi_Azem_Hajdari_en_Rruga_Agim_Ramadani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Gertjan R. · CC BY-SA 3.0"
+    },
+    {
+      "id": "node/5922127680",
+      "name": "Cliff jumping",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.388366,
+      "lon": 20.073317,
+      "osmUrl": "https://www.openstreetmap.org/node/5922127680",
+      "score": 2
+    },
+    {
+      "id": "way/183771724",
+      "name": "Muzeu Historik,Bajram Curri",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.357191,
+      "lon": 20.072827,
+      "osmUrl": "https://www.openstreetmap.org/way/183771724",
+      "score": 2
+    },
+    {
+      "id": "node/14168699500",
+      "name": "Ura e Shtrejtit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.388519,
+      "lon": 20.072888,
+      "osmUrl": "https://www.openstreetmap.org/node/14168699500",
+      "score": 2
+    },
+    {
+      "id": "node/11708146973",
+      "name": "Kalaja e Cernices",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 42.324431,
+      "lon": 20.081661,
+      "osmUrl": "https://www.openstreetmap.org/node/11708146973",
+      "score": 1
+    },
+    {
+      "id": "node/11708101158",
+      "name": "Kalaja Shoshan",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 42.390557,
+      "lon": 20.071513,
+      "osmUrl": "https://www.openstreetmap.org/node/11708101158",
+      "score": 1
+    },
+    {
+      "id": "node/4732046417",
+      "name": "Maja Potkuq",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.38431,
+      "lon": 20.066646,
+      "osmUrl": "https://www.openstreetmap.org/node/4732046417",
+      "score": 1
+    },
+    {
+      "id": "node/5559013093",
+      "name": "Maja Potkuq",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.365719,
+      "lon": 20.052397,
+      "osmUrl": "https://www.openstreetmap.org/node/5559013093",
+      "score": 1
+    },
+    {
+      "id": "node/4732046419",
+      "name": "Maja Tallabuçit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.381647,
+      "lon": 20.045918,
+      "osmUrl": "https://www.openstreetmap.org/node/4732046419",
+      "score": 1
+    },
+    {
+      "id": "node/11708139245",
+      "name": "Qyteza e Rosujës",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 42.339191,
+      "lon": 20.047095,
+      "osmUrl": "https://www.openstreetmap.org/node/11708139245",
+      "score": 1
+    },
+    {
+      "id": "node/5038388424",
+      "name": "Burimi i Shoshanit",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 42.386484,
+      "lon": 20.079583,
+      "osmUrl": "https://www.openstreetmap.org/node/5038388424",
+      "score": 0
+    },
+    {
+      "id": "node/13881451447",
+      "name": "Heroi Tahir M Sinani",
+      "nameEn": "Hero Tahir M Sinani",
+      "category": "history",
+      "kind": "memorial",
+      "lat": 42.356729,
+      "lon": 20.072614,
+      "osmUrl": "https://www.openstreetmap.org/node/13881451447",
+      "score": 0
+    },
+    {
+      "id": "way/226437241",
+      "name": "Kulla e Sali Manit",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.324402,
+      "lon": 20.072071,
+      "osmUrl": "https://www.openstreetmap.org/way/226437241",
+      "score": 0
+    },
+    {
+      "id": "node/13889315723",
+      "name": "Market \"Demiri\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.356879,
+      "lon": 20.076041,
+      "osmUrl": "https://www.openstreetmap.org/node/13889315723",
+      "score": 0
+    }
+  ]
+}
