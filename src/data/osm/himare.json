@@ -1,0 +1,184 @@
+{
+  "city": "himare",
+  "name": "Himarë",
+  "center": {
+    "lat": 40.1167,
+    "lon": 19.7333
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T21:04:21.187Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 12,
+  "places": [
+    {
+      "id": "way/219955503",
+      "name": "Plazhi i Jalës",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.119429,
+      "lon": 19.701368,
+      "wikidata": "Q97011389",
+      "wikipedia": "sq:Plazhi i Jalës",
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/219955503",
+      "score": 11,
+      "imageFile": "Jala Beach Vlora Albania.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Jala_Beach_Vlora_Albania.jpg/1280px-Jala_Beach_Vlora_Albania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "wstuppert · CC BY-SA 2.0",
+      "tagline": {
+        "text": "Plazh në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Plazhi i Jalës ose Plazhi i Jalit është një plazh i cili ndodhet në Gjirin e Jalit, pak minuta nga fshati Vuno, një nga vendet më të bukura dhe të veçanta për ujin, rërën, klimën dhe jodin e detit. Një parajsë natyrore e vizatuar si nga dora e njeriut, paraqet karakteristika shumë të dobishme për shëndetin.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Plazhi_i_Jal%C3%ABs"
+      }
+    },
+    {
+      "id": "node/11717269842",
+      "name": "Kështjella e Himarës",
+      "nameEn": "Himarë Castle",
+      "category": "history",
+      "kind": "castle",
+      "lat": 40.117779,
+      "lon": 19.731672,
+      "wikidata": "Q33078394",
+      "wikipedia": "en:Himarë Castle",
+      "osmUrl": "https://www.openstreetmap.org/node/11717269842",
+      "score": 9,
+      "imageFile": "Old Himara, Castle District.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Old_Himara%2C_Castle_District.jpg/1280px-Old_Himara%2C_Castle_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Himarës është një monument i trashëgimisë kulturore Shqipetare në Himarë, Rrethi i Vlorës, në qarkun e Vlorës, Shqipëri. Kalaja e Himarës ka 3.500 vjet në praninë njerëzore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Himar%C3%ABs"
+      }
+    },
+    {
+      "id": "way/235195397",
+      "name": "Kisha e të gjithë Shenjtorëve",
+      "nameEn": "Church of all Saints",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 40.117451,
+      "lon": 19.733959,
+      "wikidata": "Q33082479",
+      "wikipedia": "en:All Saints' Church, Himarë",
+      "osmUrl": "https://www.openstreetmap.org/way/235195397",
+      "score": 8,
+      "tagline": {
+        "text": "monument kulture në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Gjithë Shenjtorëve është një monument i trashëgimisë kulturore në Himarë, Rrethi i Vlorës, në qarkun e Vlorës, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Gjith%C3%AB_Shenjtor%C3%ABve"
+      }
+    },
+    {
+      "id": "node/4792081931",
+      "name": "Shpella e Spilesë",
+      "nameEn": "Cyclop’s Cave",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 40.100724,
+      "lon": 19.747163,
+      "description": "Shpella e Spilesë është përdorur si vendbanim në periudhat prehistorike nga mesoliti (epoka e gurit të mesëm) deri në eneolit (epoka e barkrit) (mesoliti dhe eneoloti janë ndarje kronologjike të periudha në arkeologjinë prehistorike)",
+      "website": "https://himara.gov.al/shpella-e-spilese/",
+      "osmUrl": "https://www.openstreetmap.org/node/4792081931",
+      "score": 5
+    },
+    {
+      "id": "way/713100084",
+      "name": "Plazhi i Akuariumit",
+      "nameEn": "Aquarium Beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.112925,
+      "lon": 19.712141,
+      "osmUrl": "https://www.openstreetmap.org/way/713100084",
+      "score": 2
+    },
+    {
+      "id": "way/362641787",
+      "name": "Plazhi i Livadhit",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.106854,
+      "lon": 19.724829,
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/362641787",
+      "score": 2
+    },
+    {
+      "id": "way/240493243",
+      "name": "Guma",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.113359,
+      "lon": 19.711031,
+      "osmUrl": "https://www.openstreetmap.org/way/240493243",
+      "score": 1
+    },
+    {
+      "id": "node/5172962143",
+      "name": "Kodra Cakoit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.104789,
+      "lon": 19.751245,
+      "osmUrl": "https://www.openstreetmap.org/node/5172962143",
+      "score": 1
+    },
+    {
+      "id": "node/5172962141",
+      "name": "Maja Skularit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.127614,
+      "lon": 19.722623,
+      "osmUrl": "https://www.openstreetmap.org/node/5172962141",
+      "score": 1
+    },
+    {
+      "id": "way/235195400",
+      "name": "Marachi",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.099195,
+      "lon": 19.749152,
+      "osmUrl": "https://www.openstreetmap.org/way/235195400",
+      "score": 1
+    },
+    {
+      "id": "way/235195398",
+      "name": "Plazhi i Himarës",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.097392,
+      "lon": 19.752383,
+      "osmUrl": "https://www.openstreetmap.org/way/235195398",
+      "score": 1
+    },
+    {
+      "id": "way/443679484",
+      "name": "Plazhi i Himarës",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 40.100928,
+      "lon": 19.744244,
+      "osmUrl": "https://www.openstreetmap.org/way/443679484",
+      "score": 1
+    }
+  ]
+}

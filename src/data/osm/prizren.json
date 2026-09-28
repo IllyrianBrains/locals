@@ -6,10 +6,10 @@
     "lon": 20.7397
   },
   "radius": 3000,
-  "fetchedAt": "2026-09-24T09:26:09.094Z",
+  "fetchedAt": "2026-09-28T20:57:19.522Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
-  "count": 64,
+  "count": 65,
   "places": [
     {
       "id": "way/136001313",
@@ -501,7 +501,7 @@
       "category": "history",
       "kind": "ruins",
       "lat": 42.210024,
-      "lon": 20.745597,
+      "lon": 20.745598,
       "osmUrl": "https://www.openstreetmap.org/way/509266896",
       "score": 2
     },
@@ -549,19 +549,6 @@
       "score": 2
     },
     {
-      "id": "node/6054048743",
-      "name": "Xhamia e Arastes",
-      "nameEn": "Arasta mosque",
-      "category": "history",
-      "kind": "monument",
-      "lat": 42.210356,
-      "lon": 20.741949,
-      "openingHours": "24/7",
-      "wheelchair": "yes",
-      "osmUrl": "https://www.openstreetmap.org/node/6054048743",
-      "score": 2
-    },
-    {
       "id": "node/10125014525",
       "name": "Čuka",
       "category": "viewpoint",
@@ -601,6 +588,17 @@
       "lat": 42.211272,
       "lon": 20.736614,
       "osmUrl": "https://www.openstreetmap.org/node/2486588263",
+      "score": 1
+    },
+    {
+      "id": "node/5634994138",
+      "name": "Xhamia e Arastës",
+      "nameEn": "Arasta Mosque",
+      "category": "history",
+      "kind": "building",
+      "lat": 42.210388,
+      "lon": 20.741863,
+      "osmUrl": "https://www.openstreetmap.org/node/5634994138",
       "score": 1
     },
     {
@@ -670,7 +668,7 @@
       "category": "market",
       "kind": "marketplace",
       "lat": 42.205693,
-      "lon": 20.718332,
+      "lon": 20.718333,
       "osmUrl": "https://www.openstreetmap.org/way/925368044",
       "score": 0
     },
@@ -702,6 +700,16 @@
       "lat": 42.207849,
       "lon": 20.737988,
       "osmUrl": "https://www.openstreetmap.org/node/14080007422",
+      "score": 0
+    },
+    {
+      "id": "node/14210246172",
+      "name": "Japanese sun monument",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.210027,
+      "lon": 20.736267,
+      "osmUrl": "https://www.openstreetmap.org/node/14210246172",
       "score": 0
     },
     {

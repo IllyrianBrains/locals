@@ -6,7 +6,7 @@
     "lon": 19.8187
   },
   "radius": 4000,
-  "fetchedAt": "2026-09-24T10:24:21.032Z",
+  "fetchedAt": "2026-09-28T20:57:19.229Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
   "count": 150,
@@ -318,7 +318,7 @@
       "category": "history",
       "kind": "attraction",
       "lat": 41.327703,
-      "lon": 19.819682,
+      "lon": 19.819683,
       "wikidata": "Q2474224",
       "wikipedia": "en:Tirana Clock Tower",
       "wheelchair": "no",
@@ -427,7 +427,7 @@
       "category": "attraction",
       "kind": "attraction",
       "lat": 41.317864,
-      "lon": 19.821309,
+      "lon": 19.821308,
       "wikidata": "Q3372379",
       "wikipedia": "en:Mother Teresa Square (Tirana)",
       "osmUrl": "https://www.openstreetmap.org/way/1292145197",
@@ -890,7 +890,7 @@
       "category": "religion",
       "kind": "place_of_worship",
       "lat": 41.324797,
-      "lon": 19.821659,
+      "lon": 19.82166,
       "wikidata": "Q600175",
       "wikipedia": "en:St. Paul's Cathedral, Tirana",
       "wheelchair": "limited",
@@ -916,7 +916,7 @@
       "category": "religion",
       "kind": "place_of_worship",
       "lat": 41.326553,
-      "lon": 19.817574,
+      "lon": 19.817575,
       "wikidata": "Q1736146",
       "wikipedia": "sq:Katedralja Ngjallja e Krishtit, Tiranë",
       "osmUrl": "https://www.openstreetmap.org/relation/7753718",
@@ -940,7 +940,7 @@
       "nameEn": "Evangelical Brotherhood of Albania",
       "category": "religion",
       "kind": "place_of_worship",
-      "lat": 41.326943,
+      "lat": 41.326942,
       "lon": 19.77398,
       "wikidata": "Q13047718",
       "wikipedia": "sq:Vëllazëria Ungjillore e Shqipërisë",
@@ -1171,29 +1171,6 @@
       "lon": 19.820061,
       "osmUrl": "https://www.openstreetmap.org/node/4190306392",
       "score": 5
-    },
-    {
-      "id": "relation/17721294",
-      "name": "Memoriali Postbllok",
-      "category": "art",
-      "kind": "artwork",
-      "lat": 41.32095,
-      "lon": 19.820105,
-      "wikidata": "Q15880887",
-      "osmUrl": "https://www.openstreetmap.org/relation/17721294",
-      "score": 4,
-      "imageFile": "Tirana Park+Statues.jpg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tirana_Park%2BStatues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "imageCredit": "Kj1595 · CC BY-SA 3.0",
-      "tagline": {
-        "text": "installation memorial in Tirana",
-        "lang": "en"
-      },
-      "summary": {
-        "text": "Memoriali \"Postbllok\" është një vepër e ndërtuar nga ish i dënuari politik dhe intelektuali Fatos Lubonja dhe artisti Ardian Isufi. Postbllok është një vepër monumentale me qëllim kujtimn dhe mosharresën e krimeve dhe vuajtjeve të shkakatuara nga diktatura komuniste në Shqipëri.",
-        "lang": "sq",
-        "source": "https://sq.wikipedia.org/wiki/Memoriali_Postbllok"
-      }
     },
     {
       "id": "node/12107120762",
@@ -1456,7 +1433,7 @@
       "nameEn": "Enver Hoxha's House",
       "category": "history",
       "kind": "attraction",
-      "lat": 41.321086,
+      "lat": 41.321085,
       "lon": 19.817218,
       "osmUrl": "https://www.openstreetmap.org/way/256162004",
       "score": 3
@@ -1543,7 +1520,7 @@
       "category": "market",
       "kind": "marketplace",
       "lat": 41.330214,
-      "lon": 19.824268,
+      "lon": 19.824267,
       "website": "https://agjenciaetregjeve.tirana.al",
       "wheelchair": "limited",
       "osmUrl": "https://www.openstreetmap.org/way/623438669",
@@ -1894,28 +1871,6 @@
       "lon": 19.791057,
       "openingHours": "24/7",
       "osmUrl": "https://www.openstreetmap.org/way/836446505",
-      "score": 1
-    },
-    {
-      "id": "way/957688195",
-      "name": "Parku Helen",
-      "category": "nature",
-      "kind": "park",
-      "lat": 41.313889,
-      "lon": 19.863416,
-      "description": "This park was dedicated to the great relations between Albania and Greece.",
-      "osmUrl": "https://www.openstreetmap.org/way/957688195",
-      "score": 1
-    },
-    {
-      "id": "relation/15019457",
-      "name": "Parku i Liqenit të Paskuqanit",
-      "nameEn": "Paskquan Lake Park",
-      "category": "nature",
-      "kind": "park",
-      "lat": 41.363142,
-      "lon": 19.797952,
-      "osmUrl": "https://www.openstreetmap.org/relation/15019457",
       "score": 1
     },
     {
@@ -2309,6 +2264,36 @@
       "lat": 41.332851,
       "lon": 19.792472,
       "osmUrl": "https://www.openstreetmap.org/way/379558197",
+      "score": 0
+    },
+    {
+      "id": "way/248993659",
+      "name": "Parku Ali Demi",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.327372,
+      "lon": 19.836484,
+      "osmUrl": "https://www.openstreetmap.org/way/248993659",
+      "score": 0
+    },
+    {
+      "id": "way/624093777",
+      "name": "Parku Europa",
+      "category": "nature",
+      "kind": "garden",
+      "lat": 41.327345,
+      "lon": 19.818661,
+      "osmUrl": "https://www.openstreetmap.org/way/624093777",
+      "score": 0
+    },
+    {
+      "id": "node/12805960250",
+      "name": "Parku i Artit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.345049,
+      "lon": 19.849523,
+      "osmUrl": "https://www.openstreetmap.org/node/12805960250",
       "score": 0
     }
   ]

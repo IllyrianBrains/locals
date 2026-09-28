@@ -6,10 +6,10 @@
     "lon": 19.5126
   },
   "radius": 4000,
-  "fetchedAt": "2026-09-24T09:26:09.034Z",
+  "fetchedAt": "2026-09-28T20:57:19.256Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
-  "count": 82,
+  "count": 81,
   "places": [
     {
       "id": "way/48522585",
@@ -211,7 +211,7 @@
       "nameEn": "Ebu Beker Mosque",
       "category": "religion",
       "kind": "attraction",
-      "lat": 42.067741,
+      "lat": 42.067742,
       "lon": 19.514022,
       "wikidata": "Q1280130",
       "wikipedia": "sq:Xhamia Ebu Bekër",
@@ -360,33 +360,6 @@
       }
     },
     {
-      "id": "relation/10148724",
-      "name": "Rezerva Natyrore e Menaxhuar Liqeni i Shkodres",
-      "nameEn": "Lake Shkodër Nature Reserve",
-      "category": "nature",
-      "kind": "nature_reserve",
-      "lat": 42.188043,
-      "lon": 19.40139,
-      "wikidata": "Q60747916",
-      "wikipedia": "en:Lake Shkodër Nature Reserve",
-      "website": "https://www.akzm.gov.al/",
-      "openingHours": "24/7",
-      "osmUrl": "https://www.openstreetmap.org/relation/10148724",
-      "score": 10,
-      "imageFile": "Lake Skadar, Shkoder Albania 2016.jpg",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Lake_Skadar%2C_Shkoder_Albania_2016.jpg/1280px-Lake_Skadar%2C_Shkoder_Albania_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "imageCredit": "Toma Koma - @Flickr: https://www.flickr.com/photos/972406… · CC BY-SA 2.0",
-      "tagline": {
-        "text": "protected area and a tourist attraction in Albania",
-        "lang": "en"
-      },
-      "summary": {
-        "text": "Stampa:Kartela Zonë e mbrojtur Rezervati Natyror i Liqenit të Shkodrës është një rezervat natyror në Shqipërinë veriperëndimore. Zona e mbrojtur përfshin segmentin shqiptar të liqenit të Shkodrës dhe lumin Buna dhe fushën fqinje, duke përfshirë sipërfaqet ujore dhe tokësore.",
-        "lang": "sq",
-        "source": "https://sq.wikipedia.org/wiki/Rezervati_Natyror_i_Liqenit_t%C3%AB_Shkodr%C3%ABs"
-      }
-    },
-    {
       "id": "way/323742416",
       "name": "Site of Witness and Memory",
       "category": "museum",
@@ -414,7 +387,7 @@
       "category": "culture",
       "kind": "theatre",
       "lat": 42.068896,
-      "lon": 19.511067,
+      "lon": 19.511068,
       "wikidata": "Q1932399",
       "wikipedia": "sq:Teatri Migjeni",
       "wheelchair": "limited",
@@ -741,7 +714,7 @@
       "nameEn": "Clothes & beauty",
       "category": "market",
       "kind": "marketplace",
-      "lat": 42.068801,
+      "lat": 42.0688,
       "lon": 19.507282,
       "openingHours": "Mo-Su 06:00-15:00",
       "wheelchair": "yes",
@@ -818,7 +791,7 @@
       "category": "history",
       "kind": "ruins",
       "lat": 42.045796,
-      "lon": 19.492113,
+      "lon": 19.492112,
       "wheelchair": "limited",
       "osmUrl": "https://www.openstreetmap.org/way/414667236",
       "score": 1

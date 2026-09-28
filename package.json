@@ -10,11 +10,13 @@
     "preview": "astro preview",
     "osm": "node scripts/fetch-osm.ts",
     "boundaries": "node scripts/fetch-boundaries.ts",
-    "cities": "node scripts/enrich-cities.ts"
+    "cities": "node scripts/enrich-cities.ts",
+    "routes": "node scripts/fetch-routes.ts"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.22",
     "astro": "^7.2.2",
-    "leaflet": "^1.9.4"
+    "leaflet": "^1.9.4",
+    "leaflet-gesture-handling": "^1.2.2"
   }
 }

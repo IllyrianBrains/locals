@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0), Wikipedia (CC BY-SA)",
-  "fetchedAt": "2026-09-28T12:48:31.937Z",
+  "fetchedAt": "2026-09-28T21:05:15.183Z",
   "cities": {
     "tirane": {
       "wikidata": {
@@ -17,8 +17,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 557422,
-        "year": 2011
+        "value": 557422
       },
       "areaKm2": 1088,
       "elevationM": 110,
@@ -39,8 +38,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 142513,
-        "year": 2011
+        "value": 135612
       },
       "areaKm2": 908,
       "elevationM": 13,
@@ -61,8 +59,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 62232,
-        "year": 2023
+        "value": 60031
       },
       "areaKm2": 418,
       "elevationM": 58,
@@ -83,8 +80,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 75994,
-        "year": 2011
+        "value": 75994
       },
       "areaKm2": 802,
       "elevationM": 850,
@@ -126,8 +122,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 104827,
-        "year": 2011
+        "value": 104827
       },
       "areaKm2": 644,
       "website": "http://bashkiavlore.org/"
@@ -147,8 +142,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 227154,
-        "year": 2024
+        "value": 198897
       },
       "areaKm2": 520,
       "elevationM": 652,
@@ -169,8 +163,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 147428,
-        "year": 2024
+        "value": 177781
       },
       "areaKm2": 621,
       "elevationM": 450,
@@ -191,8 +184,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 82661,
-        "year": 2024
+        "value": 96450
       },
       "areaKm2": 599,
       "elevationM": 550,
@@ -213,8 +205,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 78824,
-        "year": 2024
+        "value": 94556
       },
       "areaKm2": 582,
       "elevationM": 360,
@@ -235,8 +226,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 10614,
-        "year": 2011
+        "value": 10614
       },
       "areaKm2": 600,
       "elevationM": 240,
@@ -257,8 +247,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 61530,
-        "year": 2011
+        "value": 61530
       },
       "areaKm2": 607,
       "elevationM": 700,
@@ -279,8 +268,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 20227,
-        "year": 2011
+        "value": 20227
       },
       "areaKm2": 36,
       "website": "http://bashkiasarande.gov.al/"
@@ -300,8 +288,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 11721,
-        "year": 2011
+        "value": 59814
       },
       "areaKm2": 345,
       "elevationM": 532,
@@ -322,12 +309,134 @@
         "lang": "sq"
       },
       "population": {
-        "value": 20517,
-        "year": 2011
+        "value": 20517
       },
       "areaKm2": 1048,
       "elevationM": 360,
       "website": "https://tropoje.gov.al/"
+    },
+    "elbasan": {
+      "wikidata": {
+        "town": "Q114257",
+        "municipality": "Q16350072"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Elbasani është qytet në Shqipëri dhe njëkohësisht qendër e qarkut dhe rrethit me të njëjtin emër. Elbasani është qyteti i tretë më i madh në Shqipëri. Qyteti i Elbasanit ndodhet në Shqipërinë e Mesme.",
+        "source": "https://sq.wikipedia.org/wiki/Elbasani",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 141714
+      },
+      "areaKm2": 859,
+      "elevationM": 140,
+      "website": "http://www.elbasani.gov.al/"
+    },
+    "durres": {
+      "wikidata": {
+        "town": "Q83285",
+        "municipality": "Q16350067"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Durrësi është qyteti i dytë më i madh në Shqipëri. Shtrihet në pjesën qendrore të Ultësirës Perëndimore shqiptare, buzë Detit Adriatik rreth 37 km, në perëndim të Tiranës. Ai ndodhet 44 km në perëndim të Krujës, 110 km në jug të Shkodrës dhe 123 km në veri të Vlorës.",
+        "source": "https://sq.wikipedia.org/wiki/Durr%C3%ABsi",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 175110
+      },
+      "areaKm2": 339,
+      "website": "http://www.durres.gov.al/"
+    },
+    "himare": {
+      "wikidata": {
+        "town": "Q622764",
+        "municipality": "Q13037409"
+      },
+      "description": {
+        "text": "Qytet në Jug të Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Himara është një qytet i vendosur në rrethin e Vlorës në jug të Shqipërisë.",
+        "source": "https://sq.wikipedia.org/wiki/Himara",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 7818
+      },
+      "areaKm2": 557,
+      "elevationM": 90,
+      "website": "http://www.himara.gov.al/"
+    },
+    "lezhe": {
+      "wikidata": {
+        "town": "Q169160",
+        "municipality": "Q16350107"
+      },
+      "description": {
+        "text": "qytet në Shqipëri, në Qarkun e Lezhës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Lezha është një qytet shqiptare në veriperëndim të Shqipërisë, njëherazi kryeqendra e qarkus me të njëjtin emër dhe seli ipeshkvnore katolike. Ajo është një nga qytetet më të lashta dhe të banuara pa ndërprerje në Shqipëri, me rreth 2.400 vjet histori të dokumentuar. Lezha ishte një nga qendrat kryesore të Labeatëve, dhe muret e para mbrojtëse të saj datojnë në fundin e shekullit IV p.e.s.",
+        "source": "https://sq.wikipedia.org/wiki/Lezha",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 65633
+      },
+      "areaKm2": 502,
+      "elevationM": 10,
+      "website": "http://www.lezha.gov.al/"
+    },
+    "malesi-e-madhe": {
+      "wikidata": {
+        "town": "Q991288",
+        "municipality": "Q20821805"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kopliku është qyteti më verior i Shqipërisë pranë kufirit me Malin e Zi në piken doganore të Hanit të Hotit dhe është kryqendra e rrethit të Malësisë së Madhe.",
+        "source": "https://sq.wikipedia.org/wiki/Kopliku",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 30823
+      },
+      "areaKm2": 1060,
+      "elevationM": 63
+    },
+    "kolonje": {
+      "wikidata": {
+        "town": "Q18793",
+        "municipality": "Q10780849"
+      },
+      "description": {
+        "text": "qytet i vogël në juglindje të Shqipërisë në rrethin e Kolonjës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Erseka është një qytet në rrethin e Kolonjës me 3746 banorë sipas censusit te 2011. Qyteti ndodhet në juglindje të Shqipërisë i vendosur mbi Pllajën e Kolonjës e përballë Malit të Gramozit.",
+        "source": "https://sq.wikipedia.org/wiki/Erseka",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 11070
+      },
+      "areaKm2": 806,
+      "elevationM": 1000
     },
     "mitrovice": {
       "wikidata": {
@@ -344,8 +453,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 64680,
-        "year": 2024
+        "value": 71909
       },
       "areaKm2": 328,
       "elevationM": 500,
@@ -366,8 +474,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 41777,
-        "year": 2024
+        "value": 56208
       },
       "areaKm2": 275,
       "elevationM": 477,
@@ -388,8 +495,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 27758,
-        "year": 2024
+        "value": 40019
       },
       "areaKm2": 293,
       "elevationM": 587,
@@ -410,8 +516,7 @@
         "lang": "sq"
       },
       "population": {
-        "value": 82901,
-        "year": 2024
+        "value": 90178
       },
       "areaKm2": 388,
       "elevationM": 508,
@@ -432,12 +537,53 @@
         "lang": "sq"
       },
       "population": {
-        "value": 33066,
-        "year": 2024
+        "value": 39289
       },
       "areaKm2": 451,
       "elevationM": 480,
       "website": "https://istog.rks-gov.net/"
+    },
+    "ferizaj": {
+      "wikidata": {
+        "town": "Q738901",
+        "municipality": "Q2048755"
+      },
+      "description": {
+        "text": "Qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Ferizaji është qytet në pjesën jugore të Kosovës. Po ashtu Ferizaji është qendër e komunës dhe rajonit me të njëjtin emër. Ferizaj ka qenë i populluar që në epokën parahistorike nga kultura e Starçevës, Vinçës dhe Badenit.",
+        "source": "https://sq.wikipedia.org/wiki/Ferizaji",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 108610
+      },
+      "areaKm2": 342,
+      "elevationM": 500,
+      "website": "https://ferizaj.rks-gov.net/"
+    },
+    "vushtrri": {
+      "wikidata": {
+        "town": "Q911241",
+        "municipality": "Q3657833"
+      },
+      "description": {
+        "text": "town in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Vushtrria, Viçitrina ose Vuçitërna është qytet i lashtë, por edhe modern, i cili ndodhet në pjesën veriore të Republikës së Kosovës. Vushtrria e sotme më herët është quajtur Viciana, apo siç njihet në burimet latine: Vicianum. Në veri kufizohet me Mitrovicën, në lindje me Besianën, në jug me Kastriotin, në jug-perëndim me Drenasin dhe në perëndim me Skënderajn.",
+        "source": "https://sq.wikipedia.org/wiki/Vushtrria",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 69870
+      },
+      "areaKm2": 342,
+      "elevationM": 944,
+      "website": "https://vushtrri.rks-gov.net/"
     }
   }
 }

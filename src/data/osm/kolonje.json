@@ -1,0 +1,132 @@
+{
+  "city": "kolonje",
+  "name": "Kolonjë",
+  "center": {
+    "lat": 40.3333,
+    "lon": 20.6833
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T21:04:22.799Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 11,
+  "places": [
+    {
+      "id": "way/457459228",
+      "name": "Kalaja e Bejkovës",
+      "category": "history",
+      "kind": "castle",
+      "lat": 40.353761,
+      "lon": 20.664769,
+      "wikidata": "Q22008155",
+      "osmUrl": "https://www.openstreetmap.org/way/457459228",
+      "score": 5,
+      "tagline": {
+        "text": "ancient fortress in Albania",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "node/10201985548",
+      "name": "Kalaja e Gradecit në Bejkovë",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 40.35488,
+      "lon": 20.663622,
+      "description": "Monument i mbrojtur në Shqipëri sipas Ministrisë së Kulturës së Shqipërisë",
+      "osmUrl": "https://www.openstreetmap.org/node/10201985548",
+      "score": 2
+    },
+    {
+      "id": "way/666441036",
+      "name": "Muzeu Ersekë",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 40.338476,
+      "lon": 20.68136,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/666441036",
+      "score": 2
+    },
+    {
+      "id": "node/8317040420",
+      "name": "Shen pjetri",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 40.333077,
+      "lon": 20.716942,
+      "osmUrl": "https://www.openstreetmap.org/node/8317040420",
+      "score": 2
+    },
+    {
+      "id": "node/5304404425",
+      "name": "Maja Goricës së Ersekës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 40.345661,
+      "lon": 20.664017,
+      "osmUrl": "https://www.openstreetmap.org/node/5304404425",
+      "score": 1
+    },
+    {
+      "id": "node/11711253880",
+      "name": "Tumat e Ersekës",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 40.346183,
+      "lon": 20.655167,
+      "osmUrl": "https://www.openstreetmap.org/node/11711253880",
+      "score": 1
+    },
+    {
+      "id": "node/2991901450",
+      "name": "Lapidar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.338796,
+      "lon": 20.680337,
+      "osmUrl": "https://www.openstreetmap.org/node/2991901450",
+      "score": 0
+    },
+    {
+      "id": "node/3013793239",
+      "name": "Lapidar",
+      "category": "history",
+      "kind": "monument",
+      "lat": 40.321274,
+      "lon": 20.672278,
+      "osmUrl": "https://www.openstreetmap.org/node/3013793239",
+      "score": 0
+    },
+    {
+      "id": "way/181314185",
+      "name": "Parku Rinia",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.340704,
+      "lon": 20.682839,
+      "osmUrl": "https://www.openstreetmap.org/way/181314185",
+      "score": 0
+    },
+    {
+      "id": "way/669156731",
+      "name": "Parku Sporti",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.334942,
+      "lon": 20.679676,
+      "osmUrl": "https://www.openstreetmap.org/way/669156731",
+      "score": 0
+    },
+    {
+      "id": "node/10649627823",
+      "name": "Shtepia e Dr. Vangjelit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 40.333406,
+      "lon": 20.706835,
+      "osmUrl": "https://www.openstreetmap.org/node/10649627823",
+      "score": 0
+    }
+  ]
+}

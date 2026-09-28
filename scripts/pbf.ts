@@ -43,10 +43,10 @@ const WHERE = [
 ].join(' OR ');
 
 const LAYERS = ['points', 'lines', 'multipolygons', 'multilinestrings'] as const;
-type Layer = (typeof LAYERS)[number];
+export type Layer = (typeof LAYERS)[number];
 
 type Position = number[];
-interface GeoJsonFeature { properties: Record<string, string | Record<string, string> | null>; geometry: { type: string; coordinates: unknown } | null }
+export interface GeoJsonFeature { properties: Record<string, string | Record<string, string> | null>; geometry: { type: string; coordinates: unknown } | null }
 
 const exists = (url: URL) => access(url).then(() => true, () => false);
 
@@ -104,16 +104,19 @@ function toElement(layer: Layer, feature: GeoJsonFeature): OverpassElement | nul
   return type === 'node' ? { type, id, lat: at.lat, lon: at.lon, tags } : { type, id, center: at, tags };
 }
 
+/** The features of one layer with their full geometry, e.g. the outlines of route relations from `multilinestrings`. */
+export async function readLayer(country: PbfCountry, layer: Layer): Promise<GeoJsonFeature[]> {
+  await mkdir(CACHE_DIR, { recursive: true });
+  const file = await extractLayer(country, await download(country), layer);
+  return (await readFile(file, 'utf8')).split('\n').filter(Boolean).map((line) => JSON.parse(line));
+}
+
 /** Features of one country as Overpass-shaped elements, ready for `toPlace` / `pillarOf` and the exact tag filters. */
 export async function readPbf(country: PbfCountry): Promise<OverpassElement[]> {
-  await mkdir(CACHE_DIR, { recursive: true });
-  const pbf = await download(country);
   const elements: OverpassElement[] = [];
   for (const layer of LAYERS) {
-    const file = await extractLayer(country, pbf, layer);
-    for (const line of (await readFile(file, 'utf8')).split('\n')) {
-      if (!line) continue;
-      const element = toElement(layer, JSON.parse(line));
+    for (const feature of await readLayer(country, layer)) {
+      const element = toElement(layer, feature);
       if (element) elements.push(element);
     }
   }

@@ -1,5 +1,7 @@
 ---
 import { categoryLabels, getCityPlaces, type OsmCategory, type OsmPlace } from '../data/places';
+import { routesNear } from '../data/routeData';
+import { routeRadiusM } from '../data/routes';
 
 export interface FeaturedPin { number: string; place: OsmPlace; tone: 'stop' | 'secret' }
 interface Props { slug: string; featured?: FeaturedPin[]; limit?: number }
@@ -7,6 +9,8 @@ const { slug, featured = [], limit = 40 } = Astro.props;
 
 const data = getCityPlaces(slug);
 const featuredIds = new Set(featured.map((f) => f.place.id));
+// Walking routes with a stretch near the centre, cut to that stretch.
+const routes = (data ? routesNear(data.center.lat, data.center.lon, routeRadiusM) : []).map(({ id, name, ref, network, operator, km, lines }) => ({ id, name, ref, network, operator, km, lines }));
 const places = data?.places.filter((p) => !featuredIds.has(p.id)).slice(0, limit) ?? [];
 
 const categoryColors: Record<OsmCategory, string> = {
@@ -32,10 +36,11 @@ const markers = [
 ---
 {data && (
   <div class="city-map">
-    <div class="city-map-canvas" data-markers={JSON.stringify(markers)} role="region" aria-label={`Harta e vendeve për të vizituar në ${data.name}`}></div>
+    <div class="city-map-canvas" data-markers={JSON.stringify(markers)} data-routes={JSON.stringify(routes)} data-center={JSON.stringify(data.center)} role="region" aria-label={`Harta e vendeve për të vizituar në ${data.name}`}></div>
     <div class="city-map-legend" role="group" aria-label="Shfaq në hartë">
       {firstStop && <span class="key"><i class="pin">{Number(firstStop.number)}</i>Ndalesat kryesore</span>}
       {firstSecret && <span class="key"><i class="pin secret">{Number(firstSecret.number)}</i>Sekretet</span>}
+      {routes.length > 0 && <button type="button" data-routes aria-pressed="true"><i class="route-line"></i>Shtigje <small>{routes.length}</small></button>}
       {categories.map((c) => <button type="button" data-category={c} aria-pressed="true"><i style={`background:${categoryColors[c]}`}></i>{categoryLabels[c]}</button>)}
     </div>
   </div>
@@ -43,15 +48,15 @@ const markers = [
 
 <script>
   import L from 'leaflet';
-  import 'leaflet/dist/leaflet.css';
+  import { addButton, addRoutes, createMap, esc } from '../scripts/map-kit';
+  import type { Route } from '../data/routes';
 
   type Marker = { name: string; lat: number; lon: number; label: string; url: string; number?: string; tone?: string; category?: string; color?: string };
-  const escape = (s: string) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
   document.querySelectorAll<HTMLElement>('.city-map').forEach((root) => {
     const el = root.querySelector<HTMLElement>('.city-map-canvas')!;
     const markers: Marker[] = JSON.parse(el.dataset.markers!);
-    const map = L.map(el, { scrollWheelZoom: false });
+    const map = createMap(el);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -62,12 +67,40 @@ const markers = [
       const layer = m.number
         ? L.marker([m.lat, m.lon], { icon: L.divIcon({ className: `map-pin ${m.tone}`, html: String(Number(m.number)), iconSize: [28, 28] }), zIndexOffset: 1000 })
         : L.circleMarker([m.lat, m.lon], { radius: 6, weight: 2, color: '#fff', fillColor: m.color, fillOpacity: 1 });
-      layer.bindPopup(`<span>${escape(m.label)}</span><b>${escape(m.name)}</b><a href="${m.url}" target="_blank" rel="noreferrer">Drejtimet ↗</a>`).addTo(map);
+      layer.bindPopup(`<span>${esc(m.label)}</span><b>${esc(m.name)}</b><a href="${m.url}" target="_blank" rel="noreferrer">Drejtimet ↗</a>`).addTo(map);
       if (m.category) byCategory.set(m.category, [...(byCategory.get(m.category) ?? []), layer]);
       return layer;
     });
-    if (all.length) map.fitBounds(L.featureGroup(all).getBounds(), { padding: [30, 30] });
-    map.once('focus', () => map.scrollWheelZoom.enable());
+    // Routes sit under the markers (overlay pane is 400). They can reach much farther than the places (up to
+    // routeRadiusM vs. the city's own osm.radius), so they are left out of the initial view and only join it
+    // once the visitor asks to see everything — otherwise a single distant trail forces the whole map to zoom
+    // out until the places themselves are barely visible.
+    const routes = addRoutes(map, JSON.parse(el.dataset.routes!) as Route[], { zIndex: 390 });
+    const placeBounds = L.featureGroup(all).getBounds();
+    const fullBounds = L.featureGroup([...all, routes]).getBounds();
+    const showPlaces = () => { if (placeBounds.isValid()) map.fitBounds(placeBounds, { padding: [30, 30] }); };
+    const showAll = () => { if (fullBounds.isValid()) map.fitBounds(fullBounds, { padding: [30, 30] }); };
+    if (placeBounds.isValid()) showPlaces(); else showAll();
+    addButton(map, '⤢', 'Shfaq të gjithë hartën', showAll);
+
+    // "Ku jam?": show the visitor's position, and zoom to it when they are actually in the area.
+    const center = JSON.parse(el.dataset.center!) as { lat: number; lon: number };
+    let here: L.CircleMarker | undefined;
+    addButton(map, '◎', 'Ku jam?', () => map.locate());
+    map.on('locationfound', (event: L.LocationEvent) => {
+      here?.remove();
+      here = L.circleMarker(event.latlng, { radius: 8, weight: 3, color: '#fff', fillColor: '#2f6fdd', fillOpacity: 1 }).addTo(map);
+      if (event.latlng.distanceTo([center.lat, center.lon]) < 25000) map.flyTo(event.latlng, Math.max(map.getZoom(), 15));
+      else here.bindPopup('Je larg këtij qyteti.').openPopup();
+    });
+    map.on('locationerror', () => L.popup().setLatLng(map.getCenter()).setContent('Nuk e gjeta vendndodhjen tënde. Lejo qasjen te vendndodhja në shfletues.').openOn(map));
+
+    root.querySelector<HTMLButtonElement>('button[data-routes]')?.addEventListener('click', (event) => {
+      const button = event.currentTarget as HTMLButtonElement;
+      const on = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(on));
+      if (on) routes.addTo(map); else routes.remove();
+    });
 
     root.querySelectorAll<HTMLButtonElement>('button[data-category]').forEach((button) => button.addEventListener('click', () => {
       const on = button.getAttribute('aria-pressed') !== 'true';
@@ -87,11 +120,17 @@ const markers = [
 .city-map-canvas :global(.leaflet-popup-content span){color:var(--clay);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .city-map-canvas :global(.leaflet-popup-content b){font:500 17px/1.2 var(--display)}
 .city-map-canvas :global(.leaflet-popup-content a){color:var(--leaf);font-size:11px;font-weight:700}
+.city-map-canvas :global(.leaflet-popup-content p){margin:0;color:var(--muted);font-size:12px}
+.city-map-canvas :global(.route-tip){padding:4px 8px;border-radius:6px;font:600 11px var(--sans)}
+.city-map-canvas :global(.leaflet-bar a.map-button){font:700 15px/26px var(--sans);text-align:center}
 .city-map-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
 .city-map-legend .key,.city-map-legend button{display:flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 12px var(--sans)}
 .city-map-legend button{cursor:pointer}
 .city-map-legend button[aria-pressed=false]{color:var(--muted);text-decoration:line-through;opacity:.6}
 .city-map-legend button i{width:10px;height:10px;border-radius:50%}
+.city-map-legend button small{color:var(--muted);font-size:10px}
+.city-map-legend button i.route-line{width:16px;height:0;border-top:3px solid #d9822b;border-radius:0}
+.city-map-legend button[data-routes][aria-pressed=false] small{text-decoration:none}
 .city-map-legend .pin{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;color:#fff;background:var(--forest);font:700 9px var(--sans);font-style:normal}
 .city-map-legend .pin.secret{color:var(--forest);background:var(--lime)}
 @media(max-width:560px){.city-map-canvas{height:440px}}

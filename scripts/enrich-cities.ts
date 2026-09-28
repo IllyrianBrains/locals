@@ -5,8 +5,10 @@
  *
  *   npm run cities
  *
- * The town's Wikidata item (`wikidata.town`) supplies the description, article and elevation; the municipality's
- * (`wikidata.municipality`) supplies the population, falling back to OpenStreetMap's `population` tag. Wikidata's area
+ * The town's Wikidata item (`wikidata.town`) supplies the description, article and elevation. Population comes from
+ * OpenStreetMap's `population` tag on the same municipality boundary used for the area, falling back to Wikidata's
+ * (`wikidata.municipality`) when OSM has none — Wikidata's population statements are often for an older, smaller
+ * version of the municipality (pre-2015 territorial reform) and disagree with the boundary shown on the map. Wikidata's area
  * statements mix towns and municipalities and are sometimes wrong, so the area is measured from the municipality outline
  * in src/data/municipalities.json instead. Wikidata is CC0; Wikipedia text is CC BY-SA, so link `summary.source`
  * wherever it is shown.
@@ -51,11 +53,17 @@ for (const f of JSON.parse(await readFile(new URL('../src/data/municipalities.js
   outlines.set(f.properties.id, { area: polygons.reduce((sum, rings) => sum + polygonKm2(rings), 0), population: f.properties.population });
 }
 
+/** wbgetentities takes at most 50 ids per request. */
 async function entities(ids: string[]): Promise<Record<string, Entity>> {
-  const { entities } = await api('https://www.wikidata.org/w/api.php', {
-    action: 'wbgetentities', ids: [...new Set(ids)].join('|'), props: 'descriptions|claims|sitelinks', languages: 'sq|en',
-  });
-  return entities;
+  const unique = [...new Set(ids)];
+  const found: Record<string, Entity> = {};
+  for (let i = 0; i < unique.length; i += 50) {
+    const { entities } = await api('https://www.wikidata.org/w/api.php', {
+      action: 'wbgetentities', ids: unique.slice(i, i + 50).join('|'), props: 'descriptions|claims|sitelinks', languages: 'sq|en',
+    });
+    Object.assign(found, entities);
+  }
+  return found;
 }
 
 async function wikipedia(lang: 'sq' | 'en', title: string): Promise<{ text: string; source: string } | undefined> {
@@ -74,7 +82,7 @@ for (const city of cities) {
   const town = data[city.wikidata.town], municipality = data[city.wikidata.municipality];
   const outline = outlines.get(city.osm.boundary);
   const population = best(municipality, 'P1082');
-  const populationValue = amount(population) ?? outline?.population;
+  const populationValue = outline?.population ?? amount(population);
   const elevation = best(town, 'P2044', unitIs(METRE));
   const website = (best(municipality, 'P856') ?? best(town, 'P856'))?.mainsnak.datavalue!.value as string | undefined;
 
@@ -90,7 +98,7 @@ for (const city of cities) {
     wikidata: city.wikidata,
     ...(description && { description: { text: description, lang: town.descriptions?.sq ? 'sq' : 'en' } }),
     ...(summary && { summary }),
-    ...(populationValue && { population: { value: populationValue, year: (population && yearOf(population)) || undefined } }),
+    ...(populationValue && { population: { value: populationValue, year: (!outline?.population && population && yearOf(population)) || undefined } }),
     ...(outline && { areaKm2: Math.round(outline.area) }),
     // Coastal towns are recorded at 0 m: not worth showing.
     ...(elevation && amount(elevation)! >= 5 && { elevationM: Math.round(amount(elevation)!) }),

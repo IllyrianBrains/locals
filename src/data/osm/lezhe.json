@@ -1,0 +1,321 @@
+{
+  "city": "lezhe",
+  "name": "Lezhë",
+  "center": {
+    "lat": 41.7805,
+    "lon": 19.6434
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T21:04:22.473Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 26,
+  "places": [
+    {
+      "id": "way/1102609960",
+      "name": "Vendvarrimi i \"Gjergj Kastrioti Skenderbeut\"",
+      "nameEn": "The Grave of Skanderbeg",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.782651,
+      "lon": 19.643251,
+      "wikidata": "Q160614",
+      "wikipedia": "sq:Skënderbeu",
+      "osmUrl": "https://www.openstreetmap.org/way/1102609960",
+      "score": 12,
+      "imageFile": "Skanderbeg by Antonio Maria Crespi.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Skanderbeg_by_Antonio_Maria_Crespi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Antonio Maria Crespi Castoldi · Public domain",
+      "tagline": {
+        "text": "Komandant fisnik dhe ushtarak shqiptar (1405–1468)",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Gjergj Kastrioti, i njohur gjerësisht si Skënderbeu, ishte një princ dhe anëtar i familjes fisnike të Kastriotëve dhe udhëheqës ushtarak arbër që në fillim luftoi për Perandorinë Osmane dhe më pas udhëhoqi Lidhjen e Lezhës në beteja të suksesshme 25 vjeçare kundër pushtuesve Osmanë. Si njëri prej djemëve të familjes fisnike të Kastriotëve, ai u rrëmbye në moshën 9 vjecare nga perandoria Osmane dhe u dërgua në oborrin e saj.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sk%C3%ABnderbeu"
+      }
+    },
+    {
+      "id": "way/387238482",
+      "name": "Kalaja e Lezhës",
+      "nameEn": "Lezhë Castle",
+      "category": "history",
+      "kind": "castle",
+      "lat": 41.783696,
+      "lon": 19.65006,
+      "wikidata": "Q60529",
+      "wikipedia": "en:Lezhë Castle",
+      "osmUrl": "https://www.openstreetmap.org/way/387238482",
+      "score": 9,
+      "imageFile": "Lezhë Castle1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lezh%C3%AB_Castle1.jpg/1280px-Lezh%C3%AB_Castle1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Belgian man · Public domain",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Lezhës është një kala që ndodhet afër Lezhës, Shqipëri veriperëndimore.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Lezh%C3%ABs"
+      }
+    },
+    {
+      "id": "way/387221846",
+      "name": "Xhamia e Lezhës",
+      "nameEn": "Mosque of Lezha",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.777378,
+      "lon": 19.644371,
+      "wikidata": "Q21084474",
+      "wikipedia": "en:Church of Saint Nicholas, Lezhë",
+      "osmUrl": "https://www.openstreetmap.org/way/387221846",
+      "score": 8,
+      "imageFile": "Lezhë, Albania – Skanderbeg Memorial 2016 03.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Lezh%C3%AB%2C_Albania_%E2%80%93_Skanderbeg_Memorial_2016_03.jpg/1280px-Lezh%C3%AB%2C_Albania_%E2%80%93_Skanderbeg_Memorial_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Xhami në Lezhë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Memoriali i Skënderbeut është një objekt përkujtues i Skënderbeut i ndërtuar më 1981 në gërmadhat e Xhamisë Selimije në Lezhë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Memoriali_i_Sk%C3%ABnderbeut"
+      }
+    },
+    {
+      "id": "node/3905339695",
+      "name": "Guret Ilir",
+      "nameEn": "Illyrian Stones",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.782288,
+      "lon": 19.643358,
+      "osmUrl": "https://www.openstreetmap.org/node/3905339695",
+      "score": 2
+    },
+    {
+      "id": "node/10562536843",
+      "name": "Akrolisi",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.783746,
+      "lon": 19.650091,
+      "osmUrl": "https://www.openstreetmap.org/node/10562536843",
+      "score": 1
+    },
+    {
+      "id": "node/11708163745",
+      "name": "Akrolisi",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.778844,
+      "lon": 19.661519,
+      "osmUrl": "https://www.openstreetmap.org/node/11708163745",
+      "score": 1
+    },
+    {
+      "id": "node/10562934350",
+      "name": "Ancient Illyrians City Lissus Walls",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.783085,
+      "lon": 19.646306,
+      "osmUrl": "https://www.openstreetmap.org/node/10562934350",
+      "score": 1
+    },
+    {
+      "id": "node/10562934339",
+      "name": "Ancient Illyrians Walls",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.782855,
+      "lon": 19.646317,
+      "osmUrl": "https://www.openstreetmap.org/node/10562934339",
+      "score": 1
+    },
+    {
+      "id": "node/3905598252",
+      "name": "Ancient Walls",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.782112,
+      "lon": 19.64974,
+      "osmUrl": "https://www.openstreetmap.org/node/3905598252",
+      "score": 1
+    },
+    {
+      "id": "node/3905761159",
+      "name": "Ancient Walls",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.782905,
+      "lon": 19.64621,
+      "osmUrl": "https://www.openstreetmap.org/node/3905761159",
+      "score": 1
+    },
+    {
+      "id": "node/14079327303",
+      "name": "Cistern",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.783945,
+      "lon": 19.649654,
+      "osmUrl": "https://www.openstreetmap.org/node/14079327303",
+      "score": 1
+    },
+    {
+      "id": "node/10202075300",
+      "name": "Germadhat e Malit të Shëlbuem (Akrolis)",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.785437,
+      "lon": 19.659804,
+      "osmUrl": "https://www.openstreetmap.org/node/10202075300",
+      "score": 1
+    },
+    {
+      "id": "node/4742666344",
+      "name": "Guri Rrethi i Bletës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.777505,
+      "lon": 19.659923,
+      "osmUrl": "https://www.openstreetmap.org/node/4742666344",
+      "score": 1
+    },
+    {
+      "id": "node/5519356775",
+      "name": "Rrënoja",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.800654,
+      "lon": 19.620895,
+      "osmUrl": "https://www.openstreetmap.org/node/5519356775",
+      "score": 1
+    },
+    {
+      "id": "node/3905349587",
+      "name": "Tyrbja",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 41.778917,
+      "lon": 19.661317,
+      "osmUrl": "https://www.openstreetmap.org/node/3905349587",
+      "score": 1
+    },
+    {
+      "id": "node/14079327501",
+      "name": "Xhamia",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.783762,
+      "lon": 19.649605,
+      "osmUrl": "https://www.openstreetmap.org/node/14079327501",
+      "score": 1
+    },
+    {
+      "id": "way/1172168746",
+      "name": "Ancient Lissus",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.782808,
+      "lon": 19.643058,
+      "osmUrl": "https://www.openstreetmap.org/way/1172168746",
+      "score": 0
+    },
+    {
+      "id": "node/11886479478",
+      "name": "Ded Coku",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.779369,
+      "lon": 19.646996,
+      "osmUrl": "https://www.openstreetmap.org/node/11886479478",
+      "score": 0
+    },
+    {
+      "id": "node/11886479477",
+      "name": "Gjeto Coku",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.779352,
+      "lon": 19.647032,
+      "osmUrl": "https://www.openstreetmap.org/node/11886479477",
+      "score": 0
+    },
+    {
+      "id": "way/387175084",
+      "name": "Lulishte",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.778811,
+      "lon": 19.646356,
+      "osmUrl": "https://www.openstreetmap.org/way/387175084",
+      "score": 0
+    },
+    {
+      "id": "way/387172264",
+      "name": "Lulishte Qendrore \"11 - Janari\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.779365,
+      "lon": 19.647,
+      "osmUrl": "https://www.openstreetmap.org/way/387172264",
+      "score": 0
+    },
+    {
+      "id": "node/3905036641",
+      "name": "Obelisku i Kuvendit te Lezhes 1444",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.780678,
+      "lon": 19.644424,
+      "osmUrl": "https://www.openstreetmap.org/node/3905036641",
+      "score": 0
+    },
+    {
+      "id": "way/387227169",
+      "name": "Pallati i Kulturës \"Dedë Ndue Lazri\"",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.781366,
+      "lon": 19.642906,
+      "osmUrl": "https://www.openstreetmap.org/way/387227169",
+      "score": 0
+    },
+    {
+      "id": "way/386066179",
+      "name": "Park lojerash",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.775832,
+      "lon": 19.643223,
+      "osmUrl": "https://www.openstreetmap.org/way/386066179",
+      "score": 0
+    },
+    {
+      "id": "node/3905325860",
+      "name": "Tregu i Madh Lezhe",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.774082,
+      "lon": 19.643765,
+      "osmUrl": "https://www.openstreetmap.org/node/3905325860",
+      "score": 0
+    },
+    {
+      "id": "way/387260026",
+      "name": "Tregu i Pergjithshem",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.774048,
+      "lon": 19.643349,
+      "osmUrl": "https://www.openstreetmap.org/way/387260026",
+      "score": 0
+    }
+  ]
+}

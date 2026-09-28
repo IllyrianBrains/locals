@@ -6,7 +6,7 @@
     "lon": 19.4914
   },
   "radius": 5000,
-  "fetchedAt": "2026-09-24T09:26:09.056Z",
+  "fetchedAt": "2026-09-28T20:57:19.326Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
   "count": 41,
@@ -353,7 +353,7 @@
       "category": "nature",
       "kind": "beach",
       "lat": 40.458792,
-      "lon": 19.466548,
+      "lon": 19.466547,
       "osmUrl": "https://www.openstreetmap.org/way/857337874",
       "score": 1
     },

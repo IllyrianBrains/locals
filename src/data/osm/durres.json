@@ -1,0 +1,704 @@
+{
+  "city": "durres",
+  "name": "Durrës",
+  "center": {
+    "lat": 41.3133,
+    "lon": 19.4458
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-28T21:04:20.058Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 48,
+  "places": [
+    {
+      "id": "way/307287831",
+      "name": "Amfiteatri i Durrësit",
+      "nameEn": "Roman Amphitheatre of Durrës",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.312141,
+      "lon": 19.445053,
+      "wikidata": "Q779868",
+      "wikipedia": "sq:Amfiteatri i Durrësit",
+      "openingHours": "Tu-Sa 09:00-16:00; Su 09:00-14:00",
+      "fee": "yes",
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/307287831",
+      "score": 14,
+      "imageFile": "Amfiteatr rzymski w Durrës 1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Amfiteatr_rzymski_w_Durr%C3%ABs_1.jpg/1280px-Amfiteatr_rzymski_w_Durr%C3%ABs_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Amfiteatri i Durrësit, më i madhi dhe më i rëndësishmi, jo vetëm në Shqipëri, por edhe në Ballkan, është ndërtuar në fillim të shek të II të e.s gjatë sundimit të perandorit Trajan.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Amfiteatri_i_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "way/397270188",
+      "name": "Vila Mbretërore e Durrësit",
+      "nameEn": "Royal Villa of Durrës",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.314632,
+      "lon": 19.438358,
+      "wikidata": "Q13530086",
+      "wikipedia": "en:Royal Villa of Durrës",
+      "osmUrl": "https://www.openstreetmap.org/way/397270188",
+      "score": 12,
+      "imageFile": "Palace of king Zog durres.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Palace_of_king_Zog_durres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Joonas Lytinen · CC BY 2.0",
+      "tagline": {
+        "text": "villa in Durrës, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Vila Mbretërore e Durrësit ose ashtuquajtur Vila e Mbretit Zog ndodhet në qytetin e Durrësit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Vila_Mbret%C3%ABrore_e_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "node/6855603885",
+      "name": "Pusi i Tophanese",
+      "nameEn": "Tophane Well",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.315812,
+      "lon": 19.444789,
+      "wikidata": "Q20578077",
+      "wikipedia": "sq:Pusi i Tophanese",
+      "osmUrl": "https://www.openstreetmap.org/node/6855603885",
+      "score": 11,
+      "imageFile": "Pit of Top Hanes 001.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pit_of_Top_Hanes_001.jpg/1280px-Pit_of_Top_Hanes_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "OdettMelody · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Pusi i Top-Hanesë është një monument i trashëgimisë kulturore në rrethin e Durrësit, në qarkun e Durrësit, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"1886, 10.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Pusi_i_Tophanese"
+      }
+    },
+    {
+      "id": "way/397256449",
+      "name": "Kisha Katolike Shën Luçia",
+      "nameEn": "Catholic Church of Saint Lucia",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.312127,
+      "lon": 19.447292,
+      "wikidata": "Q28844048",
+      "wikipedia": "sq:Konkatedrala e Shën Luçisë",
+      "osmUrl": "https://www.openstreetmap.org/way/397256449",
+      "score": 10,
+      "imageFile": "Katedralja e Shën Luçisë Durrës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Katedralja_e_Sh%C3%ABn_Lu%C3%A7is%C3%AB_Durr%C3%ABs.jpg/1280px-Katedralja_e_Sh%C3%ABn_Lu%C3%A7is%C3%AB_Durr%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY 4.0",
+      "tagline": {
+        "text": "Kishë në Durrës",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e “Shën Luçisë” në Durrës është një kishë katolike e ndërtuar mes viteve 1858-1868. Ajo është kisha me e vjetër e krishterë në qytetin e Durrësit dhe gëzon statusin e kon-katedrales nga Argjipeshkvia katolike Tiranë-Durrës.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Konkatedrala_e_Sh%C3%ABn_Lu%C3%A7is%C3%AB"
+      }
+    },
+    {
+      "id": "way/397225982",
+      "name": "Muzeu Arkeologjik Durrës",
+      "nameEn": "Durrës Archeological Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.311547,
+      "lon": 19.440241,
+      "wikidata": "Q5316767",
+      "openingHours": "Tu-Sa 09:00-16:00; Sa 09:00-14:00",
+      "wheelchair": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/397225982",
+      "score": 10,
+      "imageFile": "Muzeum Archeologiczne w Durrës 1.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Muzeum_Archeologiczne_w_Durr%C3%ABs_1.jpg/1280px-Muzeum_Archeologiczne_w_Durr%C3%ABs_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "archaeological museum in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Muzeu Arkeologjik i Durrësit u hap më 13 Mars 1951 në qytetin Durrësit dhe është një nga muzetë më të rëndësishëm në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Arkeologjik_i_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "way/175474953",
+      "name": "Torra Veneciane",
+      "nameEn": "Venetian Tower",
+      "category": "viewpoint",
+      "kind": "tower",
+      "lat": 41.309676,
+      "lon": 19.446855,
+      "description": "Ndërtuar në shekullin e V-të.",
+      "wikidata": "Q28735237",
+      "wikipedia": "en:Durrës Castle",
+      "openingHours": "Tu-Sa 09:00-16:00; Su 09:00-14:00",
+      "fee": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/175474953",
+      "score": 10,
+      "imageFile": "Wieża wenecka w Durrës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Wie%C5%BCa_wenecka_w_Durr%C3%ABs.jpg/1280px-Wie%C5%BCa_wenecka_w_Durr%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "summary": {
+        "text": "Kalaja e qytetit të Durrësit",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "node/4478340569",
+      "name": "Kalaja e Durrësit",
+      "nameEn": "Durrës Castle",
+      "category": "history",
+      "kind": "castle",
+      "lat": 41.3103,
+      "lon": 19.446214,
+      "wikidata": "Q2969175",
+      "wikipedia": "en:Durrës Castle",
+      "osmUrl": "https://www.openstreetmap.org/node/4478340569",
+      "score": 9,
+      "imageFile": "Wieża wenecka w Durrës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Wie%C5%BCa_wenecka_w_Durr%C3%ABs.jpg/1280px-Wie%C5%BCa_wenecka_w_Durr%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e qytetit të Durrësit",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "way/172313416",
+      "name": "Pallati i Kulturë \"Aleksandër Moisiu\"",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.314431,
+      "lon": 19.446371,
+      "wikidata": "Q4715728",
+      "wikipedia": "en:Aleksandër Moisiu Theatre",
+      "osmUrl": "https://www.openstreetmap.org/way/172313416",
+      "score": 9,
+      "imageFile": "Sheshi Liria, Durrës, Shqipëri 10.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sheshi_Liria%2C_Durr%C3%ABs%2C_Shqip%C3%ABri_10.jpg/1280px-Sheshi_Liria%2C_Durr%C3%ABs%2C_Shqip%C3%ABri_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "GentiBehramaj · CC BY-SA 4.0",
+      "tagline": {
+        "text": "teatër në Durrës, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Teatri \"Aleksandër Moisiu\" ndodhet në qytetin e Durrësit. Është hapur zyrtarisht në 11 janar të vitit 1953.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_Aleksand%C3%ABr_Moisiu"
+      }
+    },
+    {
+      "id": "way/148690946",
+      "name": "Xhamia e Madhe e Durrësit",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.313212,
+      "lon": 19.445452,
+      "wikidata": "Q18888007",
+      "wikipedia": "en:Great Mosque of Durrës",
+      "osmUrl": "https://www.openstreetmap.org/way/148690946",
+      "score": 9,
+      "imageFile": "Durrës - Great Mosque.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Durr%C3%ABs_-_Great_Mosque.JPG/1280px-Durr%C3%ABs_-_Great_Mosque.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pudelek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "xhami",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Madhe e Durrësit ose Xhamia e Re është një xhami në Durrës, Shqipëri. Xhamia e Re filloi ndërtimin e saj në vitin 1931 me ndihmën e popullit dhe në veçanti të tregtarëve të qytetit të Durrësit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Madhe_e_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "node/12390202323",
+      "name": "Mozaiku tek Pallati i Sportit",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.319186,
+      "lon": 19.451451,
+      "wikidata": "Q30185454",
+      "wikipedia": "sq:Mozaiku tek Pallati i Sportit (Durrës)",
+      "osmUrl": "https://www.openstreetmap.org/node/12390202323",
+      "score": 8,
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Mozaiku tek Pallati i Sportit është një monument i trashëgimisë kulturore në rrethin e Durrësit, në qarkun e Durrësit, Shqipëri. Ky monument është i llojit \"Arkeologji\", i miratuar me numër \"1886, 10.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Mozaiku_tek_Pallati_i_Sportit_(Durr%C3%ABs)"
+      }
+    },
+    {
+      "id": "node/10200223453",
+      "name": "Rodon",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.309364,
+      "lon": 19.446286,
+      "description": "God of the sea in Illyrian mythology",
+      "wikidata": "Q3940021",
+      "wikipedia": "sq:Redon",
+      "osmUrl": "https://www.openstreetmap.org/node/10200223453",
+      "score": 8,
+      "tagline": {
+        "text": "Hy qendror ilir",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Redon ishte Hy qendror ilir mbrojtës i udhëtareve dhe i detareve në paraqitjen figurative ka pasur interpretime si mbreti Gent por në fakt ishte ky Zot dhe i ngjan nga pamja Hermesit, ndoshta me kryesori te iliret e periudhës qytetare e te lulëzimit te shtetit ilir. Për te ruhet dhe rafigurimi ikonografik në formën e një djaloshi me një kapele te tipit \"kausia\", te dhëne në profil.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Redon"
+      }
+    },
+    {
+      "id": "way/480466425",
+      "name": "Hamami i Durrësit",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.310635,
+      "lon": 19.447359,
+      "wikidata": "Q30185430",
+      "osmUrl": "https://www.openstreetmap.org/way/480466425",
+      "score": 6,
+      "imageFile": "Hammam of Durrës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Hammam_of_Durr%C3%ABs.jpg/1280px-Hammam_of_Durr%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Tom Ackroyd · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Hamami në Oborrin e Shkolles 16 shtatori është një monument i trashëgimisë kulturore në rrethin e Durrësit, në qarkun e Durrësit, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"1886, 10.06.1973\".",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Hamami_i_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "way/243107120",
+      "name": "Katedralja Ortodokse e Shën Palit dhe Shën Asti",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.310663,
+      "lon": 19.448799,
+      "wikidata": "Q120107833",
+      "osmUrl": "https://www.openstreetmap.org/way/243107120",
+      "score": 6,
+      "imageFile": "Katedra prawosławna w Durrës 1.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Katedra_prawos%C5%82awna_w_Durr%C3%ABs_1.JPG/1280px-Katedra_prawos%C5%82awna_w_Durr%C3%ABs_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Marcin Konsek · CC BY-SA 3.0",
+      "tagline": {
+        "text": "church in Albania",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "way/264639242",
+      "name": "Shtepia e Aleksander Moisiut",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.310737,
+      "lon": 19.446035,
+      "description": "Shtëpia e Aleksandër Moisiut\n\nDRRK - Durrës\n\nMuzeu Etnografik i Durrësit",
+      "wikipedia": "sq:Muzeu Etnografik i Durrësit",
+      "osmUrl": "https://www.openstreetmap.org/way/264639242",
+      "score": 6,
+      "summary": {
+        "text": "Muzeu Etnografik në Durrës, është i vendosur në shtëpinë muze të Aleksandër Moisiut. Muzeu ndodhet në një rrugicë parelele me rrugën tregetare në Durrës në krahun e murit të qytetit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Etnografik_i_Durr%C3%ABsit"
+      }
+    },
+    {
+      "id": "node/6851519833",
+      "name": "Kolona Antike",
+      "nameEn": "Ancient Columns",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.310664,
+      "lon": 19.44701,
+      "osmUrl": "https://www.openstreetmap.org/node/6851519833",
+      "score": 4
+    },
+    {
+      "id": "relation/19040089",
+      "name": "Markata Romake",
+      "nameEn": "Ancient Roman Marketplace",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.315008,
+      "lon": 19.44593,
+      "osmUrl": "https://www.openstreetmap.org/relation/19040089",
+      "score": 4
+    },
+    {
+      "id": "node/6851519999",
+      "name": "Mur i periudhës turke 1502",
+      "nameEn": "Wall of turk period 1502",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.312653,
+      "lon": 19.446777,
+      "osmUrl": "https://www.openstreetmap.org/node/6851519999",
+      "score": 4
+    },
+    {
+      "id": "node/6015551921",
+      "name": "Pjesë Muri nga Fortifikimi i Durrësit",
+      "nameEn": "Part of the Wall from Durrës Castle",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.31004,
+      "lon": 19.447774,
+      "description": "Pjesë e murit fortifikues nga muri i Durrësit, gjendet poshtë pallatit",
+      "osmUrl": "https://www.openstreetmap.org/node/6015551921",
+      "score": 4
+    },
+    {
+      "id": "node/6015483077",
+      "name": "Furra të Periudhës Antike",
+      "nameEn": "Antique Furnaces",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.311808,
+      "lon": 19.439916,
+      "description": "Gjetje arkeologjike:\n\nGjatë një gërmimi shpëtimi arkeologjik janë gjetur dhe 3 furra të një periudhe që nuk është përcaktuar.",
+      "osmUrl": "https://www.openstreetmap.org/node/6015483077",
+      "score": 3
+    },
+    {
+      "id": "way/734269561",
+      "name": "Aragosta Beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 41.311827,
+      "lon": 19.43417,
+      "openingHours": "08:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/way/734269561",
+      "score": 2
+    },
+    {
+      "id": "node/10679179910",
+      "name": "Fragment i Murit Rrethues të Qytetit",
+      "nameEn": "Fragment of the Surrounding City Wall",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.322597,
+      "lon": 19.444605,
+      "osmUrl": "https://www.openstreetmap.org/node/10679179910",
+      "score": 2
+    },
+    {
+      "id": "node/4734707522",
+      "name": "Gjurmë të Godinës së administratës Osmane",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.309653,
+      "lon": 19.447599,
+      "description": "Strukturat e zbuluara i përkasin një bastioni osman, mbi të cilin më vonë është ndërtuar konaku i princ Vidit. Por gurët e përdorur janë mbledhur në të gjithë qytetin dhe i përkasin shekujve të ndryshëm",
+      "osmUrl": "https://www.openstreetmap.org/node/4734707522",
+      "score": 2
+    },
+    {
+      "id": "node/10779474996",
+      "name": "Mozaiku Orfeut",
+      "nameEn": "The Orpheus Mosaic",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.320538,
+      "lon": 19.442565,
+      "osmUrl": "https://www.openstreetmap.org/node/10779474996",
+      "score": 2
+    },
+    {
+      "id": "node/12985161701",
+      "name": "Sandy beach",
+      "category": "nature",
+      "kind": "attraction",
+      "lat": 41.309042,
+      "lon": 19.443131,
+      "osmUrl": "https://www.openstreetmap.org/node/12985161701",
+      "score": 2
+    },
+    {
+      "id": "node/6015545389",
+      "name": "Struktura ndërtese nga periudha osmane",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.309777,
+      "lon": 19.447738,
+      "description": "Në këtë hapësirë janë gjetur strukutra arkitetonike, mbetje arkeologjike të periudhës osmane dhe romake, gjatë një gërmimi shpëtimi arkeologjik.",
+      "osmUrl": "https://www.openstreetmap.org/node/6015545389",
+      "score": 2
+    },
+    {
+      "id": "way/1221518336",
+      "name": "Termat Romake",
+      "nameEn": "Roman Thermae",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.314719,
+      "lon": 19.446453,
+      "osmUrl": "https://www.openstreetmap.org/way/1221518336",
+      "score": 2
+    },
+    {
+      "id": "node/11764357641",
+      "name": "View of the amphitheater",
+      "nameEn": "View of the amphitheater",
+      "category": "viewpoint",
+      "kind": "viewpoint",
+      "lat": 41.312603,
+      "lon": 19.44524,
+      "osmUrl": "https://www.openstreetmap.org/node/11764357641",
+      "score": 2
+    },
+    {
+      "id": "node/13762775201",
+      "name": "Alte Stadtmauer",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.312791,
+      "lon": 19.445481,
+      "osmUrl": "https://www.openstreetmap.org/node/13762775201",
+      "score": 1
+    },
+    {
+      "id": "node/11362554566",
+      "name": "Ancient Well",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.312978,
+      "lon": 19.446206,
+      "osmUrl": "https://www.openstreetmap.org/node/11362554566",
+      "score": 1
+    },
+    {
+      "id": "node/10779504576",
+      "name": "Cistern",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.31914,
+      "lon": 19.443256,
+      "osmUrl": "https://www.openstreetmap.org/node/10779504576",
+      "score": 1
+    },
+    {
+      "id": "way/173254313",
+      "name": "Parku Vala",
+      "nameEn": "Vala Park",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.328694,
+      "lon": 19.449447,
+      "osmUrl": "https://www.openstreetmap.org/way/173254313",
+      "score": 1
+    },
+    {
+      "id": "way/237926963",
+      "name": "Plazhi i Durrësit",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 41.306404,
+      "lon": 19.485036,
+      "osmUrl": "https://www.openstreetmap.org/way/237926963",
+      "score": 1
+    },
+    {
+      "id": "way/1204824479",
+      "name": "Private Beach",
+      "category": "nature",
+      "kind": "beach",
+      "lat": 41.340721,
+      "lon": 19.419604,
+      "osmUrl": "https://www.openstreetmap.org/way/1204824479",
+      "score": 1
+    },
+    {
+      "id": "node/13762775202",
+      "name": "Stadtmauer",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.312634,
+      "lon": 19.444004,
+      "osmUrl": "https://www.openstreetmap.org/node/13762775202",
+      "score": 1
+    },
+    {
+      "id": "way/307034648",
+      "name": "Shetitorja Vollga",
+      "nameEn": "Vollga Promenade",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.309785,
+      "lon": 19.443092,
+      "wheelchair": "limited",
+      "osmUrl": "https://www.openstreetmap.org/way/307034648",
+      "score": 1
+    },
+    {
+      "id": "way/1322637653",
+      "name": "Tregu i Fruta-Perimeve",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.319406,
+      "lon": 19.45231,
+      "openingHours": "Mo-Su 05:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/way/1322637653",
+      "score": 1
+    },
+    {
+      "id": "node/13762775301",
+      "name": "Turm der historischen Stadtmauer",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.313131,
+      "lon": 19.444434,
+      "osmUrl": "https://www.openstreetmap.org/node/13762775301",
+      "score": 1
+    },
+    {
+      "id": "node/13762775203",
+      "name": "Turm der venezianischen Stadtmauer",
+      "category": "history",
+      "kind": "ruins",
+      "lat": 41.313588,
+      "lon": 19.443858,
+      "osmUrl": "https://www.openstreetmap.org/node/13762775203",
+      "score": 1
+    },
+    {
+      "id": "way/307034649",
+      "name": "Ushtari i Panjohur",
+      "nameEn": "The Unknown Soldier",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.309396,
+      "lon": 19.444653,
+      "osmUrl": "https://www.openstreetmap.org/way/307034649",
+      "score": 1
+    },
+    {
+      "id": "node/10576551108",
+      "name": "Gladiatorët",
+      "nameEn": "Gladiators",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.309806,
+      "lon": 19.441923,
+      "osmUrl": "https://www.openstreetmap.org/node/10576551108",
+      "score": 0
+    },
+    {
+      "id": "way/762327224",
+      "name": "Industrial Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.320314,
+      "lon": 19.453419,
+      "osmUrl": "https://www.openstreetmap.org/way/762327224",
+      "score": 0
+    },
+    {
+      "id": "node/6823758572",
+      "name": "Market Miftari",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.32396,
+      "lon": 19.465724,
+      "osmUrl": "https://www.openstreetmap.org/node/6823758572",
+      "score": 0
+    },
+    {
+      "id": "relation/6950263",
+      "name": "Muzeu i Luftës",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.318903,
+      "lon": 19.444006,
+      "osmUrl": "https://www.openstreetmap.org/relation/6950263",
+      "score": 0
+    },
+    {
+      "id": "node/10200236004",
+      "name": "Peshkatari",
+      "nameEn": "Fisherman",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.31061,
+      "lon": 19.435674,
+      "osmUrl": "https://www.openstreetmap.org/node/10200236004",
+      "score": 0
+    },
+    {
+      "id": "node/10873086378",
+      "name": "Skulptura e Mbretëreshës Teuta e Ilirisë",
+      "nameEn": "Sculpture of Queen Teuta of Illyria",
+      "category": "art",
+      "kind": "artwork",
+      "lat": 41.310166,
+      "lon": 19.448694,
+      "osmUrl": "https://www.openstreetmap.org/node/10873086378",
+      "score": 0
+    },
+    {
+      "id": "way/184778568",
+      "name": "Sheshi Demokracia",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.317968,
+      "lon": 19.448248,
+      "osmUrl": "https://www.openstreetmap.org/way/184778568",
+      "score": 0
+    },
+    {
+      "id": "node/10769645405",
+      "name": "Tina Turner, John Lennon, Bob Dylan & Mick Jagger",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.309157,
+      "lon": 19.444186,
+      "osmUrl": "https://www.openstreetmap.org/node/10769645405",
+      "score": 0
+    },
+    {
+      "id": "way/185788683",
+      "name": "Tregu i Madh",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.322362,
+      "lon": 19.457671,
+      "osmUrl": "https://www.openstreetmap.org/way/185788683",
+      "score": 0
+    }
+  ]
+}

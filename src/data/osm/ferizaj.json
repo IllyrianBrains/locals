@@ -1,0 +1,126 @@
+{
+  "city": "ferizaj",
+  "name": "Ferizaj",
+  "center": {
+    "lat": 42.37,
+    "lon": 21.155
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T21:04:22.915Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 11,
+  "places": [
+    {
+      "id": "node/4873888821",
+      "name": "Piano Store",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.368574,
+      "lon": 21.151359,
+      "openingHours": "Mo-Sa 09:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4873888821",
+      "score": 3
+    },
+    {
+      "id": "node/2836022519",
+      "name": "Bifurkation i Nerodimes",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.371783,
+      "lon": 21.133512,
+      "osmUrl": "https://www.openstreetmap.org/node/2836022519",
+      "score": 2
+    },
+    {
+      "id": "node/5326351330",
+      "name": "Gllavicë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.363921,
+      "lon": 21.129996,
+      "osmUrl": "https://www.openstreetmap.org/node/5326351330",
+      "score": 1
+    },
+    {
+      "id": "node/4679023252",
+      "name": "Ish Kisha Paleokristiane",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 42.350166,
+      "lon": 21.175346,
+      "osmUrl": "https://www.openstreetmap.org/node/4679023252",
+      "score": 1
+    },
+    {
+      "id": "node/7344409649",
+      "name": "Baci",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.369867,
+      "lon": 21.154065,
+      "osmUrl": "https://www.openstreetmap.org/node/7344409649",
+      "score": 0
+    },
+    {
+      "id": "way/1415219715",
+      "name": "Bifurkacioni i Lumit Nerodime",
+      "category": "nature",
+      "kind": "nature_reserve",
+      "lat": 42.375008,
+      "lon": 21.128103,
+      "osmUrl": "https://www.openstreetmap.org/way/1415219715",
+      "score": 0
+    },
+    {
+      "id": "way/1488944314",
+      "name": "Parku \"Kodra e Sherretëve\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.363868,
+      "lon": 21.12934,
+      "osmUrl": "https://www.openstreetmap.org/way/1488944314",
+      "score": 0
+    },
+    {
+      "id": "way/403522438",
+      "name": "Parku i Lirisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.381484,
+      "lon": 21.124626,
+      "osmUrl": "https://www.openstreetmap.org/way/403522438",
+      "score": 0
+    },
+    {
+      "id": "way/790716521",
+      "name": "Starmarket",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.370095,
+      "lon": 21.158904,
+      "osmUrl": "https://www.openstreetmap.org/way/790716521",
+      "score": 0
+    },
+    {
+      "id": "node/7495213788",
+      "name": "Shqiponja",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.386582,
+      "lon": 21.151537,
+      "osmUrl": "https://www.openstreetmap.org/node/7495213788",
+      "score": 0
+    },
+    {
+      "id": "node/9519322430",
+      "name": "Teatri Adriana",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.373005,
+      "lon": 21.14725,
+      "osmUrl": "https://www.openstreetmap.org/node/9519322430",
+      "score": 0
+    }
+  ]
+}

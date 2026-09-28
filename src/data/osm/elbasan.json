@@ -1,0 +1,574 @@
+{
+  "city": "elbasan",
+  "name": "Elbasan",
+  "center": {
+    "lat": 41.1131,
+    "lon": 20.0818
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-28T21:04:18.368Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 35,
+  "places": [
+    {
+      "id": "node/9749116973",
+      "name": "Kalaja e Elbasanit",
+      "nameEn": "Elbasan Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.11332,
+      "lon": 20.08163,
+      "wikidata": "Q2968210",
+      "wikipedia": "en:Elbasan Castle",
+      "osmUrl": "https://www.openstreetmap.org/node/9749116973",
+      "score": 13,
+      "imageFile": "Elbasan Castle, Elbasan, Albania October 2022.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Elbasan_Castle%2C_Elbasan%2C_Albania_October_2022.jpg/1280px-Elbasan_Castle%2C_Elbasan%2C_Albania_October_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sharon Hahn Darlin · CC BY 2.0",
+      "tagline": {
+        "text": "monument i trashëgimisë kulturore në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Elbasanit ndodhet në qendër të qytetit të Elbasanit dhe dikur ka qenë kala ushtarake. Përmes saj kalon rruga e famshme Egnatia (Via Egnatia), e cila e ndan në dy pjesë kalanë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Elbasanit"
+      }
+    },
+    {
+      "id": "way/242524574",
+      "name": "Muzeu Etnografik",
+      "nameEn": "Ethnographic Museum",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.112106,
+      "lon": 20.083111,
+      "wikidata": "Q13043201",
+      "wikipedia": "sq:Muzeu_Etnografik_i_Elbasanit",
+      "openingHours": "Mo-Fr 08:30-15:30; Sa-Su 09:15-13:45",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/242524574",
+      "score": 13,
+      "imageFile": "Elbasan, Albania 2013 03 Ethnographical Museum.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Elbasan%2C_Albania_2013_03_Ethnographical_Museum.jpg/1280px-Elbasan%2C_Albania_2013_03_Ethnographical_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Monument kulturor i kategorisë I.",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu Etnografik i Elbasanit është ndërtuar në një shtëpi karakteristike me çardak që i takon shek. XVIII. Është një shtëpi që nga mënyra e ndërtimit dhe arkitektura është e veçantë në llojin e vet në trevën e Elbasanit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_Etnografik_i_Elbasanit"
+      }
+    },
+    {
+      "id": "node/4753634226",
+      "name": "Bazilika Paleokristiane",
+      "nameEn": "Paleochristian Basilica",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.112313,
+      "lon": 20.081605,
+      "wikidata": "Q30321699",
+      "wikipedia": "sq:Bazilika e Bezistanit",
+      "osmUrl": "https://www.openstreetmap.org/node/4753634226",
+      "score": 11,
+      "imageFile": "Bazilika Paleokristiane.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bazilika_Paleokristiane.jpg/1280px-Bazilika_Paleokristiane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "VilmaPicari · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Bazilika Paleokristiane ose si njihet ndryshe Bazilika e Bezistanit është një monument i trashëgimisë kulturore në qytetin e Elbasanit. Ky monument është i llojit \"Arkitekturë\", i miratuar me numër \"212 më 19.05.2009\", monument kulture i kategorisë së I nga Ministria e Kulturës Rinisë dhe Sporteve.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Bazilika_Paleokristiane_(Elbasan)"
+      }
+    },
+    {
+      "id": "way/240272757",
+      "name": "Shen Maria Elbasan",
+      "nameEn": "Saint Mary Elbasan",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.115495,
+      "lon": 20.080372,
+      "wikidata": "Q3306194",
+      "wikipedia": "sq:Kisha e Shën Mërisë (Elbasan)",
+      "openingHours": "Mo-Su 09:00-15:00",
+      "osmUrl": "https://www.openstreetmap.org/way/240272757",
+      "score": 11,
+      "imageFile": "Elbasan, Albania, St Mary's Church 2018 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Elbasan%2C_Albania%2C_St_Mary%27s_Church_2018_01.jpg/1280px-Elbasan%2C_Albania%2C_St_Mary%27s_Church_2018_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Pasztilla aka Attila Terbócs · CC BY-SA 4.0",
+      "tagline": {
+        "text": "kishë dhe monument i trashëgimisë kulturore të Shqipërisë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kisha e Shën Mërisë është shpallur monument kulture në vitin 1963 nga Rektorati i Universitetit Shtetëror të Tiranës. Ajo gjendet në qytetin e Elbasanit dhe shquhet për vlerat e saj etnokulturore e arkitekturore të rralla.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_M%C3%ABris%C3%AB_(Elbasan)"
+      }
+    },
+    {
+      "id": "way/560806992",
+      "name": "Muzeu \"Aleksandër Xhuvani\"",
+      "nameEn": "Museum \"Aleksandër Xhuvani\"",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.116175,
+      "lon": 20.081147,
+      "wikidata": "Q16349392",
+      "wikipedia": "sq:Muzeu \"Aleksandër Xhuvani\"",
+      "osmUrl": "https://www.openstreetmap.org/way/560806992",
+      "score": 10,
+      "tagline": {
+        "text": "muze në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu \"Aleksandër Xhuvani\" ndodhet në qytetin e Elbasanit. Muzeu gjendet në pjesën veriore të kalasë së Elbasanit, në shtëpinë ku lindi dhe u rrit prof.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_%22Aleksand%C3%ABr_Xhuvani%22"
+      }
+    },
+    {
+      "id": "node/12432740876",
+      "name": "Muzeu i Shkollës Normale të Elbasanit",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 41.113746,
+      "lon": 20.089269,
+      "wikidata": "Q116984533",
+      "wikipedia": "sq:Muzeu i Shkollës Normale të Elbasanit",
+      "website": "https://www.shkollanormale.al/s/normalja/page/historiku",
+      "osmUrl": "https://www.openstreetmap.org/node/12432740876",
+      "score": 10,
+      "tagline": {
+        "text": "muzeu i shkollës në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Muzeu i shkollës normale në Elbasan është një muze që ndodhet në kuadër të Shkollës së Mesme Luigj Gurakuqi në Elbasan. Ky muze është i konceptuar si një muze historiko-pedagogjik.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Muzeu_i_Shkoll%C3%ABs_Normale_t%C3%AB_Elbasanit"
+      }
+    },
+    {
+      "id": "way/428457541",
+      "name": "Teatri Skampa",
+      "nameEn": "Skampa Theatre",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 41.112993,
+      "lon": 20.083854,
+      "wikidata": "Q4459914",
+      "wikipedia": "sq:Teatri \"Skampa\"",
+      "osmUrl": "https://www.openstreetmap.org/way/428457541",
+      "score": 10,
+      "imageFile": "Teatri Skampa in Elbasan, Albania.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Teatri_Skampa_in_Elbasan%2C_Albania.jpg/1280px-Teatri_Skampa_in_Elbasan%2C_Albania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Leeturtle · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Theater in Elbasan",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Teatri “Skampa” ndodhet në qytetin e Elbasanit. Është ndërtuar në vitin 1935 me financimin e Xhavit bej Biçakçiut si dhuratë e tij për qytetin e Elbasanit.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Teatri_%22Skampa%22"
+      }
+    },
+    {
+      "id": "way/267288349",
+      "name": "Xhamia e Nazireshës",
+      "nameEn": "Naziresha Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.105236,
+      "lon": 20.086534,
+      "wikidata": "Q657875",
+      "wikipedia": "sq:Xhamia e Nazireshës",
+      "osmUrl": "https://www.openstreetmap.org/way/267288349",
+      "score": 10,
+      "imageFile": "Elbasan, mešita na předměstí.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Elbasan%2C_me%C5%A1ita_na_p%C5%99edm%C4%9Bst%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Martin Brož · CC BY 3.0",
+      "tagline": {
+        "text": "xhami në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Nazireshës apo Xhamia Nazir Beu mendohet të jetë ndërtuar në fillim të shekullit XVI. Sipas një mbishkrimi të shkruar me bojë në murin fundor të mafilit lexohet data 1599. Xhamia e Nazireshës u ndërtua nga një funksionar i lartë perandorak, i cili i vuri asaj emrin e gruas së tij.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Naziresh%C3%ABs"
+      }
+    },
+    {
+      "id": "way/255587832",
+      "name": "Xhamia Mbret",
+      "nameEn": "King Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.114021,
+      "lon": 20.0812,
+      "wikidata": "Q13047913",
+      "wikipedia": "sq:Xhamia e Mbretit (Elbasan)",
+      "osmUrl": "https://www.openstreetmap.org/way/255587832",
+      "score": 10,
+      "imageFile": "Königsmoschee Elbasan.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/K%C3%B6nigsmoschee_Elbasan.jpg/1280px-K%C3%B6nigsmoschee_Elbasan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Monument kulture e kategorisës së I",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia Mbret e njohur edhe si Xhamia e Sulltan Bajazitit, ndodhet në Elbasan. Ajo është një ndër më të vjetrat në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Mbretit_(Elbasan)"
+      }
+    },
+    {
+      "id": "way/365960760",
+      "name": "Xhamia Sulejman Pashë Vërlaci",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.1101,
+      "lon": 20.079708,
+      "wikidata": "Q60668604",
+      "wikipedia": "sq:Xhamia e Pashës (Elbasan)",
+      "openingHours": "24/7",
+      "wheelchair": "no",
+      "osmUrl": "https://www.openstreetmap.org/way/365960760",
+      "score": 10,
+      "imageFile": "Elbasan - Xhamia Masjid Hafiz Patel (2018).jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Elbasan_-_Xhamia_Masjid_Hafiz_Patel_%282018%29.jpg/1280px-Elbasan_-_Xhamia_Masjid_Hafiz_Patel_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Sebleouf · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Historic mosque being destroyed and newly built",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Xhamia Sulejman Pasha ishte nje xhami e vogel, më çati, ne Elbasan. Asaj iu prish minarja, por fatmirësisht i shpetoi shkatërrimit total.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Pash%C3%ABs_(Elbasan)"
+      }
+    },
+    {
+      "id": "way/407472950",
+      "name": "Konstandin Kristoforidi statue",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.113639,
+      "lon": 20.083976,
+      "wikidata": "Q284068",
+      "wikipedia": "en:Kostandin Kristoforidhi",
+      "osmUrl": "https://www.openstreetmap.org/way/407472950",
+      "score": 9,
+      "imageFile": "16-K-Kristoforidhi.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/16-K-Kristoforidhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Unknown authorUnknown author · Public domain",
+      "tagline": {
+        "text": "shkrimtar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kostandin Ndelka, i njohur ndryshe si Kostandin Kristoforidhi qe një gjuhëtar dhe përkthyes shqiptar. Me përkthimet e tij në përgjithësi dhe atë të Dhiatës së Re në veçanti ka dhënë ndihmesë vendimtare për themelimin e gjuhës letrare shqipe.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kostandin_Kristoforidhi"
+      }
+    },
+    {
+      "id": "way/1301452270",
+      "name": "Kisha e Shën Thanasit",
+      "nameEn": "Church of St. Athanasius",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.127328,
+      "lon": 20.08589,
+      "wikidata": "Q13040766",
+      "wikipedia": "sq:Kisha e Shën Thanasit (Elbasan)",
+      "osmUrl": "https://www.openstreetmap.org/way/1301452270",
+      "score": 8,
+      "tagline": {
+        "text": "kishë në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kjo kishë ortodokse ngrihet në skajin verior të qytetit të Elbasanit, u ndërtua në vitin 1846. Fillimisht u ndërtua me përmasa të vogla, prej druri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Sh%C3%ABn_Thanasit_(Elbasan)"
+      }
+    },
+    {
+      "id": "way/240272762",
+      "name": "Kisha Katolike Greke e Shën Pjetrit",
+      "nameEn": "St. Peter Greek Catholic Church",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.115911,
+      "lon": 20.080227,
+      "wikidata": "Q134360414",
+      "wikipedia": "it:Chiesa di San Pietro (Elbasan)",
+      "osmUrl": "https://www.openstreetmap.org/way/240272762",
+      "score": 8,
+      "imageFile": "Albanian Eastern Catholic Church in Elbasan.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Albanian_Eastern_Catholic_Church_in_Elbasan.jpg/1280px-Albanian_Eastern_Catholic_Church_in_Elbasan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Gspata · CC0",
+      "tagline": {
+        "text": "Kisha Katolike në Shqipëri",
+        "lang": "sq"
+      }
+    },
+    {
+      "id": "way/428457472",
+      "name": "Xhamia e Ballies",
+      "nameEn": "Ballia Mosque",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.112684,
+      "lon": 20.08342,
+      "wikidata": "Q16361964",
+      "wikipedia": "sq:Xhamia e Ballies",
+      "osmUrl": "https://www.openstreetmap.org/way/428457472",
+      "score": 8,
+      "imageFile": "Elbasan New Mosque 2023.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Elbasan_New_Mosque_2023.jpg/1280px-Elbasan_New_Mosque_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Constantine H. · CC BY 2.0",
+      "tagline": {
+        "text": "Xhamia në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Hasan Balizades, sot Xhamia e Kohës, ishte ndërtuar pas xhamisë së Nazireshës. Studiuesit mendojnë se ajo është ndërtuar në fillim të shekullit XVII në kohën kur në Perandori kishte shkëlqyer si kryearkitekt Sedefqar Mehmet agë Biçakçiu.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Ballies"
+      }
+    },
+    {
+      "id": "way/267519787",
+      "name": "Kisha e Shën Nikollës",
+      "nameEn": "Church St. Nicholas",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 41.104781,
+      "lon": 20.084215,
+      "wikidata": "Q134397068",
+      "osmUrl": "https://www.openstreetmap.org/way/267519787",
+      "score": 5,
+      "tagline": {
+        "text": "kishë ortodokse në Shqipëri",
+        "lang": "sq"
+      }
+    },
+    {
+      "id": "way/255946129",
+      "name": "Kulla e Sahatit",
+      "nameEn": "Clock Tower",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 41.113176,
+      "lon": 20.082394,
+      "osmUrl": "https://www.openstreetmap.org/way/255946129",
+      "score": 3
+    },
+    {
+      "id": "node/12458789782",
+      "name": "MarketKing",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.117669,
+      "lon": 20.088589,
+      "website": "https://www.instagram.com/marketking.al/",
+      "openingHours": "11.00 - 23.00",
+      "osmUrl": "https://www.openstreetmap.org/node/12458789782",
+      "score": 2
+    },
+    {
+      "id": "way/309376029",
+      "name": "Teatri Roman",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 41.113186,
+      "lon": 20.079917,
+      "osmUrl": "https://www.openstreetmap.org/way/309376029",
+      "score": 2
+    },
+    {
+      "id": "node/10779502490",
+      "name": "Ancient Bridge Legs",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.085988,
+      "lon": 20.065491,
+      "osmUrl": "https://www.openstreetmap.org/node/10779502490",
+      "score": 1
+    },
+    {
+      "id": "node/10584383591",
+      "name": "Basilica of Tepe",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.11424,
+      "lon": 20.071801,
+      "osmUrl": "https://www.openstreetmap.org/node/10584383591",
+      "score": 1
+    },
+    {
+      "id": "node/9153938299",
+      "name": "Gastronomia e Ilirit",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.11494,
+      "lon": 20.086917,
+      "openingHours": "Mo-Su 09:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9153938299",
+      "score": 1
+    },
+    {
+      "id": "node/11708254170",
+      "name": "Rrenojat e nje Banese te Fortifikuar",
+      "category": "history",
+      "kind": "archaeological_site",
+      "lat": 41.108235,
+      "lon": 20.082132,
+      "osmUrl": "https://www.openstreetmap.org/node/11708254170",
+      "score": 1
+    },
+    {
+      "id": "way/1383806757",
+      "name": "Ajek",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.103107,
+      "lon": 20.085071,
+      "osmUrl": "https://www.openstreetmap.org/way/1383806757",
+      "score": 0
+    },
+    {
+      "id": "way/240238884",
+      "name": "Aqif Pasha",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.112057,
+      "lon": 20.081765,
+      "osmUrl": "https://www.openstreetmap.org/way/240238884",
+      "score": 0
+    },
+    {
+      "id": "way/309376021",
+      "name": "Arsimtareve Elbasanas",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.111853,
+      "lon": 20.080054,
+      "osmUrl": "https://www.openstreetmap.org/way/309376021",
+      "score": 0
+    },
+    {
+      "id": "way/489384978",
+      "name": "Bysheku",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.100255,
+      "lon": 20.124713,
+      "osmUrl": "https://www.openstreetmap.org/way/489384978",
+      "score": 0
+    },
+    {
+      "id": "way/309376026",
+      "name": "Klithma - 27 qershor 1944",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.112107,
+      "lon": 20.080269,
+      "osmUrl": "https://www.openstreetmap.org/way/309376026",
+      "score": 0
+    },
+    {
+      "id": "way/255946128",
+      "name": "Kozma Naska",
+      "category": "history",
+      "kind": "monument",
+      "lat": 41.114483,
+      "lon": 20.086843,
+      "osmUrl": "https://www.openstreetmap.org/way/255946128",
+      "score": 0
+    },
+    {
+      "id": "node/5368299324",
+      "name": "Lé Parfume",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.116669,
+      "lon": 20.083615,
+      "osmUrl": "https://www.openstreetmap.org/node/5368299324",
+      "score": 0
+    },
+    {
+      "id": "relation/4142990",
+      "name": "Murert e Kalasë",
+      "category": "history",
+      "kind": "citywalls",
+      "lat": 41.113168,
+      "lon": 20.081571,
+      "osmUrl": "https://www.openstreetmap.org/relation/4142990",
+      "score": 0
+    },
+    {
+      "id": "way/362226799",
+      "name": "Parku Rinia",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.118057,
+      "lon": 20.090133,
+      "osmUrl": "https://www.openstreetmap.org/way/362226799",
+      "score": 0
+    },
+    {
+      "id": "way/241909463",
+      "name": "Sheshi \"Kozma Naska\"",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.114763,
+      "lon": 20.08717,
+      "osmUrl": "https://www.openstreetmap.org/way/241909463",
+      "score": 0
+    },
+    {
+      "id": "way/356888073",
+      "name": "Sheshi Valmi",
+      "category": "nature",
+      "kind": "park",
+      "lat": 41.111604,
+      "lon": 20.079256,
+      "osmUrl": "https://www.openstreetmap.org/way/356888073",
+      "score": 0
+    },
+    {
+      "id": "way/1075654061",
+      "name": "Tregu Fruta Perime Elbasan \"Markata\"",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.109011,
+      "lon": 20.081333,
+      "osmUrl": "https://www.openstreetmap.org/way/1075654061",
+      "score": 0
+    },
+    {
+      "id": "way/428463077",
+      "name": "Tregu i perimeve",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 41.110607,
+      "lon": 20.05696,
+      "osmUrl": "https://www.openstreetmap.org/way/428463077",
+      "score": 0
+    }
+  ]
+}

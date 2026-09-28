@@ -6,10 +6,10 @@
     "lon": 21.1655
   },
   "radius": 4000,
-  "fetchedAt": "2026-09-24T09:26:09.082Z",
+  "fetchedAt": "2026-09-28T20:57:19.509Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
-  "count": 143,
+  "count": 142,
   "places": [
     {
       "id": "way/124951398",
@@ -155,7 +155,7 @@
       "category": "religion",
       "kind": "attraction",
       "lat": 42.665508,
-      "lon": 21.16545,
+      "lon": 21.165451,
       "wikidata": "Q272635",
       "wikipedia": "en:Çarshi Mosque",
       "openingHours": "24/7",
@@ -257,7 +257,7 @@
       "nameEn": "Xhamia Jashar Pasha",
       "category": "religion",
       "kind": "attraction",
-      "lat": 42.666021,
+      "lat": 42.66602,
       "lon": 21.166384,
       "wikidata": "Q1254341",
       "wikipedia": "de:Jashar-Pascha-Moschee",
@@ -459,26 +459,6 @@
         "text": "Xhamia e Pirinazit ose Xhamia Pirinez është një monument i trashëgimisë kulturore në Prishtinë, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër 02/53/1/1967.",
         "lang": "sq",
         "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Pirinazit"
-      }
-    },
-    {
-      "id": "way/511842774",
-      "name": "Gazimestan",
-      "category": "nature",
-      "kind": "nature_reserve",
-      "lat": 42.689452,
-      "lon": 21.126902,
-      "wikidata": "Q25572250",
-      "wikipedia": "sq:Gazimestani",
-      "osmUrl": "https://www.openstreetmap.org/way/511842774",
-      "score": 7,
-      "imageFile": "Gazimestani 2014 DSCN6944.JPG",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Gazimestani_2014_DSCN6944.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "imageCredit": "IsmailGagica · CC BY-SA 4.0",
-      "summary": {
-        "text": "Gazimestani është një zonë e mbrojtur natyrore dhe hapësirë memoriale në afërsi të Prishtinës, në Kosovë. Zona ndodhet në hapësirën e Fushës së Kosovës dhe lidhet me peizazhin historik, natyror dhe kulturor të kësaj pjese të vendit.",
-        "lang": "sq",
-        "source": "https://sq.wikipedia.org/wiki/Gazimestani"
       }
     },
     {
@@ -887,7 +867,7 @@
       "name": "Varrezat e Dëshmorëve",
       "category": "nature",
       "kind": "attraction",
-      "lat": 42.658417,
+      "lat": 42.658416,
       "lon": 21.175587,
       "osmUrl": "https://www.openstreetmap.org/way/5884709",
       "score": 2
@@ -1529,13 +1509,13 @@
       "score": 0
     },
     {
-      "id": "way/136332889",
+      "id": "relation/19016902",
       "name": "Parku i Fakulteti Teknik",
       "category": "nature",
       "kind": "park",
-      "lat": 42.647879,
-      "lon": 21.164395,
-      "osmUrl": "https://www.openstreetmap.org/way/136332889",
+      "lat": 42.646755,
+      "lon": 21.166192,
+      "osmUrl": "https://www.openstreetmap.org/relation/19016902",
       "score": 0
     },
     {
@@ -1553,7 +1533,7 @@
       "name": "Parku i Spitalit",
       "category": "nature",
       "kind": "park",
-      "lat": 42.645122,
+      "lat": 42.645121,
       "lon": 21.165874,
       "osmUrl": "https://www.openstreetmap.org/way/281464437",
       "score": 0

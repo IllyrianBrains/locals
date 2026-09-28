@@ -1,0 +1,439 @@
+{
+  "city": "vushtrri",
+  "name": "Vushtrri",
+  "center": {
+    "lat": 42.8222,
+    "lon": 20.9667
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T21:04:24.424Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 33,
+  "places": [
+    {
+      "id": "node/4973511928",
+      "name": "Ura e Vjetër e Gurit",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.823326,
+      "lon": 20.960095,
+      "description": "Ura mesjetare me nëntë harqe. Aset i mbrojtur sipas Listës së aseteve të Trashëgimisë Kulturore për Mbrojtje të përherëshme",
+      "wikidata": "Q3396793",
+      "wikipedia": "sq:Ura e Gurit (Vushtrri)",
+      "osmUrl": "https://www.openstreetmap.org/node/4973511928",
+      "score": 12,
+      "imageFile": "Taşlı Köprü - Vıcıtırın 01.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Ta%C5%9Fl%C4%B1_K%C3%B6pr%C3%BC_-_V%C4%B1c%C4%B1t%C4%B1r%C4%B1n_01.jpg/1280px-Ta%C5%9Fl%C4%B1_K%C3%B6pr%C3%BC_-_V%C4%B1c%C4%B1t%C4%B1r%C4%B1n_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Photo Balkan · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Ura e gurit në Vushtrri është një monument i vjetër i trashëgimisë kulturore që gjendet në qytetin e Vushtrrisë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Ura_e_Gurit_(Vushtrri)"
+      }
+    },
+    {
+      "id": "way/463971979",
+      "name": "Hamami i Vjetër",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 42.82167,
+      "lon": 20.964262,
+      "wikidata": "Q25576553",
+      "wikipedia": "sq:Hamami i Vjetër (Vushtrri)",
+      "osmUrl": "https://www.openstreetmap.org/way/463971979",
+      "score": 11,
+      "imageFile": "Hamami në Vushtrri.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Hamami_n%C3%AB_Vushtrri.jpg/1280px-Hamami_n%C3%AB_Vushtrri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Arben Llapashtica · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Hamami i Vjetër në Vushtrri i njohur edhe si Hamami i Gazi Ali Beut është njëri ndër monumentet më të vjetra të trashëgimisë kultorore jo vetëm në komunën e Vushtrrisë por edhe më gjerë.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Hamami_i_Gazi_Ali_Beut"
+      }
+    },
+    {
+      "id": "way/550900724",
+      "name": "Muzeu i Vushtrrise",
+      "category": "museum",
+      "kind": "museum",
+      "lat": 42.819783,
+      "lon": 20.96435,
+      "wikidata": "Q25572489",
+      "wikipedia": "en:Mahmut Gjinolli House",
+      "osmUrl": "https://www.openstreetmap.org/way/550900724",
+      "score": 11,
+      "imageFile": "MuzeuVushtrrisë.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/MuzeuVushtrris%C3%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Drenisa · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Shtëpia e Mahmut Pashë Gjinollit është një monument i trashëgimisë kulturore në Vushtrri, Kosovë. Ky monument është i kategorisë \"Arkitekturor\", i miratuar me numër.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Sht%C3%ABpia_e_Mahmut_Gjinollit"
+      }
+    },
+    {
+      "id": "way/919783176",
+      "name": "Kalaja e Vjeter e Vushtrrisë",
+      "category": "history",
+      "kind": "castle",
+      "lat": 42.822236,
+      "lon": 20.967489,
+      "wikidata": "Q3065751",
+      "wikipedia": "sq:Kalaja e Vushtrrisë",
+      "osmUrl": "https://www.openstreetmap.org/way/919783176",
+      "score": 10,
+      "imageFile": "Kulla e Vjetër, Vushtrri - 2.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kulla_e_Vjet%C3%ABr%2C_Vushtrri_-_2.jpg/1280px-Kulla_e_Vjet%C3%ABr%2C_Vushtrri_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Mrinë Godanca · CC BY-SA 4.0",
+      "tagline": {
+        "text": "monument kulture në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kalaja e Vushtrrisë është një monument i trashëgimisë kulturore të Kosovës që ndodhet në qytetin e Vushtrrisë. Ky monument është me karakter \"Arkitektural\" dhe i regjistruar me numër të përkatës 858/49 dhe numër referencë 2825.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kalaja_e_Vushtrris%C3%AB"
+      }
+    },
+    {
+      "id": "node/4458850093",
+      "name": "Xhamia Karamanli",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.820339,
+      "lon": 20.967666,
+      "wikidata": "Q65307898",
+      "wikipedia": "sq:Xhamia Karamanli (Vushtrri)",
+      "osmUrl": "https://www.openstreetmap.org/node/4458850093",
+      "score": 9,
+      "imageFile": "Xhamia Karamanli (Vushtrri).jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Xhamia_Karamanli_%28Vushtrri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Unknown authorUnknown author · Public domain",
+      "tagline": {
+        "text": "building in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Xhamia Karamanli është një monument i kulturës në qytetin e Vushtrrisë. Ky objekt fetar është ndërtuar në vitin 1675.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_Karamanli_(Vushtrri)"
+      }
+    },
+    {
+      "id": "way/1456901457",
+      "name": "Kisha Ortodokse Serbe",
+      "category": "religion",
+      "kind": "place_of_worship",
+      "lat": 42.821215,
+      "lon": 20.975451,
+      "wikidata": "Q22814805",
+      "wikipedia": "sr:Црква Светог Илије у Вучитрну",
+      "osmUrl": "https://www.openstreetmap.org/way/1456901457",
+      "score": 7,
+      "imageFile": "Kisha e Vushtrrisë.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kisha_e_Vushtrris%C3%AB.jpg/1280px-Kisha_e_Vushtrris%C3%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Berishasinan · CC BY-SA 4.0",
+      "tagline": {
+        "text": "church building in Vučitrn, Serbia",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kisha e Vushtrrisë e njohur edhe si Kisha e Shën Elias është një kishë ortodokse që ndodhet në qytetin e Vushtrrisë, në Kosovë",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Kisha_e_Vushtrris%C3%AB"
+      }
+    },
+    {
+      "id": "node/4594796324",
+      "name": "Sheshi i UÇK-së",
+      "category": "attraction",
+      "kind": "attraction",
+      "lat": 42.822598,
+      "lon": 20.96226,
+      "osmUrl": "https://www.openstreetmap.org/node/4594796324",
+      "score": 2
+    },
+    {
+      "id": "way/919823824",
+      "name": "BAS Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.824433,
+      "lon": 20.968009,
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/919823824",
+      "score": 1
+    },
+    {
+      "id": "way/919827596",
+      "name": "Deppo",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.829107,
+      "lon": 20.972829,
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/919827596",
+      "score": 1
+    },
+    {
+      "id": "node/4410495194",
+      "name": "Hamami i Vushtrrise shk. 16",
+      "nameEn": "Hamam of Vushtrri 16th century",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.821459,
+      "lon": 20.964044,
+      "osmUrl": "https://www.openstreetmap.org/node/4410495194",
+      "score": 1
+    },
+    {
+      "id": "way/1044451580",
+      "name": "Parku i Vakufit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.820886,
+      "lon": 20.963676,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1044451580",
+      "score": 1
+    },
+    {
+      "id": "way/1044450749",
+      "name": "Parku i Xhamisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.81507,
+      "lon": 20.968443,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1044450749",
+      "score": 1
+    },
+    {
+      "id": "way/1044452600",
+      "name": "Parku i Xhamisë",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.836616,
+      "lon": 20.957907,
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1044452600",
+      "score": 1
+    },
+    {
+      "id": "way/919827862",
+      "name": "Selaci Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.824204,
+      "lon": 20.966664,
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/919827862",
+      "score": 1
+    },
+    {
+      "id": "node/7343070516",
+      "name": "Shtepia e Mahmut Pash Gjinollit shk. 20",
+      "nameEn": "Mehmet Pash Gjinolli House 20th century",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.819837,
+      "lon": 20.964331,
+      "osmUrl": "https://www.openstreetmap.org/node/7343070516",
+      "score": 1
+    },
+    {
+      "id": "way/919826601",
+      "name": "Viva Fresh Family",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.826919,
+      "lon": 20.97094,
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/919826601",
+      "score": 1
+    },
+    {
+      "id": "way/919863496",
+      "name": "AAmarket",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.810683,
+      "lon": 20.981643,
+      "osmUrl": "https://www.openstreetmap.org/way/919863496",
+      "score": 0
+    },
+    {
+      "id": "node/1585449660",
+      "name": "Adem Jashari",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.821284,
+      "lon": 20.970752,
+      "osmUrl": "https://www.openstreetmap.org/node/1585449660",
+      "score": 0
+    },
+    {
+      "id": "node/7342902565",
+      "name": "Aged",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.812359,
+      "lon": 20.977961,
+      "osmUrl": "https://www.openstreetmap.org/node/7342902565",
+      "score": 0
+    },
+    {
+      "id": "way/919792356",
+      "name": "Besarti Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.828625,
+      "lon": 20.962063,
+      "osmUrl": "https://www.openstreetmap.org/way/919792356",
+      "score": 0
+    },
+    {
+      "id": "way/919792044",
+      "name": "Deppo",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.822553,
+      "lon": 20.963078,
+      "osmUrl": "https://www.openstreetmap.org/way/919792044",
+      "score": 0
+    },
+    {
+      "id": "way/921507417",
+      "name": "DPT FISNIKU",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.822256,
+      "lon": 20.962077,
+      "osmUrl": "https://www.openstreetmap.org/way/921507417",
+      "score": 0
+    },
+    {
+      "id": "way/511054696",
+      "name": "Emona Center",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.823322,
+      "lon": 20.964379,
+      "osmUrl": "https://www.openstreetmap.org/way/511054696",
+      "score": 0
+    },
+    {
+      "id": "way/919792437",
+      "name": "Interex",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.828267,
+      "lon": 20.962816,
+      "osmUrl": "https://www.openstreetmap.org/way/919792437",
+      "score": 0
+    },
+    {
+      "id": "way/919792099",
+      "name": "KAM",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.822781,
+      "lon": 20.962463,
+      "osmUrl": "https://www.openstreetmap.org/way/919792099",
+      "score": 0
+    },
+    {
+      "id": "way/145095383",
+      "name": "Parku i Qytetit",
+      "category": "nature",
+      "kind": "park",
+      "lat": 42.82099,
+      "lon": 20.971119,
+      "osmUrl": "https://www.openstreetmap.org/way/145095383",
+      "score": 0
+    },
+    {
+      "id": "way/579854866",
+      "name": "Qendra e kulturës \"Hasan Prishtina\"",
+      "category": "culture",
+      "kind": "theatre",
+      "lat": 42.823076,
+      "lon": 20.965508,
+      "osmUrl": "https://www.openstreetmap.org/way/579854866",
+      "score": 0
+    },
+    {
+      "id": "way/919738701",
+      "name": "Te Drini",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.81043,
+      "lon": 20.981115,
+      "osmUrl": "https://www.openstreetmap.org/way/919738701",
+      "score": 0
+    },
+    {
+      "id": "way/921503462",
+      "name": "Te Kaleja",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.82176,
+      "lon": 20.967891,
+      "osmUrl": "https://www.openstreetmap.org/way/921503462",
+      "score": 0
+    },
+    {
+      "id": "way/920549025",
+      "name": "Te Visari",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.815018,
+      "lon": 20.974377,
+      "osmUrl": "https://www.openstreetmap.org/way/920549025",
+      "score": 0
+    },
+    {
+      "id": "node/4594503935",
+      "name": "Tregu",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.820946,
+      "lon": 20.959634,
+      "osmUrl": "https://www.openstreetmap.org/node/4594503935",
+      "score": 0
+    },
+    {
+      "id": "way/921503320",
+      "name": "Urban Market",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.821887,
+      "lon": 20.968419,
+      "osmUrl": "https://www.openstreetmap.org/way/921503320",
+      "score": 0
+    },
+    {
+      "id": "way/919741654",
+      "name": "Xhabiri",
+      "category": "market",
+      "kind": "marketplace",
+      "lat": 42.81796,
+      "lon": 20.979429,
+      "osmUrl": "https://www.openstreetmap.org/way/919741654",
+      "score": 0
+    }
+  ]
+}

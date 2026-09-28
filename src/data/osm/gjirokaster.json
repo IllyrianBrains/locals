@@ -6,7 +6,7 @@
     "lon": 20.1389
   },
   "radius": 3000,
-  "fetchedAt": "2026-09-24T09:26:09.050Z",
+  "fetchedAt": "2026-09-28T20:57:19.307Z",
   "attribution": "© OpenStreetMap contributors",
   "license": "ODbL-1.0",
   "count": 30,
@@ -268,7 +268,7 @@
       "category": "attraction",
       "kind": "attraction",
       "lat": 40.075407,
-      "lon": 20.136602,
+      "lon": 20.136603,
       "osmUrl": "https://www.openstreetmap.org/way/398306489",
       "score": 2
     },

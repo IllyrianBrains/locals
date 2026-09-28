@@ -30,12 +30,14 @@ src/
     places.ts      types and helpers for the OSM place data
     osm/<slug>.json  places from OpenStreetMap + Wikimedia (generated, committed)
     cityFacts.ts / .json  Wikidata facts per city: population, area, elevation, description (generated, committed)
+    routes.json      walking routes for the maps (generated, committed); routes.ts has the types, routeData.ts the lookups
     municipalities.json  every municipality's outline and level for the region map (generated, committed)
   styles/          global.css
 scripts/
   fetch-osm.ts     OpenStreetMap extractor
   enrich-wiki.ts   Wikidata / Wikipedia / Commons enrichment
   fetch-boundaries.ts  municipality outlines and levels
+  fetch-routes.ts  marked walking routes (shtigje) with simplified lines
   enrich-cities.ts Wikidata facts for every city
   pbf.ts           reads the Geofabrik Albania / Kosovo extracts (.osm.pbf) through GDAL
   osmconf.ini      GDAL OSM driver settings for pbf.ts
@@ -129,6 +131,20 @@ npm run boundaries -- --offline  # rebuild from the municipality lists and outli
 ```
 
 The guide markers on the map come from `src/data/cities.ts`, so a new city shows up without rebuilding the JSON.
+
+### Walking routes (shtigje)
+
+`npm run routes` (`scripts/fetch-routes.ts`) reads the hiking and foot route relations from the Geofabrik extracts and
+writes `src/data/routes.json`: name, marking, network (international to local), operator, length and a line
+simplified to about 20 m. The length is the tagged one when the route has it, else measured, and only inside the
+country for routes that cross the border. The routes are drawn on the home map (toggle "Shtigje ecjeje", 147 routes) and
+on every city map, cut to what lies within 15 km of the centre (`routeRadiusM`). Guide pages list the nearest named ones,
+each linking to [Waymarked Trails](https://hiking.waymarkedtrails.org) for the profile and waymarks. OpenStreetMap only
+holds what mappers have added, so some areas have none.
+
+Both maps share `src/scripts/map-kit.ts`: the page keeps scrolling over a map (Ctrl + wheel zooms it, two fingers pan it on
+touch screens, via `leaflet-gesture-handling`), buttons to reset the view and, on city maps, to find your position, and the
+route lines with their popups. The home map also has a search box and layer toggles.
 
 ### City facts from Wikidata
 

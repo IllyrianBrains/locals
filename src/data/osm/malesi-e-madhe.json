@@ -1,0 +1,55 @@
+{
+  "city": "malesi-e-madhe",
+  "name": "Malësi e Madhe",
+  "center": {
+    "lat": 42.2136,
+    "lon": 19.4364
+  },
+  "radius": 4000,
+  "fetchedAt": "2026-09-28T21:04:22.492Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 4,
+  "places": [
+    {
+      "id": "node/4720058409",
+      "name": "Maja Suka e Koplikut",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.211041,
+      "lon": 19.434468,
+      "osmUrl": "https://www.openstreetmap.org/node/4720058409",
+      "score": 1
+    },
+    {
+      "id": "node/4720058469",
+      "name": "Maja Suka e Pikzës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.190813,
+      "lon": 19.463185,
+      "osmUrl": "https://www.openstreetmap.org/node/4720058469",
+      "score": 1
+    },
+    {
+      "id": "node/4720058407",
+      "name": "Maja Suka e Zuk Reçit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 42.19656,
+      "lon": 19.43935,
+      "osmUrl": "https://www.openstreetmap.org/node/4720058407",
+      "score": 1
+    },
+    {
+      "id": "node/6000731288",
+      "name": "Bunker",
+      "category": "history",
+      "kind": "monument",
+      "lat": 42.221954,
+      "lon": 19.445336,
+      "osmUrl": "https://www.openstreetmap.org/node/6000731288",
+      "score": 0
+    }
+  ]
+}

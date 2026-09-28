@@ -2,9 +2,12 @@
 import { cities, countries } from '../data/cities';
 import { pillarLabels, sightLevels } from '../data/places';
 import { factLines, getFacts, wikidataUrl } from '../data/cityFacts';
+import { allRoutes } from '../data/routeData';
 import municipalities from '../data/municipalities.json';
 // The outlines (~140 KB) load as a cached asset instead of being inlined in every page.
 import outlinesUrl from '../data/municipalities.json?url';
+// The walking routes (~280 KB) load the same way.
+import routesUrl from '../data/routes.json?url';
 // Level 1–5 → white up to a deep green: the greener, the more there is for sustainable tourism.
 const levelColors = ['#f6f8f6', '#d3e8d8', '#98d2a6', '#4fb573', '#1f9d55'];
 // Guide cities get a name tag on the map and a link in their popup.
@@ -20,7 +23,16 @@ const octaves = sightLevels.map((level, index) => {
 }).filter((octave) => octave.keys.length);
 ---
 <div class="region-map">
-  <div class="region-map-canvas" data-outlines={outlinesUrl} data-guides={JSON.stringify(guides)} data-colors={JSON.stringify(levelColors)} data-countries={JSON.stringify(countries)} data-pillars={JSON.stringify(pillarLabels)} role="region" aria-label="Harta interaktive e të gjitha bashkive dhe komunave në Shqipëri dhe Kosovë, sipas asaj që ofrojnë për turizëm të qëndrueshëm"></div>
+  <div class="region-tools">
+    <label class="region-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg><input type="search" list="region-places" placeholder="Kërko një qytet, p.sh. Përmet" autocomplete="off" aria-label="Kërko një qytet ose komunë" /></label>
+    <datalist id="region-places">{all.map((m) => <option value={m.name}></option>)}</datalist>
+    <div class="region-layers" role="group" aria-label="Shtresat e hartës">
+      <button type="button" data-layer="routes" aria-pressed="true"><i class="swatch-route"></i>Shtigje ecjeje <small>{allRoutes.length}</small></button>
+      <button type="button" data-layer="areas" aria-pressed="true"><i class="swatch-area"></i>Bashkitë</button>
+    </div>
+    <p class="region-hint" aria-live="polite" hidden></p>
+  </div>
+  <div class="region-map-canvas" data-outlines={outlinesUrl} data-routes={routesUrl} data-guides={JSON.stringify(guides)} data-colors={JSON.stringify(levelColors)} data-countries={JSON.stringify(countries)} data-pillars={JSON.stringify(pillarLabels)} role="region" aria-label="Harta interaktive e të gjitha bashkive dhe komunave në Shqipëri dhe Kosovë, sipas asaj që ofrojnë për turizëm të qëndrueshëm"></div>
   <div class="region-keyboard" role="group" aria-label={'Të ' + all.length + ' qytetet, nga më pak të hartuarat te më të pasurat për turizëm të qëndrueshëm'}>
     {octaves.map((octave) => <div class="octave" style={'--count:' + octave.keys.length + ';--key-color:' + octave.color}>
       <header aria-hidden="true"></header>
@@ -33,17 +45,17 @@ const octaves = sightLevels.map((level, index) => {
   <div class="region-map-scale"><span>Më pak{levelColors.map((color) => <i style={'--key-color:' + color}></i>)}Më shumë</span><span class="guide-note"><i></i>Guidë Locals</span></div>
 </div>
 <script>
-import L from 'leaflet'; import 'leaflet/dist/leaflet.css';
+import L from 'leaflet'; import {addButton,addRoutes,createMap,esc} from '../scripts/map-kit';
 type Guide={region:string;summary:string;lat:number;lon:number;url:string|null;available:boolean;facts:{label:string;value:string;note?:string}[];wikidata:string|null};
 type Municipality={id:number;slug:string;name:string;area:string;country:'al'|'xk';guide:boolean;count:number;score:number;level:number;top:string[];pillars?:Record<string,number>};
-const esc=(v:string)=>v.replace(/[&<>"']/g,(c)=>'&#'+c.charCodeAt(0)+';');
 document.querySelectorAll<HTMLElement>('.region-map').forEach(async(root)=>{
  const canvas=root.querySelector<HTMLElement>('.region-map-canvas')!;
  const guides:Record<string,Guide>=JSON.parse(canvas.dataset.guides!); const colors:string[]=JSON.parse(canvas.dataset.colors!);
  const pillarLabels:Record<string,string>=JSON.parse(canvas.dataset.pillars!); const countries:Record<string,{name:string}>=JSON.parse(canvas.dataset.countries!);
- const map=L.map(canvas,{scrollWheelZoom:false,zoomControl:true,minZoom:6,zoomSnap:.5});
+ const map=createMap(canvas,{minZoom:6,zoomSnap:.5});
  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
- map.fitBounds([[39.64,19.26],[43.27,21.79]],{padding:[18,18]}); map.once('focus',()=>map.scrollWheelZoom.enable());
+ const home:L.LatLngBoundsLiteral=[[39.64,19.26],[43.27,21.79]]; map.fitBounds(home,{padding:[18,18]});
+ addButton(map,'⤢','Shiko gjithë Shqipërinë dhe Kosovën',()=>map.flyToBounds(home,{padding:[18,18],duration:.6}));
  const keysById=new Map([...root.querySelectorAll<HTMLButtonElement>('[data-id]')].map((key)=>[Number(key.dataset.id),key]));
  const baseStyle=(m:Municipality):L.PathOptions=>({color:'#fff',weight:guides[m.id]?1.4:.6,opacity:guides[m.id]?.8:.4,fillColor:colors[m.level-1],fillOpacity:.72});
  const shapes=new Map<number,{shape:L.GeoJSON;m:Municipality}>();
@@ -57,12 +69,13 @@ document.querySelectorAll<HTMLElement>('.region-map').forEach(async(root)=>{
   return '<div class="region-popup" style="--key-color:'+color+'">'+status+'<span>'+esc(countries[m.country].name)+' · '+esc(m.area)+'</span><b>'+esc(m.name)+'</b>'+(guide?'<p>'+esc(guide.summary)+'</p>'+(guide.facts.length?'<dl class="region-facts">'+guide.facts.map((f)=>'<div'+(f.note?' title="'+esc(f.note)+'"':'')+'><dt>'+esc(f.label)+'</dt><dd>'+esc(f.value)+'</dd></div>').join('')+'</dl>':''):'')+'<div class="region-level"><small>'+(m.pillars?m.count+' pika të qëndrueshme':'')+'</small>'+meter+'</div>'+(pills?'<ul class="region-pillars">'+pills+'</ul>':'')+(top?'<ol>'+top+'</ol>':'')+link+'</div>';
  };
  const anchor=(m:Municipality,shape:L.GeoJSON)=>guides[m.id]?L.latLng(guides[m.id].lat,guides[m.id].lon):shape.getBounds().getCenter();
+ const flyTo=(hit:{shape:L.GeoJSON;m:Municipality})=>{map.flyToBounds(hit.shape.getBounds(),{padding:[60,60],duration:.7,maxZoom:11}); map.once('moveend',()=>hit.shape.openPopup(anchor(hit.m,hit.shape)))};
  const setActive=(id:number,on:boolean)=>{
   const hit=shapes.get(id); if(!hit)return;
   hit.shape.setStyle(on?{weight:3,opacity:1,fillOpacity:.92}:baseStyle(hit.m)); if(on)hit.shape.bringToFront();
   keysById.get(id)?.classList.toggle('is-active',on);
  };
- const geo:GeoJSON.FeatureCollection=await (await fetch(canvas.dataset.outlines!)).json();
+ const [geo,routeData]:[GeoJSON.FeatureCollection,{routes:Parameters<typeof addRoutes>[1]}]=await Promise.all([fetch(canvas.dataset.outlines!).then((r)=>r.json()),fetch(canvas.dataset.routes!).then((r)=>r.json())]);
  for(const feature of geo.features){
   const m=feature.properties as Municipality;
   const shape=L.geoJSON(feature,{style:()=>baseStyle(m)}).bindPopup(popupFor(m),{autoPanPadding:[30,30]}).addTo(map);
@@ -76,13 +89,28 @@ document.querySelectorAll<HTMLElement>('.region-map').forEach(async(root)=>{
   const tag=L.divIcon({className:'region-city-tag',html:'<span style="--key-color:'+colors[m.level-1]+'"><b>'+esc(m.name)+'</b><i></i></span>',iconSize:[0,0]});
   L.marker(anchor(m,shape),{icon:tag,keyboard:false}).on('click',()=>shape.openPopup(anchor(m,shape))).on('mouseover',()=>setActive(m.id,true)).on('mouseout',()=>setActive(m.id,false)).addTo(map);
  }
+ const routes=addRoutes(map,routeData.routes,{zIndex:450,tooltipClass:'region-tip',wrap:(html)=>'<div class="region-popup" style="--key-color:#d9822b">'+html+'</div>'});
  // Zoomed out, tags shrink to their colour dot so they don't hide the outlines.
  const compact=()=>canvas.classList.toggle('is-compact',map.getZoom()<8.5); map.on('zoomend',compact); compact();
  keysById.forEach((key,id)=>{
   key.addEventListener('mouseenter',()=>setActive(id,true)); key.addEventListener('mouseleave',()=>setActive(id,false));
   key.addEventListener('focus',()=>setActive(id,true)); key.addEventListener('blur',()=>setActive(id,false));
-  key.addEventListener('click',()=>{const hit=shapes.get(id); if(!hit)return; map.flyToBounds(hit.shape.getBounds(),{padding:[60,60],duration:.7,maxZoom:11}); map.once('moveend',()=>hit.shape.openPopup(anchor(hit.m,hit.shape)))});
+  key.addEventListener('click',()=>{const hit=shapes.get(id); if(hit)flyTo(hit)});
  });
+ const search=root.querySelector<HTMLInputElement>('.region-search input')!; const hint=root.querySelector<HTMLElement>('.region-hint')!;
+ const norm=(v:string)=>v.toLocaleLowerCase('sq').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
+ const find=()=>{
+  const q=norm(search.value); if(!q)return;
+  const all=[...shapes.values()]; const hit=all.find(({m})=>norm(m.name)===q)??all.find(({m})=>norm(m.name).startsWith(q)||norm(m.area).includes(q));
+  hint.hidden=!!hit; hint.textContent=hit?'':'Nuk u gjet asnjë qytet me këtë emër.'; if(hit)flyTo(hit);
+ };
+ search.addEventListener('change',find); search.addEventListener('keydown',(event)=>{if(event.key==='Enter')find()});
+ search.addEventListener('input',()=>{hint.hidden=true});
+ root.querySelectorAll<HTMLButtonElement>('[data-layer]').forEach((button)=>button.addEventListener('click',()=>{
+  const on=button.getAttribute('aria-pressed')!=='true'; button.setAttribute('aria-pressed',String(on));
+  if(button.dataset.layer==='routes')on?routes.addTo(map):routes.remove();
+  else shapes.forEach(({shape})=>on?shape.addTo(map):shape.remove());
+ }));
 });
 </script>
 <style>
@@ -95,5 +123,8 @@ document.querySelectorAll<HTMLElement>('.region-map').forEach(async(root)=>{
 .keys button{position:relative;display:flex;align-items:end;justify-content:center;height:190px;padding:0 0 10px;overflow:hidden;border:0;border-radius:0 0 3px 3px;color:#3a3232;background:linear-gradient(#f3eee9,#fffdfa 70%,#e9e3dd);box-shadow:inset 0 -5px 0 #d6cfc8,0 2px 3px #0008;font:500 9px var(--sans);cursor:pointer;transform-origin:top;transition:transform .12s,box-shadow .12s}.keys button:before{position:absolute;inset:auto 0 0;height:30%;background:linear-gradient(transparent,color-mix(in srgb,var(--key-color) 50%,transparent));content:"";transition:height .25s}.keys button span{position:relative;max-height:92px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;writing-mode:vertical-rl;transform:rotate(180deg)}.keys button.is-guide{color:#000;font-weight:800}.keys button.is-guide:after{position:absolute;bottom:108px;left:50%;width:6px;height:6px;border-radius:50%;background:#e8b93a;box-shadow:0 0 6px #e8b93a;transform:translateX(-50%);content:""}.keys button:hover,.keys button.is-active,.keys button:focus-visible{outline:0;transform:perspective(300px) rotateX(-7deg);box-shadow:inset 0 -2px 0 #d6cfc8,0 1px 2px #0008}.keys button.is-active:before,.keys button:focus-visible:before{height:100%}
 .keys .black-key{position:absolute;top:4px;left:calc(100% * var(--at) / var(--count));z-index:1;width:calc(100% / var(--count) * .56);height:74px;border-radius:0 0 3px 3px;background:linear-gradient(90deg,#1b1818,#383232 45%,#141111);box-shadow:inset 0 -4px 0 #000,0 3px 5px #000c;transform:translateX(-50%);pointer-events:none}
 .region-map-scale{display:flex;flex-wrap:wrap;gap:6px 18px;padding:12px 2px 0;color:#aaa;font-size:10px}.region-map-scale span{display:flex;align-items:center;gap:6px}.region-map-scale i{width:14px;height:9px;outline:1px solid #ffffff30;background:var(--key-color)}.region-map-scale .guide-note{margin-left:auto}.region-map-scale .guide-note i{width:6px;height:6px;border-radius:50%;background:#e8b93a;box-shadow:0 0 6px #e8b93a}
+.region-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:14px}.region-search{display:grid;grid-template-columns:18px 1fr;gap:9px;align-items:center;min-width:min(100%,290px);padding:10px 13px;border:1px solid #ffffff25;background:#121b17}.region-search svg{width:17px;fill:none;stroke:#8fd6a4;stroke-width:1.8}.region-search input{min-width:0;border:0;outline:0;color:#fff;background:transparent;font:13px var(--sans)}.region-search input::placeholder{color:#8a948e}.region-search:focus-within{border-color:#8fd6a4}
+.region-layers{display:flex;flex-wrap:wrap;gap:8px}.region-layers button{display:flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid #ffffff25;border-radius:99px;color:#eee;background:#17211c;font:600 12px var(--sans);cursor:pointer}.region-layers button small{color:#8a948e;font-size:10px}.region-layers button[aria-pressed=false]{color:#8a948e;opacity:.65}.region-layers button[aria-pressed=false] i{opacity:.4}.swatch-route{width:16px;height:0;border-top:3px solid #d9822b}.swatch-area{width:14px;height:9px;background:linear-gradient(90deg,#f6f8f6,#1f9d55)}.region-hint{margin:0;color:#e8b93a;font-size:12px}
+.region-map-canvas :global(.leaflet-bar a){color:#fff;background:#17211c;border-color:#ffffff20}.region-map-canvas :global(.leaflet-bar a:hover){background:#22312a}.region-map-canvas :global(.leaflet-bar a.map-button){font:700 15px/26px var(--sans);text-align:center}
 @media(max-width:900px){.octave{flex:var(--count) 0 calc(var(--count) * 15px)}}@media(max-width:600px){.region-map-canvas{height:540px}.keys button{height:160px}.region-map-scale .guide-note{margin-left:0}}
 </style>
