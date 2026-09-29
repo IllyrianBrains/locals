@@ -1,0 +1,71 @@
+{
+  "city": "junik",
+  "name": "Junik",
+  "fetchedAt": "2026-09-29T00:24:29.105Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 4,
+  "places": [
+    {
+      "id": "node/12992403569",
+      "name": "Guest House Tofaj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.546509,
+      "lon": 20.109886,
+      "address": "Junik",
+      "phone": "+383 45 744 978",
+      "email": "shtofaj1@outlook.com",
+      "website": "https://www.facebook.com/guesthousetofaj",
+      "osmUrl": "https://www.openstreetmap.org/node/12992403569",
+      "score": 8,
+      "km": 15.8
+    },
+    {
+      "id": "node/6505853285",
+      "name": "Trofta e Junikut",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.499896,
+      "lon": 20.239398,
+      "cuisine": [
+        "regional",
+        "fish"
+      ],
+      "phone": "+38349699333",
+      "osmUrl": "https://www.openstreetmap.org/node/6505853285",
+      "score": 4,
+      "km": 4.1
+    },
+    {
+      "id": "node/11862374969",
+      "name": "Moronica",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.475443,
+      "lon": 20.268102,
+      "cuisine": [
+        "balkan",
+        "barbecue",
+        "italian pizza"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11862374969",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/2494110871",
+      "name": "Gjelltore Qebaptore",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.476562,
+      "lon": 20.277376,
+      "cuisine": [
+        "turkish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2494110871",
+      "score": 1,
+      "km": 0.1
+    }
+  ]
+}

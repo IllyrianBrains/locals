@@ -1,0 +1,176 @@
+{
+  "city": "tepelene",
+  "name": "Tepelenë",
+  "fetchedAt": "2026-09-28T22:58:57.198Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 12,
+  "places": [
+    {
+      "id": "node/6482675562",
+      "name": "Bardhi Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.22347,
+      "lon": 19.891911,
+      "address": "Rruga Bregut Gusmar",
+      "phone": "+355 68 331 2929",
+      "email": "bardhi74@hotmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6482675562",
+      "score": 4,
+      "km": 13.5
+    },
+    {
+      "id": "node/6524010199",
+      "name": "EKO Vila Bënça",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.254496,
+      "lon": 20.004429,
+      "address": "Bënçë",
+      "phone": "+355 68 4302136",
+      "email": "macaartur@yahoo.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6524010199",
+      "score": 4,
+      "km": 4.8
+    },
+    {
+      "id": "node/6517009612",
+      "name": "Lord Byron",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.307159,
+      "lon": 20.015119,
+      "address": "Tepelenë",
+      "website": "https://lordbyron.al/",
+      "osmUrl": "https://www.openstreetmap.org/node/6517009612",
+      "score": 3,
+      "km": 1.2
+    },
+    {
+      "id": "node/6524204147",
+      "name": "Bujtina mbi Kanion",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.236708,
+      "lon": 19.898164,
+      "address": "Nivica",
+      "osmUrl": "https://www.openstreetmap.org/node/6524204147",
+      "score": 2,
+      "km": 12.2
+    },
+    {
+      "id": "node/9312829693",
+      "name": "Guesthouse Bujtina Xhevair Gjoni",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.237615,
+      "lon": 19.894761,
+      "address": "Rexhin",
+      "osmUrl": "https://www.openstreetmap.org/node/9312829693",
+      "score": 2,
+      "km": 12.4
+    },
+    {
+      "id": "node/10255270042",
+      "name": "Progon House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.213315,
+      "lon": 19.949649,
+      "phone": "+355693944366",
+      "osmUrl": "https://www.openstreetmap.org/node/10255270042",
+      "score": 2,
+      "km": 11
+    },
+    {
+      "id": "node/11981228952",
+      "name": "Bujtina Xhebro",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.258639,
+      "lon": 19.84713,
+      "osmUrl": "https://www.openstreetmap.org/node/11981228952",
+      "score": 1,
+      "km": 15.2
+    },
+    {
+      "id": "node/4401699240",
+      "name": "Bar Restaurant  Rushiti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.284282,
+      "lon": 20.069908,
+      "address": "Rruga e Tepelenes",
+      "cuisine": [
+        "traditional",
+        "breakfast"
+      ],
+      "phone": "003557562320",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/4401699240",
+      "score": 6,
+      "km": 4.6
+    },
+    {
+      "id": "node/9779055647",
+      "name": "Laze",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.294986,
+      "lon": 20.020766,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 226 6989",
+      "openingHours": "06:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9779055647",
+      "score": 5,
+      "km": 0.2
+    },
+    {
+      "id": "node/9002126507",
+      "name": "Arra freskia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.248892,
+      "lon": 20.070251,
+      "description": "Café, restaurant and bar.",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9002126507",
+      "score": 4,
+      "km": 6.9
+    },
+    {
+      "id": "way/694138615",
+      "name": "Lord Byron",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.306997,
+      "lon": 20.016205,
+      "cuisine": [
+        "regional"
+      ],
+      "website": "https://lordbyron.al",
+      "osmUrl": "https://www.openstreetmap.org/way/694138615",
+      "score": 4,
+      "km": 1.2
+    },
+    {
+      "id": "way/371324831",
+      "name": "KROI PASHAIT",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.250424,
+      "lon": 20.064646,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/371324831",
+      "score": 2,
+      "km": 6.4
+    }
+  ]
+}

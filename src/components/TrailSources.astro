@@ -1,0 +1,16 @@
+---
+import { trailSourcesFor } from '../data/trailSources';
+const { slug } = Astro.props as { slug: string };
+const sources = trailSourcesFor(slug);
+---
+{sources.length > 0 && (
+  <aside class="trail-sources" aria-labelledby={`trail-sources-${slug}`}>
+    <header><div><small>Burime të kuruara</small><h3 id={`trail-sources-${slug}`}>Itinerare të njohura</h3></div><p>Krahasoji me hartën dhe kontrollo kushtet para nisjes.</p></header>
+    <div>{sources.map((source) => <a href={source.url} target="_blank" rel="noreferrer"><small>{source.scope}</small><strong>{source.title}</strong><p>{source.note}</p><span>{source.source} ↗</span></a>)}</div>
+    <footer>Locals lidh te burimi origjinal. Skedarët GPX nuk kopjohen pa një licencë të qartë ripërdorimi.</footer>
+  </aside>
+)}
+<style>
+.trail-sources{margin-top:28px;padding:24px;border:1px solid var(--line);border-radius:16px;background:#fff}.trail-sources header{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:18px}.trail-sources header small{color:var(--leaf);font-size:9px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.trail-sources h3{margin:2px 0 0;font:500 28px/1.1 var(--display)}.trail-sources header p{max-width:330px;margin:0;color:var(--muted);font-size:12px}.trail-sources>div{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.trail-sources a{display:flex;min-width:0;flex-direction:column;padding:18px;border-radius:12px;background:var(--cream);transition:background .15s}.trail-sources a:hover{background:var(--lime)}.trail-sources a small{color:var(--clay);font-size:8px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}.trail-sources a strong{margin-top:4px;font:500 21px/1.15 var(--display)}.trail-sources a p{margin:7px 0;color:var(--muted);font-size:11px;line-height:1.5}.trail-sources a span{margin-top:auto;padding-top:8px;color:var(--leaf);font-size:10px;font-weight:700}.trail-sources footer{margin-top:14px;color:var(--muted);font-size:9px}
+@media(max-width:650px){.trail-sources{padding:18px}.trail-sources header{display:block}.trail-sources header p{margin-top:6px}.trail-sources>div{grid-template-columns:1fr}.trail-sources a{padding:16px}}
+</style>

@@ -1,0 +1,476 @@
+{
+  "city": "lezhe",
+  "name": "Lezhë",
+  "fetchedAt": "2026-09-28T22:58:57.181Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 29,
+  "places": [
+    {
+      "id": "node/11189090716",
+      "name": "Vila Deda Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.698826,
+      "lon": 19.591442,
+      "phone": "+355682772198",
+      "email": "viladeda.1@outlook.com",
+      "website": "https://viladeda.business.site/",
+      "osmUrl": "https://www.openstreetmap.org/node/11189090716",
+      "score": 5,
+      "km": 10.1
+    },
+    {
+      "id": "node/5673297231",
+      "name": "Hotel Brilant Shëngjin",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.811071,
+      "lon": 19.595403,
+      "address": "Shëtitorja Wilson",
+      "phone": "+355673417461",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5673297231",
+      "score": 4,
+      "km": 5.2
+    },
+    {
+      "id": "node/13871574904",
+      "name": "Guesthouse Si N'Shpi Tande",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.893585,
+      "lon": 19.672245,
+      "osmUrl": "https://www.openstreetmap.org/node/13871574904",
+      "score": 0,
+      "km": 12.8
+    },
+    {
+      "id": "node/12988233001",
+      "name": "Guesthouse Vitoria",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.900882,
+      "lon": 19.669975,
+      "osmUrl": "https://www.openstreetmap.org/node/12988233001",
+      "score": 0,
+      "km": 13.6
+    },
+    {
+      "id": "way/248295296",
+      "name": "Mrizi i Zanave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.899096,
+      "lon": 19.673093,
+      "address": "Rruga Lezhë - Vau i Dejës Fishtë",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 2108032",
+      "email": "altinpregna@hotmail.it",
+      "website": "http://www.mrizizanave.com",
+      "wikidata": "Q118521695",
+      "osmUrl": "https://www.openstreetmap.org/way/248295296",
+      "score": 11,
+      "km": 13.4
+    },
+    {
+      "id": "way/425076762",
+      "name": "OAZI FISHTË",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.889207,
+      "lon": 19.670201,
+      "address": "Fishtë",
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "international",
+        "italian"
+      ],
+      "phone": "+355674656556",
+      "email": "oazifishte@libero.it",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/way/425076762",
+      "score": 7,
+      "km": 12.3
+    },
+    {
+      "id": "way/821828483",
+      "name": "Laguna Blu \"Te Nazi\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.736885,
+      "lon": 19.579886,
+      "cuisine": [
+        "fish",
+        "regional"
+      ],
+      "phone": "+355683227322",
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/821828483",
+      "score": 5,
+      "km": 7.2
+    },
+    {
+      "id": "node/12953646801",
+      "name": "Sea Zone, Shëngjin",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.813671,
+      "lon": 19.591583,
+      "cuisine": [
+        "balkan",
+        "italian",
+        "seafood"
+      ],
+      "phone": "+355 69 769 5783",
+      "openingHours": "Mo-Su 07:30-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12953646801",
+      "score": 5,
+      "km": 5.7
+    },
+    {
+      "id": "node/10914764105",
+      "name": "Aurora Gjelltore",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.812311,
+      "lon": 19.595599,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/10914764105",
+      "score": 4,
+      "km": 5.3
+    },
+    {
+      "id": "way/481790039",
+      "name": "Laguna Park",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.767692,
+      "lon": 19.599024,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "fish and chips",
+        "pizza"
+      ],
+      "phone": "+355694088855",
+      "osmUrl": "https://www.openstreetmap.org/way/481790039",
+      "score": 4,
+      "km": 4
+    },
+    {
+      "id": "node/3905008533",
+      "name": "Mengjezore \"Bashkimi\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.778221,
+      "lon": 19.649091,
+      "address": "Lezhë",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Su Mo-Sa",
+      "osmUrl": "https://www.openstreetmap.org/node/3905008533",
+      "score": 4,
+      "km": 0.5
+    },
+    {
+      "id": "way/481992193",
+      "name": "Restaurant Molla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.793994,
+      "lon": 19.602013,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "phone": "+355694041673",
+      "osmUrl": "https://www.openstreetmap.org/way/481992193",
+      "score": 4,
+      "km": 3.7
+    },
+    {
+      "id": "way/482001929",
+      "name": "White House Hotel",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.796916,
+      "lon": 19.60209,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "phone": "+355685933599",
+      "osmUrl": "https://www.openstreetmap.org/way/482001929",
+      "score": 4,
+      "km": 3.9
+    },
+    {
+      "id": "way/346653588",
+      "name": "Bio Zadrima",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.875508,
+      "lon": 19.62807,
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/346653588",
+      "score": 3,
+      "km": 10.7
+    },
+    {
+      "id": "way/821810406",
+      "name": "Hoteli i Gjuetisë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.748126,
+      "lon": 19.615242,
+      "cuisine": [
+        "balkan",
+        "fish",
+        "mediterranean",
+        "pasta"
+      ],
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/821810406",
+      "score": 3,
+      "km": 4.3
+    },
+    {
+      "id": "node/12042557899",
+      "name": "Kristi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.779703,
+      "lon": 19.644728,
+      "address": "Lezhë",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12042557899",
+      "score": 3,
+      "km": 0.1
+    },
+    {
+      "id": "way/342995189",
+      "name": "Mrizi i Zanave Agroturizem",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.899197,
+      "lon": 19.673599,
+      "cuisine": [
+        "regional",
+        "chicken",
+        "steak house"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/342995189",
+      "score": 3,
+      "km": 13.4
+    },
+    {
+      "id": "node/12956917502",
+      "name": "Privilege H Kloi",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 41.813451,
+      "lon": 19.59186,
+      "address": "Shëtitorja Wilson",
+      "cuisine": [
+        "balkan",
+        "coffee shop",
+        "pizza"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12956917502",
+      "score": 3,
+      "km": 5.6
+    },
+    {
+      "id": "node/5588528441",
+      "name": "Bar Restaurant Juri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.745259,
+      "lon": 19.648017,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5588528441",
+      "score": 2,
+      "km": 3.9
+    },
+    {
+      "id": "way/481992146",
+      "name": "Brazil",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.797261,
+      "lon": 19.601422,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481992146",
+      "score": 2,
+      "km": 4
+    },
+    {
+      "id": "way/481985722",
+      "name": "Gersi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.784078,
+      "lon": 19.602956,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481985722",
+      "score": 2,
+      "km": 3.4
+    },
+    {
+      "id": "way/481985717",
+      "name": "Havana Beach Bar & Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.787694,
+      "lon": 19.60355,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "fish and chips",
+        "pizza"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481985717",
+      "score": 2,
+      "km": 3.4
+    },
+    {
+      "id": "way/481980422",
+      "name": "Kompleksi Veror \"Sunrise",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.780829,
+      "lon": 19.603377,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481980422",
+      "score": 2,
+      "km": 3.3
+    },
+    {
+      "id": "way/482001898",
+      "name": "Kristi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.799129,
+      "lon": 19.60153,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/482001898",
+      "score": 2,
+      "km": 4
+    },
+    {
+      "id": "way/481993655",
+      "name": "La Perla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.794705,
+      "lon": 19.602475,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481993655",
+      "score": 2,
+      "km": 3.7
+    },
+    {
+      "id": "way/482001897",
+      "name": "Nana e Detit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.799369,
+      "lon": 19.601522,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/482001897",
+      "score": 2,
+      "km": 4.1
+    },
+    {
+      "id": "node/5588501988",
+      "name": "Restorant Antika",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.750489,
+      "lon": 19.643998,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5588501988",
+      "score": 2,
+      "km": 3.3
+    },
+    {
+      "id": "way/481980437",
+      "name": "Vila Peshkatarit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.76455,
+      "lon": 19.596201,
+      "cuisine": [
+        "barbecue",
+        "fish",
+        "fish and chips",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/481980437",
+      "score": 2,
+      "km": 4.3
+    },
+    {
+      "id": "way/422639373",
+      "name": "Kantina Kallmet",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 41.854573,
+      "lon": 19.694319,
+      "address": "Rruga Kallemet i Vogel 5 Kallmet",
+      "osmUrl": "https://www.openstreetmap.org/way/422639373",
+      "score": 2,
+      "km": 9.3
+    }
+  ]
+}

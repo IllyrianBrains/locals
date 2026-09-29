@@ -1,0 +1,386 @@
+{
+  "city": "vlore",
+  "name": "Vlorë",
+  "fetchedAt": "2026-09-28T22:58:57.008Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 26,
+  "places": [
+    {
+      "id": "way/1394492345",
+      "name": "AP Hotel Boutique",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.442481,
+      "lon": 19.495745,
+      "address": "Rruga Murat Tërbaçi Vlorë",
+      "phone": "+355694044244",
+      "email": "info@aphotel.al",
+      "website": "https://aphotel.al",
+      "osmUrl": "https://www.openstreetmap.org/way/1394492345",
+      "score": 6,
+      "km": 2.7
+    },
+    {
+      "id": "node/9720527886",
+      "name": "Kristeo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.462157,
+      "lon": 19.46758,
+      "address": "Rruga Andrea Varfi Vlore",
+      "phone": "+355695227511",
+      "email": "asjana.rukaj@gmail.com",
+      "website": "https://www.booking.com/hotel/al/kristeo-vlore.html",
+      "osmUrl": "https://www.openstreetmap.org/node/9720527886",
+      "score": 6,
+      "km": 2.1
+    },
+    {
+      "id": "node/12919186487",
+      "name": "Te Noçi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.446216,
+      "lon": 19.496052,
+      "address": "Rruga Reshat Osmani Vlore",
+      "phone": "+355 69 407 3850",
+      "website": "https://www.airbnb.com/h/te-noci",
+      "osmUrl": "https://www.openstreetmap.org/node/12919186487",
+      "score": 5,
+      "km": 2.2
+    },
+    {
+      "id": "node/10246120479",
+      "name": "Serene Stay",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.461872,
+      "lon": 19.468612,
+      "phone": "+355693769146",
+      "osmUrl": "https://www.openstreetmap.org/node/10246120479",
+      "score": 2,
+      "km": 2
+    },
+    {
+      "id": "node/3679074825",
+      "name": "Gamel Hotel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.379555,
+      "lon": 19.48237,
+      "address": "Radhime Vlorë",
+      "osmUrl": "https://www.openstreetmap.org/node/3679074825",
+      "score": 1,
+      "km": 9.7
+    },
+    {
+      "id": "way/1204297547",
+      "name": "Deja Blue Villa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.464396,
+      "lon": 19.46807,
+      "osmUrl": "https://www.openstreetmap.org/way/1204297547",
+      "score": 0,
+      "km": 2
+    },
+    {
+      "id": "way/605544590",
+      "name": "Residence Auroda",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.374801,
+      "lon": 19.480934,
+      "osmUrl": "https://www.openstreetmap.org/way/605544590",
+      "score": 0,
+      "km": 10.2
+    },
+    {
+      "id": "way/976019800",
+      "name": "Te Zagolli resort",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 40.330053,
+      "lon": 19.484171,
+      "osmUrl": "https://www.openstreetmap.org/way/976019800",
+      "score": 0,
+      "km": 15.2
+    },
+    {
+      "id": "way/1193409156",
+      "name": "Villa Heljos",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.464397,
+      "lon": 19.468369,
+      "osmUrl": "https://www.openstreetmap.org/way/1193409156",
+      "score": 0,
+      "km": 2
+    },
+    {
+      "id": "node/6401921693",
+      "name": "Taverne Te LILO",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.455128,
+      "lon": 19.484142,
+      "address": "Rruga Fejzo Gjomema",
+      "cuisine": [
+        "local"
+      ],
+      "phone": "+355693072533",
+      "website": "https://ting.al/telilo/en/",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6401921693",
+      "score": 9,
+      "km": 1.4
+    },
+    {
+      "id": "node/8026464033",
+      "name": "Restorant Alimuca",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.49858,
+      "lon": 19.423913,
+      "address": "Rruga e Pishave 20 Vlore",
+      "cuisine": [
+        "fish",
+        "local",
+        "mediterranean",
+        "meat"
+      ],
+      "phone": "+355 68 298 4647",
+      "website": "https://restorant-alimuci.business.site/",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/8026464033",
+      "score": 8,
+      "km": 6.8
+    },
+    {
+      "id": "node/5774186353",
+      "name": "Taverna Li-Ro",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.551393,
+      "lon": 19.469111,
+      "address": "SH8",
+      "cuisine": [
+        "greek",
+        "mediterranean",
+        "tea",
+        "chicken"
+      ],
+      "phone": "3550693304188",
+      "email": "lionemetaj@univlora.edu.al",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5774186353",
+      "score": 8,
+      "km": 9.7
+    },
+    {
+      "id": "way/312064076",
+      "name": "Restaurant Dukat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.203952,
+      "lon": 19.585388,
+      "address": "SH8",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "++355 (0)69 5777 333",
+      "osmUrl": "https://www.openstreetmap.org/way/312064076",
+      "score": 6,
+      "km": 30.2
+    },
+    {
+      "id": "node/12290633101",
+      "name": "Sofra e Lakrorit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.45652,
+      "lon": 19.485177,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355685107654",
+      "openingHours": "Tu-Su 12:00-16:00, 18:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12290633101",
+      "score": 5,
+      "km": 1.2
+    },
+    {
+      "id": "node/4892465321",
+      "name": "Alberti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.21097,
+      "lon": 19.579352,
+      "cuisine": [
+        "regional",
+        "noodles",
+        "italian"
+      ],
+      "phone": "+355 69 5798406",
+      "osmUrl": "https://www.openstreetmap.org/node/4892465321",
+      "score": 4,
+      "km": 29.4
+    },
+    {
+      "id": "node/13180152101",
+      "name": "Menca Self Service",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.455832,
+      "lon": 19.477043,
+      "address": "Rruga Sazani",
+      "cuisine": [
+        "balkan",
+        "diner"
+      ],
+      "openingHours": "Mo-Su 07:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/13180152101",
+      "score": 4,
+      "km": 1.7
+    },
+    {
+      "id": "node/8026483225",
+      "name": "Restorant Tradicional",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.448357,
+      "lon": 19.494013,
+      "cuisine": [
+        "seafood",
+        "regional",
+        "midterrain"
+      ],
+      "openingHours": "Mo-Su 12:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/8026483225",
+      "score": 4,
+      "km": 2
+    },
+    {
+      "id": "way/1007784589",
+      "name": "Panorama",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.196663,
+      "lon": 19.59595,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1007784589",
+      "score": 3,
+      "km": 31.3
+    },
+    {
+      "id": "node/11084025506",
+      "name": "Restorant Regina",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.500092,
+      "lon": 19.420937,
+      "cuisine": [
+        "balkan",
+        "fish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11084025506",
+      "score": 3,
+      "km": 7.1
+    },
+    {
+      "id": "node/2863195618",
+      "name": "Vila Nika",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.427675,
+      "lon": 19.492533,
+      "address": "Dhimiter Konomi Vlorë",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2863195618",
+      "score": 3,
+      "km": 4.3
+    },
+    {
+      "id": "node/8026435870",
+      "name": "Bold Bistro",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 40.457366,
+      "lon": 19.487699,
+      "cuisine": [
+        "regional",
+        "albanian",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/8026435870",
+      "score": 2,
+      "km": 1
+    },
+    {
+      "id": "way/1308131576",
+      "name": "Green Park Restorant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.49113,
+      "lon": 19.451298,
+      "cuisine": [
+        "regional",
+        "fish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1308131576",
+      "score": 2,
+      "km": 4.4
+    },
+    {
+      "id": "node/5051693721",
+      "name": "Taverna \"Dangellia\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.441375,
+      "lon": 19.495562,
+      "osmUrl": "https://www.openstreetmap.org/node/5051693721",
+      "score": 2,
+      "km": 2.8
+    },
+    {
+      "id": "node/12626243401",
+      "name": "Taverna Del Sol",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.457625,
+      "lon": 19.48639,
+      "address": "Rruga Gjergj Arianiti",
+      "osmUrl": "https://www.openstreetmap.org/node/12626243401",
+      "score": 2,
+      "km": 1
+    },
+    {
+      "id": "node/6397078974",
+      "name": "Taverna Filipi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.47638,
+      "lon": 19.489428,
+      "address": "Rruga Demokracia",
+      "osmUrl": "https://www.openstreetmap.org/node/6397078974",
+      "score": 2,
+      "km": 1.2
+    },
+    {
+      "id": "way/527288058",
+      "name": "Taverna Semi",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 40.203026,
+      "lon": 19.587682,
+      "osmUrl": "https://www.openstreetmap.org/way/527288058",
+      "score": 1,
+      "km": 30.4
+    }
+  ]
+}

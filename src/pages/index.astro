@@ -3,94 +3,104 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import RegionMap from '../components/RegionMap.astro';
-import { cities, cityLabel, countries, type City, type CountryCode } from '../data/cities';
-import { categoryLabels, getCityPlaces } from '../data/places';
+import CityCatalogue from '../components/CityCatalogue.astro';
+import { cities, cityLabel, type City, type CountryCode } from '../data/cities';
 const flags: Record<CountryCode, string> = { al: '🇦🇱', xk: '🇽🇰' };
 // Cities without a guide yet point at the map, where every city is.
 const cityUrl = (city: City) => (city.available ? `/${city.slug}/` : '#qytetet');
-// The map is one way in; this is the plain, alphabetical one—same two countries, grouped and sorted by name.
-const directory = (Object.keys(countries) as CountryCode[]).map((code) => ({
-  code, name: countries[code].name,
-  cities: cities.filter((c) => c.country === code).sort((a, b) => a.name.localeCompare(b.name, 'sq')),
-}));
-// Lead with one city from each country so both are visible above the fold.
-const featured = ['tirane', 'prishtine', 'prizren'].map((slug) => cities.find((c) => c.slug === slug)!);
-const quick = ['tirane', 'prishtine', 'shkoder', 'prizren', 'berat', 'peje'].map((slug) => cities.find((c) => c.slug === slug)!);
-// Editorial pick, not measured traffic: landmarks most travellers already know, one per flagship city.
-const popular = ([
-  ['tirane', "Xhamia e Et'hem Beut"],
-  ['durres', 'Amfiteatri i Durrësit'],
-  ['vlore', 'Monumenti i Pavarësisë'],
-  ['berat', 'Kalaja e Beratit'],
-  ['gjirokaster', 'Kalaja e Gjirokastrës'],
-  ['shkoder', 'Kalaja e Rozafës'],
-  ['prishtine', 'NEWBORN'],
-  ['prizren', 'Kalaja e Prizrenit'],
-] as const).map(([slug, name]) => {
-  const city = cities.find((c) => c.slug === slug)!;
-  const place = getCityPlaces(slug)!.places.find((p) => p.name === name)!;
-  return { city, place };
-});
+// An editorial trail away from the usual checklist: smaller bases and the kind of experience each one rewards.
+const hiddenGems = [
+  { slug: 'permet', eyebrow: 'Lugina e Vjosës', title: 'Ujëra termale dhe gatime shtëpie', note: 'Fli në një bujtinë, provo gliko vendase dhe ec përgjatë lumit të egër.' },
+  { slug: 'rahovec', eyebrow: 'Rrafshi i Dukagjinit', title: 'Vreshta familjare mes kodrave', note: 'Tako prodhuesit, shijo verën në burim dhe merr me vete një shishe lokale.' },
+  { slug: 'kolonje', eyebrow: 'Juglindja', title: 'Fshatra malore pa turma', note: 'Nisu nga Erseka për shtigje të qeta, ferma të vogla dhe ajër mali.' },
+].map((gem) => ({ ...gem, city: cities.find((city) => city.slug === gem.slug)! }));
 ---
-<BaseLayout>
+<BaseLayout title="Locals · Udhëtime të qëndrueshme dhe vende të fshehta" description="Zbulo Shqipërinë dhe Kosovën përmes vendeve të fshehta, bujtinave, zejtarëve dhe përvojave që mbështesin ekonominë vendase.">
   <Header />
   <main>
     <section class="home-hero">
       <div class="container hero-grid">
-        <div class="hero-copy"><h1>Udhëto<br /><em>si vendas.</em></h1><p>Zbulo qytete, vende të pavarura dhe përvoja që ia vlejnë—pa nxitim.</p><div class="hero-actions"><a class="button primary" href="#qytetet">Gjej qytetin tënd <span>↓</span></a><a class="button hero-secondary" href="#parimet">Udhëto me kujdes <span>↗</span></a></div></div>
-        <aside class="hero-finder" aria-label="Gjej një qytet" data-city-index={JSON.stringify(cities.map((city) => ({ name: city.name, url: cityUrl(city) })))}>
-          <p>Ku po shkon?</p>
-          <label class="finder-field" for="hero-city-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg><input id="hero-city-search" type="search" placeholder="Kërko p.sh. Prizren" autocomplete="off" /></label>
-          <div class="quick-links">{quick.map((city) => <a href={cityUrl(city)} data-city-link data-name={city.name.toLowerCase()}><span>{flags[city.country]}</span>{city.name}</a>)}</div>
-          <a class="finder-all" href="#qytetet">Shiko të gjitha qytetet <span>→</span></a>
-        </aside>
+        <div class="hero-copy"><h1>Udhëto<br /><em>si vendas.</em></h1><p>Zbulo qytete, vende të pavarura dhe përvoja që ia vlejnë—pa nxitim.</p><div class="hero-actions"><a class="button primary" href="#udhetimet">Zgjidh udhëtimin <span>↓</span></a><a class="button hero-secondary" href="#qytetet">Shiko hartën <span>↓</span></a></div></div>
       </div>
     </section>
 
-    <section class="section popular-section">
-      <div class="container">
-        <header class="section-heading"><div><h2>Më të vizituarat</h2></div><p>Vendet që njihen më shumë—nga kalatë te sheshet qendrore—në qytetet kryesore të rajonit.</p></header>
-        <div class="popular-row">{popular.map(({ city, place }, i) => <a class="popular-card" href={cityUrl(city)}><span class="popular-rank">{i + 1}</span><img src={place.image} alt="" loading="lazy" referrerpolicy="no-referrer" /><span class="popular-info"><small>{flags[city.country]} {city.name}</small><strong>{place.name}</strong><em>{categoryLabels[place.category]}</em></span></a>)}</div>
-      </div>
-    </section>
-
-    <section class="section featured-section">
-      <div class="container">
-        <header class="section-heading"><div><h2>Fillo me një qytet</h2></div><p>Shqipëria dhe Kosova, siç i njohin vendasit—guida të shkurtra për të parë më shumë dhe për të mbështetur bizneset vendase.</p></header>
-        <div class="featured-grid">{featured.map((city) => { const Tag = city.available ? 'a' : 'article'; return <Tag class:list={['featured-card', { 'is-soon': !city.available }]} href={city.available ? cityUrl(city) : undefined}><img src={city.image} alt="" loading="lazy" referrerpolicy="no-referrer" /><span class="featured-shade"></span>{!city.available && <em>Së shpejti</em>}<span class="featured-content"><small>{cityLabel(city)}</small><strong><i>{flags[city.country]}</i> {city.name}</strong><span class="featured-summary">{city.summary}</span><span class="featured-tags">{city.tags.join(' · ')}</span>{city.available && <span class="featured-cta">Hap guidën →</span>}</span><span class="featured-credit">{city.credit}</span></Tag>; })}</div>
-      </div>
-    </section>
-
-    <section class="section home-map" id="qytetet"><div class="container"><header class="map-heading"><div><h2>Gjej qytetin<br /><em>tënd të radhës.</em></h2></div><p>Harta shënon ku ka më shumë natyrë të mbrojtur, shtigje, trashëgimi, prodhues vendas dhe mënyra për të ardhur pa makinë. Zgjidh një pikë dhe njihe.</p></header><RegionMap />
-      <div class="city-directory">{directory.map((country) => <div class="directory-group"><h3><i>{flags[country.code]}</i>{country.name}<small>{country.cities.length}</small></h3><ul>{country.cities.map((city) => { const Tag = city.available ? 'a' : 'span'; return <li><Tag href={city.available ? cityUrl(city) : undefined}>{city.name}<small>{city.region}</small></Tag></li>; })}</ul></div>)}</div>
+    <section class="section trip-section" id="udhetimet"><div class="container">
+      <header class="simple-heading"><span class="section-kicker">Katalogu</span><h2>Çfarë udhëtimi po kërkon?</h2><p>Të gjitha qytetet në një vend. Filtro sipas llojit të udhëtimit, vendit, sezonit, kohës dhe asaj që të intereson: mund të zgjedhësh disa opsione njëherësh.</p></header>
+      <CityCatalogue />
     </div></section>
 
+    <section class="section home-map" id="qytetet"><div class="container"><header class="map-heading"><div><h2>Gjej qytetin<br /><em>tënd të radhës.</em></h2></div><p>Filtro te katalogu, pastaj përdor hartën për të krahasuar natyrën, shtigjet, trashëgiminë, prodhuesit vendas dhe qasjen pa makinë.</p></header>
+      <div class="map-label"><span>Shiko në hartë</span><small>Kërko, filtro dhe krahaso zonat</small></div><RegionMap />
+    </div></section>
+
+    <section class="section popular-section" id="thesaret">
+      <div class="container">
+        <header class="simple-heading horizontal"><div><span class="section-kicker">Jashtë itinerarit</span><h2>Thesare të fshehta</h2></div><p>Tre vende për më pak turma, më shumë biseda dhe një lidhje më të mirë me vendin.</p></header>
+        <div class="popular-row">{hiddenGems.map(({ city, eyebrow, title, note }, i) => <article class="popular-card"><a class="popular-link" href={cityUrl(city)}><span class="popular-rank">0{i + 1}</span><img src={city.image} alt={`Pamje nga ${city.name}`} loading="lazy" referrerpolicy="no-referrer" /><span class="popular-info"><small>{flags[city.country]} {eyebrow}</small><strong>{title}</strong><p>{note}</p><em>{city.name} →</em></span></a><a class="gem-stay" href={`/${city.slug}/#bujtina`}>Bujtina dhe ushqim vendas në {city.name} →</a></article>)}</div>
+      </div>
+    </section>
+
     <section class="section principles" id="parimet"><div class="container"><header class="principles-head"><h2>Më pak nxitim.<br /><em>Më shumë vend.</em></h2><div><p>Turizmi i qëndrueshëm fillon me zgjedhje të vogla. Locals i bën ato më të lehta, pa ia marrë spontanitetin udhëtimit.</p><a href="#qytetet">Gjej një vend të qetë <span>→</span></a></div></header><div class="principle-grid"><article class="principle-card"><div class="principle-top"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="18" r="2"/><circle cx="19" cy="6" r="2"/><path d="M7 18h6a3 3 0 0 0 0-6h-2a3 3 0 0 1 0-6h6"/></svg></div><h3>Lëviz pa makinë</h3><p>Ec, merr biçikletën, autobusin ose trenin. Në çdo qytet gjen si të arrish e të lëvizësh lehtë.</p></article><article class="principle-card"><div class="principle-top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 10 8-6 8 6v9H4z"/><path d="M10 19v-5h4v5"/></svg></div><h3>Zgjidh vendasit</h3><p>Fli në guesthouse-e, ha te familjet dhe blej nga zejtarët e prodhuesit: paratë mbeten aty ku ke qenë mysafir.</p></article><article class="principle-card"><div class="principle-top"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div><h3>Qëndro më gjatë</h3><p>Zgjidh më pak vende dhe njihi më mirë. Harta të tregon edhe qytetet e qeta.</p></article><article class="principle-card"><div class="principle-top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19C5 10 10 6 19 5c0 9-4 14-13 14"/><path d="m5 19 8-8"/></svg></div><h3>Respekto vendin</h3><p>Mëso historinë, pyet para se të fotografosh dhe lëre natyrën e hapësirën siç i gjete.</p></article></div></div></section>
-    <section class="contribute"><div class="container"><div><h2>Ke një vend të mirë<br />për të ndarë?</h2><a class="button" href="mailto:illyrianbrains@gmail.com?subject=Kontribut për Locals">Na trego <span>↗</span></a></div></div></section>
   </main>
   <Footer />
 </BaseLayout>
 
 <style>
-.home-hero{position:relative;overflow:hidden;padding:clamp(72px,10vw,130px) 0;color:#fff;background:radial-gradient(circle at 76% 25%,#14402c 0,transparent 31%),var(--forest)}.home-hero:before{position:absolute;inset:0;background-image:linear-gradient(#fff08 1px,transparent 1px),linear-gradient(90deg,#fff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,#000,transparent 72%);content:""}.hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .65fr;gap:clamp(50px,8vw,110px);align-items:center}.hero-copy h1{margin:0;font:400 clamp(58px,8vw,106px)/.86 var(--display);letter-spacing:-.055em}.hero-copy h1 em{color:var(--lime);font-style:italic}.hero-copy>p{max-width:590px;margin:30px 0 0;color:rgba(255,255,255,.65);font-size:17px}.hero-actions{display:flex;align-items:center;gap:12px;margin-top:34px}.primary{color:#fff;background:var(--red);box-shadow:0 0 32px #2f7d4f55}.hero-secondary{border:1px solid rgba(255,255,255,.35);color:#fff}
-.hero-finder{padding:28px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:rgba(255,255,255,.06);box-shadow:0 30px 70px rgba(0,0,0,.25);backdrop-filter:blur(6px)}.hero-finder>p{margin:0 0 14px;font-size:13px;font-weight:700}.finder-field{display:grid;grid-template-columns:20px 1fr;gap:10px;align-items:center;padding:13px 14px;border-radius:9px;background:#fff}.finder-field svg{width:19px;fill:none;stroke:var(--red);stroke-width:1.8}.finder-field input{min-width:0;border:0;outline:0;color:var(--ink);background:transparent;font:14px var(--sans)}.quick-links{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:14px}.quick-links a{display:flex;align-items:center;gap:8px;padding:9px;border:1px solid rgba(255,255,255,.1);border-radius:7px;color:rgba(255,255,255,.78);font-size:11px;transition:.15s ease}.quick-links a:hover{background:rgba(255,255,255,.09)}.quick-links a[hidden]{display:none}.quick-links span{font-size:17px}.quick-links b{margin-left:auto;padding:2px 6px;border-radius:99px;color:var(--forest);background:var(--lime);font-size:8px;text-transform:uppercase}.finder-all{display:flex;justify-content:space-between;margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:12px;font-weight:700}
-.popular-section{background:var(--cream)}.popular-row{display:flex;gap:14px;margin:0 -1px;padding:2px 1px 10px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none}.popular-row::-webkit-scrollbar{display:none}.popular-card{position:relative;flex:0 0 172px;display:block;border-radius:14px;overflow:hidden;background:var(--paper);box-shadow:0 8px 24px #1310170f;scroll-snap-align:start;transition:transform .2s ease}.popular-card:hover{transform:translateY(-3px)}.popular-card img{display:block;width:100%;height:196px;object-fit:cover;filter:saturate(.85)}.popular-rank{position:absolute;top:10px;left:10px;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;color:var(--forest);background:var(--lime);font:700 13px/1 var(--display);box-shadow:0 4px 10px #00000030}.popular-info{display:block;padding:12px 14px 15px}.popular-info small{display:block;color:var(--muted);font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.popular-info strong{display:block;margin-top:4px;font:500 19px/1.15 var(--display)}.popular-info em{display:block;margin-top:5px;color:var(--leaf);font-size:9px;font-style:normal;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
-.featured-section{background:var(--paper)}.featured-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:14px}.featured-card{position:relative;display:block;min-height:420px;overflow:hidden;border-radius:16px;color:#fff;background:var(--forest);box-shadow:0 12px 40px #3410170b}.featured-card img,.featured-shade{position:absolute;inset:0;width:100%;height:100%}.featured-card img{object-fit:cover;filter:saturate(.72);transition:transform .45s ease,filter .3s}.featured-shade{background:linear-gradient(transparent 20%,rgba(17,16,16,.92))}a.featured-card:hover img{transform:scale(1.035);filter:saturate(1)}.featured-card>em{position:absolute;top:16px;right:16px;padding:7px 10px;border-radius:99px;color:var(--forest);background:var(--lime);font-size:8px;font-style:normal;font-weight:700;text-transform:uppercase}.featured-content{position:absolute;inset:auto 24px 26px}.featured-content>*{display:block}.featured-content small{color:rgba(255,255,255,.62);font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}.featured-content strong{margin-top:7px;font:500 34px/1.05 var(--display)}.featured-content strong i{font-style:normal;font-size:.75em}.featured-summary{max-width:330px;margin-top:8px;color:rgba(255,255,255,.72);font-size:12px}.featured-tags{margin-top:12px;color:var(--lime);font-size:9px;text-transform:uppercase;letter-spacing:.08em}.featured-cta{margin-top:16px;font-size:12px;font-weight:700}.featured-credit{position:absolute;right:10px;top:8px;color:#fff8;font-size:7px}.featured-card.is-soon .featured-credit{top:auto;bottom:6px}
+.home-hero{position:relative;overflow:hidden;padding:clamp(72px,10vw,130px) 0;color:#fff;background:radial-gradient(circle at 76% 25%,#14402c 0,transparent 31%),var(--forest)}.home-hero:before{position:absolute;inset:0;background-image:linear-gradient(#fff08 1px,transparent 1px),linear-gradient(90deg,#fff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,#000,transparent 72%);content:""}.hero-grid{position:relative}.hero-copy h1{margin:0;font:400 clamp(58px,8vw,106px)/.86 var(--display);letter-spacing:-.055em}.hero-copy h1 em{color:var(--lime);font-style:italic}.hero-copy>p{max-width:590px;margin:30px 0 0;color:rgba(255,255,255,.65);font-size:17px}.hero-actions{display:flex;align-items:center;gap:12px;margin-top:34px}.primary{color:#fff;background:var(--red);box-shadow:0 0 32px #2f7d4f55}.hero-secondary{border:1px solid rgba(255,255,255,.35);color:#fff}
+.hero-kicker,.section-kicker{display:block;margin-bottom:16px;color:var(--leaf);font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.hero-kicker{color:var(--lime)}
+.simple-heading{max-width:720px;margin-bottom:40px}.simple-heading h2{margin:0;font:400 clamp(42px,6vw,72px)/.98 var(--display);letter-spacing:-.035em}.simple-heading>p,.simple-heading.horizontal>p{margin:16px 0 0;color:var(--muted);font-size:15px}.simple-heading.horizontal{display:flex;max-width:none;align-items:end;justify-content:space-between;gap:45px}.simple-heading.horizontal>p{max-width:390px}.trip-section{background:var(--paper)}.trip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.trip-grid{align-items:start}.trip-card{padding:0;border:1px solid var(--line);border-radius:16px;background:#fff;transition:border-color .2s}.trip-card summary{display:flex;min-height:310px;flex-direction:column;padding:26px;cursor:pointer;list-style:none}.trip-card summary::-webkit-details-marker{display:none}.trip-card[open]{border-color:var(--leaf)}.trip-card[open] summary{min-height:0}.trip-card[open] summary b span{display:inline-block;transform:rotate(180deg)}.trip-cities{margin:0;padding:0 26px 18px;list-style:none}.trip-cities a{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px;font-weight:600}.trip-cities a:hover{color:var(--leaf)}.trip-cities small{margin:0;color:var(--muted);font-size:10px;font-weight:400}.trip-card:hover{border-color:var(--leaf)}.trip-card i{display:grid;place-items:center;width:45px;height:45px;border-radius:50%;color:var(--forest);background:var(--lime);font:400 22px var(--display)}.trip-card h3{margin:38px 0 8px;font:500 27px/1.1 var(--display)}.trip-card p{margin:0;color:var(--muted);font-size:13px}.trip-card dl{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0 0;padding-top:14px;border-top:1px solid var(--line)}.trip-card dl div{min-width:0}.trip-card dt{color:var(--muted);font-size:9px;text-transform:uppercase}.trip-card dd{margin:2px 0 0;font-size:11px;font-weight:700}.trip-card b{margin-top:auto;padding-top:22px;font-size:12px}.guides-section{padding-top:0;background:var(--paper)}.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.guide-card{display:grid;grid-template-columns:120px 1fr;min-height:190px;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#fff;transition:transform .2s}.guide-card:hover{transform:translateY(-3px)}.guide-card>img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}.guide-card>span{display:flex;min-width:0;flex-direction:column;padding:20px}.guide-card small{color:var(--leaf);font-size:8px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}.guide-card strong{margin-top:4px;font:500 27px/1.05 var(--display)}.guide-card p{margin:7px 0;color:var(--muted);font-size:11px;line-height:1.45}.guide-signals{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0 10px}.guide-signals em{padding:3px 6px;border-radius:99px;color:var(--leaf);background:var(--cream);font-size:8px;font-style:normal;font-weight:700}.guide-card b{margin-top:auto;font-size:11px}.all-guides{display:flex;justify-content:center;gap:10px;width:max-content;margin:28px auto 0;padding:12px 18px;border:1px solid var(--line);border-radius:99px;font-size:12px;font-weight:700}.popular-section{background:var(--cream)}.popular-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.popular-card{position:relative;display:flex;min-width:0;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:#fff;transition:transform .25s ease,box-shadow .25s ease,border-color .25s}.popular-card:hover{border-color:#9db7a3;box-shadow:0 14px 32px #18322618;transform:translateY(-3px)}.popular-card img{display:block;width:100%;height:240px;object-fit:cover;filter:saturate(.85);transition:transform .5s ease,filter .3s}.popular-card:hover img{transform:scale(1.04);filter:saturate(1)}
+.popular-link{overflow:hidden}
+.popular-link>img{border-bottom:1px solid var(--line)}.popular-rank{position:absolute;top:14px;left:14px;z-index:1;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;color:var(--forest);background:#fff;font:700 12px/1 var(--sans);box-shadow:0 4px 12px #0003}.popular-link{display:flex;flex:1;flex-direction:column}.popular-info{display:flex;flex:1;flex-direction:column;padding:20px 22px 18px}.popular-info small{display:block;color:var(--clay);font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}.popular-info strong{display:block;margin-top:8px;font:500 24px/1.15 var(--display)}.popular-info p{margin:10px 0 18px;color:var(--muted);font-size:14px;line-height:1.55}.popular-info em{display:block;margin-top:auto;color:var(--ink);font-size:12px;font-style:normal;font-weight:700}
 .principles{color:#fff;background:linear-gradient(135deg,#0f1613,#12241b)}.principles-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:48px}.principles h2{margin:0;font:400 clamp(48px,6vw,75px)/.94 var(--display);letter-spacing:-.04em}.principles h2 em{color:var(--lime);font-style:italic}.principles-head>div{max-width:400px}.principles-head p{margin:0;color:#ffffffb3;font-size:16px}.principles-head a{display:inline-flex;align-items:center;gap:8px;margin-top:18px;color:var(--lime);font-size:13px;font-weight:700}.principles-head a span{transition:transform .15s}.principles-head a:hover span{transform:translateX(3px)}
 .principle-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.principle-card{padding:26px;border-radius:16px;background:#ffffff0d}.principle-top{margin-bottom:28px}.principle-top svg{width:44px;height:44px;padding:10px;border-radius:12px;color:var(--forest);background:var(--lime);fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.principle-card h3{margin:0;font:400 24px/1.2 var(--display)}.principle-card p{margin:10px 0 0;color:#ffffffa6;font-size:14px}.contribute{padding:85px 0;color:#fff;background:var(--red)}.contribute .container>div{display:flex;align-items:end;justify-content:space-between}.contribute h2{margin:0;font:400 clamp(45px,7vw,76px)/.92 var(--display)}.contribute .button{color:#fff;background:var(--forest)}
 .home-map{position:relative;overflow:hidden;color:#fff;background:#0f1613}.home-map:before{position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 44px,#ffffff05 45px 46px);content:""}.home-map .container{position:relative}.map-heading{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:42px}.map-heading h2{margin:0;font:400 clamp(48px,6vw,78px)/.92 var(--display);letter-spacing:-.04em}.map-heading h2 em{color:#8fd6a4;font-style:italic}.map-heading>p{max-width:380px;margin:0;color:#aaa}.home-map :global(.city-map-canvas){height:min(68vh,650px);border-color:#ffffff1c;border-radius:2px;box-shadow:0 0 0 8px #ffffff05}.home-map :global(.city-map-canvas .leaflet-tile-pane){filter:grayscale(1) invert(.88) sepia(.2) hue-rotate(80deg) brightness(.55) contrast(1.35)}.home-map :global(.city-map-legend .key),.home-map :global(.city-map-legend button){color:#eee;background:#1a2520;border-color:#ffffff20}.home-map :global(.map-pin){background:var(--red)}
-.city-directory{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.directory-group{padding:26px 28px;border:1px solid #ffffff14;border-radius:16px;background:#ffffff08}.directory-group h3{display:flex;align-items:center;gap:10px;margin:0 0 16px;font:400 22px var(--display);font-weight:500}.directory-group h3 i{font-style:normal}.directory-group h3 small{margin-left:auto;color:#8a948e;font-size:11px;font-weight:400}.directory-group ul{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin:0;padding:0;list-style:none}.directory-group li{border-bottom:1px solid #ffffff10}.directory-group li a,.directory-group li span{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:11px 0;color:#eee;font-size:14px}.directory-group li a:hover{color:#8fd6a4}.directory-group li span{color:#8a948e}.directory-group li small{color:#7c8880;font-size:10px;font-weight:400;white-space:nowrap}
-@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.principles-head{display:block}.principles-head>div{margin-top:24px}.principle-grid{grid-template-columns:1fr 1fr}.hero-finder{max-width:600px}.featured-grid{grid-template-columns:1fr 1fr}.featured-card:first-child{grid-column:1/-1}.contribute .container>div{display:block}.contribute .button{margin-top:30px}}
+.map-label{display:flex;align-items:end;justify-content:space-between;margin:42px 0 16px;padding-top:24px;border-top:1px solid #ffffff1c}.map-label span{font:500 28px var(--display)}.map-label small{color:#8a948e}.city-directory{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.directory-group{padding:26px 28px;border:1px solid #ffffff14;border-radius:16px;background:#ffffff08}.directory-group h3{display:flex;align-items:center;gap:10px;margin:0 0 16px;font:400 22px var(--display);font-weight:500}.directory-group h3 i{font-style:normal}.directory-group h3 small{margin-left:auto;color:#8a948e;font-size:11px;font-weight:400}.directory-group ul{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin:0;padding:0;list-style:none}.directory-group li{border-bottom:1px solid #ffffff10}.directory-group li a,.directory-group li span{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:11px 0;color:#eee;font-size:14px}.directory-group li a:hover{color:#8fd6a4}.directory-group li span{color:#8a948e}.directory-group li small{color:#7c8880;font-size:10px;font-weight:400;white-space:nowrap}
+@media(max-width:1000px){.trip-grid{grid-template-columns:1fr 1fr}.guide-grid{grid-template-columns:1fr 1fr}.popular-row{display:flex;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x proximity;scrollbar-width:none}.popular-card{flex:0 0 245px;scroll-snap-align:start}.popular-row::-webkit-scrollbar{display:none}.support-grid{grid-template-columns:1fr 1fr}.support-grid article:nth-child(2){border-right:0}.support-grid article:nth-child(-n+2){border-bottom:1px solid #ffffff25}.support-grid article:nth-child(3){padding-left:0}}
+@media(max-width:850px){.support-head{grid-template-columns:1fr}.simple-heading.horizontal{display:block}.simple-heading.horizontal>p{max-width:600px}.principles-head{display:block}.principles-head>div{margin-top:24px}.principle-grid{grid-template-columns:1fr 1fr}.contribute .container>div{display:block}.contribute .button{margin-top:30px}}
 @media(max-width:720px){.map-heading{display:block}.map-heading>p{margin-top:18px}.city-directory{grid-template-columns:1fr}}
-@media(max-width:600px){.hero-copy h1{font-size:57px}.hero-actions{flex-direction:column;align-items:stretch}.hero-actions .button{width:100%}.featured-grid,.principle-grid{grid-template-columns:1fr}.featured-card:first-child{grid-column:auto}.featured-card{min-height:340px}.contribute h2 br{display:none}.directory-group ul{grid-template-columns:1fr}}
+@media(max-width:600px){.hero-copy h1{font-size:57px}.hero-actions{flex-direction:column;align-items:stretch}.hero-actions .button{width:100%}.trip-grid,.guide-grid,.principle-grid,.support-grid{grid-template-columns:1fr}.trip-card summary{min-height:260px}.guide-card{grid-template-columns:105px 1fr}.support-grid article{padding:25px 0;border-right:0;border-bottom:1px solid #ffffff25}.support-grid article:nth-child(2){border-bottom:1px solid #ffffff25}.support-grid h3{margin-top:18px}.contribute h2 br{display:none}.directory-group ul{grid-template-columns:1fr}}
+/* Mobile homepage: prioritize one decision at a time. */
+@media(max-width:600px){
+  .home-hero{padding:48px 0 56px}
+  .home-hero:before{background-size:36px 36px;opacity:.55}
+  .hero-copy h1{font-size:clamp(50px,16vw,64px);line-height:.9}
+  .hero-copy>p{margin-top:20px;font-size:16px;line-height:1.55}
+  .hero-actions{margin-top:26px;gap:9px}
+  .simple-heading{margin-bottom:26px}
+  .simple-heading h2,.map-heading h2{font-size:42px;line-height:1}
+  .simple-heading>p,.simple-heading.horizontal>p,.map-heading>p{font-size:14px;line-height:1.55}
+  .trip-grid{gap:10px}
+  .trip-card{border-radius:13px}
+  .trip-card summary{min-height:0;padding:20px}
+  .trip-card i{width:38px;height:38px;font-size:19px}
+  .trip-card h3{margin:22px 0 7px;font-size:24px}
+  .trip-card dl{margin-top:14px;padding-top:12px}
+  .trip-card b{padding-top:18px}
+  .trip-cities{padding:0 20px 14px}
+  .trip-cities a{min-height:46px}
+  .guides-section{padding-top:0}
+  .guide-grid{display:flex;gap:10px;margin-inline:-14px;padding:0 14px 10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .guide-grid::-webkit-scrollbar{display:none}
+  .guide-card{flex:0 0 min(86vw,330px);grid-template-columns:100px 1fr;min-height:180px;scroll-snap-align:start}
+  .guide-card>span{padding:16px}
+  .guide-card strong{font-size:25px}
+  .all-guides{min-height:46px;margin-top:20px}
+  .popular-row{margin-inline:-14px;padding-inline:14px;scroll-padding-left:14px}
+  .popular-card{flex-basis:min(84vw,320px)}
+  .popular-card img{height:210px}
+  .popular-card:hover,.guide-card:hover{transform:none}
+  .map-heading{margin-bottom:26px}
+  .map-label{display:block;margin-top:28px;padding-top:20px}
+  .map-label span{display:block;font-size:25px}
+  .map-label small{display:block;margin-top:3px}
+  .directory-group{padding:20px}
+  .directory-group li a,.directory-group li span{min-height:44px;align-items:center;padding:9px 0}
+  .principles-head{margin-bottom:28px}
+  .principles h2{font-size:42px}
+  .principle-grid{gap:8px}
+  .principle-card{padding:20px}
+  .principle-top{margin-bottom:18px}
+}
+
+.gem-stay{display:block;margin:0 22px;padding:14px 0 18px;border-top:1px solid var(--line);color:var(--leaf);font-size:13px;font-weight:700;transition:color .15s}.gem-stay:hover{color:var(--forest);text-decoration:underline}
 </style>
-
-<script>
-  const heroSearch = document.querySelector<HTMLInputElement>('#hero-city-search');
-  const quickLinks = [...document.querySelectorAll<HTMLElement>('[data-city-link]')];
-  const finder = document.querySelector<HTMLElement>('.hero-finder');
-  const cityIndex: { name: string; url: string }[] = JSON.parse(finder?.dataset.cityIndex || '[]');
-  heroSearch?.addEventListener('input', () => { const q = heroSearch.value.trim().toLowerCase(); quickLinks.forEach((link) => (link.hidden = !!q && !link.dataset.name?.includes(q))); });
-  heroSearch?.addEventListener('keydown', (event) => { if (event.key !== 'Enter') return; const q = heroSearch.value.trim().toLowerCase(); const match = q && cityIndex.find((city) => city.name.toLowerCase().includes(q)); if (match) window.location.href = match.url; else document.querySelector('#qytetet')?.scrollIntoView(); });
-
-</script>

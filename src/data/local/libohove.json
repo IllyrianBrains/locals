@@ -1,0 +1,47 @@
+{
+  "city": "libohove",
+  "name": "Libohovë",
+  "fetchedAt": "2026-09-29T00:24:28.990Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 3,
+  "places": [
+    {
+      "id": "node/6540931616",
+      "name": "Guesthouse Katerina's Bar",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.217965,
+      "lon": 20.248092,
+      "address": "Hoshteva",
+      "phone": "+355682970503",
+      "osmUrl": "https://www.openstreetmap.org/node/6540931616",
+      "score": 3,
+      "km": 20.6
+    },
+    {
+      "id": "node/9033080476",
+      "name": "Guest House AED",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.17083,
+      "lon": 20.303352,
+      "phone": "+355682000011",
+      "osmUrl": "https://www.openstreetmap.org/node/9033080476",
+      "score": 2,
+      "km": 15.7
+    },
+    {
+      "id": "node/11954343069",
+      "name": "Katrinas Main-Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.218704,
+      "lon": 20.250462,
+      "address": "Rruga Sheper-Nivan-Hoshteve",
+      "osmUrl": "https://www.openstreetmap.org/node/11954343069",
+      "score": 1,
+      "km": 20.6
+    }
+  ]
+}

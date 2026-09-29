@@ -1,0 +1,628 @@
+{
+  "city": "gjakove",
+  "name": "Gjakovë",
+  "fetchedAt": "2026-09-28T22:58:57.112Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 41,
+  "places": [
+    {
+      "id": "node/5756658323",
+      "name": "Kulla Dula Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.374883,
+      "lon": 20.433142,
+      "address": "Ganimete Terbeshi 38",
+      "phone": "+38344464576",
+      "email": "premtim.dula@gmail.com",
+      "openingHours": "Mo-Su 07:00-00:00",
+      "wikidata": "Q111116487",
+      "osmUrl": "https://www.openstreetmap.org/node/5756658323",
+      "score": 9,
+      "km": 0.6
+    },
+    {
+      "id": "node/5994000889",
+      "name": "Besnik Bardhi Niki",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.373209,
+      "lon": 20.430422,
+      "phone": "+38344133885",
+      "osmUrl": "https://www.openstreetmap.org/node/5994000889",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/5095837622",
+      "name": "Restaurant Kulla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.381692,
+      "lon": 20.426939,
+      "address": "Shefki Shasivari 2 Gjakovë",
+      "cuisine": [
+        "pizza",
+        "local",
+        "regional",
+        "barbecue"
+      ],
+      "phone": "+383 44 188 430",
+      "email": "arsabatusha16@gmail.com",
+      "openingHours": "Tu-Su 09:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5095837622",
+      "score": 8,
+      "km": 0.4
+    },
+    {
+      "id": "node/4515573794",
+      "name": "Qarshia e Jupave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.381881,
+      "lon": 20.427619,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383(0) 390 330 444",
+      "website": "https://www.qarshiaejupave.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/4515573794",
+      "score": 6,
+      "km": 0.3
+    },
+    {
+      "id": "node/7344343579",
+      "name": "Taverna PUKA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.380267,
+      "lon": 20.426782,
+      "address": "Sulejman Hadum Aga 82",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 44 118 817",
+      "osmUrl": "https://www.openstreetmap.org/node/7344343579",
+      "score": 6,
+      "km": 0.3
+    },
+    {
+      "id": "node/7340455207",
+      "name": "Te Garazhat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.374579,
+      "lon": 20.440898,
+      "address": "Azem Hajdari 33 Gjakovë",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "italian",
+        "coffee shop"
+      ],
+      "phone": "+383 45 560 370",
+      "openingHours": "Mo-Su 09:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7340455207",
+      "score": 6,
+      "km": 1
+    },
+    {
+      "id": "node/13094033420",
+      "name": "Gurët e Trojeve",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.331489,
+      "lon": 20.457756,
+      "cuisine": [
+        "regional",
+        "pork"
+      ],
+      "phone": "+383 49 939 800",
+      "openingHours": "Tu-Su 10:00-22:30",
+      "osmUrl": "https://www.openstreetmap.org/node/13094033420",
+      "score": 5,
+      "km": 5.9
+    },
+    {
+      "id": "node/12626242562",
+      "name": "Mezeri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.381336,
+      "lon": 20.428007,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 48 706 060",
+      "openingHours": "Mo-Su 15:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12626242562",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "node/9066893694",
+      "name": "Restaurant Villa Italia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.404173,
+      "lon": 20.254511,
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "phone": "+383 43 991 484",
+      "openingHours": "10:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9066893694",
+      "score": 5,
+      "km": 14.7
+    },
+    {
+      "id": "node/12068962391",
+      "name": "Sofra e Zanave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.310733,
+      "lon": 20.440468,
+      "address": "Gjakova",
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "phone": "+38346151617",
+      "osmUrl": "https://www.openstreetmap.org/node/12068962391",
+      "score": 5,
+      "km": 7.8
+    },
+    {
+      "id": "node/9103438818",
+      "name": "Taverna Boem",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.378994,
+      "lon": 20.426909,
+      "description": "Local taverna",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9103438818",
+      "score": 5,
+      "km": 0.4
+    },
+    {
+      "id": "node/11932399437",
+      "name": "Grill House",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.372728,
+      "lon": 20.440741,
+      "cuisine": [
+        "regional",
+        "bbq"
+      ],
+      "phone": "+383 48 442 255",
+      "osmUrl": "https://www.openstreetmap.org/node/11932399437",
+      "score": 4,
+      "km": 1.2
+    },
+    {
+      "id": "node/3762049196",
+      "name": "Hani Hotit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.379659,
+      "lon": 20.421417,
+      "phone": "+383048888337",
+      "openingHours": "Mo-Su 12:00-23:55",
+      "osmUrl": "https://www.openstreetmap.org/node/3762049196",
+      "score": 4,
+      "km": 0.8
+    },
+    {
+      "id": "node/11782837569",
+      "name": "Hani i Haraçisë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.378663,
+      "lon": 20.427733,
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-We,Fr-Su off",
+      "osmUrl": "https://www.openstreetmap.org/node/11782837569",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "node/5359656086",
+      "name": "Kroni Potok",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.427701,
+      "lon": 20.247591,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 44 150 536; +383 44 627 659",
+      "osmUrl": "https://www.openstreetmap.org/node/5359656086",
+      "score": 4,
+      "km": 16
+    },
+    {
+      "id": "node/4348249807",
+      "name": "Restaurant Natyra",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.358869,
+      "lon": 20.417671,
+      "cuisine": [
+        "regional",
+        "pizza"
+      ],
+      "phone": "+38344100094",
+      "osmUrl": "https://www.openstreetmap.org/node/4348249807",
+      "score": 4,
+      "km": 2.6
+    },
+    {
+      "id": "node/3551742487",
+      "name": "Restorant Kroni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.287712,
+      "lon": 20.514055,
+      "address": "Kroi i Madhë 148",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "06:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/3551742487",
+      "score": 4,
+      "km": 12.4
+    },
+    {
+      "id": "node/2311219684",
+      "name": "Shkugëza Premium",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.360472,
+      "lon": 20.420337,
+      "cuisine": [
+        "local",
+        "coffee shop",
+        "regional"
+      ],
+      "phone": "+383 49 123 430",
+      "osmUrl": "https://www.openstreetmap.org/node/2311219684",
+      "score": 4,
+      "km": 2.4
+    },
+    {
+      "id": "node/10779535005",
+      "name": "Te Lisat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.353977,
+      "lon": 20.419579,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+38349123286",
+      "osmUrl": "https://www.openstreetmap.org/node/10779535005",
+      "score": 4,
+      "km": 3.1
+    },
+    {
+      "id": "way/380317436",
+      "name": "Hani i Vjetër",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.378705,
+      "lon": 20.427549,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/380317436",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/2310712276",
+      "name": "Happy",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.382159,
+      "lon": 20.427552,
+      "cuisine": [
+        "regional",
+        "pizza",
+        "burger"
+      ],
+      "openingHours": "06:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2310712276",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/2494111720",
+      "name": "Restaurant Tropoja",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.403642,
+      "lon": 20.2855,
+      "address": "Adriatik Alpe 12",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2494111720",
+      "score": 3,
+      "km": 12.2
+    },
+    {
+      "id": "node/10010699383",
+      "name": "Restorant LgjSh",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.277839,
+      "lon": 20.532543,
+      "address": "Kushnin",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/10010699383",
+      "score": 3,
+      "km": 14.1
+    },
+    {
+      "id": "node/4473627829",
+      "name": "Saranda Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.376077,
+      "lon": 20.439146,
+      "cuisine": [
+        "kebab",
+        "burger",
+        "regional"
+      ],
+      "openingHours": "07:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4473627829",
+      "score": 3,
+      "km": 0.8
+    },
+    {
+      "id": "node/12092825721",
+      "name": "Berati",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.375019,
+      "lon": 20.442363,
+      "cuisine": [
+        "barbecue",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12092825721",
+      "score": 2,
+      "km": 1.1
+    },
+    {
+      "id": "node/2310343987",
+      "name": "Bulevard",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.373627,
+      "lon": 20.432891,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2310343987",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/2310712277",
+      "name": "Kafja e Jupave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.381745,
+      "lon": 20.427227,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2310712277",
+      "score": 2,
+      "km": 0.3
+    },
+    {
+      "id": "node/10779535105",
+      "name": "Landi Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.366886,
+      "lon": 20.435521,
+      "cuisine": [
+        "balkan",
+        "grill"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/10779535105",
+      "score": 2,
+      "km": 1.5
+    },
+    {
+      "id": "node/11966479202",
+      "name": "Lisat e Vjetër",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.35373,
+      "lon": 20.419545,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11966479202",
+      "score": 2,
+      "km": 3.1
+    },
+    {
+      "id": "node/4759832914",
+      "name": "Niki-S Group",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.400773,
+      "lon": 20.438882,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4759832914",
+      "score": 2,
+      "km": 2.4
+    },
+    {
+      "id": "way/353600054",
+      "name": "Oxygen",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.380545,
+      "lon": 20.421922,
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/353600054",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/2311219685",
+      "name": "Pishat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.362477,
+      "lon": 20.42001,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2311219685",
+      "score": 2,
+      "km": 2.2
+    },
+    {
+      "id": "node/2311219686",
+      "name": "Restaurant Relax",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.357838,
+      "lon": 20.42149,
+      "cuisine": [
+        "regional",
+        "pizza",
+        "burger"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2311219686",
+      "score": 2,
+      "km": 2.6
+    },
+    {
+      "id": "node/2440878864",
+      "name": "Te Bimi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.377029,
+      "lon": 20.434827,
+      "cuisine": [
+        "burger",
+        "regional",
+        "kebab",
+        "bbq"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2440878864",
+      "score": 2,
+      "km": 0.5
+    },
+    {
+      "id": "node/13739682387",
+      "name": "Taverna e Xenit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.37497,
+      "lon": 20.424294,
+      "osmUrl": "https://www.openstreetmap.org/node/13739682387",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/12036531965",
+      "name": "Taverna Te Nona",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.378929,
+      "lon": 20.426914,
+      "osmUrl": "https://www.openstreetmap.org/node/12036531965",
+      "score": 1,
+      "km": 0.4
+    },
+    {
+      "id": "node/7340649060",
+      "name": "JV Distillery",
+      "kind": "craft",
+      "type": "Distilerí",
+      "lat": 42.384867,
+      "lon": 20.424637,
+      "address": "Dergut Vokshi 82 Gjakova",
+      "phone": "+38346179014",
+      "website": "https://jvdistillery.com/",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7340649060",
+      "score": 6,
+      "km": 0.7
+    },
+    {
+      "id": "node/13648067129",
+      "name": "Art Handmade Unique",
+      "kind": "craft",
+      "type": "Zejtari",
+      "lat": 42.38088,
+      "lon": 20.426867,
+      "address": "Sulejman Hadum Aga 46",
+      "phone": "+383 44 449 414",
+      "openingHours": "Mo-Sa 10:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/13648067129",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "node/13649781605",
+      "name": "Zoe",
+      "kind": "craft",
+      "type": "Zejtari",
+      "lat": 42.379357,
+      "lon": 20.426796,
+      "address": "Sulejman Hadum Aga 136",
+      "phone": "+383 45 600 358",
+      "osmUrl": "https://www.openstreetmap.org/node/13649781605",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/13789468002",
+      "name": "Lleshi",
+      "kind": "craft",
+      "type": "Qeramikë",
+      "lat": 42.379953,
+      "lon": 20.433767,
+      "osmUrl": "https://www.openstreetmap.org/node/13789468002",
+      "score": 0,
+      "km": 0.2
+    },
+    {
+      "id": "node/11899171724",
+      "name": "The Vidasus Distillery Nivokaz",
+      "kind": "craft",
+      "type": "Distilerí",
+      "lat": 42.439616,
+      "lon": 20.286822,
+      "osmUrl": "https://www.openstreetmap.org/node/11899171724",
+      "score": 0,
+      "km": 13.6
+    }
+  ]
+}

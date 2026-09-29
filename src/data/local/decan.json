@@ -1,0 +1,287 @@
+{
+  "city": "decan",
+  "name": "Deçan",
+  "fetchedAt": "2026-09-28T22:58:57.231Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 18,
+  "places": [
+    {
+      "id": "node/6779516569",
+      "name": "Kulla Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.640739,
+      "lon": 20.149757,
+      "address": "Milishevc",
+      "phone": "+383 44 261 583",
+      "email": "info@kullaguesthouse.com",
+      "website": "https://kullaguesthouse.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/6779516569",
+      "score": 7,
+      "km": 16.2
+    },
+    {
+      "id": "node/6835750367",
+      "name": "Bujtina Lojza",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.636428,
+      "lon": 20.137423,
+      "phone": "+38349850857",
+      "website": "https://www.facebook.com/GuesthouseLOJZA/",
+      "osmUrl": "https://www.openstreetmap.org/node/6835750367",
+      "score": 6,
+      "km": 16.6
+    },
+    {
+      "id": "node/6749209576",
+      "name": "Chalet Rrusta Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.640166,
+      "lon": 20.147776,
+      "address": "Milishevc",
+      "phone": "+41 76 223 53 39",
+      "email": "chalet-rrusta@milishevc.com",
+      "website": "https://chaletrrusta-milishevc.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6749209576",
+      "score": 6,
+      "km": 16.3
+    },
+    {
+      "id": "node/5056524724",
+      "name": "Kulla Mazrekaj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.513097,
+      "lon": 20.295595,
+      "osmUrl": "https://www.openstreetmap.org/node/5056524724",
+      "score": 2,
+      "km": 2.5
+    },
+    {
+      "id": "node/9315897718",
+      "name": "Ali M. Cacaj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.542386,
+      "lon": 20.292287,
+      "address": "Demostratave 18",
+      "osmUrl": "https://www.openstreetmap.org/node/9315897718",
+      "score": 1,
+      "km": 1.3
+    },
+    {
+      "id": "node/13949376101",
+      "name": "Aris GuestHouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.598377,
+      "lon": 20.10354,
+      "osmUrl": "https://www.openstreetmap.org/node/13949376101",
+      "score": 0,
+      "km": 16.4
+    },
+    {
+      "id": "node/7821249685",
+      "name": "Bjeshkët e Belegut",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.59266,
+      "lon": 20.09712,
+      "osmUrl": "https://www.openstreetmap.org/node/7821249685",
+      "score": 0,
+      "km": 16.6
+    },
+    {
+      "id": "node/14020539901",
+      "name": "Roshkodoli",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.633337,
+      "lon": 20.10476,
+      "osmUrl": "https://www.openstreetmap.org/node/14020539901",
+      "score": 0,
+      "km": 18.4
+    },
+    {
+      "id": "node/6779466780",
+      "name": "Rustica guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.640072,
+      "lon": 20.149477,
+      "osmUrl": "https://www.openstreetmap.org/node/6779466780",
+      "score": 0,
+      "km": 16.2
+    },
+    {
+      "id": "node/7862055939",
+      "name": "Medjana",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.540144,
+      "lon": 20.28713,
+      "address": "Salih Çeku Deçan",
+      "cuisine": [
+        "pizza",
+        "burger",
+        "albanian",
+        "kebab"
+      ],
+      "phone": "+383 44 962 843",
+      "website": "http://restaurantmedjana.com",
+      "openingHours": "Mo-Su 06:30-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7862055939",
+      "score": 8,
+      "km": 0.8
+    },
+    {
+      "id": "node/6399381090",
+      "name": "Grand Jerina",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.527544,
+      "lon": 20.2989,
+      "address": "R-107 73",
+      "cuisine": [
+        "balkan",
+        "burger",
+        "coffee shop",
+        "diner"
+      ],
+      "phone": "+38349766831",
+      "email": "erdogan.dautaj@hotmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/6399381090",
+      "score": 7,
+      "km": 1.4
+    },
+    {
+      "id": "node/6913622985",
+      "name": "Beksefer’s Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.482151,
+      "lon": 20.365994,
+      "address": "18 Prill 98 2",
+      "cuisine": [
+        "balkan",
+        "barbecue",
+        "breakfast",
+        "burger"
+      ],
+      "phone": "+38345667566",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/6913622985",
+      "score": 6,
+      "km": 8.9
+    },
+    {
+      "id": "way/510869560",
+      "name": "Restaurant ERMALI",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.537659,
+      "lon": 20.260324,
+      "address": "Bjeshkët e Deçanit Hulaj",
+      "cuisine": [
+        "pizza",
+        "local",
+        "steak house",
+        "seafood"
+      ],
+      "phone": "+383 48 125 154",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/510869560",
+      "score": 6,
+      "km": 1.9
+    },
+    {
+      "id": "node/3080221918",
+      "name": "Restaurant Iliria",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.543152,
+      "lon": 20.289673,
+      "address": "Luan Haradinaj Decan",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+38344133616",
+      "openingHours": "07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/3080221918",
+      "score": 6,
+      "km": 1.2
+    },
+    {
+      "id": "node/3127473527",
+      "name": "Restaurant Iliria",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.547565,
+      "lon": 20.290276,
+      "address": "Luan Haradinaj Decan, Peje",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+38344133616",
+      "openingHours": "07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/3127473527",
+      "score": 6,
+      "km": 1.7
+    },
+    {
+      "id": "node/11451656671",
+      "name": "Restaurant Maja e Strellcit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.581178,
+      "lon": 20.234213,
+      "address": "Sadri Xhemë Hajrizaj Maja Strellcit",
+      "cuisine": [
+        "regional",
+        "pizza",
+        "steak house",
+        "international"
+      ],
+      "phone": "+38349914100",
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11451656671",
+      "score": 6,
+      "km": 6.7
+    },
+    {
+      "id": "node/6381686169",
+      "name": "Tropikana",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.553554,
+      "lon": 20.289837,
+      "address": "Agim Kukleci de",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6381686169",
+      "score": 4,
+      "km": 2.3
+    },
+    {
+      "id": "node/9031511023",
+      "name": "Përroi Shqiptar",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.588395,
+      "lon": 20.176772,
+      "cuisine": [
+        "pizza",
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9031511023",
+      "score": 2,
+      "km": 10.7
+    }
+  ]
+}

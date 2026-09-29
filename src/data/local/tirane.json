@@ -1,0 +1,1208 @@
+{
+  "city": "tirane",
+  "name": "Tiranë",
+  "fetchedAt": "2026-09-28T22:58:56.900Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 81,
+  "places": [
+    {
+      "id": "node/11520435569",
+      "name": "De Rada",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.331869,
+      "lon": 19.812953,
+      "address": "Rruga Mehmet Brocaj P.Pali 2",
+      "phone": "+355 67 542 4447",
+      "email": "guesthousederada@gmail.com",
+      "website": "http://guesthousederada.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/11520435569",
+      "score": 7,
+      "km": 0.7
+    },
+    {
+      "id": "node/6029775888",
+      "name": "Artistic Tirana",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.324103,
+      "lon": 19.804701,
+      "address": "Rruga Muhamet Gjollesha 34/1",
+      "phone": "00355684026766",
+      "website": "https://www.tiranabnb.com/",
+      "openingHours": "Mo-Su 08:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6029775888",
+      "score": 6,
+      "km": 1.2
+    },
+    {
+      "id": "node/7676942580",
+      "name": "The House in the Village",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.247166,
+      "lon": 19.956578,
+      "address": "Pellumbas",
+      "phone": "+355 68 468 2353",
+      "email": "contact@thehouseinthevillage.org",
+      "website": "https://thehouseinthevillage.org",
+      "osmUrl": "https://www.openstreetmap.org/node/7676942580",
+      "score": 6,
+      "km": 14.6
+    },
+    {
+      "id": "node/11062734044",
+      "name": "Hotel Vila 60",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.327426,
+      "lon": 19.826846,
+      "address": "Rruga Fadil Rada 60 Tirana",
+      "phone": "+355 69 61 455 89",
+      "website": "https://www.vila60.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/11062734044",
+      "score": 5,
+      "km": 0.7
+    },
+    {
+      "id": "node/6029775889",
+      "name": "Artistic Tirana in Bllok",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.320232,
+      "lon": 19.813402,
+      "phone": "00355693656525",
+      "email": "suenakranjani@yahoo.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6029775889",
+      "score": 3,
+      "km": 0.9
+    },
+    {
+      "id": "node/6751147623",
+      "name": "Fortuzi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.33177,
+      "lon": 19.813063,
+      "address": "Rruga Mehmet Brocaj",
+      "phone": "+355 68 209 9932",
+      "osmUrl": "https://www.openstreetmap.org/node/6751147623",
+      "score": 3,
+      "km": 0.7
+    },
+    {
+      "id": "node/2751711280",
+      "name": "Stephen Center B&B",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.329719,
+      "lon": 19.825388,
+      "cuisine": [
+        "pizza",
+        "burger",
+        "mexican",
+        "breakfast"
+      ],
+      "website": "https://www.stephencenter.com/",
+      "openingHours": "Su closed",
+      "osmUrl": "https://www.openstreetmap.org/node/2751711280",
+      "score": 3,
+      "km": 0.6
+    },
+    {
+      "id": "node/11107194007",
+      "name": "Angie's Shared Villa TAM",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.332,
+      "lon": 19.840593,
+      "description": "20 € per night",
+      "osmUrl": "https://www.openstreetmap.org/node/11107194007",
+      "score": 2,
+      "km": 1.9
+    },
+    {
+      "id": "node/13961733227",
+      "name": "Gaia Cabins Albania",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.247561,
+      "lon": 19.954863,
+      "phone": "+355 683613500",
+      "osmUrl": "https://www.openstreetmap.org/node/13961733227",
+      "score": 2,
+      "km": 14.4
+    },
+    {
+      "id": "node/11107180802",
+      "name": "Guesthouse NEO",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.330608,
+      "lon": 19.813188,
+      "description": "Room from 20€",
+      "osmUrl": "https://www.openstreetmap.org/node/11107180802",
+      "score": 2,
+      "km": 0.6
+    },
+    {
+      "id": "node/6605774340",
+      "name": "Angie's SHARED VILLA - actual location",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.328176,
+      "lon": 19.836537,
+      "address": "Rruga Ali Demi 281 #3",
+      "osmUrl": "https://www.openstreetmap.org/node/6605774340",
+      "score": 1,
+      "km": 1.5
+    },
+    {
+      "id": "node/5060392423",
+      "name": "Guest House M&S",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.33152,
+      "lon": 19.818544,
+      "osmUrl": "https://www.openstreetmap.org/node/5060392423",
+      "score": 1,
+      "km": 0.4
+    },
+    {
+      "id": "node/6771538364",
+      "name": "Guesthouse Hygge",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.333701,
+      "lon": 19.814435,
+      "address": "Rruga Kusuri Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/6771538364",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/3878115691",
+      "name": "London Hotel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.327306,
+      "lon": 19.823677,
+      "address": "Rruga Xhorxh W. Bush Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/3878115691",
+      "score": 1,
+      "km": 0.4
+    },
+    {
+      "id": "node/3856727933",
+      "name": "Löwen Inn Bed & Breakfast",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.323237,
+      "lon": 19.824321,
+      "address": "Rruga Jul Variboba Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/3856727933",
+      "score": 1,
+      "km": 0.7
+    },
+    {
+      "id": "node/4548116099",
+      "name": "Pallati 249/6",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.331133,
+      "lon": 19.841198,
+      "address": "Rruga Ali Demi 249/6",
+      "osmUrl": "https://www.openstreetmap.org/node/4548116099",
+      "score": 1,
+      "km": 1.9
+    },
+    {
+      "id": "node/10038187667",
+      "name": "Rooms Primavera Vila",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.323987,
+      "lon": 19.838601,
+      "address": "Rruga Todi Shkurti 59 Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/10038187667",
+      "score": 1,
+      "km": 1.7
+    },
+    {
+      "id": "node/6665428585",
+      "name": "Tufina Hostel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.330496,
+      "lon": 19.827327,
+      "address": "Rruga Hoxha Tahsim 46 Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/6665428585",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/4664234401",
+      "name": "Andrea's Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.326876,
+      "lon": 19.825337,
+      "osmUrl": "https://www.openstreetmap.org/node/4664234401",
+      "score": 0,
+      "km": 0.6
+    },
+    {
+      "id": "node/4664234403",
+      "name": "B & B Tirana Smile",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.329367,
+      "lon": 19.809803,
+      "osmUrl": "https://www.openstreetmap.org/node/4664234403",
+      "score": 0,
+      "km": 0.8
+    },
+    {
+      "id": "node/14068976101",
+      "name": "Sueño Appartments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.348092,
+      "lon": 19.833297,
+      "osmUrl": "https://www.openstreetmap.org/node/14068976101",
+      "score": 0,
+      "km": 2.6
+    },
+    {
+      "id": "node/4664234397",
+      "name": "Sweet Home Albania",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.332299,
+      "lon": 19.782206,
+      "osmUrl": "https://www.openstreetmap.org/node/4664234397",
+      "score": 0,
+      "km": 3.1
+    },
+    {
+      "id": "node/11561574580",
+      "name": "N'Maj Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.279654,
+      "lon": 19.888747,
+      "address": "Daias Daias , Tirane",
+      "cuisine": [
+        "traditional",
+        "mediterranean"
+      ],
+      "phone": "+355695577574",
+      "email": "nmajrestaurant@gmail.com",
+      "website": "https://www.instagram.com/nmaj_restaurant/",
+      "osmUrl": "https://www.openstreetmap.org/node/11561574580",
+      "score": 10,
+      "km": 7.9
+    },
+    {
+      "id": "node/5356805223",
+      "name": "Era Blloku",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.320129,
+      "lon": 19.81468,
+      "address": "Rruga Ismail Qemali 13/2 Tirana",
+      "cuisine": [
+        "regional",
+        "albanian"
+      ],
+      "phone": "+355 69 40 66 662",
+      "email": "erablloku@era.al",
+      "website": "https://era.al/era-blloku/",
+      "openingHours": "Mo-Su 11:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5356805223",
+      "score": 9,
+      "km": 0.9
+    },
+    {
+      "id": "node/9128749869",
+      "name": "Shije Fshati",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.331181,
+      "lon": 19.820978,
+      "address": "Rruga e Dibrës 61 Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 209 9120",
+      "email": "shijefshati@gmail.com",
+      "website": "https://shijefshati.al/",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9128749869",
+      "score": 9,
+      "km": 0.5
+    },
+    {
+      "id": "node/11961409123",
+      "name": "Taverna Amazona",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.321832,
+      "lon": 19.804633,
+      "address": "Bulevardi Gjergj Fishta 52 Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355693188326",
+      "website": "https://www.facebook.com/TavernettaAmazona-102564204845285/",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11961409123",
+      "score": 9,
+      "km": 1.3
+    },
+    {
+      "id": "node/4180363030",
+      "name": "Bufe",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.323503,
+      "lon": 19.815398,
+      "address": "Bulevardi Gjergj Fishta Tirana",
+      "cuisine": [
+        "regional",
+        "international"
+      ],
+      "phone": "+355693509241",
+      "website": "https://m.facebook.com/bufe.tirana",
+      "openingHours": "Mo-Su 08:00-23:45",
+      "osmUrl": "https://www.openstreetmap.org/node/4180363030",
+      "score": 8,
+      "km": 0.5
+    },
+    {
+      "id": "node/2782651320",
+      "name": "ERA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.319765,
+      "lon": 19.823596,
+      "address": "Rruga Papa Gjon Pali II 11 Tirana",
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "phone": "+355 4 2255000",
+      "email": "eravila@era.al",
+      "website": "https://era.al/en/",
+      "osmUrl": "https://www.openstreetmap.org/node/2782651320",
+      "score": 8,
+      "km": 1
+    },
+    {
+      "id": "node/13806189656",
+      "name": "Fast Food - Pizzeri Agimi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.300481,
+      "lon": 19.848563,
+      "address": "Rruga e Elbasanit Tirana",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "sandwich",
+        "mediterranean"
+      ],
+      "phone": "+355682223405",
+      "website": "https://agimi.lovable.app/",
+      "openingHours": "Mo-Su 07:00-22:30",
+      "osmUrl": "https://www.openstreetmap.org/node/13806189656",
+      "score": 8,
+      "km": 3.9
+    },
+    {
+      "id": "node/11877463811",
+      "name": "Golden Crown Resort",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.401754,
+      "lon": 19.797438,
+      "address": "Cerkeze Tirane",
+      "cuisine": [
+        "pizza",
+        "coffee shop",
+        "regional",
+        "international"
+      ],
+      "phone": "+355 69 307 4510",
+      "website": "https://www.facebook.com/goldencrownresort",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/11877463811",
+      "score": 8,
+      "km": 8.5
+    },
+    {
+      "id": "node/12827966555",
+      "name": "IL PAESE BOUTIQUE",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.215208,
+      "lon": 19.70065,
+      "address": "RRUGA E KONFERENCES NR 2 1",
+      "cuisine": [
+        "italian",
+        "balkan"
+      ],
+      "phone": "+355689012080",
+      "email": "info@ilpaese.al",
+      "website": "https://ilpaese.al/",
+      "osmUrl": "https://www.openstreetmap.org/node/12827966555",
+      "score": 8,
+      "km": 15.9
+    },
+    {
+      "id": "node/11051294972",
+      "name": "Mrizi i Zanave Tirane",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.326825,
+      "lon": 19.826142,
+      "address": "Bulevardi Zhan d'Ark Tiranë",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "067 691 6596",
+      "website": "https://mrizi-i-zanave.business.site",
+      "openingHours": "Mo-Su 11:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11051294972",
+      "score": 8,
+      "km": 0.6
+    },
+    {
+      "id": "node/4192054193",
+      "name": "Mystic",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.317994,
+      "lon": 19.816334,
+      "address": "Rruga Perlat Rexhepi Tirane",
+      "cuisine": [
+        "pasta",
+        "local"
+      ],
+      "phone": "+355 4 225 7168",
+      "website": "https://facebook.com/RestorantPizzeriMystic",
+      "openingHours": "00:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4192054193",
+      "score": 8,
+      "km": 1.1
+    },
+    {
+      "id": "node/9128749821",
+      "name": "Restorant Xheni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.319521,
+      "lon": 19.814411,
+      "description": "Fast and inexpensive tradicional Albanian food for dine in, take out, or delivery",
+      "cuisine": [
+        "local",
+        "regional",
+        "italian",
+        "mediterranean"
+      ],
+      "phone": "+355 69 243 0001",
+      "website": "https://www.instagram.com/fast_xheni_fast/",
+      "osmUrl": "https://www.openstreetmap.org/node/9128749821",
+      "score": 8,
+      "km": 1
+    },
+    {
+      "id": "node/5691157021",
+      "name": "Green Garden Resort",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.255019,
+      "lon": 19.894969,
+      "address": "Autostrada Tiranë-Elbasan",
+      "cuisine": [
+        "balkan"
+      ],
+      "phone": "+355682066784",
+      "email": "ggrestorant@gmail.com",
+      "openingHours": "Mo-Su 09:30-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5691157021",
+      "score": 7,
+      "km": 10.3
+    },
+    {
+      "id": "node/5499155624",
+      "name": "Mullixhiu",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.31348,
+      "lon": 19.81666,
+      "address": "Lazgush Poradeci Street",
+      "phone": "+355 69 6660444",
+      "website": "https://www.mullixhiu.al/",
+      "openingHours": "Mo-Su 18:00-22:30, 12:00-16:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5499155624",
+      "score": 7,
+      "km": 1.6
+    },
+    {
+      "id": "node/2751715032",
+      "name": "Ods Garden",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.329395,
+      "lon": 19.824248,
+      "address": "Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "069 204 0145",
+      "email": "odarestorant@hotmail.com",
+      "openingHours": "Mo-Su 11:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2751715032",
+      "score": 7,
+      "km": 0.5
+    },
+    {
+      "id": "node/2713971776",
+      "name": "Wintergarten Bistro",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.328114,
+      "lon": 19.808643,
+      "address": "Skenderbeg 6 Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355-4-2259993",
+      "website": "http://winterg-tirana.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/2713971776",
+      "score": 7,
+      "km": 0.8
+    },
+    {
+      "id": "node/4542059713",
+      "name": "Bujtina e diellit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.221452,
+      "lon": 19.803025,
+      "cuisine": [
+        "multi cusine"
+      ],
+      "phone": "+35567 207 0100",
+      "website": "https://www.facebook.com/bujtinadiellit/?fref=ts",
+      "openingHours": "09:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4542059713",
+      "score": 6,
+      "km": 11.9
+    },
+    {
+      "id": "node/5664701234",
+      "name": "GO ZIP",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.332215,
+      "lon": 19.816835,
+      "address": "Bulevardi Zogu i Parë 7 Tiranë",
+      "cuisine": [
+        "italian",
+        "grill",
+        "friture",
+        "oriental"
+      ],
+      "phone": "+355696001004",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5664701234",
+      "score": 6,
+      "km": 0.5
+    },
+    {
+      "id": "node/12065216158",
+      "name": "Sauku",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.328333,
+      "lon": 19.824361,
+      "address": "Rruga Xhorxhi Martini Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 68 584 8291",
+      "openingHours": "Mo-Sa 07:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12065216158",
+      "score": 6,
+      "km": 0.5
+    },
+    {
+      "id": "node/6621486515",
+      "name": "El mejor",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.31689,
+      "lon": 19.807604,
+      "address": "Rruga Skënder Luarasi Tirana",
+      "cuisine": [
+        "regional",
+        "mexican",
+        "coffee shop",
+        "steak house"
+      ],
+      "phone": "+355 68 908 0333",
+      "osmUrl": "https://www.openstreetmap.org/node/6621486515",
+      "score": 5,
+      "km": 1.5
+    },
+    {
+      "id": "way/478332852",
+      "name": "Restaurant Ballkoni Dajtit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.368526,
+      "lon": 19.904715,
+      "cuisine": [
+        "local",
+        "pasta"
+      ],
+      "website": "https://dajtiekspres.com/facilities/restaurant-ballkoni-dajtit/",
+      "openingHours": "Mo,We-Fr 09:30-18:30; Sa,Su 09:30-19:30",
+      "osmUrl": "https://www.openstreetmap.org/way/478332852",
+      "score": 5,
+      "km": 8.5
+    },
+    {
+      "id": "node/12085264947",
+      "name": "Restorant Tradicional",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.360386,
+      "lon": 19.771894,
+      "address": "Tirana",
+      "phone": "+355682981282",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12085264947",
+      "score": 5,
+      "km": 5.4
+    },
+    {
+      "id": "node/11296280169",
+      "name": "Tasty",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.323575,
+      "lon": 19.80398,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 685334044",
+      "openingHours": "Mo-Su 08:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11296280169",
+      "score": 5,
+      "km": 1.3
+    },
+    {
+      "id": "node/6410407609",
+      "name": "Tek Zgara e Tironës 2",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.328136,
+      "lon": 19.810564,
+      "address": "Rruga e Kavajës Tirana",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "069 94 84 792",
+      "osmUrl": "https://www.openstreetmap.org/node/6410407609",
+      "score": 5,
+      "km": 0.7
+    },
+    {
+      "id": "node/4548456996",
+      "name": "Bar Restorant Kakunje e Vjeter (Ylli Meta)",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.180254,
+      "lon": 19.84522,
+      "address": "Kakunje, Baldushk",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Su 09:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4548456996",
+      "score": 4,
+      "km": 16.5
+    },
+    {
+      "id": "node/6604998705",
+      "name": "Ceren Ismet Shehu",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.32619,
+      "lon": 19.822288,
+      "cuisine": [
+        "albanian",
+        "regional"
+      ],
+      "phone": "+355 68 400 0449",
+      "osmUrl": "https://www.openstreetmap.org/node/6604998705",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "node/4357685000",
+      "name": "Cit Caffè Nateria",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.318791,
+      "lon": 19.813207,
+      "address": "Rruga Andon Zako Çajupi",
+      "cuisine": [
+        "local"
+      ],
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4357685000",
+      "score": 4,
+      "km": 1.1
+    },
+    {
+      "id": "node/4627139191",
+      "name": "Dy Luanet",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.34922,
+      "lon": 19.87121,
+      "address": "Rruga Muhamed Deliu",
+      "cuisine": [
+        "italian pizza",
+        "italian",
+        "mediterranean",
+        "seafood"
+      ],
+      "openingHours": "Mo-Su 09:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4627139191",
+      "score": 4,
+      "km": 5
+    },
+    {
+      "id": "node/4191510486",
+      "name": "Fast food Albania",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.327939,
+      "lon": 19.816046,
+      "address": "Rruga Ibrahim Rugova",
+      "cuisine": [
+        "pizza",
+        "regional"
+      ],
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/4191510486",
+      "score": 4,
+      "km": 0.2
+    },
+    {
+      "id": "node/12898892497",
+      "name": "Jarna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.331188,
+      "lon": 19.813019,
+      "description": "traditional albanian",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12898892497",
+      "score": 4,
+      "km": 0.6
+    },
+    {
+      "id": "node/11201719461",
+      "name": "Kastrati",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.33064,
+      "lon": 19.81854,
+      "description": "Entrance is stairs with white door",
+      "cuisine": [
+        "regional",
+        "mediterranean",
+        "albanian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11201719461",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "node/4517998416",
+      "name": "Maksi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.299124,
+      "lon": 19.73848,
+      "address": "Rruga Demir Cela Vaqarr",
+      "cuisine": [
+        "regional",
+        "coffee shop",
+        "traditional"
+      ],
+      "openingHours": "07:00 - 20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4517998416",
+      "score": 4,
+      "km": 7.4
+    },
+    {
+      "id": "node/727763054",
+      "name": "Pjateli",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.259232,
+      "lon": 19.878656,
+      "cuisine": [
+        "regional"
+      ],
+      "website": "https://restorantpjateli.al",
+      "osmUrl": "https://www.openstreetmap.org/node/727763054",
+      "score": 4,
+      "km": 9.1
+    },
+    {
+      "id": "way/1189504681",
+      "name": "Restorant Serenata Korçare",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.330307,
+      "lon": 19.802944,
+      "cuisine": [
+        "regional"
+      ],
+      "website": "https://www.facebook.com/RestorantSrerenataKorcare/",
+      "osmUrl": "https://www.openstreetmap.org/way/1189504681",
+      "score": 4,
+      "km": 1.4
+    },
+    {
+      "id": "way/907273413",
+      "name": "Select Hill Resort",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.348065,
+      "lon": 19.896374,
+      "cuisine": [
+        "fish",
+        "fish and chips",
+        "italian",
+        "mediterranean"
+      ],
+      "website": "https://www.selecthill.com/",
+      "osmUrl": "https://www.openstreetmap.org/way/907273413",
+      "score": 4,
+      "km": 6.9
+    },
+    {
+      "id": "node/8687916792",
+      "name": "Taverna e Kasapit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.318197,
+      "lon": 19.817985,
+      "address": "Rruga Perlat Rexhepi Tirana",
+      "cuisine": [
+        "traditional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/8687916792",
+      "score": 4,
+      "km": 1
+    },
+    {
+      "id": "node/5562435721",
+      "name": "Zgara Familjare",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.334392,
+      "lon": 19.834958,
+      "address": "Rruga Xhanfize Keko",
+      "cuisine": [
+        "balkan",
+        "grill",
+        "chicken",
+        "sausage"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5562435721",
+      "score": 4,
+      "km": 1.6
+    },
+    {
+      "id": "node/5310990732",
+      "name": "Bar Kafe Alesio",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 41.338017,
+      "lon": 19.793107,
+      "address": "Rruga Lord Bajron",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5310990732",
+      "score": 3,
+      "km": 2.4
+    },
+    {
+      "id": "node/12122764226",
+      "name": "Birrari Ke Tori",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.322507,
+      "lon": 19.815485,
+      "address": "Rruga Vaso Pasha Tirane",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12122764226",
+      "score": 3,
+      "km": 0.6
+    },
+    {
+      "id": "node/4191602812",
+      "name": "City Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.325079,
+      "lon": 19.816871,
+      "address": "Rruga Ibrahim Rugova",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4191602812",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/9741251393",
+      "name": "Art Studio Adnand",
+      "kind": "craft",
+      "type": "Artizanat",
+      "lat": 41.33219,
+      "lon": 19.823406,
+      "address": "Rruga e Saraçëve Tirana",
+      "phone": "+355 67 645 2200",
+      "osmUrl": "https://www.openstreetmap.org/node/9741251393",
+      "score": 3,
+      "km": 0.7
+    },
+    {
+      "id": "node/10999113857",
+      "name": "Enoalba",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.320403,
+      "lon": 19.800541,
+      "address": "Bulevardi Bajram Curri 31 Tirana",
+      "website": "https://www.enoalba.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/10999113857",
+      "score": 3,
+      "km": 1.7
+    },
+    {
+      "id": "way/748927399",
+      "name": "Distileria Aquila Liquori",
+      "kind": "craft",
+      "type": "Distilerí",
+      "lat": 41.350231,
+      "lon": 19.752335,
+      "website": "https://aquilagroup.al/",
+      "osmUrl": "https://www.openstreetmap.org/way/748927399",
+      "score": 2,
+      "km": 6.1
+    },
+    {
+      "id": "node/6806581255",
+      "name": "Besi",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.346133,
+      "lon": 19.855292,
+      "address": "Rruga Artan Boriçi Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/6806581255",
+      "score": 1,
+      "km": 3.7
+    },
+    {
+      "id": "node/11756768584",
+      "name": "Butrinti",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.344711,
+      "lon": 19.841748,
+      "address": "Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/11756768584",
+      "score": 1,
+      "km": 2.7
+    },
+    {
+      "id": "node/12079211795",
+      "name": "Fatmir & Xhevahire Vladi",
+      "kind": "craft",
+      "type": "Gur",
+      "lat": 41.307896,
+      "lon": 19.760562,
+      "address": "Rruga Ndre Zadeja Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/12079211795",
+      "score": 1,
+      "km": 5.3
+    },
+    {
+      "id": "node/12079211796",
+      "name": "Firma Nikolini",
+      "kind": "craft",
+      "type": "Gur",
+      "lat": 41.307731,
+      "lon": 19.760578,
+      "address": "Rruga Ndre Zadeja Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/12079211796",
+      "score": 1,
+      "km": 5.3
+    },
+    {
+      "id": "node/11735192467",
+      "name": "Gega",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.33201,
+      "lon": 19.818841,
+      "address": "Rruga Bardhok Biba Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/11735192467",
+      "score": 1,
+      "km": 0.5
+    },
+    {
+      "id": "node/11965020749",
+      "name": "Jugu",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.30283,
+      "lon": 19.834207,
+      "address": "Rruga Selim Brahja Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/11965020749",
+      "score": 1,
+      "km": 3
+    },
+    {
+      "id": "node/5252134321",
+      "name": "Napoleon wine&spirits",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.332976,
+      "lon": 19.817257,
+      "osmUrl": "https://www.openstreetmap.org/node/5252134321",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/11897688719",
+      "name": "Progonat",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.332617,
+      "lon": 19.778335,
+      "address": "Rruga Sokrat Miho Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/11897688719",
+      "score": 1,
+      "km": 3.4
+    },
+    {
+      "id": "node/12499061811",
+      "name": "Riu Mermer",
+      "kind": "craft",
+      "type": "Gur",
+      "lat": 41.335462,
+      "lon": 19.761058,
+      "address": "Rruga Kasem Aushi Tirana",
+      "osmUrl": "https://www.openstreetmap.org/node/12499061811",
+      "score": 1,
+      "km": 4.9
+    },
+    {
+      "id": "way/672291925",
+      "name": "Birra Tirana",
+      "kind": "craft",
+      "type": "Birrari",
+      "lat": 41.321103,
+      "lon": 19.785814,
+      "osmUrl": "https://www.openstreetmap.org/way/672291925",
+      "score": 0,
+      "km": 2.8
+    },
+    {
+      "id": "node/11511437411",
+      "name": "Bonum",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 41.317276,
+      "lon": 19.814736,
+      "osmUrl": "https://www.openstreetmap.org/node/11511437411",
+      "score": 0,
+      "km": 1.2
+    },
+    {
+      "id": "node/6421885977",
+      "name": "Ferma e krimbit të mëndafshit",
+      "kind": "craft",
+      "type": "Artizanat",
+      "lat": 41.215284,
+      "lon": 19.970314,
+      "osmUrl": "https://www.openstreetmap.org/node/6421885977",
+      "score": 0,
+      "km": 17.8
+    },
+    {
+      "id": "node/11511437399",
+      "name": "NAPOLEON WINE & SPIRITS",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.318125,
+      "lon": 19.814454,
+      "osmUrl": "https://www.openstreetmap.org/node/11511437399",
+      "score": 0,
+      "km": 1.1
+    },
+    {
+      "id": "node/6466506421",
+      "name": "Poceria Farke",
+      "kind": "craft",
+      "type": "Qeramikë",
+      "lat": 41.312473,
+      "lon": 19.883963,
+      "osmUrl": "https://www.openstreetmap.org/node/6466506421",
+      "score": 0,
+      "km": 5.7
+    },
+    {
+      "id": "node/13962189202",
+      "name": "Primitivo Wine Shop",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.321121,
+      "lon": 19.809699,
+      "osmUrl": "https://www.openstreetmap.org/node/13962189202",
+      "score": 0,
+      "km": 1
+    },
+    {
+      "id": "node/9002143049",
+      "name": "Veneto Winery Shop",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.337609,
+      "lon": 19.840959,
+      "osmUrl": "https://www.openstreetmap.org/node/9002143049",
+      "score": 0,
+      "km": 2.2
+    }
+  ]
+}

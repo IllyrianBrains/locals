@@ -1,0 +1,196 @@
+{
+  "city": "rahovec",
+  "name": "Rahovec",
+  "fetchedAt": "2026-09-28T22:58:57.228Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 15,
+  "places": [
+    {
+      "id": "node/4957178038",
+      "name": "Kulla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.347194,
+      "lon": 20.56827,
+      "address": "Egzodi 99 393",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4957178038",
+      "score": 5,
+      "km": 9.2
+    },
+    {
+      "id": "node/11932768695",
+      "name": "Peshku-M",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.352194,
+      "lon": 20.542514,
+      "cuisine": [
+        "regional",
+        "fish"
+      ],
+      "phone": "+383 45 589 272",
+      "openingHours": "Mo,We-Su 10:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11932768695",
+      "score": 5,
+      "km": 10.6
+    },
+    {
+      "id": "node/7341756631",
+      "name": "ENDRITI",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.384487,
+      "lon": 20.537717,
+      "address": "Kosova e Re Radoste",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/7341756631",
+      "score": 3,
+      "km": 9.8
+    },
+    {
+      "id": "node/8526229583",
+      "name": "\"N'Konak\" Coffee Shisha Bar",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.39562,
+      "lon": 20.649808,
+      "osmUrl": "https://www.openstreetmap.org/node/8526229583",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "way/1341759096",
+      "name": "Bella Agroturizem",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.371821,
+      "lon": 20.596226,
+      "osmUrl": "https://www.openstreetmap.org/way/1341759096",
+      "score": 1,
+      "km": 5.7
+    },
+    {
+      "id": "node/9113100167",
+      "name": "Taverna e Krushës",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.316879,
+      "lon": 20.638636,
+      "osmUrl": "https://www.openstreetmap.org/node/9113100167",
+      "score": 1,
+      "km": 9.3
+    },
+    {
+      "id": "node/7541703685",
+      "name": "Kosova Wine",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.387017,
+      "lon": 20.64763,
+      "address": "Vëllezërit Haradinaj 150",
+      "phone": "+38349999901",
+      "email": "kosovawine@live.com",
+      "website": "https://kosova.wine",
+      "openingHours": "Mo-Sa 08:00-15:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7541703685",
+      "score": 9,
+      "km": 1.5
+    },
+    {
+      "id": "way/1033230694",
+      "name": "Winery Sveti Sava",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.383092,
+      "lon": 20.676663,
+      "address": "Dejan Večević Hoçë e Madhe - Velika Hoča",
+      "osmUrl": "https://www.openstreetmap.org/way/1033230694",
+      "score": 2,
+      "km": 2.6
+    },
+    {
+      "id": "node/8551034808",
+      "name": "Besa Wine",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.368966,
+      "lon": 20.616988,
+      "osmUrl": "https://www.openstreetmap.org/node/8551034808",
+      "score": 1,
+      "km": 4.6
+    },
+    {
+      "id": "node/8551562820",
+      "name": "Eko Wine",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.402326,
+      "lon": 20.643552,
+      "osmUrl": "https://www.openstreetmap.org/node/8551562820",
+      "score": 1,
+      "km": 1
+    },
+    {
+      "id": "node/8551552306",
+      "name": "ILLYRIAN Winery and Vineyards",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.401728,
+      "lon": 20.643154,
+      "osmUrl": "https://www.openstreetmap.org/node/8551552306",
+      "score": 1,
+      "km": 1
+    },
+    {
+      "id": "node/8551034891",
+      "name": "Stone Castle",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.369081,
+      "lon": 20.619277,
+      "osmUrl": "https://www.openstreetmap.org/node/8551034891",
+      "score": 1,
+      "km": 4.5
+    },
+    {
+      "id": "way/275261271",
+      "name": "Stone Castle Winery",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 42.366971,
+      "lon": 20.615514,
+      "osmUrl": "https://www.openstreetmap.org/way/275261271",
+      "score": 1,
+      "km": 4.8
+    },
+    {
+      "id": "node/6717354085",
+      "name": "Hardh Fest",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 42.369906,
+      "lon": 20.621548,
+      "osmUrl": "https://www.openstreetmap.org/node/6717354085",
+      "score": 0,
+      "km": 4.3
+    },
+    {
+      "id": "node/6593551089",
+      "name": "Winery and restaurant",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 42.384376,
+      "lon": 20.676803,
+      "osmUrl": "https://www.openstreetmap.org/node/6593551089",
+      "score": 0,
+      "km": 2.5
+    }
+  ]
+}

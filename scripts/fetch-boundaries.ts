@@ -17,10 +17,13 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { cities } from '../src/data/cities.ts';
 import { fetchOverpass, normalize, pillarOf, pillars, USER_AGENT } from './osm-common.ts';
 import { readPbf } from './pbf.ts';
+import { protectedShapes } from './nature.ts';
+import { enrichPlaces } from './enrich-wiki.ts';
 import type { Pillar } from '../src/data/places.ts';
 
 const CACHE_DIR = new URL('../.cache/boundaries/', import.meta.url);
 const OUT_FILE = new URL('../src/data/municipalities.json', import.meta.url);
+const NATURE_OUT_FILE = new URL('../src/data/municipalityNature.json', import.meta.url);
 /** Nominatim simplification tolerance in degrees (~300 m); plenty for a country-scale map. */
 const THRESHOLD = 0.003;
 const COUNTRIES = [
@@ -82,7 +85,7 @@ const contains = (g: Geometry, point: [number, number]) => g.type === 'Polygon' 
 const slugify = (s: string) => s.toLocaleLowerCase('sq').replaceAll('ë', 'e').replaceAll('ç', 'c').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 await mkdir(CACHE_DIR, { recursive: true });
-interface Feature { pillar: Pillar; name?: string; notable: boolean; point: [number, number] }
+interface Feature { id: number; type: 'node' | 'way' | 'relation'; pillar: Pillar; kind: string; name?: string; notable: boolean; wikidata?: string; wikipedia?: string; point: [number, number] }
 const municipalities: { id: number; name: string; area: string; country: string; population?: number; geometry: Geometry; features: Feature[] }[] = [];
 let allFeatures: Feature[] = [];
 
@@ -108,9 +111,9 @@ for (const [i, country] of COUNTRIES.entries()) {
   const elements = await readPbf(country.pbf);
   for (const e of elements) {
     const t = e.tags ?? {};
-    const pillar = pillarOf(t);
+    const pillar = pillarOf(t, e.type);
     const lat = e.lat ?? e.center?.lat, lon = e.lon ?? e.center?.lon;
-    if (pillar && lat !== undefined && lon !== undefined) allFeatures.push({ pillar, name: t['name:sq'] ?? t.name, notable: !!(t.wikidata || t.wikipedia), point: [lon, lat] });
+    if (pillar && lat !== undefined && lon !== undefined) allFeatures.push({ id: e.id, type: e.type, pillar, kind: t.boundary ?? t.leisure ?? t.waterway ?? t.natural ?? t.tourism ?? pillar, name: t['name:sq'] ?? t.name, notable: !!(t.wikidata || t.wikipedia), wikidata: t.wikidata, wikipedia: t.wikipedia, point: [lon, lat] });
   }
 }
 
@@ -154,7 +157,28 @@ const features = municipalities.map((m) => {
 }).sort((a, b) => a.properties.name.localeCompare(b.properties.name, 'sq'));
 
 for (const city of cities) if (!municipalities.some((m) => m.id === city.osm.boundary)) console.warn(`✗ ${city.slug}: its boundary ${city.osm.boundary} is not in the list`);
-await writeFile(OUT_FILE, JSON.stringify({ type: 'FeatureCollection', attribution: '© OpenStreetMap contributors', license: 'ODbL-1.0', fetchedAt: new Date().toISOString(), features }) + '\n');
+const fetchedAt = new Date().toISOString();
+await writeFile(OUT_FILE, JSON.stringify({ type: 'FeatureCollection', attribution: '© OpenStreetMap contributors', license: 'ODbL-1.0', fetchedAt, features }) + '\n');
+
+// City maps use a small radius for a readable initial view. Export municipality-wide nature points separately so
+// visitors can explicitly reveal the peaks, springs, caves and waterfalls behind the municipality statistics.
+const shapes = { al: await protectedShapes('albania'), xk: await protectedShapes('kosovo') };
+const protectedKinds = /^(national_park|protected_area|nature_reserve)$/;
+const natureCities = Object.fromEntries(municipalities.flatMap((m) => {
+  const slug = guideSlugs.get(m.id);
+  if (!slug) return [];
+  const seen = new Set<string>();
+  const nature = m.features.filter((f) => f.pillar === 'nature' && f.name).filter((f) => {
+    const key = normalize(f.name!); if (seen.has(key)) return false; seen.add(key); return true;
+  }).map((f) => ({ id: `${f.type}/${f.id}`, name: f.name!, kind: f.kind, lat: +f.point[1].toFixed(6), lon: +f.point[0].toFixed(6), ...(f.wikidata && { wikidata: f.wikidata }), ...(f.wikipedia && { wikipedia: f.wikipedia }) }));
+  // Parks and reserves are areas: give them their outline so the city map draws them as shapes, not dots.
+  for (const p of nature) if (protectedKinds.test(p.kind)) { const s = shapes[m.country as 'al' | 'xk']; const paths = s.byId.get(p.id) ?? s.byName.get(normalize(p.name)); if (paths) Object.assign(p, { paths }); }
+  return [[slug, nature]];
+}));
+// Features with a Wikidata or Wikipedia entry get a photo, a tagline and a short summary (see enrich-wiki.ts).
+// `--no-wiki` uses the cached answers only.
+await enrichPlaces(Object.values(natureCities).flat().filter((p) => p.wikidata || p.wikipedia), process.argv.includes('--no-wiki'));
+await writeFile(NATURE_OUT_FILE, JSON.stringify({ attribution: '© OpenStreetMap contributors', license: 'ODbL-1.0', fetchedAt, cities: natureCities }) + '\n');
 
 const perLevel = [1, 2, 3, 4, 5].map((l) => `${l}: ${features.filter((f) => f.properties.level === l).length}`).join(', ');
 console.log(`✓ ${features.length} municipalities (${COUNTRIES.map((c) => `${c.code} ${features.filter((f) => f.properties.country === c.code).length}`).join(', ')}), ${allFeatures.length} features (${unplaced} outside every outline); levels ${perLevel}`);

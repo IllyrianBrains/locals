@@ -1,0 +1,97 @@
+{
+  "city": "kavaje",
+  "name": "Kavajë",
+  "fetchedAt": "2026-09-28T22:58:57.213Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 7,
+  "places": [
+    {
+      "id": "node/13885398401",
+      "name": "Nuovo Sun Golem",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.251598,
+      "lon": 19.523322,
+      "address": "Rruga Kristal 45",
+      "osmUrl": "https://www.openstreetmap.org/node/13885398401",
+      "score": 1,
+      "km": 7.9
+    },
+    {
+      "id": "node/10231347469",
+      "name": "Daniel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.247625,
+      "lon": 19.523785,
+      "osmUrl": "https://www.openstreetmap.org/node/10231347469",
+      "score": 0,
+      "km": 7.5
+    },
+    {
+      "id": "node/9282711804",
+      "name": "Red Rose Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.25164,
+      "lon": 19.523784,
+      "osmUrl": "https://www.openstreetmap.org/node/9282711804",
+      "score": 0,
+      "km": 7.9
+    },
+    {
+      "id": "node/12165562821",
+      "name": "Te Bujtina Tradicionale",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.232449,
+      "lon": 19.523027,
+      "phone": "+355 67 533 3424",
+      "openingHours": "Mo-Su 12:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12165562821",
+      "score": 4,
+      "km": 5.9
+    },
+    {
+      "id": "way/732456031",
+      "name": "Te Aldo",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.249694,
+      "lon": 19.520879,
+      "address": "Bulevardi i Pishave",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/732456031",
+      "score": 3,
+      "km": 7.8
+    },
+    {
+      "id": "node/4217190016",
+      "name": "Piceri Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.183591,
+      "lon": 19.554041,
+      "cuisine": [
+        "pizza"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4217190016",
+      "score": 1,
+      "km": 0.3
+    },
+    {
+      "id": "way/421994086",
+      "name": "Farmer's Market",
+      "kind": "craft",
+      "type": "Fermë",
+      "lat": 41.188702,
+      "lon": 19.554199,
+      "osmUrl": "https://www.openstreetmap.org/way/421994086",
+      "score": 0,
+      "km": 0.7
+    }
+  ]
+}

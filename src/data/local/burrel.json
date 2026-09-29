@@ -1,0 +1,39 @@
+{
+  "city": "burrel",
+  "name": "Burrel",
+  "fetchedAt": "2026-09-29T00:00:17.987Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 2,
+  "places": [
+    {
+      "id": "way/485404285",
+      "name": "\"Shpani\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.682344,
+      "lon": 19.894917,
+      "cuisine": [
+        "albanian"
+      ],
+      "openingHours": "Mo-Su 07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/485404285",
+      "score": 3,
+      "km": 12.7
+    },
+    {
+      "id": "node/5535482887",
+      "name": "Bar Rastaurant Livadhi i Madh",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.597007,
+      "lon": 20.027968,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5535482887",
+      "score": 2,
+      "km": 1.9
+    }
+  ]
+}

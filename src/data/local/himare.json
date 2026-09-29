@@ -1,0 +1,698 @@
+{
+  "city": "himare",
+  "name": "Himarë",
+  "fetchedAt": "2026-09-28T22:58:57.175Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 52,
+  "places": [
+    {
+      "id": "node/5536781465",
+      "name": "Vila Tartari GuestHouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.226363,
+      "lon": 19.721023,
+      "address": "Rruga Dolonik 19 Vranisht",
+      "phone": "+355 67 250 6453",
+      "website": "https://www.facebook.com/pg/VilaTartari",
+      "osmUrl": "https://www.openstreetmap.org/node/5536781465",
+      "score": 5,
+      "km": 12.3
+    },
+    {
+      "id": "node/13884805113",
+      "name": "Vourtaréa Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.093053,
+      "lon": 19.756033,
+      "phone": "+355 69 289 62 72",
+      "website": "https://www.instagram.com/vourtarea.guesthouse",
+      "osmUrl": "https://www.openstreetmap.org/node/13884805113",
+      "score": 4,
+      "km": 3.3
+    },
+    {
+      "id": "node/13180543301",
+      "name": "Klaudia Apartments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.10346,
+      "lon": 19.745014,
+      "address": "Rruga Maria Dhimojani 9425",
+      "phone": "+355 69 445 7772",
+      "osmUrl": "https://www.openstreetmap.org/node/13180543301",
+      "score": 3,
+      "km": 1.8
+    },
+    {
+      "id": "node/4932741889",
+      "name": "Bujtina Gjolek Mataj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.212164,
+      "lon": 19.691484,
+      "address": "Rruga Sali Murati 19 Vranisht",
+      "osmUrl": "https://www.openstreetmap.org/node/4932741889",
+      "score": 2,
+      "km": 11.2
+    },
+    {
+      "id": "node/7949041672",
+      "name": "ManaVita",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.106159,
+      "lon": 19.742472,
+      "phone": "+355 69 23 72 300",
+      "osmUrl": "https://www.openstreetmap.org/node/7949041672",
+      "score": 2,
+      "km": 1.4
+    },
+    {
+      "id": "node/7949041674",
+      "name": "Veizi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.101368,
+      "lon": 19.744767,
+      "phone": "0692372831",
+      "osmUrl": "https://www.openstreetmap.org/node/7949041674",
+      "score": 2,
+      "km": 2
+    },
+    {
+      "id": "node/12458766934",
+      "name": "Vila Artur",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 40.149117,
+      "lon": 19.633666,
+      "phone": "0697844280",
+      "osmUrl": "https://www.openstreetmap.org/node/12458766934",
+      "score": 2,
+      "km": 9.2
+    },
+    {
+      "id": "node/6793324385",
+      "name": "Daja dhoma",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.101686,
+      "lon": 19.74257,
+      "osmUrl": "https://www.openstreetmap.org/node/6793324385",
+      "score": 1,
+      "km": 1.8
+    },
+    {
+      "id": "node/8861109742",
+      "name": "Guesthouse Lefter Kapo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.246873,
+      "lon": 19.645725,
+      "address": "Tërbaç",
+      "osmUrl": "https://www.openstreetmap.org/node/8861109742",
+      "score": 1,
+      "km": 16.3
+    },
+    {
+      "id": "node/5938385985",
+      "name": "Sunset Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.103164,
+      "lon": 19.747238,
+      "osmUrl": "https://www.openstreetmap.org/node/5938385985",
+      "score": 1,
+      "km": 1.9
+    },
+    {
+      "id": "node/6649240780",
+      "name": "Casa Qeparo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.056083,
+      "lon": 19.826304,
+      "osmUrl": "https://www.openstreetmap.org/node/6649240780",
+      "score": 0,
+      "km": 10.4
+    },
+    {
+      "id": "node/6693401585",
+      "name": "Casa Queparo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.055908,
+      "lon": 19.82629,
+      "osmUrl": "https://www.openstreetmap.org/node/6693401585",
+      "score": 0,
+      "km": 10.4
+    },
+    {
+      "id": "node/5755691902",
+      "name": "Eljudi House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.03655,
+      "lon": 19.866299,
+      "osmUrl": "https://www.openstreetmap.org/node/5755691902",
+      "score": 0,
+      "km": 14.4
+    },
+    {
+      "id": "node/5814210284",
+      "name": "Emili Apartment",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.037857,
+      "lon": 19.86699,
+      "osmUrl": "https://www.openstreetmap.org/node/5814210284",
+      "score": 0,
+      "km": 14.4
+    },
+    {
+      "id": "way/803851851",
+      "name": "Four Seasons",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.157239,
+      "lon": 19.620469,
+      "osmUrl": "https://www.openstreetmap.org/way/803851851",
+      "score": 0,
+      "km": 10.6
+    },
+    {
+      "id": "node/8643146017",
+      "name": "Gipo's place",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.050789,
+      "lon": 19.871076,
+      "osmUrl": "https://www.openstreetmap.org/node/8643146017",
+      "score": 0,
+      "km": 13.8
+    },
+    {
+      "id": "way/975801907",
+      "name": "Lazaris kwstas Rooms",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.100021,
+      "lon": 19.750267,
+      "osmUrl": "https://www.openstreetmap.org/way/975801907",
+      "score": 0,
+      "km": 2.4
+    },
+    {
+      "id": "node/5755691903",
+      "name": "Le Monde",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.03637,
+      "lon": 19.866729,
+      "osmUrl": "https://www.openstreetmap.org/node/5755691903",
+      "score": 0,
+      "km": 14.5
+    },
+    {
+      "id": "way/1193405093",
+      "name": "Marina Apartaments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.105045,
+      "lon": 19.744972,
+      "osmUrl": "https://www.openstreetmap.org/way/1193405093",
+      "score": 0,
+      "km": 1.6
+    },
+    {
+      "id": "node/6627292982",
+      "name": "On The Rocks",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.053692,
+      "lon": 19.826729,
+      "osmUrl": "https://www.openstreetmap.org/node/6627292982",
+      "score": 0,
+      "km": 10.6
+    },
+    {
+      "id": "node/8837037394",
+      "name": "Serendipity Family Room",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.146491,
+      "lon": 19.634677,
+      "osmUrl": "https://www.openstreetmap.org/node/8837037394",
+      "score": 0,
+      "km": 9
+    },
+    {
+      "id": "node/12978045802",
+      "name": "Tonea’s houses",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.109064,
+      "lon": 19.72545,
+      "osmUrl": "https://www.openstreetmap.org/node/12978045802",
+      "score": 0,
+      "km": 1.1
+    },
+    {
+      "id": "node/5814224467",
+      "name": "The Best Apartments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.060418,
+      "lon": 19.85128,
+      "osmUrl": "https://www.openstreetmap.org/node/5814224467",
+      "score": 0,
+      "km": 11.8
+    },
+    {
+      "id": "node/5078420154",
+      "name": "Villa Filip",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.141578,
+      "lon": 19.689145,
+      "osmUrl": "https://www.openstreetmap.org/node/5078420154",
+      "score": 0,
+      "km": 4.7
+    },
+    {
+      "id": "node/5814210285",
+      "name": "Villa Goxhi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.037415,
+      "lon": 19.866209,
+      "osmUrl": "https://www.openstreetmap.org/node/5814210285",
+      "score": 0,
+      "km": 14.3
+    },
+    {
+      "id": "relation/11138630",
+      "name": "Yard Paradise Hotel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.155484,
+      "lon": 19.622655,
+      "osmUrl": "https://www.openstreetmap.org/relation/11138630",
+      "score": 0,
+      "km": 10.4
+    },
+    {
+      "id": "node/6658349985",
+      "name": "Restaurant Luciano",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.144263,
+      "lon": 19.634118,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 655 9460",
+      "email": "luciano_dhermi@hotmail.com",
+      "website": "https://lucianodhermi.al/",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6658349985",
+      "score": 8,
+      "km": 9
+    },
+    {
+      "id": "node/4958883401",
+      "name": "Taverna Balili Kuc",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.180732,
+      "lon": 19.834378,
+      "address": "Kuc",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355682912362",
+      "website": "https://www.facebook.com/Taverna-Balili-163908220289233/",
+      "osmUrl": "https://www.openstreetmap.org/node/4958883401",
+      "score": 8,
+      "km": 11.2
+    },
+    {
+      "id": "node/10896828117",
+      "name": "Baha by Nassau",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.14082,
+      "lon": 19.641795,
+      "address": "Rruga Jaliskari",
+      "cuisine": [
+        "regional",
+        "seafood",
+        "italian"
+      ],
+      "phone": "+355683210099",
+      "website": "https://www.instagram.com/baha_albania/",
+      "osmUrl": "https://www.openstreetmap.org/node/10896828117",
+      "score": 7,
+      "km": 8.2
+    },
+    {
+      "id": "node/4969289887",
+      "name": "Kshira Oasis",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.052401,
+      "lon": 19.832356,
+      "address": "SH 8",
+      "cuisine": [
+        "balkan"
+      ],
+      "phone": "+39 347 042 8210",
+      "email": "napolon.complex@gmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/4969289887",
+      "score": 6,
+      "km": 11.1
+    },
+    {
+      "id": "node/2073741703",
+      "name": "Restaurant Porto Palermo",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.063063,
+      "lon": 19.794645,
+      "address": "Porto Palermo",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 701 0999",
+      "osmUrl": "https://www.openstreetmap.org/node/2073741703",
+      "score": 6,
+      "km": 7.9
+    },
+    {
+      "id": "node/5046875285",
+      "name": "Veranda",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.058016,
+      "lon": 19.821657,
+      "cuisine": [
+        "local",
+        "mediterranean"
+      ],
+      "phone": "+355696718488",
+      "website": "@Veranda.Restaurant.Qeparo",
+      "osmUrl": "https://www.openstreetmap.org/node/5046875285",
+      "score": 6,
+      "km": 10
+    },
+    {
+      "id": "node/6658332690",
+      "name": "Piratet Bar & Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.144388,
+      "lon": 19.63414,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 68 212 2038",
+      "osmUrl": "https://www.openstreetmap.org/node/6658332690",
+      "score": 4,
+      "km": 9
+    },
+    {
+      "id": "node/2080397201",
+      "name": "Restaurant Dhima",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.09697,
+      "lon": 19.753946,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+35522934",
+      "osmUrl": "https://www.openstreetmap.org/node/2080397201",
+      "score": 4,
+      "km": 2.8
+    },
+    {
+      "id": "node/9999463364",
+      "name": "Soren",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.093836,
+      "lon": 19.755384,
+      "cuisine": [
+        "regional"
+      ],
+      "website": "https://ringtravel.al/menu/soren/index-en.html",
+      "osmUrl": "https://www.openstreetmap.org/node/9999463364",
+      "score": 4,
+      "km": 3.2
+    },
+    {
+      "id": "way/1312010903",
+      "name": "Taverna Kaci",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.049642,
+      "lon": 19.850648,
+      "phone": "+355682438803",
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/1312010903",
+      "score": 4,
+      "km": 12.5
+    },
+    {
+      "id": "node/4497864390",
+      "name": "Bar Kafe Riviera Prodime Zgare",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 40.061464,
+      "lon": 19.85771,
+      "cuisine": [
+        "balkan",
+        "breakfast",
+        "coffee shop"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4497864390",
+      "score": 3,
+      "km": 12.2
+    },
+    {
+      "id": "node/6621271334",
+      "name": "Barbarossa Seafood Tavern & Pizza",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.053324,
+      "lon": 19.825822,
+      "phone": "+355 69 286 9254",
+      "osmUrl": "https://www.openstreetmap.org/node/6621271334",
+      "score": 3,
+      "km": 10.6
+    },
+    {
+      "id": "node/3765663357",
+      "name": "Taverna Dashi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.975517,
+      "lon": 19.915634,
+      "cuisine": [
+        "italian",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3765663357",
+      "score": 3,
+      "km": 22.1
+    },
+    {
+      "id": "node/9078840802",
+      "name": "Taverna Mërkuri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.129814,
+      "lon": 19.773852,
+      "phone": "+355692412170",
+      "osmUrl": "https://www.openstreetmap.org/node/9078840802",
+      "score": 3,
+      "km": 3.7
+    },
+    {
+      "id": "node/11113410913",
+      "name": "Taverna Pirosia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.094316,
+      "lon": 19.757105,
+      "cuisine": [
+        "greek",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11113410913",
+      "score": 3,
+      "km": 3.2
+    },
+    {
+      "id": "node/12120742040",
+      "name": "The Jester’s Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.106031,
+      "lon": 19.729101,
+      "website": "https://thejesterstaverna.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/12120742040",
+      "score": 3,
+      "km": 1.2
+    },
+    {
+      "id": "node/13249915501",
+      "name": "Valo's Fish Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.101671,
+      "lon": 19.744116,
+      "cuisine": [
+        "fish",
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13249915501",
+      "score": 3,
+      "km": 1.9
+    },
+    {
+      "id": "node/5833103886",
+      "name": "Ansi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.006898,
+      "lon": 19.904634,
+      "cuisine": [
+        "seafood",
+        "barbecue",
+        "pasta",
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5833103886",
+      "score": 2,
+      "km": 19
+    },
+    {
+      "id": "node/6658342286",
+      "name": "Bar Restaurant Shen Nikolla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.144745,
+      "lon": 19.630814,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6658342286",
+      "score": 2,
+      "km": 9.3
+    },
+    {
+      "id": "way/803851836",
+      "name": "Bar/Restaurant Natali",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.157061,
+      "lon": 19.621681,
+      "cuisine": [
+        "regional",
+        "mediterranean",
+        "albanian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/803851836",
+      "score": 2,
+      "km": 10.5
+    },
+    {
+      "id": "way/693168190",
+      "name": "Ciao Borshi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.036246,
+      "lon": 19.865009,
+      "cuisine": [
+        "regional",
+        "mediterranean"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/693168190",
+      "score": 2,
+      "km": 14.4
+    },
+    {
+      "id": "node/5833103185",
+      "name": "Horizonti Blu",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.052705,
+      "lon": 19.82694,
+      "cuisine": [
+        "seafood",
+        "friture",
+        "steak house",
+        "pasta"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5833103185",
+      "score": 2,
+      "km": 10.7
+    },
+    {
+      "id": "node/13249915402",
+      "name": "Orange",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.103937,
+      "lon": 19.74282,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13249915402",
+      "score": 2,
+      "km": 1.6
+    },
+    {
+      "id": "node/8026483824",
+      "name": "Vironas",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.102239,
+      "lon": 19.746137,
+      "cuisine": [
+        "regional",
+        "mediterranean",
+        "seafood"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/8026483824",
+      "score": 2,
+      "km": 1.9
+    },
+    {
+      "id": "node/11113412012",
+      "name": "Taverna Dhrami",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.057668,
+      "lon": 19.828138,
+      "osmUrl": "https://www.openstreetmap.org/node/11113412012",
+      "score": 1,
+      "km": 10.4
+    },
+    {
+      "id": "node/6428857842",
+      "name": "Taverna Xhorxhi",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 40.069187,
+      "lon": 19.826532,
+      "osmUrl": "https://www.openstreetmap.org/node/6428857842",
+      "score": 1,
+      "km": 9.5
+    }
+  ]
+}

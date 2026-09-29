@@ -1,0 +1,87 @@
+---
+import { getCityLocal, localKinds, type LocalKind, type LocalPlace } from '../data/local';
+
+interface Props { slug: string; /** Cards shown per tab before "show more". */ initial?: number }
+const { slug, initial = 6 } = Astro.props;
+
+const data = getCityLocal(slug);
+const kinds = (Object.keys(localKinds) as LocalKind[]).filter((k) => data?.places.some((p) => p.kind === k));
+const listOf = (kind: LocalKind) => data!.places.filter((p) => p.kind === kind);
+
+const mapUrl = (p: LocalPlace) => `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=18/${p.lat}/${p.lon}`;
+const editUrl = (p: LocalPlace) => { const [type, id] = p.id.split('/'); return `https://www.openstreetmap.org/edit?${type}=${id}`; };
+const tel = (phone: string) => `tel:${phone.replace(/[^+\d]/g, '')}`;
+const web = (url: string) => (/^https?:\/\//.test(url) ? url : `https://${url}`);
+const shorten = (text: string, max = 160) => (text.length <= max ? text : `${text.slice(0, text.lastIndexOf(' ', max))}…`);
+const fetched = data ? new Date(data.fetchedAt).toLocaleDateString('sq-AL', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+---
+<div class="local" data-initial={initial}>
+  <div class="local-tabs" role="tablist" aria-label="Bujtina, kuzhinë dhe prodhues">
+    {kinds.map((k, i) => <button type="button" role="tab" data-kind={k} aria-selected={String(i === 0)}>{localKinds[k].label} <small>{listOf(k).length}</small></button>)}
+  </div>
+  {kinds.map((k, i) => (
+    <div class="local-panel" role="tabpanel" data-panel={k} hidden={i !== 0}>
+      <p class="local-hint">{localKinds[k].hint} përreth qytetit, fshatrat e komunës përfshirë.</p>
+      <div class="local-grid">
+        {listOf(k).map((p, n) => (
+          <article class="local-card" hidden={n >= initial}>
+            <span>{p.type}{p.km !== undefined && p.km >= 1 ? ` · ${p.km.toFixed(p.km < 10 ? 1 : 0)} km nga qendra` : ''}</span>
+            <h3>{p.name}</h3>
+            {p.address && <small>{p.address}</small>}
+            {p.cuisine && p.cuisine.length > 0 && <ul class="chips">{p.cuisine.map((c) => <li>{c}</li>)}</ul>}
+            {p.description && <p>{shorten(p.description)}</p>}
+            {p.openingHours && <small class="hours">{p.openingHours}</small>}
+            <nav>
+              <a href={mapUrl(p)} target="_blank" rel="noreferrer">Në hartë ↗</a>
+              {p.website && <a href={web(p.website)} target="_blank" rel="noreferrer">Faqja ↗</a>}
+              {p.phone && <a href={tel(p.phone)}>{p.phone}</a>}
+              <a class="fix" href={editUrl(p)} target="_blank" rel="noreferrer">Përmirëso ↗</a>
+            </nav>
+          </article>
+        ))}
+      </div>
+      {listOf(k).length > initial && <button type="button" class="local-more">Shfaq të gjitha ({listOf(k).length})</button>}
+    </div>
+  ))}
+  <p class="local-credit">
+    Të dhënat: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a> (ODbL) · Përditësuar më {fetched} ·
+    Mungon një bujtinë apo restorant? <a href="/kontribuo/#bujtina">Shtoje në hartë</a>.
+  </p>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.local').forEach((root) => {
+    const tabs = root.querySelectorAll<HTMLButtonElement>('[role=tab]');
+    const panels = root.querySelectorAll<HTMLElement>('[data-panel]');
+    tabs.forEach((tab) => tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.setAttribute('aria-selected', String(t === tab)));
+      panels.forEach((p) => { p.hidden = p.dataset.panel !== tab.dataset.kind; });
+    }));
+    root.querySelectorAll<HTMLButtonElement>('.local-more').forEach((more) => more.addEventListener('click', () => {
+      more.closest('.local-panel')!.querySelectorAll<HTMLElement>('.local-card').forEach((c) => { c.hidden = false; });
+      more.hidden = true;
+    }));
+  });
+</script>
+
+<style>
+.local-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}.local-tabs button{padding:10px 16px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 12px var(--sans);cursor:pointer}.local-tabs button small{margin-left:4px;color:var(--muted);font-size:10px}.local-tabs button[aria-selected=true]{border-color:var(--forest);color:#fff;background:var(--forest)}.local-tabs button[aria-selected=true] small{color:var(--lime)}
+.local-hint{margin:0 0 18px;color:var(--muted);font-size:14px}.local-panel[hidden],.local-card[hidden],.local-more[hidden]{display:none}
+.local-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.local-card{display:flex;flex-direction:column;padding:22px;border:1px solid var(--line);border-radius:16px;background:#fff;transition:border-color .25s,box-shadow .25s,transform .25s}.local-card:hover{border-color:#9db7a3;box-shadow:0 12px 28px #18322614;transform:translateY(-2px)}.local-card>span{color:var(--clay);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.local-card h3{margin:5px 0 0;font:500 22px/1.15 var(--display)}.local-card small{margin-top:4px;color:var(--muted);font-size:12px}.local-card p{margin:8px 0 0;color:var(--muted);font-size:13px;line-height:1.5}.chips{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 0;padding:0;list-style:none}.chips li{padding:3px 10px;border-radius:99px;background:var(--cream);color:var(--forest);font-size:11px;font-weight:600}.local-card nav{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:auto;padding-top:16px}.local-card nav a{color:var(--leaf);font-size:12px;font-weight:700}.local-card nav a:hover{text-decoration:underline}.local-card nav .fix{margin-left:auto;color:var(--muted);font-weight:600}
+.local-more{display:block;margin:26px auto 0;padding:13px 22px;border:1px solid var(--forest);border-radius:99px;color:var(--forest);background:none;font:700 12px var(--sans);cursor:pointer}.local-more:hover{color:#fff;background:var(--forest)}
+.local-credit{margin:28px 0 0;color:var(--muted);font-size:10px}.local-credit a{text-decoration:underline}
+@media(max-width:850px){.local-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){
+  .local-grid{grid-template-columns:1fr}
+  .local-tabs{flex-wrap:nowrap;margin-inline:-14px;padding:0 14px 4px;overflow-x:auto;scrollbar-width:none}
+  .local-tabs::-webkit-scrollbar{display:none}
+  .local-tabs button{flex:none;min-height:44px}
+  .local-card{padding:18px}
+  .local-card:hover,.atlas-card:hover{transform:none}
+  .local-card nav{gap:0 18px}
+  .local-card nav a{display:inline-flex;align-items:center;min-height:44px;font-size:13px}
+  .local-card p,.local-card small{font-size:13px}
+  .local-more{width:100%;min-height:48px}
+  .local-credit{font-size:12px}
+}
+</style>

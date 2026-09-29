@@ -1,0 +1,306 @@
+{
+  "city": "gjilan",
+  "name": "Gjilan",
+  "fetchedAt": "2026-09-28T22:58:57.234Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 20,
+  "places": [
+    {
+      "id": "node/5537014223",
+      "name": "Pali Krasniqi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.452805,
+      "lon": 21.483034,
+      "address": "Ahmet Delia 128",
+      "phone": "+38349188218",
+      "email": "perparimkrasniqi55@gmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/5537014223",
+      "score": 4,
+      "km": 1.6
+    },
+    {
+      "id": "node/6116990886",
+      "name": "PAJAZITI",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.452092,
+      "lon": 21.484699,
+      "address": "Gjilan",
+      "phone": "+38344992019",
+      "osmUrl": "https://www.openstreetmap.org/node/6116990886",
+      "score": 3,
+      "km": 1.8
+    },
+    {
+      "id": "node/4670054089",
+      "name": "Shtepia e Drinit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.499153,
+      "lon": 21.400531,
+      "osmUrl": "https://www.openstreetmap.org/node/4670054089",
+      "score": 1,
+      "km": 6.9
+    },
+    {
+      "id": "node/6739054685",
+      "name": "Halili",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.471762,
+      "lon": 21.327261,
+      "osmUrl": "https://www.openstreetmap.org/node/6739054685",
+      "score": 0,
+      "km": 11.7
+    },
+    {
+      "id": "node/4401561389",
+      "name": "Zijadin Mustafa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.467596,
+      "lon": 21.521034,
+      "osmUrl": "https://www.openstreetmap.org/node/4401561389",
+      "score": 0,
+      "km": 4.3
+    },
+    {
+      "id": "node/10068541517",
+      "name": "Restaurant Fundamenti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.475121,
+      "lon": 21.454265,
+      "address": "Nato 99",
+      "cuisine": [
+        "balkan",
+        "breakfast",
+        "burger",
+        "coffee shop"
+      ],
+      "phone": "044702999",
+      "website": "https://fundamenti-ks.com/",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/10068541517",
+      "score": 8,
+      "km": 1.8
+    },
+    {
+      "id": "node/11781975769",
+      "name": "Vërbica Agroturizem",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.536035,
+      "lon": 21.314046,
+      "address": "Rruga Blilincë, 60000",
+      "phone": "045979483",
+      "email": "verbica.agroturizem@gmail.com",
+      "website": "https://www.facebook.com/profile.php?id=100078146166488&mibextid=ZbWKwL",
+      "osmUrl": "https://www.openstreetmap.org/node/11781975769",
+      "score": 7,
+      "km": 15.1
+    },
+    {
+      "id": "way/529070018",
+      "name": "Hani i Mbreterve",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.466212,
+      "lon": 21.458356,
+      "address": "Beqir Musliu 9 Gjilan",
+      "cuisine": [
+        "italian pizza",
+        "sandwich",
+        "crepe",
+        "coffee shop"
+      ],
+      "phone": "+38349777077",
+      "email": "hani_gj@hotmail.com",
+      "openingHours": "Mo-Su 07:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/way/529070018",
+      "score": 6,
+      "km": 1
+    },
+    {
+      "id": "way/460316943",
+      "name": "Premium Forum",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.470248,
+      "lon": 21.479573,
+      "address": "Marie Shllaku",
+      "cuisine": [
+        "burger",
+        "sandwich",
+        "regional",
+        "ice cream"
+      ],
+      "phone": "+38344885040",
+      "openingHours": "Mo-Sa 07:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/way/460316943",
+      "score": 6,
+      "km": 1.1
+    },
+    {
+      "id": "way/1023059779",
+      "name": "Dyner Dyli",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.467231,
+      "lon": 21.46044,
+      "address": "Gjilan",
+      "cuisine": [
+        "balkan",
+        "kebab",
+        "turkish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1023059779",
+      "score": 3,
+      "km": 0.8
+    },
+    {
+      "id": "way/833364896",
+      "name": "Maja e Zeze",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.266295,
+      "lon": 21.544824,
+      "address": "Agim Ramadani",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/833364896",
+      "score": 3,
+      "km": 22.8
+    },
+    {
+      "id": "node/6863894313",
+      "name": "N'Rreze",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.457869,
+      "lon": 21.467329,
+      "address": "Raif Halimi Gjilan",
+      "cuisine": [
+        "pizza",
+        "sandwich",
+        "regional",
+        "coffee shop"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6863894313",
+      "score": 3,
+      "km": 0.6
+    },
+    {
+      "id": "way/458341390",
+      "name": "Taverna 501",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.467331,
+      "lon": 21.452681,
+      "address": "Beqir Musliu 10 215 Gjilan",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/458341390",
+      "score": 3,
+      "km": 1.4
+    },
+    {
+      "id": "way/459880792",
+      "name": "Vaxhenedi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.464657,
+      "lon": 21.426833,
+      "address": "Nëna Tereza Gjilan",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/459880792",
+      "score": 3,
+      "km": 3.5
+    },
+    {
+      "id": "node/9949189318",
+      "name": "Bistro Bar Helvetia",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.462741,
+      "lon": 21.458391,
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9949189318",
+      "score": 2,
+      "km": 0.9
+    },
+    {
+      "id": "node/4558545105",
+      "name": "Cuca",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.46621,
+      "lon": 21.471583,
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4558545105",
+      "score": 2,
+      "km": 0.4
+    },
+    {
+      "id": "node/2386701975",
+      "name": "Dardi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.459117,
+      "lon": 21.450559,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2386701975",
+      "score": 2,
+      "km": 1.6
+    },
+    {
+      "id": "way/640977299",
+      "name": "LATA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.48648,
+      "lon": 21.501133,
+      "cuisine": [
+        "regional",
+        "burger",
+        "pizza",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/640977299",
+      "score": 2,
+      "km": 3.7
+    },
+    {
+      "id": "node/8015969798",
+      "name": "PEP'S TAVERNA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.463077,
+      "lon": 21.470602,
+      "osmUrl": "https://www.openstreetmap.org/node/8015969798",
+      "score": 1,
+      "km": 0.1
+    },
+    {
+      "id": "way/529270271",
+      "name": "Taverna \"Drini\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.474742,
+      "lon": 21.487368,
+      "osmUrl": "https://www.openstreetmap.org/way/529270271",
+      "score": 1,
+      "km": 1.9
+    }
+  ]
+}

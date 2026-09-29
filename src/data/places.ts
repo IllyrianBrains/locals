@@ -47,6 +47,44 @@ export interface OsmPlace {
   score: number;
 }
 
+/** Water and protected land, listed separately from places: see scripts/nature.ts. */
+export type NatureKind = 'lake' | 'reservoir' | 'wetland' | 'bay' | 'river' | 'stream' | 'canal' | 'waterfall' | 'spring' | 'hot_spring' | 'national_park' | 'protected_area' | 'nature_reserve';
+
+export const natureLabels: Record<NatureKind, string> = {
+  lake: 'Liqen', reservoir: 'Liqen artificial', wetland: 'Zonë e lagësht', bay: 'Gji', river: 'Lumë', stream: 'Përrua', canal: 'Kanal',
+  waterfall: 'Ujëvarë', spring: 'Burim', hot_spring: 'Burim termal',
+  national_park: 'Park kombëtar', protected_area: 'Zonë e mbrojtur', nature_reserve: 'Rezervat natyror',
+};
+
+export const isProtectedKind = (kind: NatureKind) => kind === 'national_park' || kind === 'protected_area' || kind === 'nature_reserve';
+
+export interface NatureFeature {
+  id: string;
+  name: string;
+  nameEn?: string;
+  kind: NatureKind;
+  /** The point of the feature nearest the city centre. */
+  lat: number;
+  lon: number;
+  /** Metres from the city centre to the nearest part (0: the centre lies inside it). */
+  nearM: number;
+  areaKm2?: number;
+  lengthKm?: number;
+  /** Protection title from the OSM tags, e.g. "Natural Monument". */
+  title?: string;
+  wikidata?: string;
+  wikipedia?: string;
+  /** From Wikidata, Wikipedia and Commons when the feature has an entry: see scripts/enrich-wiki.ts. */
+  tagline?: { text: string; lang: string };
+  summary?: { text: string; lang: string; source: string };
+  imageFile?: string;
+  image?: string;
+  imageCredit?: string;
+  /** Simplified outlines as [lat, lon] lists: rings for areas, lines for rivers. */
+  paths?: [number, number][][];
+  osmUrl: string;
+}
+
 export interface OsmCityData {
   city: string;
   name: string;
@@ -57,6 +95,8 @@ export interface OsmCityData {
   license: string;
   count: number;
   places: OsmPlace[];
+  /** Water and protected areas nearby. */
+  nature?: NatureFeature[];
 }
 
 const files = import.meta.glob<OsmCityData>('./osm/*.json', { eager: true, import: 'default' });

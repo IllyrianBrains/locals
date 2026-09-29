@@ -1,0 +1,174 @@
+{
+  "city": "ferizaj",
+  "name": "Ferizaj",
+  "fetchedAt": "2026-09-28T22:58:57.240Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 10,
+  "places": [
+    {
+      "id": "node/5762224753",
+      "name": "“DPZ” FEJZA",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 42.36924,
+      "lon": 21.144054,
+      "address": "Epopeja e Jezercit 17",
+      "phone": "+38349121975",
+      "email": "butox92@gmail.com",
+      "openingHours": "Mo-Su 08:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5762224753",
+      "score": 6,
+      "km": 0.9
+    },
+    {
+      "id": "node/4951274489",
+      "name": "Villa n' Mal",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 42.369718,
+      "lon": 21.040633,
+      "osmUrl": "https://www.openstreetmap.org/node/4951274489",
+      "score": 0,
+      "km": 9.4
+    },
+    {
+      "id": "node/9913220017",
+      "name": "Hija e Maleve",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.376928,
+      "lon": 21.035011,
+      "address": "Prarokut",
+      "cuisine": [
+        "balkan",
+        "breakfast",
+        "italian",
+        "local"
+      ],
+      "phone": "+38348200051",
+      "email": "Hija-e-maleve@hotmail.com",
+      "website": "https://m.facebook.com/112343274373246/",
+      "openingHours": "Mo-Su 10:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/9913220017",
+      "score": 9,
+      "km": 9.9
+    },
+    {
+      "id": "node/4900374723",
+      "name": "Apollonia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.37235,
+      "lon": 21.158759,
+      "address": "Alishefik Sipahiu",
+      "cuisine": [
+        "balkan",
+        "local"
+      ],
+      "phone": "+383 45 847 888",
+      "osmUrl": "https://www.openstreetmap.org/node/4900374723",
+      "score": 6,
+      "km": 0.4
+    },
+    {
+      "id": "node/8914320972",
+      "name": "Restaurant \"Saffran\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.366593,
+      "lon": 21.144162,
+      "address": "Rr. Naim Beka Ferizaj",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "coffee shop",
+        "steak"
+      ],
+      "phone": "+383 44 100 376",
+      "openingHours": "Mo-Su 07:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/8914320972",
+      "score": 6,
+      "km": 1
+    },
+    {
+      "id": "node/5167716935",
+      "name": "Perla",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.378226,
+      "lon": 21.14731,
+      "address": "Cen Dugolli 22",
+      "cuisine": [
+        "sandwich",
+        "breakfast",
+        "tea",
+        "sausage"
+      ],
+      "openingHours": "Mo-Sa 06:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5167716935",
+      "score": 4,
+      "km": 1.1
+    },
+    {
+      "id": "node/6586553922",
+      "name": "Restaurant Authentik \"Te Oxhaku\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.361602,
+      "lon": 21.008293,
+      "address": "Habib Baliu Ferizaj",
+      "cuisine": [
+        "regional",
+        "steak house",
+        "pizza",
+        "coffee shop"
+      ],
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/6586553922",
+      "score": 4,
+      "km": 12.1
+    },
+    {
+      "id": "node/13988134383",
+      "name": "VB Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.440261,
+      "lon": 21.162788,
+      "cuisine": [
+        "pizza",
+        "burger",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13988134383",
+      "score": 2,
+      "km": 7.8
+    },
+    {
+      "id": "node/8722131428",
+      "name": "B&B Qeramika",
+      "kind": "craft",
+      "type": "Qeramikë",
+      "lat": 42.384312,
+      "lon": 21.131478,
+      "address": "Skënderbeu Ferizaj",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/8722131428",
+      "score": 2,
+      "km": 2.5
+    },
+    {
+      "id": "node/10302865403",
+      "name": "Metal Lisi KS",
+      "kind": "craft",
+      "type": "Farkëtari",
+      "lat": 42.357439,
+      "lon": 21.167542,
+      "phone": "044-486-123",
+      "osmUrl": "https://www.openstreetmap.org/node/10302865403",
+      "score": 2,
+      "km": 1.7
+    }
+  ]
+}

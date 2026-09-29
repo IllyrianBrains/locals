@@ -1,0 +1,68 @@
+{
+  "city": "lushnje",
+  "name": "Lushnjë",
+  "fetchedAt": "2026-09-28T22:58:57.216Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 4,
+  "places": [
+    {
+      "id": "node/4319962259",
+      "name": "Shpia lushnje",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.86227,
+      "lon": 19.650112,
+      "osmUrl": "https://www.openstreetmap.org/node/4319962259",
+      "score": 0,
+      "km": 9
+    },
+    {
+      "id": "way/978785190",
+      "name": "Green Park Altin Lushi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.821799,
+      "lon": 19.596207,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 682095704",
+      "website": "https://tourmake.al/greenpark_altini",
+      "osmUrl": "https://www.openstreetmap.org/way/978785190",
+      "score": 6,
+      "km": 15.2
+    },
+    {
+      "id": "node/4603839052",
+      "name": "Kushtrimi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.923874,
+      "lon": 19.785785,
+      "address": "Rruga Bedri Nezha 2 lushnje Skilaj",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "06:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4603839052",
+      "score": 4,
+      "km": 7.3
+    },
+    {
+      "id": "node/14131125901",
+      "name": "Bar Restaurant Judi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.946686,
+      "lon": 19.681863,
+      "address": "Rruga Fier-Tiranë",
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/14131125901",
+      "score": 3,
+      "km": 2.1
+    }
+  ]
+}

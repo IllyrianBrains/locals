@@ -1,0 +1,481 @@
+{
+  "city": "prizren",
+  "name": "Prizren",
+  "fetchedAt": "2026-09-28T22:58:57.097Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 32,
+  "places": [
+    {
+      "id": "node/11069371705",
+      "name": "Bashkim Bytyqi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.243589,
+      "lon": 20.708358,
+      "address": "Beteja e Pashtrikut",
+      "osmUrl": "https://www.openstreetmap.org/node/11069371705",
+      "score": 1,
+      "km": 4.2
+    },
+    {
+      "id": "node/11659503779",
+      "name": "Bujtina Nora",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.278532,
+      "lon": 20.622217,
+      "osmUrl": "https://www.openstreetmap.org/node/11659503779",
+      "score": 1,
+      "km": 12.1
+    },
+    {
+      "id": "node/11506980248",
+      "name": "Nehat",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 42.205609,
+      "lon": 20.786827,
+      "address": "Vërbiçan",
+      "osmUrl": "https://www.openstreetmap.org/node/11506980248",
+      "score": 1,
+      "km": 4
+    },
+    {
+      "id": "node/4539131891",
+      "name": "Familja Omaj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.170159,
+      "lon": 20.614696,
+      "osmUrl": "https://www.openstreetmap.org/node/4539131891",
+      "score": 0,
+      "km": 11.4
+    },
+    {
+      "id": "node/595412835",
+      "name": "Kompleksi Turistik Galaktika",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.174997,
+      "lon": 20.962179,
+      "osmUrl": "https://www.openstreetmap.org/node/595412835",
+      "score": 0,
+      "km": 18.8
+    },
+    {
+      "id": "node/8587916340",
+      "name": "Rruga Shehu",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 42.177204,
+      "lon": 20.664061,
+      "osmUrl": "https://www.openstreetmap.org/node/8587916340",
+      "score": 0,
+      "km": 7.5
+    },
+    {
+      "id": "node/5951617747",
+      "name": "Restaurant Bujtina Freskia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.173264,
+      "lon": 20.874032,
+      "address": "Novi Pazar 10 prizren",
+      "cuisine": [
+        "regional",
+        "pizza",
+        "burger"
+      ],
+      "phone": "+38345530402",
+      "website": "https://www.facebook.com/restorantfreskia",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5951617747",
+      "score": 9,
+      "km": 12
+    },
+    {
+      "id": "node/6863614085",
+      "name": "Restauran Pizzeria Te Lori 2",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.214334,
+      "lon": 20.737387,
+      "address": "Sylejman Rrotlla",
+      "cuisine": [
+        "italian pizza",
+        "chicken",
+        "pizza",
+        "burger"
+      ],
+      "phone": "+38344373797",
+      "email": "hasipz@hotmail.com",
+      "openingHours": "Mo-Su 06:00-01:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6863614085",
+      "score": 7,
+      "km": 0.2
+    },
+    {
+      "id": "node/4273379920",
+      "name": "منطقه باردة",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.172159,
+      "lon": 20.963293,
+      "address": "Shqiponja e Maleve Prevall",
+      "phone": "+383 49 151 832",
+      "website": "https://www.facebook.com/KullaJetimit/",
+      "openingHours": "Tu-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4273379920",
+      "score": 7,
+      "km": 19
+    },
+    {
+      "id": "node/2836143250",
+      "name": "Ambient",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.2099,
+      "lon": 20.743257,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 44 119 964",
+      "website": "https://www.ambient-ks.com",
+      "osmUrl": "https://www.openstreetmap.org/node/2836143250",
+      "score": 6,
+      "km": 0.5
+    },
+    {
+      "id": "node/8097789717",
+      "name": "Gjelltore SHARRI",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.205897,
+      "lon": 20.718036,
+      "address": "Masar Shala",
+      "cuisine": [
+        "coffee shop",
+        "grill"
+      ],
+      "phone": "+38349229046",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/8097789717",
+      "score": 5,
+      "km": 2
+    },
+    {
+      "id": "node/2051037096",
+      "name": "Sofra",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.211802,
+      "lon": 20.741346,
+      "address": "Adem Jashari",
+      "cuisine": [
+        "regional"
+      ],
+      "website": "http://www.facebook.com/restorantsofrapz?ref=stream",
+      "osmUrl": "https://www.openstreetmap.org/node/2051037096",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "way/732932082",
+      "name": "Gada Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.21749,
+      "lon": 20.750792,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 45 216 105",
+      "osmUrl": "https://www.openstreetmap.org/way/732932082",
+      "score": 4,
+      "km": 1
+    },
+    {
+      "id": "way/560484240",
+      "name": "Imperial",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.231538,
+      "lon": 20.713272,
+      "address": "prizren",
+      "cuisine": [
+        "burger",
+        "regional",
+        "pizza",
+        "italian"
+      ],
+      "openingHours": "Mo-Sa 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/560484240",
+      "score": 4,
+      "km": 2.9
+    },
+    {
+      "id": "node/6280460193",
+      "name": "PONTE COFFEE AND MORE - DARDANIA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.226663,
+      "lon": 20.753384,
+      "address": "Ukë Bytyqi PRIZREN",
+      "cuisine": [
+        "regional",
+        "pizza",
+        "coffee shop",
+        "sandwich"
+      ],
+      "openingHours": "Mo-Su 09:00-02:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6280460193",
+      "score": 4,
+      "km": 1.8
+    },
+    {
+      "id": "node/595412826",
+      "name": "Restaurant Liqeni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.167144,
+      "lon": 20.572259,
+      "cuisine": [
+        "fish",
+        "local",
+        "coffee shop"
+      ],
+      "phone": "+38344186987",
+      "osmUrl": "https://www.openstreetmap.org/node/595412826",
+      "score": 4,
+      "km": 14.8
+    },
+    {
+      "id": "node/4298036379",
+      "name": "Aurora",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.216132,
+      "lon": 20.733501,
+      "address": "Jusuf Gervalla",
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4298036379",
+      "score": 3,
+      "km": 0.6
+    },
+    {
+      "id": "node/11016485827",
+      "name": "Hani i vjetër",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.21025,
+      "lon": 20.740568,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11016485827",
+      "score": 3,
+      "km": 0.4
+    },
+    {
+      "id": "way/220959726",
+      "name": "Mulliri",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.210299,
+      "lon": 20.742764,
+      "address": "Sheshi i Lidhjes Prizren",
+      "cuisine": [
+        "coffee shop",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/220959726",
+      "score": 3,
+      "km": 0.5
+    },
+    {
+      "id": "node/7923029985",
+      "name": "Taverna Jonë",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.218466,
+      "lon": 20.74253,
+      "address": "Xhevë Lladrovci",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7923029985",
+      "score": 3,
+      "km": 0.6
+    },
+    {
+      "id": "node/6928108342",
+      "name": "Yes. Please",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.210063,
+      "lon": 20.740704,
+      "cuisine": [
+        "burger",
+        "regional"
+      ],
+      "openingHours": "07:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6928108342",
+      "score": 3,
+      "km": 0.4
+    },
+    {
+      "id": "node/11941604852",
+      "name": "Agroturizem Mrizi i Shqiponjave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.206422,
+      "lon": 20.7469,
+      "address": "Prizren",
+      "osmUrl": "https://www.openstreetmap.org/node/11941604852",
+      "score": 2,
+      "km": 1
+    },
+    {
+      "id": "node/6582138585",
+      "name": "Gatsby",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.209185,
+      "lon": 20.740288,
+      "cuisine": [
+        "pizza",
+        "burger",
+        "regional",
+        "cake"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6582138585",
+      "score": 2,
+      "km": 0.5
+    },
+    {
+      "id": "node/4234437054",
+      "name": "Hotel & Restaurant Trimi Adventure",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.208461,
+      "lon": 20.7443,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4234437054",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/14084786348",
+      "name": "Linda",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.216102,
+      "lon": 20.744106,
+      "cuisine": [
+        "regional",
+        "kebab"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/14084786348",
+      "score": 2,
+      "km": 0.4
+    },
+    {
+      "id": "node/2051047132",
+      "name": "Salloni dasmave Metropol",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.217646,
+      "lon": 20.719866,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2051047132",
+      "score": 2,
+      "km": 1.7
+    },
+    {
+      "id": "way/285558335",
+      "name": "Villa 100",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.215393,
+      "lon": 20.731013,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/285558335",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/6920295206",
+      "name": "Konak",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.209137,
+      "lon": 20.74106,
+      "cuisine": [
+        "turkish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6920295206",
+      "score": 1,
+      "km": 0.5
+    },
+    {
+      "id": "node/8800267798",
+      "name": "Konaku",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.208791,
+      "lon": 20.741709,
+      "cuisine": [
+        "cake",
+        "italian pizza",
+        "tea"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/8800267798",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/8806513962",
+      "name": "te Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.215143,
+      "lon": 20.732562,
+      "osmUrl": "https://www.openstreetmap.org/node/8806513962",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/7148082285",
+      "name": "WineShop Infinit",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 42.212025,
+      "lon": 20.737978,
+      "address": "Xhemil Fluku",
+      "phone": "0038349345843",
+      "openingHours": "Mo-Sa 00:00-24:00; Su 08:00-16:30",
+      "osmUrl": "https://www.openstreetmap.org/node/7148082285",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "node/8798179457",
+      "name": "Farkatar Feta",
+      "kind": "craft",
+      "type": "Farkëtari",
+      "lat": 42.206091,
+      "lon": 20.732082,
+      "address": "Lekë Matrënga",
+      "osmUrl": "https://www.openstreetmap.org/node/8798179457",
+      "score": 1,
+      "km": 1.1
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "city": "berat",
+  "name": "Berat",
+  "fetchedAt": "2026-09-28T22:58:56.984Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 45,
+  "places": [
+    {
+      "id": "node/5887047186",
+      "name": "Belle view",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.702,
+      "lon": 19.946373,
+      "address": "Rruga Nikolla Buhuri",
+      "phone": "00355684696032",
+      "email": "guesthousebelleview@gmail.com",
+      "website": "https://www.google.al/url?sa=t&source=web&rct=j&url=https://www.booking.com/hotel/al/guesthouse-belle-view.it.html&ved=2ahUKEwiG-fGF8qXdAhVHY1AKHejSCX8QjjgwA3oECAMQAQ&usg=AOvVaw29BZ5Q4d_5Q0Bv3H5xChMO&cshid=1536220180660",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5887047186",
+      "score": 7,
+      "km": 0.6
+    },
+    {
+      "id": "node/5868637486",
+      "name": "Eni",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.702218,
+      "lon": 19.944038,
+      "address": "Rruga Nikolla Buhuri 1",
+      "phone": "+355692187739",
+      "email": "eni.naska@live.it",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5868637486",
+      "score": 6,
+      "km": 0.8
+    },
+    {
+      "id": "way/1201364376",
+      "name": "Alpeta Agrotourism",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.7292,
+      "lon": 20.041534,
+      "address": "Qendër 4012 Roshnik",
+      "phone": "+355682091617",
+      "website": "https://alpeta.al/",
+      "osmUrl": "https://www.openstreetmap.org/way/1201364376",
+      "score": 5,
+      "km": 8
+    },
+    {
+      "id": "node/5703342294",
+      "name": "Guesthouse Kris",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.709433,
+      "lon": 19.944311,
+      "address": "Berat",
+      "phone": "+355 69 540 0979",
+      "website": "https://www.facebook.com/guesthousekris/",
+      "osmUrl": "https://www.openstreetmap.org/node/5703342294",
+      "score": 5,
+      "km": 0.8
+    },
+    {
+      "id": "node/4335813090",
+      "name": "Hostel Mangalem",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.704596,
+      "lon": 19.949159,
+      "website": "https://www.facebook.com/Hostel-Mangalem-331421823857560/",
+      "wikidata": "Q111121700",
+      "osmUrl": "https://www.openstreetmap.org/node/4335813090",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "node/9107908599",
+      "name": "Guest House BellaVista",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.706594,
+      "lon": 19.953707,
+      "address": "Berat",
+      "phone": "+355 69 925 4277",
+      "osmUrl": "https://www.openstreetmap.org/node/9107908599",
+      "score": 3,
+      "km": 0.2
+    },
+    {
+      "id": "node/10900901205",
+      "name": "Guest House Terminal",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.722299,
+      "lon": 19.942869,
+      "address": "Antipatrea",
+      "phone": "0696446134",
+      "osmUrl": "https://www.openstreetmap.org/node/10900901205",
+      "score": 3,
+      "km": 2
+    },
+    {
+      "id": "node/12919118618",
+      "name": "Guesthouse J. Prifti",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.704611,
+      "lon": 19.949005,
+      "address": "Rruga Antipatrea",
+      "website": "https://www.booking.com/hotel/al/guest-house-jprifti.html",
+      "osmUrl": "https://www.openstreetmap.org/node/12919118618",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/6612866098",
+      "name": "Local Living Edi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.725249,
+      "lon": 19.942264,
+      "address": "Berat",
+      "phone": "+355 69 3574128",
+      "osmUrl": "https://www.openstreetmap.org/node/6612866098",
+      "score": 3,
+      "km": 2.3
+    },
+    {
+      "id": "node/12961732147",
+      "name": "Qafë Dardhë",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.740059,
+      "lon": 20.12348,
+      "phone": "+355685187071",
+      "email": "hoteldardha2011@gmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/12961732147",
+      "score": 3,
+      "km": 14.9
+    },
+    {
+      "id": "node/5722781128",
+      "name": "Dhimitri's Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.702232,
+      "lon": 19.945424,
+      "address": "Rruga Nikolla Buhuri 295",
+      "osmUrl": "https://www.openstreetmap.org/node/5722781128",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/7203115139",
+      "name": "Timo's Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.704507,
+      "lon": 19.946917,
+      "website": "https://timosguesthouse.business.site/",
+      "osmUrl": "https://www.openstreetmap.org/node/7203115139",
+      "score": 2,
+      "km": 0.5
+    },
+    {
+      "id": "node/13110135901",
+      "name": "Villa Edis",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.704578,
+      "lon": 19.944338,
+      "phone": "+355 69 560 0451",
+      "osmUrl": "https://www.openstreetmap.org/node/13110135901",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/5753986443",
+      "name": "Villa Juri",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.704563,
+      "lon": 19.940741,
+      "phone": "00355 69 759 2339",
+      "osmUrl": "https://www.openstreetmap.org/node/5753986443",
+      "score": 2,
+      "km": 1
+    },
+    {
+      "id": "node/5170093528",
+      "name": "Buda Guest House actual location",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.700293,
+      "lon": 19.958427,
+      "osmUrl": "https://www.openstreetmap.org/node/5170093528",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/5043273628",
+      "name": "Droboniku,House,Berat,Albania",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.707635,
+      "lon": 19.940862,
+      "address": "Rruga Dardha 39",
+      "osmUrl": "https://www.openstreetmap.org/node/5043273628",
+      "score": 1,
+      "km": 1
+    },
+    {
+      "id": "way/1057849078",
+      "name": "Guest House Pashollari",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.705983,
+      "lon": 19.959143,
+      "address": "Rruga At Theodhori Apt 22 Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/1057849078",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/4878360426",
+      "name": "Guesthouse Niko",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.699202,
+      "lon": 19.957376,
+      "osmUrl": "https://www.openstreetmap.org/node/4878360426",
+      "score": 1,
+      "km": 0.9
+    },
+    {
+      "id": "way/1060537742",
+      "name": "Guesthouse Roan",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.696408,
+      "lon": 19.962145,
+      "address": "Rruga Pyjorja Berat",
+      "osmUrl": "https://www.openstreetmap.org/way/1060537742",
+      "score": 1,
+      "km": 1.3
+    },
+    {
+      "id": "node/5703342295",
+      "name": "Pjetri House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.709319,
+      "lon": 19.945373,
+      "address": "Rruga Lagje Kala Berat",
+      "osmUrl": "https://www.openstreetmap.org/node/5703342295",
+      "score": 1,
+      "km": 0.7
+    },
+    {
+      "id": "node/12955803801",
+      "name": "Rezidenca Aurel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.706886,
+      "lon": 19.951804,
+      "address": "Rruga Dr. Lluka",
+      "osmUrl": "https://www.openstreetmap.org/node/12955803801",
+      "score": 1,
+      "km": 0.1
+    },
+    {
+      "id": "node/9968715448",
+      "name": "Romeo's Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.70229,
+      "lon": 19.945441,
+      "address": "Rruga Nikolla Buhuri 295",
+      "osmUrl": "https://www.openstreetmap.org/node/9968715448",
+      "score": 1,
+      "km": 0.7
+    },
+    {
+      "id": "node/11333421376",
+      "name": "Adi Doga",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.7064,
+      "lon": 19.950568,
+      "osmUrl": "https://www.openstreetmap.org/node/11333421376",
+      "score": 0,
+      "km": 0.2
+    },
+    {
+      "id": "node/4239751609",
+      "name": "Butjina Kodiket Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.70557,
+      "lon": 19.950317,
+      "osmUrl": "https://www.openstreetmap.org/node/4239751609",
+      "score": 0,
+      "km": 0.2
+    },
+    {
+      "id": "node/14130431102",
+      "name": "GuestHouse Esanbja",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.699027,
+      "lon": 19.960317,
+      "osmUrl": "https://www.openstreetmap.org/node/14130431102",
+      "score": 0,
+      "km": 1
+    },
+    {
+      "id": "node/6816738885",
+      "name": "Guesthouse Arjan",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.705297,
+      "lon": 19.949797,
+      "osmUrl": "https://www.openstreetmap.org/node/6816738885",
+      "score": 0,
+      "km": 0.2
+    },
+    {
+      "id": "node/4326860997",
+      "name": "Lili's Home-Made Food Cucina Di Casa Traditional",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.704935,
+      "lon": 19.94886,
+      "address": "Rruga Llambi Guxhumani",
+      "cuisine": [
+        "local",
+        "regional"
+      ],
+      "website": "https://www.happycow.net/reviews/lili-homemade-food-berat-144751",
+      "openingHours": "Mo-Su 17:30-22:30",
+      "osmUrl": "https://www.openstreetmap.org/node/4326860997",
+      "score": 6,
+      "km": 0.3
+    },
+    {
+      "id": "node/5775494853",
+      "name": "Antipatrea",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.709678,
+      "lon": 19.945808,
+      "address": "Rrugica Mbrica",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "069 30 95 052",
+      "osmUrl": "https://www.openstreetmap.org/node/5775494853",
+      "score": 5,
+      "km": 0.7
+    },
+    {
+      "id": "node/6702531485",
+      "name": "Temi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.708688,
+      "lon": 19.945926,
+      "address": "Rrugica Mbrica",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 09:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6702531485",
+      "score": 5,
+      "km": 0.6
+    },
+    {
+      "id": "way/169740741",
+      "name": "Guva Mangalem Hotel Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.704728,
+      "lon": 19.948403,
+      "address": "L.agjja Mangalem",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/169740741",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "node/4332708189",
+      "name": "Onufri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.70975,
+      "lon": 19.945628,
+      "cuisine": [
+        "local"
+      ],
+      "phone": "03230661",
+      "osmUrl": "https://www.openstreetmap.org/node/4332708189",
+      "score": 4,
+      "km": 0.7
+    },
+    {
+      "id": "node/9111599775",
+      "name": "Eni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.702296,
+      "lon": 19.943912,
+      "address": "Berat",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9111599775",
+      "score": 3,
+      "km": 0.8
+    },
+    {
+      "id": "node/5070715321",
+      "name": "Pasarela",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.704646,
+      "lon": 19.954974,
+      "address": "Rruga Gaqi Gjika",
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5070715321",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/4344588689",
+      "name": "Piccolo Grande Amore",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.703884,
+      "lon": 19.95716,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4344588689",
+      "score": 3,
+      "km": 0.5
+    },
+    {
+      "id": "node/9153949059",
+      "name": "ELVI Tradicional Food & Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.705906,
+      "lon": 19.951274,
+      "osmUrl": "https://www.openstreetmap.org/node/9153949059",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/4988147522",
+      "name": "Luç",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.702439,
+      "lon": 19.944518,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4988147522",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/9969997982",
+      "name": "Mbrica",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.708658,
+      "lon": 19.945997,
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9969997982",
+      "score": 2,
+      "km": 0.6
+    },
+    {
+      "id": "way/288162861",
+      "name": "Mulliri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.703681,
+      "lon": 19.943717,
+      "cuisine": [
+        "regional",
+        "mediterranean"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/288162861",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/13177207701",
+      "name": "Hani i Xheblatit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.704763,
+      "lon": 19.949,
+      "osmUrl": "https://www.openstreetmap.org/node/13177207701",
+      "score": 1,
+      "km": 0.3
+    },
+    {
+      "id": "node/14173123780",
+      "name": "Konak",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.708854,
+      "lon": 19.94588,
+      "osmUrl": "https://www.openstreetmap.org/node/14173123780",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/5758857234",
+      "name": "La Taverna Lazaro",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.711581,
+      "lon": 19.946617,
+      "osmUrl": "https://www.openstreetmap.org/node/5758857234",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/4403153611",
+      "name": "Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.767078,
+      "lon": 19.899706,
+      "osmUrl": "https://www.openstreetmap.org/node/4403153611",
+      "score": 1,
+      "km": 8.1
+    },
+    {
+      "id": "node/2917112719",
+      "name": "Taverna Ajka",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.702936,
+      "lon": 19.949997,
+      "osmUrl": "https://www.openstreetmap.org/node/2917112719",
+      "score": 1,
+      "km": 0.4
+    },
+    {
+      "id": "way/1201364375",
+      "name": "Alpeta Agrotourism & Winery",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 40.728808,
+      "lon": 20.041271,
+      "address": "Qendër 4012 Roshnik",
+      "phone": "+355682091617",
+      "osmUrl": "https://www.openstreetmap.org/way/1201364375",
+      "score": 4,
+      "km": 7.9
+    },
+    {
+      "id": "node/9153942948",
+      "name": "Lodge of Wine",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 40.704553,
+      "lon": 19.954281,
+      "osmUrl": "https://www.openstreetmap.org/node/9153942948",
+      "score": 0,
+      "km": 0.2
+    }
+  ]
+}

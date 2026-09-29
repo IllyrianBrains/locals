@@ -1,0 +1,200 @@
+{
+  "city": "vushtrri",
+  "name": "Vushtrri",
+  "fetchedAt": "2026-09-28T22:58:57.243Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 12,
+  "places": [
+    {
+      "id": "way/997042000",
+      "name": "Oda e mustafagve",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 42.776918,
+      "lon": 20.968728,
+      "address": "Rilindaja Reznik",
+      "description": "Kjo ode sherben per pritjen e t'Pameve dhe ahengjeve tjera te lagjes mustafaj",
+      "osmUrl": "https://www.openstreetmap.org/way/997042000",
+      "score": 3,
+      "km": 5
+    },
+    {
+      "id": "node/4583460596",
+      "name": "Dajt",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.818762,
+      "lon": 20.971588,
+      "osmUrl": "https://www.openstreetmap.org/node/4583460596",
+      "score": 0,
+      "km": 0.6
+    },
+    {
+      "id": "way/1215295742",
+      "name": "SoCo Lounge",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.818339,
+      "lon": 20.968294,
+      "address": "Faruk Beqiri Vushtrri",
+      "cuisine": [
+        "burger",
+        "regional",
+        "coffee shop",
+        "pizza"
+      ],
+      "openingHours": "Mo-Su 09:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/1215295742",
+      "score": 4,
+      "km": 0.4
+    },
+    {
+      "id": "way/919824048",
+      "name": "Sueno",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.824543,
+      "lon": 20.967702,
+      "address": "Ismail Qemajli Vushtrri",
+      "cuisine": [
+        "regional",
+        "coffee shop"
+      ],
+      "openingHours": "sunrise-sunset",
+      "osmUrl": "https://www.openstreetmap.org/way/919824048",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "way/609893223",
+      "name": "Agona",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.822294,
+      "lon": 20.963547,
+      "address": "Basri Beqiri Vushtrri / Vučitrn",
+      "cuisine": [
+        "burger",
+        "pizza",
+        "regional",
+        "coffee shop"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/609893223",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "way/919790862",
+      "name": "Garden House",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.822962,
+      "lon": 20.966115,
+      "address": "Xhevat Jusufi Vushtrri / Vučitrn",
+      "cuisine": [
+        "regional",
+        "coffee shop"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/919790862",
+      "score": 3,
+      "km": 0.1
+    },
+    {
+      "id": "node/9891543156",
+      "name": "Monate",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.817562,
+      "lon": 20.980701,
+      "address": "Martirët e Lirisë Vushtrri",
+      "cuisine": [
+        "pizza",
+        "coffee shop",
+        "burger",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9891543156",
+      "score": 3,
+      "km": 1.3
+    },
+    {
+      "id": "way/919826499",
+      "name": "Prestige Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.827928,
+      "lon": 20.969039,
+      "address": "Nazmi Hyseni Popova Vushtrri",
+      "cuisine": [
+        "coffee shop",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/919826499",
+      "score": 3,
+      "km": 0.7
+    },
+    {
+      "id": "way/1112341245",
+      "name": "Restaurant La Fontana",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.833448,
+      "lon": 20.985033,
+      "address": "Bekim Berisha Abeja Begaj",
+      "cuisine": [
+        "pizza",
+        "coffee shop",
+        "chicken",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/1112341245",
+      "score": 3,
+      "km": 2
+    },
+    {
+      "id": "way/920081575",
+      "name": "UNO",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.822798,
+      "lon": 20.964637,
+      "address": "Hasan Prishtina Vushtrri / Vučitrn",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/920081575",
+      "score": 3,
+      "km": 0.2
+    },
+    {
+      "id": "way/511054695",
+      "name": "Agona Pizzeria",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.823474,
+      "lon": 20.95637,
+      "cuisine": [
+        "italian",
+        "regional",
+        "ice cream",
+        "fish and chips"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/511054695",
+      "score": 2,
+      "km": 0.9
+    },
+    {
+      "id": "way/920548254",
+      "name": "Fortesa",
+      "kind": "craft",
+      "type": "Qeramikë",
+      "lat": 42.833169,
+      "lon": 20.961402,
+      "address": "Haxhi Zeka",
+      "osmUrl": "https://www.openstreetmap.org/way/920548254",
+      "score": 1,
+      "km": 1.3
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { cities } from '../data/cities';
+import { categoryLabels, getCityPlaces, type OsmPlace } from '../data/places';
+
+type P = OsmPlace & { cityName: string; citySlug: string };
+const all: P[] = cities.flatMap((c) => (getCityPlaces(c.slug)?.places ?? []).map((p) => ({ ...p, cityName: c.name, citySlug: c.slug })));
+const best = (a: P, b: P) => b.score - a.score;
+const hasSq = (p: P) => p.summary?.lang === 'sq';
+
+// Photo strip: the best complete place of four different cities.
+const strip: P[] = [];
+for (const p of all.filter((p) => p.image && hasSq(p)).sort(best)) {
+  if (strip.length < 4 && !strip.some((q) => q.citySlug === p.citySlug)) strip.push(p);
+}
+
+// The worked example: one place that already lives in all three projects.
+const example = all.find((p) => p.name === 'Kalaja e Beratit' && p.wikidata && p.wikipedia)!;
+const exampleWiki = example.summary?.source;
+const exampleCommons = example.imageFile && `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(example.imageFile.replace(/ /g, '_'))}`;
+
+// Places that are waiting for a contributor, best first, one per city so the list is not a single town.
+const perCity = (list: P[], n = 6) => {
+  const seen = new Set<string>();
+  return list.sort(best).filter((p) => (seen.has(p.citySlug) ? false : (seen.add(p.citySlug), true))).slice(0, n);
+};
+const osmEdit = (p: P) => { const [type, id] = p.id.split('/'); return `https://www.openstreetmap.org/edit?${type}=${id}`; };
+const localTypes = [
+  { label: 'Bujtinë', what: 'Fjetje në shtëpi familjare ose kasolle', tags: 'tourism=guest_house' },
+  { label: 'Agroturizëm', what: 'Fjetje dhe ushqim në fermë', tags: 'tourism=farm_stay' },
+  { label: 'Restorant tradicional', what: 'Gjellë vendase, tavernë, han, kullë', tags: 'amenity=restaurant + cuisine=regional' },
+  { label: 'Kantinë vere', what: 'Vreshta dhe pijetore me vizitë', tags: 'craft=winery' },
+  { label: 'Prodhues', what: 'Djathë, mjaltë, vaj ulliri, raki', tags: 'craft=cheese / beekeeper / oil_mill' },
+  { label: 'Zejtar', what: 'Qeramikë, endje, farkëtari, gdhendje', tags: 'craft=pottery / weaver / blacksmith' },
+];
+const wantedGroups = [
+  { key: 'wikidata', title: 'Presin një element Wikidata', hint: 'Krijo elementin dhe shtoje wikidata=Q… te objekti në OpenStreetMap.', list: perCity(all.filter((p) => !p.wikidata)), href: (p: P) => osmEdit(p), cta: 'Hap në OSM' },
+  { key: 'wikipedia', title: 'Presin tekst shqip', hint: 'Kanë element Wikidata, por artikulli në shqip mungon ose është shumë i shkurtër.', list: perCity(all.filter((p) => p.wikidata && !hasSq(p))), href: (p: P) => `https://www.wikidata.org/wiki/${p.wikidata}`, cta: 'Hap në Wikidata' },
+  { key: 'photo', title: 'Presin një foto', hint: 'Ngarko një foto të lirë te Commons dhe lidhe si image (P18) në Wikidata.', list: perCity(all.filter((p) => !p.image)), href: (p: P) => (p.wikidata ? `https://www.wikidata.org/wiki/${p.wikidata}` : osmEdit(p)), cta: 'Shto foton' },
+];
+
+const steps = [
+  {
+    n: '1',
+    label: 'OpenStreetMap',
+    title: 'Vendet dhe gjeografia',
+    lead: 'Çdo gjë që ka një pozicion në hartë: pika interesi, vende të veçanta, shtigje dhe shërbimet përreth tyre.',
+    items: [
+      'Muze, kala, gërmadha, vend-pamje, burime, shpella, ujëvara, male dhe parqe kombëtare.',
+      'Shtigje ecjeje me emër, strehëza malore, kampe, bujtina, ferma, prodhues vendas dhe stacione.',
+      'Shto gjithmonë emrin (name, name:sq, name:en). Vendet pa emër nuk merren.',
+      'Shto faqen e internetit, orarin dhe një foto nga Commons. Këto e ngrenë vendin në renditje.',
+      'Shto etiketën wikidata=Q… te vendet e njohura: ajo e lidh vendin me historinë e tij (hapi 3).',
+      'Harto vetëm çfarë ke parë apo verifikuar vetë. Mos kopjo nga Google Maps: OpenStreetMap ka licencë të hapur (ODbL).',
+    ],
+    links: [
+      ['Hap OpenStreetMap ↗', 'https://www.openstreetmap.org/edit'],
+      ['Nga telefoni: StreetComplete ↗', 'https://streetcomplete.app'],
+      ['Etiketat në wiki ↗', 'https://wiki.openstreetmap.org/wiki/Map_features'],
+    ],
+  },
+  {
+    n: '2',
+    label: 'Wikipedia',
+    title: 'Historia',
+    lead: 'Teksti që shfaqet te Locals për një vend vjen nga artikulli i tij në Wikipedia. Një artikull i mirë është udhëzuesi më i mirë.',
+    items: [
+      'Shkruaj së pari në shqip; anglishtja është e mirëpritur po ashtu.',
+      'Fillo me një fjali të qartë që thotë çfarë është vendi dhe ku ndodhet. Dy fjalitë e para bëhen përmbledhja.',
+      'Trego historinë: datat, njerëzit, ngjarjet. Çdo pohim ka nevojë për burim të besueshëm; kërkimi origjinal nuk pranohet.',
+      'Ngarko fotot te Wikimedia Commons me licencë të lirë. Locals përdor vetëm foto nga Commons, sepse autorin dhe licencën mund t’i lexojë.',
+      'Ruaj këndvështrimin asnjanës. Një vend-pamje i vogël mund të futet te artikulli i fshatit ose i bashkisë.',
+    ],
+    links: [
+      ['Wikipedia shqip ↗', 'https://sq.wikipedia.org'],
+      ['Wikimedia Commons ↗', 'https://commons.wikimedia.org'],
+    ],
+  },
+  {
+    n: '3',
+    label: 'Wikidata',
+    title: 'Lidhja mes të dyjave',
+    lead: 'Çdo artikull dhe çdo vend i njohur ka një element në Wikidata (Q…). Ai është ura: Locals e ndjek lidhjen në të dy drejtimet.',
+    items: [
+      'Gjej elementin në Wikidata. Nëse vendi ka artikull në Wikipedia, ka edhe element: hape nga menyja e veglave.',
+      'Nëse nuk ka, krijoje. Kërko më parë me emër që të mos dyfishohet.',
+      'Plotëso bazën: emrin dhe përshkrimin e shkurtër në shqip e anglisht, llojin (P31), shtetin (P17), njësinë administrative (P131) dhe koordinatat (P625).',
+      'Shto fotografinë (P18) nga Commons dhe lidhjet me artikujt e Wikipedia-s.',
+      'Kopjo numrin Q… te objekti në OpenStreetMap si wikidata=Q…. Kjo mjafton për ta lidhur.',
+      'Kontrollo: lidhja e wikidata hap elementin e duhur, ai hap artikullin e duhur, dhe koordinatat përputhen me hartën.',
+    ],
+    links: [
+      ['Wikidata ↗', 'https://www.wikidata.org'],
+      ['Si lidhet me OSM ↗', 'https://wiki.openstreetmap.org/wiki/Key:wikidata'],
+    ],
+  },
+];
+---
+<BaseLayout title="Kontribuo · Locals" description="Si të ndihmosh Locals: harto vendet në OpenStreetMap, shkruaj historinë në Wikipedia dhe lidhi me Wikidata.">
+  <Header />
+  <main class="contribute">
+    <section class="contribute-hero"><div class="container">
+      <small>Kontribuo</small>
+      <h1>Ndihmo të njihet vendi yt.</h1>
+      <p>Locals nuk ka bazë të dhënash private. Çdo vend, shteg dhe tekst lexohet nga projekte të hapura. Kur i përmirëson ato, ndihmon çdokënd që i përdor, dhe ndryshimi arrin te Locals kur të dhënat rifreskohen.</p>
+      <ol class="flow" aria-label="Tri hapat">
+        <li><b>OpenStreetMap</b><span>ku është</span></li>
+        <li class="arrow" aria-hidden="true">→</li>
+        <li><b>Wikidata</b><span>lidhja</span></li>
+        <li class="arrow" aria-hidden="true">→</li>
+        <li><b>Wikipedia</b><span>historia</span></li>
+      </ol>
+    </div>
+      <ul class="strip">{strip.map((p) => (
+        <li><a href={`/${p.citySlug}/`}><img src={p.image} alt={p.name} loading="lazy" referrerpolicy="no-referrer" /><span>{p.name}<small>{p.cityName}</small></span></a></li>
+      ))}</ul>
+      <p class="strip-credit">Fotot: Wikimedia Commons · {strip.map((p) => `${p.name}: ${p.imageCredit}`).join(' · ')}</p>
+    </section>
+
+    <section class="section example" id="shembull"><div class="container">
+      <small>Shembull i gjallë</small>
+      <h2 class="title">Një vend, tri projekte.</h2>
+      <article class="ex-card">
+        {example.image && <img src={example.image} alt={example.name} loading="lazy" referrerpolicy="no-referrer" />}
+        <div class="ex-body">
+          <span class="tag">{categoryLabels[example.category]} · {example.cityName}</span>
+          <h3>{example.name}</h3>
+          <p>{example.summary?.text}</p>
+          {example.imageCredit && <small class="ex-credit">Foto: {example.imageCredit}</small>}
+          <div class="ex-tags"><code>tourism={example.kind}</code><code>name={example.name}</code><code>wikidata={example.wikidata}</code><code>wikipedia={example.wikipedia}</code></div>
+        </div>
+        <ol class="ex-links">
+          <li><b>1 · OpenStreetMap</b><a href={example.osmUrl} target="_blank" rel="noreferrer">Vendi në hartë ↗</a></li>
+          <li><b>2 · Wikidata</b><a href={`https://www.wikidata.org/wiki/${example.wikidata}`} target="_blank" rel="noreferrer">{example.wikidata} ↗</a></li>
+          <li><b>3 · Wikipedia</b>{exampleWiki && <a href={exampleWiki} target="_blank" rel="noreferrer">Artikulli në shqip ↗</a>}</li>
+          {exampleCommons && <li><b>+ Commons</b><a href={exampleCommons} target="_blank" rel="noreferrer">Fotoja ↗</a></li>}
+        </ol>
+      </article>
+      <p class="note">Te Locals, vendi shfaqet me foto, përmbledhje dhe lidhje. Asnjë prej tyre nuk është shkruar këtu: gjithçka vjen nga tri projektet e hapura.</p>
+    </div></section>
+
+    {steps.map((s) => (
+      <section class="section step" id={s.label.toLowerCase()}><div class="container step-grid">
+        <div>
+          <span class="num">{s.n}</span>
+          <small>{s.label}</small>
+          <h2>{s.title}</h2>
+          <p class="lead">{s.lead}</p>
+          <ul class="step-links">{s.links.map(([text, href]) => <li><a href={href} target="_blank" rel="noreferrer">{text}</a></li>)}</ul>
+        </div>
+        <ul class="checks">{s.items.map((item) => <li>{item}</li>)}</ul>
+      </div></section>
+    ))}
+
+    <section class="section bujtina" id="bujtina"><div class="container">
+      <small>Bujtina &amp; kuzhinë vendase</small>
+      <h2 class="title">Shto bujtinën, tavernën, kantinën.</h2>
+      <div class="bj-grid">
+        <p class="bj-lead">Çdo bujtinë, restorant tradicional, fermë, kantinë dhe zejtar që hartohet në OpenStreetMap shfaqet te seksioni «Bujtina &amp; kuzhinë vendase» i qytetit të tij, edhe në fshatrat rreth tij. Ky është mënyra më e drejtpërdrejtë për t’u dukur tek udhëtarët.</p>
+        <ul class="bj-types">{localTypes.map((t) => (
+          <li><b>{t.label}</b><span>{t.what}</span><code>{t.tags}</code></li>
+        ))}</ul>
+      </div>
+      <p class="note">Shto gjithmonë emrin. Tel, faqja e internetit dhe orari e bëjnë kartën të dobishme. Vendos vetëm të dhëna që biznesi i ka të publikuara, dhe kurrë numra personalë pa lejen e pronarit. Mos kopjo nga Google Maps ose Booking.</p>
+    </div></section>
+
+    <section class="section wanted" id="presin"><div class="container">
+      <small>Vende që të presin</small>
+      <h2 class="title">Nga mund të fillosh sot.</h2>
+      <p class="wanted-lead">Këto vende janë tashmë te Locals, por u mungon diçka. Zgjidh një, plotësoje dhe do të shfaqet plot herën tjetër që të dhënat rifreskohen.</p>
+      <div class="wanted-grid">{wantedGroups.map((g) => (
+        <div class="wanted-col" id={`presin-${g.key}`}>
+          <h3>{g.title}</h3>
+          <p>{g.hint}</p>
+          <ul>{g.list.map((p) => (
+            <li>
+              <div><b>{p.name}</b><small><a href={`/${p.citySlug}/`}>{p.cityName}</a> · {categoryLabels[p.category]}</small></div>
+              <a class="go" href={g.href(p)} target="_blank" rel="noreferrer">{g.cta} ↗</a>
+            </li>
+          ))}</ul>
+        </div>
+      ))}</div>
+      <p class="note">Të dhënat: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">kontribuuesit e OpenStreetMap</a>, ODbL.</p>
+    </div></section>
+
+    <section class="section done"><div class="container done-grid">
+      <div>
+        <h2>Ndryshimi shfaqet te Locals.</h2>
+        <p>Ndryshimet në OpenStreetMap, Wikipedia dhe Wikidata duken aty menjëherë ose brenda pak minutash. Te Locals ato hyjnë kur të dhënat rifreskohen dhe faqja ndërtohet përsëri. Nëse pas disa ditësh nuk shfaqet, na shkruaj.</p>
+      </div>
+      <div>
+        <p>Nuk je i sigurt nga ku të fillosh, ose do një qytet të ri në Locals? Na shkruaj, ose shiko kodin në GitHub.</p>
+        <a class="button" href="mailto:illyrianbrains@gmail.com?subject=Kontribut për Locals">Na shkruaj <span>↗</span></a>
+      </div>
+    </div></section>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<style>
+.contribute-hero{padding:clamp(56px,8vw,110px) 0;color:#fff;background:var(--forest)}.contribute-hero small,.step small{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.contribute-hero small{color:var(--lime)}.contribute-hero h1{max-width:820px;margin:8px 0 0;font:400 clamp(48px,8vw,104px)/.95 var(--display);letter-spacing:-.04em}.contribute-hero p{max-width:640px;margin:22px 0 0;color:#ffffffcc;font:400 clamp(18px,2vw,22px)/1.45 var(--display)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:36px 0 0;padding:0;list-style:none}.flow li:not(.arrow){display:flex;flex-direction:column;padding:14px 20px;border:1px solid #ffffff40;border-radius:14px;background:#ffffff10}.flow b{font:500 20px/1.1 var(--display)}.flow span{color:#ffffffa0;font-size:12px}.arrow{color:var(--lime);font-size:22px}
+.step:nth-of-type(odd){background:var(--cream)}.step-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(36px,7vw,100px);align-items:start}.step small{margin-top:6px;color:var(--clay)}.step h2{margin:6px 0 0;font:400 clamp(36px,4.5vw,56px)/1 var(--display);letter-spacing:-.03em}.lead{margin:18px 0 0;font:400 20px/1.45 var(--display)}.step-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:22px 0 0;padding:0;list-style:none}.step-links a{color:var(--leaf);font-size:13px;font-weight:700}
+.checks{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}.checks li{position:relative;padding:15px 0 15px 30px;border-bottom:1px solid var(--line);font-size:15px}.checks li:before{position:absolute;left:0;color:var(--leaf);font-weight:700;content:'✓'}
+.done{background:var(--lime)}.done-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.done h2{margin:0;font:400 clamp(36px,5vw,56px)/.98 var(--display)}.done p{margin:16px 0 0;font:400 19px/1.5 var(--display)}.done-grid>div:last-child p{margin-top:0}.done .button{margin-top:18px;color:#fff;background:var(--forest)}
+@media(max-width:800px){.step-grid,.done-grid{grid-template-columns:1fr;gap:28px}}
+
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;width:min(1180px,calc(100% - 40px));margin:clamp(36px,5vw,60px) auto 0;padding:0;list-style:none}.strip a{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;border-radius:16px;background:#1d2b23}.strip img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.strip a:hover img{transform:scale(1.05)}.strip a:after{position:absolute;inset:0;background:linear-gradient(180deg,#0000 50%,#000c);content:''}.strip span{position:absolute;right:14px;bottom:12px;left:14px;z-index:1;font:500 18px/1.15 var(--display)}.strip small{display:block;margin-top:2px;color:var(--lime);font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase}.strip-credit{width:min(1180px,calc(100% - 40px));margin:12px auto 0!important;color:#ffffff80!important;font:400 10px/1.5 var(--sans)!important}
+.example{background:var(--paper)}.example>.container>small,.wanted>.container>small{display:block;margin-bottom:6px;color:var(--clay);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.title{margin:0 0 32px;font:400 clamp(40px,5.5vw,64px)/1 var(--display);letter-spacing:-.03em}.note{margin:18px 0 0;color:var(--muted);font-size:12px}
+.ex-card{display:grid;grid-template-columns:1fr 1.1fr;grid-template-rows:auto auto;overflow:hidden;border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 20px 50px #0000000f}.ex-card>img{grid-row:1/3;width:100%;height:100%;min-height:340px;object-fit:cover}.ex-body{padding:clamp(24px,3vw,40px)}.tag{color:var(--clay);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.ex-body h3{margin:6px 0 0;font:400 clamp(30px,3.5vw,44px)/1.05 var(--display)}.ex-body p{margin:14px 0 0;font:400 17px/1.5 var(--display)}.ex-credit{display:block;margin-top:8px;color:var(--muted);font-size:10px}.ex-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:20px}.ex-tags code{padding:5px 10px;border-radius:6px;background:var(--cream);color:var(--forest);font:600 12px ui-monospace,Menlo,monospace}
+.ex-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0;padding:0;list-style:none;border-top:1px solid var(--line);background:var(--cream)}.ex-links li{display:flex;flex-direction:column;gap:2px;padding:16px 22px;border-right:1px solid var(--line)}.ex-links li:last-child{border-right:0}.ex-links b{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.ex-links a{color:var(--leaf);font-size:14px;font-weight:700}.ex-links a:hover{text-decoration:underline}
+.step{position:relative;border-top:1px solid var(--line)}.step .num{display:inline-grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--forest);color:var(--lime);font:400 32px/1 var(--display)}.checks li{border-radius:0;transition:background .2s}.checks li:hover{background:#ffffff80}
+.wanted{background:var(--cream);border-top:1px solid var(--line)}.wanted-lead{max-width:640px;margin:-12px 0 32px;font:400 20px/1.45 var(--display)}.wanted-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.wanted-col{padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--paper)}.wanted-col h3{margin:0;font:500 24px/1.15 var(--display)}.wanted-col>p{margin:6px 0 14px;color:var(--muted);font-size:13px}.wanted-col ul{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}.wanted-col li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.wanted-col li b{display:block;font-size:14px;line-height:1.25}.wanted-col li small{color:var(--muted);font-size:11px}.wanted-col li small a:hover{color:var(--leaf)}.go{flex:none;padding:7px 11px;border-radius:99px;background:var(--forest);color:#fff;font-size:11px;font-weight:700;white-space:nowrap;transition:background .2s}.go:hover{background:var(--leaf)}
+@media(max-width:980px){.strip{grid-template-columns:1fr 1fr}.wanted-grid{grid-template-columns:1fr}.ex-card{grid-template-columns:1fr}.ex-card>img{grid-row:auto;min-height:240px;max-height:320px}}
+@media(max-width:520px){.wanted-col li{flex-direction:column;align-items:flex-start}}
+.bujtina{background:var(--paper);border-top:1px solid var(--line)}.bujtina>.container>small{display:block;margin-bottom:6px;color:var(--clay);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.bj-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(30px,6vw,80px);align-items:start}.bj-lead{margin:0;font:400 20px/1.5 var(--display)}.bj-types{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}.bj-types li{display:grid;grid-template-columns:150px 1fr;gap:4px 16px;padding:14px 0;border-bottom:1px solid var(--line)}.bj-types b{font:500 18px var(--display)}.bj-types span{color:var(--muted);font-size:13px}.bj-types code{grid-column:2;justify-self:start;padding:3px 8px;border-radius:6px;background:var(--cream);color:var(--forest);font:600 11px ui-monospace,Menlo,monospace}
+@media(max-width:800px){.bj-grid{grid-template-columns:1fr}.bj-types li{grid-template-columns:1fr}.bj-types code{grid-column:1}}
+</style>

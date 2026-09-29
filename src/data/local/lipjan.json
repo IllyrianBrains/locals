@@ -1,0 +1,200 @@
+{
+  "city": "lipjan",
+  "name": "Lipjan",
+  "fetchedAt": "2026-09-29T00:00:18.411Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 13,
+  "places": [
+    {
+      "id": "node/4555737190",
+      "name": "Fatmit Ajeti shtepi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.486703,
+      "lon": 21.232617,
+      "phone": "+38344479955",
+      "osmUrl": "https://www.openstreetmap.org/node/4555737190",
+      "score": 2,
+      "km": 9.8
+    },
+    {
+      "id": "node/7310625304",
+      "name": "Shpia e Argjentit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.537982,
+      "lon": 21.047272,
+      "address": "Avdyl Llugiqi 12",
+      "osmUrl": "https://www.openstreetmap.org/node/7310625304",
+      "score": 1,
+      "km": 6.4
+    },
+    {
+      "id": "node/7403394785",
+      "name": "Shpia e PN Xifit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.474863,
+      "lon": 21.204148,
+      "address": "Heset Lekaj",
+      "osmUrl": "https://www.openstreetmap.org/node/7403394785",
+      "score": 1,
+      "km": 8.5
+    },
+    {
+      "id": "node/8806525517",
+      "name": "Shpija e Argjentit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.537988,
+      "lon": 21.04729,
+      "address": "Avdyl Llugiqi 12",
+      "osmUrl": "https://www.openstreetmap.org/node/8806525517",
+      "score": 1,
+      "km": 6.4
+    },
+    {
+      "id": "node/6133210188",
+      "name": "Shpia e Xifit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.475006,
+      "lon": 21.20398,
+      "osmUrl": "https://www.openstreetmap.org/node/6133210188",
+      "score": 0,
+      "km": 8.4
+    },
+    {
+      "id": "node/8776667718",
+      "name": "Shpia e Xixit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.475408,
+      "lon": 21.204631,
+      "osmUrl": "https://www.openstreetmap.org/node/8776667718",
+      "score": 0,
+      "km": 8.5
+    },
+    {
+      "id": "node/7805853085",
+      "name": "Pishishina Restaurant - Narti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.557323,
+      "lon": 21.137412,
+      "address": "Prishtinë-Ferizaj 14",
+      "cuisine": [
+        "balkan",
+        "international"
+      ],
+      "phone": "+383 44 117 710",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7805853085",
+      "score": 6,
+      "km": 4.2
+    },
+    {
+      "id": "way/404413842",
+      "name": "Restaurant Anija Janjevë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.555177,
+      "lon": 21.221155,
+      "address": "Dardania 18 Janjevë",
+      "cuisine": [
+        "coffee shop",
+        "chicken",
+        "cake",
+        "burger"
+      ],
+      "phone": "+383 44 606 330",
+      "openingHours": "Mo-Su 07:00-23:45",
+      "osmUrl": "https://www.openstreetmap.org/way/404413842",
+      "score": 6,
+      "km": 8.9
+    },
+    {
+      "id": "node/4717139087",
+      "name": "Black and Red",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.574481,
+      "lon": 21.029144,
+      "address": "Aeroporti 550",
+      "cuisine": [
+        "regional",
+        "sandwich"
+      ],
+      "website": "blackandredcafe.com",
+      "osmUrl": "https://www.openstreetmap.org/node/4717139087",
+      "score": 5,
+      "km": 9.7
+    },
+    {
+      "id": "node/12906137092",
+      "name": "Miss Coffee",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.574559,
+      "lon": 21.029135,
+      "address": "Aeroporti 550",
+      "cuisine": [
+        "regional",
+        "sandwich"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12906137092",
+      "score": 3,
+      "km": 9.7
+    },
+    {
+      "id": "node/4717139086",
+      "name": "SECCOCAFE",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.574863,
+      "lon": 21.030159,
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "PH,Mo-Su 00:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4717139086",
+      "score": 3,
+      "km": 9.6
+    },
+    {
+      "id": "node/6924322676",
+      "name": "Black & Red",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.57508,
+      "lon": 21.029967,
+      "cuisine": [
+        "pizza",
+        "bakery",
+        "burger",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6924322676",
+      "score": 2,
+      "km": 9.7
+    },
+    {
+      "id": "node/12964188336",
+      "name": "Prizreni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.574523,
+      "lon": 21.029808,
+      "cuisine": [
+        "burger",
+        "regional",
+        "kebab",
+        "cafe"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12964188336",
+      "score": 2,
+      "km": 9.6
+    }
+  ]
+}

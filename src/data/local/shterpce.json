@@ -1,0 +1,40 @@
+{
+  "city": "shterpce",
+  "name": "Shtërpcë",
+  "fetchedAt": "2026-09-28T22:58:57.246Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 2,
+  "places": [
+    {
+      "id": "node/5989011685",
+      "name": "Bućan",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.18272,
+      "lon": 21.034363,
+      "address": "Rruga e Brezovicës",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 09:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5989011685",
+      "score": 4,
+      "km": 6.3
+    },
+    {
+      "id": "way/444781373",
+      "name": "Tiffany National Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.219476,
+      "lon": 21.00859,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/444781373",
+      "score": 2,
+      "km": 2.7
+    }
+  ]
+}

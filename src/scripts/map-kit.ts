@@ -1,27 +1,19 @@
 /**
- * Browser helpers shared by the region map and the city maps: a Leaflet map that does not trap page scrolling,
+ * Browser helpers shared by the region map and the city maps: a draggable Leaflet map that does not trap page scrolling,
  * small buttons, and the walking routes (shtigje) with their popup.
  */
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import 'leaflet-gesture-handling';
-import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 import { networkLabels, routeColor, routeTitle, routeUrl, type Route } from '../data/routes';
 
 export const esc = (s: string) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
-/** A map that scrolls past on the page: Ctrl + wheel zooms it, and touch screens pan it with two fingers. */
+/** A draggable map; the wheel scrolls the page instead of zooming, so use the +/− buttons or double-click. */
 export function createMap(el: HTMLElement, options: L.MapOptions = {}): L.Map {
   return L.map(el, {
     ...options,
-    gestureHandling: true,
-    gestureHandlingOptions: {
-      text: {
-        touch: 'Përdor dy gishta për të lëvizur hartën',
-        scroll: 'Përdor Ctrl + rrotën për të zoomuar',
-        scrollMac: 'Përdor ⌘ + rrotën për të zoomuar',
-      },
-    },
+    dragging: true,
+    scrollWheelZoom: false,
   } as L.MapOptions);
 }
 

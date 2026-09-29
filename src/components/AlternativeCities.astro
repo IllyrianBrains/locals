@@ -1,0 +1,28 @@
+---
+/** "Alternativa e qetë": smaller guide cities that offer a similar mix, for visitors put off by the busier ones. */
+import { alternativesTo } from '../data/alternatives';
+import { pillarLabels } from '../data/places';
+import { cityLabel } from '../data/cities';
+interface Props { slug: string; name: string }
+const { slug, name } = Astro.props;
+const alternatives = alternativesTo(slug);
+---
+{alternatives.length > 0 && (
+  <>
+    <p class="alt-lead">Nëse të pëlqen {name} por kërkon më shumë qetësi, këto qytete më të vogla ofrojnë një përzierje të ngjashme.</p>
+    <div class="alt-grid">{alternatives.map(({ city, km, shared, population }) => (
+      <a class="alt-card" href={`/${city.slug}/`}>
+        <small>{cityLabel(city)} · {km} km larg</small>
+        <h3>{city.name}</h3>
+        <p>{city.summary}</p>
+        <span>{shared.map((p) => <em>{pillarLabels[p]}</em>)}<em>{population.toLocaleString('sq-AL')} banorë</em></span>
+        <b>Shiko guidën →</b>
+      </a>
+    ))}</div>
+    <p class="alt-note">Zgjedhur automatikisht nga numërimet e OpenStreetMap: qytete më të vogla, brenda 150 km, me përzierje të ngjashme.</p>
+  </>
+)}
+<style>
+.alt-lead{max-width:620px;margin:0 0 24px;font:400 20px/1.5 var(--display)}.alt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.alt-card{display:flex;flex-direction:column;padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--paper);transition:border-color .2s}.alt-card:hover{border-color:var(--leaf)}.alt-card small{color:var(--clay);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.alt-card h3{margin:6px 0 0;font:500 28px/1.1 var(--display)}.alt-card p{margin:8px 0 0;color:var(--muted);font-size:14px}.alt-card span{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.alt-card em{padding:4px 10px;border-radius:99px;background:var(--lime);font-size:11px;font-style:normal}.alt-card b{margin-top:auto;padding-top:18px;color:var(--leaf);font-size:12px}.alt-note{margin:18px 0 0;color:var(--muted);font-size:12px}
+@media(max-width:720px){.alt-grid{grid-template-columns:1fr}}
+</style>

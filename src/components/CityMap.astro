@@ -1,17 +1,42 @@
 ---
-import { categoryLabels, getCityPlaces, type OsmCategory, type OsmPlace } from '../data/places';
+import { categoryLabels, getCityPlaces, isProtectedKind, natureLabels, type OsmCategory, type OsmPlace } from '../data/places';
+import { getCityLocal, localKinds, type LocalKind, type LocalPlace } from '../data/local';
 import { routesNear } from '../data/routeData';
 import { routeRadiusM } from '../data/routes';
+import municipalityNatureData from '../data/municipalityNature.json';
+import municipalityOutlines from '../data/municipalities.json';
+import { cities } from '../data/cities';
 
 export interface FeaturedPin { number: string; place: OsmPlace; tone: 'stop' | 'secret' }
 interface Props { slug: string; featured?: FeaturedPin[]; limit?: number }
-const { slug, featured = [], limit = 40 } = Astro.props;
+const { slug, featured = [], limit = 60 } = Astro.props;
 
 const data = getCityPlaces(slug);
+const local = getCityLocal(slug)?.places ?? [];
 const featuredIds = new Set(featured.map((f) => f.place.id));
 // Walking routes with a stretch near the centre, cut to that stretch.
 const routes = (data ? routesNear(data.center.lat, data.center.lon, routeRadiusM) : []).map(({ id, name, ref, network, operator, km, lines }) => ({ id, name, ref, network, operator, km, lines }));
+// Water and protected areas are drawn as shapes under everything else; springs and waterfalls have none, so they stay pins.
+const shapes = (data?.nature ?? []).filter((n) => n.paths).map((n) => ({ name: n.name, label: natureLabels[n.kind], group: isProtectedKind(n.kind) ? 'protected' : 'water', line: !!n.lengthKm && !n.areaKm2, paths: n.paths }));
+const shapeCount = (group: string) => shapes.filter((s) => s.group === group).length;
 const places = data?.places.filter((p) => !featuredIds.has(p.id)).slice(0, limit) ?? [];
+const cityNatureIds = new Set(data?.places.filter((p) => p.category === 'nature').map((p) => p.id) ?? []);
+type MunicipalityNature = { id: string; name: string; kind: string; lat: number; lon: number; paths?: [number, number][][]; image?: string; imageCredit?: string; summary?: { text: string; lang: string; source: string } };
+// A park or reserve already drawn as one of the nearby areas above is not listed a second time.
+const drawnNames = new Set(shapes.map((s) => s.name.toLowerCase()));
+const municipalityNature = ((municipalityNatureData.cities as Record<string, MunicipalityNature[]>)[slug] ?? []).filter((p) => !cityNatureIds.has(p.id) && !(p.paths && drawnNames.has(p.name.toLowerCase())));
+const natureKindLabels: Record<string, string> = { peak: 'Majë', spring: 'Burim', cave_entrance: 'Shpellë', waterfall: 'Ujëvarë', national_park: 'Park kombëtar', protected_area: 'Zonë e mbrojtur', nature_reserve: 'Rezervat natyror' };
+const natureKindPlural: Record<string, string> = { peak: 'Maja', spring: 'Burime', cave_entrance: 'Shpella', waterfall: 'Ujëvara', national_park: 'Parqe kombëtare', protected_area: 'Zona të mbrojtura', nature_reserve: 'Rezervate natyrore' };
+const natureKindColors: Record<string, string> = { peak: '#6b6f47', spring: '#2f8fb0', cave_entrance: '#5b4a3a', waterfall: '#2a6fb8', national_park: '#2f6b3a', protected_area: '#4f8a4b', nature_reserve: '#7a9a2e' };
+const natureKindOrder = Object.keys(natureKindLabels);
+// Parks and reserves are areas: they are drawn as shapes, and only fall back to a dot when OSM gave no outline.
+const isAreaKind = (kind: string) => kind === 'national_park' || kind === 'protected_area' || kind === 'nature_reserve';
+const areaShapes = municipalityNature.filter((p) => p.paths).map((p) => ({ name: p.name, label: natureKindLabels[p.kind], group: 'municipality', key: `municipality:nature:${p.kind}`, color: natureKindColors[p.kind] ?? '#4f8a4b', line: false, paths: p.paths }));
+const kindsInMunicipality = natureKindOrder.filter((k) => municipalityNature.some((p) => p.kind === k))
+  .concat([...new Set(municipalityNature.map((p) => p.kind))].filter((k) => !natureKindOrder.includes(k)));
+const countKind = (k: string) => municipalityNature.filter((p) => p.kind === k).length;
+// The municipality outline is the same one the region map draws, picked by the relation id of the city.
+const boundary = municipalityOutlines.features.find((f) => f.properties.id === cities.find((c) => c.slug === slug)?.osm.boundary)?.geometry;
 
 const categoryColors: Record<OsmCategory, string> = {
   museum: '#744761',
@@ -24,25 +49,97 @@ const categoryColors: Record<OsmCategory, string> = {
   market: '#b8892b',
   attraction: '#55565c',
 };
+// Local businesses are squares with a letter, so they never read as sights: B(ujtinë), K(uzhinë), Z(ejtar).
+const localStyle: Record<LocalKind, { color: string; glyph: string }> = {
+  stay: { color: '#9c4221', glyph: 'B' },
+  food: { color: '#c0392b', glyph: 'K' },
+  craft: { color: '#7b5e2a', glyph: 'Z' },
+};
+const cultureOrder: OsmCategory[] = ['history', 'museum', 'religion', 'culture', 'art', 'viewpoint', 'market', 'attraction'];
+const inMap = new Set(places.map((p) => p.category));
+const cultureCategories = cultureOrder.filter((c) => inMap.has(c));
+const natureCategories = (['nature'] as OsmCategory[]).filter((c) => inMap.has(c));
+const localKindsInMap = (Object.keys(localKinds) as LocalKind[]).filter((k) => local.some((p) => p.kind === k));
+const countOf = (c: OsmCategory) => places.filter((p) => p.category === c).length;
 const firstStop = featured.find((f) => f.tone === 'stop');
 const firstSecret = featured.find((f) => f.tone === 'secret');
-const categories = [...new Set(places.map((p) => p.category))] as OsmCategory[];
 
-const osmUrl = (p: OsmPlace) => `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=18/${p.lat}/${p.lon}`;
+function shorten(text: string, max = 170): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const end = cut.lastIndexOf('. ');
+  return end > 70 ? cut.slice(0, end + 1) : `${cut.slice(0, cut.lastIndexOf(' '))}…`;
+}
+/** Albanian text only, like the place cards. */
+const blurb = (p: OsmPlace) => p.summary?.lang === 'sq' ? shorten(p.summary.text) : p.description ? shorten(p.description) : p.tagline?.lang === 'sq' ? p.tagline.text : undefined;
+const osmUrl = (p: { lat: number; lon: number }) => `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=18/${p.lat}/${p.lon}`;
+const directions = (p: { lat: number; lon: number }) => `https://www.openstreetmap.org/directions?to=${p.lat}%2C${p.lon}`;
+const editUrl = (id: string) => { const [type, n] = id.split('/'); return `https://www.openstreetmap.org/edit?${type}=${n}`; };
+const web = (url: string) => (/^https?:\/\//.test(url) ? url : `https://${url}`);
+
+const sight = (p: OsmPlace) => ({
+  name: p.name, lat: p.lat, lon: p.lon, label: categoryLabels[p.category], text: blurb(p), image: p.image, credit: p.imageCredit,
+  hours: p.openingHours, website: p.website && web(p.website), wiki: p.summary?.lang === 'sq' ? p.summary.source : undefined, url: directions(p), edit: editUrl(p.id),
+});
 const markers = [
-  ...featured.map(({ number, place, tone }) => ({ name: place.name, lat: place.lat, lon: place.lon, label: tone === 'stop' ? 'Ndalesë kryesore' : 'Sekret', number, tone, url: osmUrl(place) })),
-  ...places.map((p) => ({ name: p.name, lat: p.lat, lon: p.lon, label: categoryLabels[p.category], category: p.category, color: categoryColors[p.category], url: osmUrl(p) })),
+  ...featured.map(({ number, place, tone }) => ({ ...sight(place), label: tone === 'stop' ? 'Ndalesë kryesore' : 'Sekret', group: 'featured', number, tone })),
+  ...places.map((p) => ({ ...sight(p), group: `cat:${p.category}`, color: categoryColors[p.category] })),
+  ...municipalityNature.filter((p) => !p.paths).map((p) => ({ name: p.name, lat: p.lat, lon: p.lon, label: natureKindLabels[p.kind] ?? 'Natyrë', group: `municipality:nature:${p.kind}`, color: natureKindColors[p.kind] ?? '#397b45', image: p.image, credit: p.imageCredit, text: p.summary?.lang === 'sq' ? shorten(p.summary.text) : undefined, wiki: p.summary?.lang === 'sq' ? p.summary.source : undefined, url: directions(p), edit: editUrl(p.id) })),
+  ...local.map((p: LocalPlace) => ({
+    name: p.name, lat: p.lat, lon: p.lon, label: p.type, text: p.description && shorten(p.description), group: `local:${p.kind}`, color: localStyle[p.kind].color, glyph: localStyle[p.kind].glyph,
+    cuisine: p.cuisine?.join(' · '), hours: p.openingHours, phone: p.phone, website: p.website && web(p.website), address: p.address, url: directions(p), edit: editUrl(p.id),
+  })),
+];
+const presets = [
+  { id: 'all', label: 'Të gjitha' },
+  { id: 'culture', label: 'Histori & kulturë' },
+  { id: 'nature', label: 'Natyrë & shtigje' },
+  { id: 'local', label: 'Bujtina & ushqim' },
 ];
 ---
 {data && (
   <div class="city-map">
-    <div class="city-map-canvas" data-markers={JSON.stringify(markers)} data-routes={JSON.stringify(routes)} data-center={JSON.stringify(data.center)} role="region" aria-label={`Harta e vendeve për të vizituar në ${data.name}`}></div>
-    <div class="city-map-legend" role="group" aria-label="Shfaq në hartë">
-      {firstStop && <span class="key"><i class="pin">{Number(firstStop.number)}</i>Ndalesat kryesore</span>}
-      {firstSecret && <span class="key"><i class="pin secret">{Number(firstSecret.number)}</i>Sekretet</span>}
-      {routes.length > 0 && <button type="button" data-routes aria-pressed="true"><i class="route-line"></i>Shtigje <small>{routes.length}</small></button>}
-      {categories.map((c) => <button type="button" data-category={c} aria-pressed="true"><i style={`background:${categoryColors[c]}`}></i>{categoryLabels[c]}</button>)}
+    <div class="map-presets" role="group" aria-label="Zgjidh çfarë shfaqet në hartë">
+      {presets.filter((p) => p.id !== 'local' || local.length > 0).map((p, i) => <button type="button" data-preset={p.id} aria-pressed={String(i === 0)}>{p.label}</button>)}
+      <label class="map-search"><span class="sr">Kërko në hartë</span><input type="search" placeholder="Kërko një vend…" autocomplete="off" /><ul hidden></ul></label>
     </div>
+    <div class="map-frame">
+      <div class="city-map-canvas" data-markers={JSON.stringify(markers)} data-routes={JSON.stringify(routes)} data-nature={JSON.stringify([...shapes, ...areaShapes])} data-boundary={JSON.stringify(boundary ?? null)} data-center={JSON.stringify(data.center)} role="region" aria-label={`Harta e vendeve, bujtinave dhe shtigjeve në ${data.name}`}></div>
+      <aside class="map-legend" aria-label="Legjenda">
+        <h3>Legjenda</h3>
+        <div class="legend-body">
+          <details class="legend-sec" open>
+            <summary>Histori &amp; vende</summary>
+            {firstStop && <label><input type="checkbox" checked data-layer="featured:stop" /><i class="pin">{Number(firstStop.number)}</i>Ndalesat kryesore</label>}
+            {firstSecret && <label><input type="checkbox" checked data-layer="featured:secret" /><i class="pin secret">{Number(firstSecret.number)}</i>Sekretet</label>}
+            {cultureCategories.map((c) => <label><input type="checkbox" checked data-layer={`cat:${c}`} data-set="culture" /><i class="dot" style={`background:${categoryColors[c]}`}></i>{categoryLabels[c]} <small>{countOf(c)}</small></label>)}
+          </details>
+          {boundary && (
+            <details class="legend-sec" open>
+              <summary>Kufijtë</summary>
+              <label><input type="checkbox" checked data-layer="boundary" data-keep /><i class="area boundary"></i>Kufiri i bashkisë</label>
+            </details>
+          )}
+          {(natureCategories.length > 0 || kindsInMunicipality.length > 0 || shapeCount('protected') > 0 || shapeCount('water') > 0 || routes.length > 0) && (
+            <details class="legend-sec" open>
+              <summary>Natyrë, ujë &amp; shtigje</summary>
+              {natureCategories.map((c) => <label><input type="checkbox" checked data-layer={`cat:${c}`} data-set="nature" /><i class="dot" style={`background:${categoryColors[c]}`}></i>Natyrë pranë qendrës <small>{countOf(c)}</small></label>)}
+              {kindsInMunicipality.map((k) => <label><input type="checkbox" data-layer={`municipality:nature:${k}`} data-set="nature" /><i class={isAreaKind(k) ? 'area kind' : 'dot'} style={isAreaKind(k) ? `--kind:${natureKindColors[k] ?? '#4f8a4b'}` : `background:${natureKindColors[k] ?? '#397b45'}`}></i>{natureKindPlural[k] ?? natureKindLabels[k] ?? k} në bashki <small>{countKind(k)}</small></label>)}
+              {shapeCount('protected') > 0 && <label><input type="checkbox" checked data-layer="nature:protected" data-set="nature" /><i class="area protected"></i>Zona të mbrojtura <small>{shapeCount('protected')}</small></label>}
+              {shapeCount('water') > 0 && <label><input type="checkbox" checked data-layer="nature:water" data-set="nature" /><i class="area water"></i>Lumenj &amp; liqene <small>{shapeCount('water')}</small></label>}
+              {routes.length > 0 && <label><input type="checkbox" checked data-layer="routes" data-set="nature" /><i class="route-line"></i>Shtigje ecjeje <small>{routes.length}</small></label>}
+            </details>
+          )}
+          {localKindsInMap.length > 0 && (
+            <details class="legend-sec" open>
+              <summary>Bujtina &amp; kuzhinë vendase</summary>
+              {localKindsInMap.map((k) => <label><input type="checkbox" checked data-layer={`local:${k}`} data-set="local" /><i class="sq" style={`background:${localStyle[k].color}`}>{localStyle[k].glyph}</i>{localKinds[k].label} <small>{local.filter((p) => p.kind === k).length}</small></label>)}
+            </details>
+          )}
+        </div>
+      </aside>
+    </div>
+    <p class="map-note">Të dhënat: © OpenStreetMap contributors. Kliko një shenjë për detaje; «Përmirëso» hap vendin në editorin e OpenStreetMap.</p>
   </div>
 )}
 
@@ -51,7 +148,27 @@ const markers = [
   import { addButton, addRoutes, createMap, esc } from '../scripts/map-kit';
   import type { Route } from '../data/routes';
 
-  type Marker = { name: string; lat: number; lon: number; label: string; url: string; number?: string; tone?: string; category?: string; color?: string };
+  type Marker = {
+    name: string; lat: number; lon: number; label: string; group: string; url: string; edit: string; number?: string; tone?: string; color?: string; glyph?: string;
+    text?: string; image?: string; credit?: string; hours?: string; website?: string; wiki?: string; cuisine?: string; phone?: string; address?: string;
+  };
+
+  const popup = (m: Marker) => {
+    const links = [
+      `<a href="${m.url}" target="_blank" rel="noreferrer">Drejtimet ↗</a>`,
+      m.website && `<a href="${esc(m.website)}" target="_blank" rel="noreferrer">Faqja ↗</a>`,
+      m.wiki && `<a href="${esc(m.wiki)}" target="_blank" rel="noreferrer">Wikipedia ↗</a>`,
+      m.phone && `<a href="tel:${esc(m.phone.replace(/[^+\d]/g, ''))}">${esc(m.phone)}</a>`,
+      `<a class="fix" href="${m.edit}" target="_blank" rel="noreferrer">Përmirëso ↗</a>`,
+    ].filter(Boolean).join('');
+    return (m.image ? `<img class="pop-img" src="${esc(m.image)}" alt="" referrerpolicy="no-referrer" loading="lazy" /><em class="pop-credit">${esc(m.credit ?? '')}</em>` : '')
+      + `<span>${esc(m.label)}</span><b>${esc(m.name)}</b>`
+      + (m.address ? `<p>${esc(m.address)}</p>` : '')
+      + (m.cuisine ? `<p class="chips">${esc(m.cuisine)}</p>` : '')
+      + (m.text ? `<p>${esc(m.text)}</p>` : '')
+      + (m.hours ? `<p class="hours">${esc(m.hours)}</p>` : '')
+      + `<nav>${links}</nav>`;
+  };
 
   document.querySelectorAll<HTMLElement>('.city-map').forEach((root) => {
     const el = root.querySelector<HTMLElement>('.city-map-canvas')!;
@@ -62,22 +179,49 @@ const markers = [
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
 
-    const byCategory = new Map<string, L.Layer[]>();
-    const all = markers.map((m) => {
+    // Every legend row switches one layer: a group of markers, the routes, or the water / protected shapes.
+    const layers = new Map<string, L.Layer>();
+    const groupOf = (key: string) => { if (!layers.has(key)) layers.set(key, L.featureGroup()); return layers.get(key) as L.FeatureGroup; };
+    const searchable: { name: string; layer: L.Layer & { getLatLng(): L.LatLng }; group: string }[] = [];
+    const sights: L.Layer[] = [];
+    map.createPane('local').style.zIndex = '620';
+    for (const m of markers) {
       const layer = m.number
         ? L.marker([m.lat, m.lon], { icon: L.divIcon({ className: `map-pin ${m.tone}`, html: String(Number(m.number)), iconSize: [28, 28] }), zIndexOffset: 1000 })
-        : L.circleMarker([m.lat, m.lon], { radius: 6, weight: 2, color: '#fff', fillColor: m.color, fillOpacity: 1 });
-      layer.bindPopup(`<span>${esc(m.label)}</span><b>${esc(m.name)}</b><a href="${m.url}" target="_blank" rel="noreferrer">Drejtimet ↗</a>`).addTo(map);
-      if (m.category) byCategory.set(m.category, [...(byCategory.get(m.category) ?? []), layer]);
-      return layer;
-    });
-    // Routes sit under the markers (overlay pane is 400). They can reach much farther than the places (up to
-    // routeRadiusM vs. the city's own osm.radius), so they are left out of the initial view and only join it
-    // once the visitor asks to see everything — otherwise a single distant trail forces the whole map to zoom
-    // out until the places themselves are barely visible.
-    const routes = addRoutes(map, JSON.parse(el.dataset.routes!) as Route[], { zIndex: 390 });
-    const placeBounds = L.featureGroup(all).getBounds();
-    const fullBounds = L.featureGroup([...all, routes]).getBounds();
+        : m.glyph
+          ? L.marker([m.lat, m.lon], { pane: 'local', icon: L.divIcon({ className: 'map-sq', html: `<i style="background:${m.color}">${m.glyph}</i>`, iconSize: [22, 22] }) })
+          : L.circleMarker([m.lat, m.lon], { radius: 6, weight: 2, color: '#fff', fillColor: m.color, fillOpacity: 1 });
+      layer.bindPopup(popup(m), { maxWidth: 260, autoPanPadding: [30, 30] });
+      groupOf(m.group === 'featured' ? `featured:${m.tone}` : m.group).addLayer(layer);
+      searchable.push({ name: m.name, layer: layer as never, group: m.group === 'featured' ? `featured:${m.tone}` : m.group });
+      if (!m.glyph) sights.push(layer);
+    }
+
+    // Water and protected areas go below the routes and markers, and stay out of the initial view: a national
+    // park can be many times larger than the town, and fitting it would shrink the places to nothing.
+    type Shape = { name: string; label: string; group: 'protected' | 'water' | 'municipality'; key?: string; color?: string; line: boolean; paths: [number, number][][] };
+    const natureStyle = { protected: { color: '#3f7a3b', fillColor: '#4f8a4b', fillOpacity: 0.16, weight: 2, dashArray: '6 4' }, water: { color: '#2f6fa8', fillColor: '#4a90d0', fillOpacity: 0.4, weight: 1.5 } };
+    map.createPane('nature').style.zIndex = '380';
+    for (const shape of JSON.parse(el.dataset.nature!) as Shape[]) {
+      const layer = shape.line
+        ? L.polyline(shape.paths, { pane: 'nature', color: '#3f86c8', weight: 3, opacity: 0.85, lineJoin: 'round' })
+        : L.polygon(shape.paths, { pane: 'nature', ...(shape.color ? { ...natureStyle.protected, color: shape.color, fillColor: shape.color } : natureStyle[shape.group as 'protected' | 'water']) });
+      layer.bindPopup(`<span>${esc(shape.label)}</span><b>${esc(shape.name)}</b>`);
+      groupOf(shape.key ?? `nature:${shape.group}`).addLayer(layer);
+    }
+    // The municipality outline: a dashed line with no fill, under everything and not clickable.
+    const boundary = JSON.parse(el.dataset.boundary!) as GeoJSON.Geometry | null;
+    if (boundary) {
+      map.createPane('boundary').style.zIndex = '370';
+      layers.set('boundary', L.geoJSON(boundary, { pane: 'boundary', interactive: false, style: { color: '#b5541c', weight: 2.5, dashArray: '8 6', fill: false, opacity: 0.9 } }));
+    }
+    // Routes sit under the markers (overlay pane is 400). They can reach much farther than the places, so they only
+    // join the view when the visitor asks to see everything.
+    layers.set('routes', addRoutes(map, JSON.parse(el.dataset.routes!) as Route[], { zIndex: 390 }));
+    layers.forEach((layer) => layer.addTo(map));
+
+    const placeBounds = L.featureGroup(sights).getBounds();
+    const fullBounds = L.featureGroup([...layers.values()]).getBounds();
     const showPlaces = () => { if (placeBounds.isValid()) map.fitBounds(placeBounds, { padding: [30, 30] }); };
     const showAll = () => { if (fullBounds.isValid()) map.fitBounds(fullBounds, { padding: [30, 30] }); };
     if (placeBounds.isValid()) showPlaces(); else showAll();
@@ -95,43 +239,112 @@ const markers = [
     });
     map.on('locationerror', () => L.popup().setLatLng(map.getCenter()).setContent('Nuk e gjeta vendndodhjen tënde. Lejo qasjen te vendndodhja në shfletues.').openOn(map));
 
-    root.querySelector<HTMLButtonElement>('button[data-routes]')?.addEventListener('click', (event) => {
-      const button = event.currentTarget as HTMLButtonElement;
-      const on = button.getAttribute('aria-pressed') !== 'true';
-      button.setAttribute('aria-pressed', String(on));
-      if (on) routes.addTo(map); else routes.remove();
-    });
-
-    root.querySelectorAll<HTMLButtonElement>('button[data-category]').forEach((button) => button.addEventListener('click', () => {
-      const on = button.getAttribute('aria-pressed') !== 'true';
-      button.setAttribute('aria-pressed', String(on));
-      byCategory.get(button.dataset.category!)?.forEach((layer) => (on ? layer.addTo(map) : layer.remove()));
+    // Legend rows and presets.
+    const boxes = [...root.querySelectorAll<HTMLInputElement>('input[data-layer]')];
+    const setLayer = (box: HTMLInputElement, on: boolean) => {
+      box.checked = on;
+      const layer = layers.get(box.dataset.layer!);
+      if (layer) on ? layer.addTo(map) : layer.remove();
+    };
+    boxes.forEach((box) => { setLayer(box, box.checked); box.addEventListener('change', () => { setLayer(box, box.checked); presetButtons.forEach((b) => b.setAttribute('aria-pressed', 'false')); }); });
+    const presetButtons = [...root.querySelectorAll<HTMLButtonElement>('button[data-preset]')];
+    const featuredOn = (box: HTMLInputElement) => box.dataset.layer!.startsWith('featured:');
+    presetButtons.forEach((button) => button.addEventListener('click', () => {
+      const preset = button.dataset.preset!;
+      boxes.forEach((box) => setLayer(box, 'keep' in box.dataset || preset === 'all' || box.dataset.set === preset || (preset === 'culture' && featuredOn(box))));
+      presetButtons.forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
     }));
+    // Narrow screens start with every legend section folded, so the legend does not cover the map.
+    if (window.matchMedia('(max-width: 640px)').matches) root.querySelectorAll<HTMLDetailsElement>('.legend-sec').forEach((d) => (d.open = false));
+
+    // Search: type a name, pick a result, and the map flies there and opens its popup.
+    const input = root.querySelector<HTMLInputElement>('.map-search input')!;
+    const results = root.querySelector<HTMLUListElement>('.map-search ul')!;
+    const fold = (s: string) => s.toLocaleLowerCase('sq').normalize('NFD').replace(/[̀-ͯ]/g, '');
+    input.addEventListener('input', () => {
+      const q = fold(input.value.trim());
+      const found = q.length < 2 ? [] : searchable.filter((s) => fold(s.name).includes(q)).slice(0, 7);
+      results.replaceChildren(...found.map((s) => {
+        const li = document.createElement('li');
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = s.name;
+        button.addEventListener('click', () => {
+          const box = boxes.find((b) => b.dataset.layer === s.group);
+          if (box && !box.checked) setLayer(box, true);
+          map.flyTo(s.layer.getLatLng(), Math.max(map.getZoom(), 16));
+          s.layer.openPopup();
+          results.hidden = true;
+          input.value = s.name;
+        });
+        li.append(button);
+        return li;
+      }));
+      results.hidden = found.length === 0;
+    });
+    document.addEventListener('click', (event) => { if (!root.querySelector('.map-search')!.contains(event.target as Node)) results.hidden = true; });
   });
 </script>
 
 <style>
-.city-map-canvas{height:min(66vh,600px);border:1px solid var(--line);border-radius:14px;background:var(--cream);z-index:0}
+.map-presets{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:14px}.map-presets>button{padding:9px 14px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 12px var(--sans);cursor:pointer}.map-presets>button[aria-pressed=true]{border-color:var(--forest);color:#fff;background:var(--forest)}
+.map-search{position:relative;margin-left:auto}.map-search input{width:220px;padding:9px 14px;border:1px solid var(--line);border-radius:99px;background:var(--paper);font:500 12px var(--sans)}.map-search ul{position:absolute;top:calc(100% + 6px);right:0;left:0;z-index:700;margin:0;padding:6px;list-style:none;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:0 10px 30px #0002}.map-search ul[hidden]{display:none}.map-search li button{width:100%;padding:8px 10px;border:0;border-radius:8px;background:none;font:500 13px var(--sans);text-align:left;cursor:pointer}.map-search li button:hover{background:var(--cream)}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.map-frame{position:relative;z-index:0}
+.city-map-canvas{height:min(72vh,680px);border:1px solid var(--line);border-radius:14px;background:var(--cream);z-index:0}
 .city-map-canvas :global(.leaflet-tile-pane){filter:saturate(.35) contrast(.95)}
 .city-map-canvas :global(.map-pin){display:grid;place-items:center;border:2px solid #fff;border-radius:50%;color:#fff;background:var(--forest);box-shadow:0 2px 8px #0005;font:700 12px var(--sans)}
 .city-map-canvas :global(.map-pin.secret){color:var(--forest);background:var(--lime)}
+.city-map-canvas :global(.map-sq i){display:grid;place-items:center;width:22px;height:22px;border:2px solid #fff;border-radius:6px;color:#fff;box-shadow:0 2px 6px #0005;font:800 11px var(--sans);font-style:normal}
 .city-map-canvas :global(.leaflet-popup-content-wrapper){border-radius:10px}
 .city-map-canvas :global(.leaflet-popup-content){display:flex;flex-direction:column;gap:3px;margin:12px 16px;font-family:var(--sans)}
 .city-map-canvas :global(.leaflet-popup-content span){color:var(--clay);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .city-map-canvas :global(.leaflet-popup-content b){font:500 17px/1.2 var(--display)}
 .city-map-canvas :global(.leaflet-popup-content a){color:var(--leaf);font-size:11px;font-weight:700}
-.city-map-canvas :global(.leaflet-popup-content p){margin:0;color:var(--muted);font-size:12px}
+.city-map-canvas :global(.leaflet-popup-content p){margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+.city-map-canvas :global(.leaflet-popup-content .chips){color:var(--forest);font-weight:600}
+.city-map-canvas :global(.leaflet-popup-content .hours){font-size:11px}
+.city-map-canvas :global(.leaflet-popup-content nav){display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px}
+.city-map-canvas :global(.leaflet-popup-content nav .fix){margin-left:auto;color:var(--muted);font-weight:600}
+.city-map-canvas :global(.pop-img){display:block;width:calc(100% + 32px);max-width:none;height:120px;margin:-12px -16px 0;border-radius:10px 10px 0 0;object-fit:cover}
+.city-map-canvas :global(.pop-credit){margin:2px 0 4px;color:var(--muted);font-size:8px;font-style:normal}
 .city-map-canvas :global(.route-tip){padding:4px 8px;border-radius:6px;font:600 11px var(--sans)}
 .city-map-canvas :global(.leaflet-bar a.map-button){font:700 15px/26px var(--sans);text-align:center}
-.city-map-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
-.city-map-legend .key,.city-map-legend button{display:flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 12px var(--sans)}
-.city-map-legend button{cursor:pointer}
-.city-map-legend button[aria-pressed=false]{color:var(--muted);text-decoration:line-through;opacity:.6}
-.city-map-legend button i{width:10px;height:10px;border-radius:50%}
-.city-map-legend button small{color:var(--muted);font-size:10px}
-.city-map-legend button i.route-line{width:16px;height:0;border-top:3px solid #d9822b;border-radius:0}
-.city-map-legend button[data-routes][aria-pressed=false] small{text-decoration:none}
-.city-map-legend .pin{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;color:#fff;background:var(--forest);font:700 9px var(--sans);font-style:normal}
-.city-map-legend .pin.secret{color:var(--forest);background:var(--lime)}
-@media(max-width:560px){.city-map-canvas{height:440px}}
+.map-legend{position:absolute;top:10px;right:10px;z-index:1000;display:flex;flex-direction:column;width:236px;max-height:calc(100% - 20px);border:1px solid var(--line);border-radius:12px;background:#fffffff2;box-shadow:0 6px 20px #0003;backdrop-filter:blur(6px);font-family:var(--sans)}
+.map-legend>h3{flex:none;margin:0;padding:10px 14px;border-bottom:1px solid var(--line);font:700 12px var(--sans);letter-spacing:.06em;text-transform:uppercase}
+.legend-body{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:0 14px}
+.legend-sec{border-bottom:1px solid var(--line)}.legend-sec:last-child{border-bottom:0}
+.legend-sec>summary{display:flex;align-items:center;gap:6px;padding:9px 0;color:var(--clay);font:700 9px var(--sans);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;list-style:none;user-select:none}
+.legend-sec>summary::-webkit-details-marker{display:none}
+.legend-sec>summary::after{content:'';flex:none;width:6px;height:6px;margin:-3px 2px 0 auto;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg);transition:transform .15s}
+.legend-sec[open]>summary::after{margin-top:3px;transform:rotate(-135deg)}
+.legend-sec[open]{padding-bottom:8px}
+.legend-body label{display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;cursor:pointer}
+.legend-body input{margin:0;accent-color:var(--forest)}
+.legend-body small{margin-left:auto;color:var(--muted);font-size:10px}
+.legend-body .dot{flex:none;width:10px;height:10px;border-radius:50%}.legend-body .dot.municipality{background:#397b45;box-shadow:0 0 0 3px #397b4530}
+.legend-body .sq{display:grid;flex:none;place-items:center;width:16px;height:16px;border-radius:4px;color:#fff;font:800 9px var(--sans);font-style:normal}
+.legend-body .route-line{flex:none;width:16px;height:0;border-top:3px solid #d9822b}
+.legend-body .area.kind{border-color:var(--kind);border-style:dashed;background:color-mix(in srgb,var(--kind) 25%,transparent)}.legend-body .area.boundary{border-color:#b5541c;border-style:dashed;background:none}.legend-body .area{flex:none;width:16px;height:10px;border:2px solid;border-radius:3px}.legend-body .area.protected{border-color:#3f7a3b;background:#4f8a4b40}.legend-body .area.water{border-color:#2f6fa8;background:#4a90d060}
+.legend-body .pin{display:grid;flex:none;place-items:center;width:16px;height:16px;border-radius:50%;color:#fff;background:var(--forest);font:700 8px var(--sans);font-style:normal}.legend-body .pin.secret{color:var(--forest);background:var(--lime)}
+.map-note{margin:12px 0 0;color:var(--muted);font-size:11px}
+@media(max-width:640px){
+  .city-map-canvas{height:min(62svh,520px);min-height:340px}
+  /* The legend sits under the map instead of covering it. */
+  .map-legend{position:static;width:auto;max-height:none;margin-top:10px;background:var(--paper);box-shadow:none;backdrop-filter:none}
+  .legend-body{overflow:visible}
+  .legend-sec>summary{min-height:44px;padding:0;font-size:11px}
+  .legend-body label{min-height:40px;font-size:14px}
+  .legend-body input{width:20px;height:20px}
+  /* Search on its own row (its results list must not be clipped by a scrolling strip), presets wrap below. */
+  .map-presets>button{min-height:44px;padding:10px 16px;font-size:13px}
+  .map-search{order:-1;flex:0 0 100%;margin-left:0}
+  .map-search input{width:100%;min-height:44px}
+  .map-search li button{min-height:44px;font-size:15px}
+  .city-map-canvas :global(.leaflet-bar a){width:40px;height:40px;line-height:40px}
+  .city-map-canvas :global(.leaflet-bar a.map-button){font-size:18px;line-height:40px}
+  .city-map-canvas :global(.leaflet-popup-content a){display:inline-block;padding:8px 0;font-size:13px}
+  .city-map-canvas :global(.leaflet-popup-content p){font-size:13px}
+  .city-map-canvas :global(.leaflet-popup-close-button){width:36px;height:36px;font-size:22px;line-height:36px}
+  .map-note{font-size:12px}
+}
 </style>

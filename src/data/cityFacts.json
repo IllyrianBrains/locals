@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0), Wikipedia (CC BY-SA)",
-  "fetchedAt": "2026-09-28T21:05:15.183Z",
+  "fetchedAt": "2026-09-29T00:24:28.146Z",
   "cities": {
     "tirane": {
       "wikidata": {
@@ -438,6 +438,402 @@
       "areaKm2": 806,
       "elevationM": 1000
     },
+    "peshkopi": {
+      "wikidata": {
+        "town": "Q223154",
+        "municipality": "Q13037427"
+      },
+      "description": {
+        "text": "Fshat ne Dibër, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Peshkopia është një qytet në verilindjen e Shqipërisë. Peshkopia është kryeqendra e Rrethit të Dibrës dhe Qarkut të Dibrës. Peshkopia ndodhet në brigjet e lumit Drin.",
+        "source": "https://sq.wikipedia.org/wiki/Peshkopia",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 61619
+      },
+      "areaKm2": 876,
+      "elevationM": 651,
+      "website": "http://www.peshkopia.com/"
+    },
+    "tepelene": {
+      "wikidata": {
+        "town": "Q81631",
+        "municipality": "Q13037435"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Tepelena është qytet dhe kryeqendër e rrethit me të njëjtin emër në jug të Shqipërisë dhe ka një sipërfaqe prej 817 km². Tepelena ka një popullsi prej rreth 55 mijë banorësh e cila jeton në dy qytetet Tepelenë e Memaliaj dhe në fshat, në tetë komuna me 35 mijë banorë. Rrethi përfshin pjesë nga krahinat etnografike të Kurveleshit, Lopësit, Rrezes, Dervenit, Buzit e Krahësit, ku secila shquhet për larminë e traditave, këngëve, valleve e kostumeve.",
+        "source": "https://sq.wikipedia.org/wiki/Tepelena",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 8949
+      },
+      "areaKm2": 434,
+      "elevationM": 200,
+      "website": "https://tepelena.gov.al/"
+    },
+    "fier": {
+      "wikidata": {
+        "town": "Q190897",
+        "municipality": "Q16350079"
+      },
+      "description": {
+        "text": "qytet në Shqipëri, në qarkun Fier",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Fieri është një nga qytetet kryesore dhe të rëndësishme të Shqipërisë. Për herë të parë emri i Fierit ndeshet në dokumentet osmane të vitit 1737. Atëherë quhej Fierza dhe nuk ishte tjetër veçse një fshat i vogël me disa shtëpi të vogla.",
+        "source": "https://sq.wikipedia.org/wiki/Fieri",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 120655
+      },
+      "areaKm2": 638,
+      "elevationM": 20,
+      "website": "http://bashkiafier.gov.al/"
+    },
+    "kukes": {
+      "wikidata": {
+        "town": "Q210197",
+        "municipality": "Q13037417"
+      },
+      "description": {
+        "text": "qytet në Shqipëri, në Qarkun e Kukësit",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Kukësi është qytet në Shqipërinë verilindore, i shtrirë në koordinatat 42,09° V, 20,43° L. Është qendra e Qarkut Kukës. Shtrihet në rrëzë të malit të Gjallicës dhe në breg të Liqenit të Fierzës, në Rrafshin e Lumës. Motoja e qytetit është “Qyteti i mikpritjes dhe bujarisë”.",
+        "source": "https://sq.wikipedia.org/wiki/Kuk%C3%ABsi",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 47985
+      },
+      "areaKm2": 926,
+      "elevationM": 320,
+      "website": "http://www.kukesi.gov.al/"
+    },
+    "kavaje": {
+      "wikidata": {
+        "town": "Q46702",
+        "municipality": "Q13037415"
+      },
+      "description": {
+        "text": "city of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kavaja është një qytet dhe bashki e vendosur në Qarkun e Tiranës në Shqipëri. Ajo kufizohet nga Durrësi në veri, Tirana në lindje, dhe Rrogozhina në perëndim. Sipas cenzit të 2023-ës, komuna ka një popullatë prej 30,012 banorësh.",
+        "source": "https://sq.wikipedia.org/wiki/Kavaja",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 40094
+      },
+      "areaKm2": 197,
+      "elevationM": 8,
+      "website": "http://www.bashkiakavaje.gov.al/"
+    },
+    "lushnje": {
+      "wikidata": {
+        "town": "Q212680",
+        "municipality": "Q13037420"
+      },
+      "description": {
+        "text": "qytet në Shqipëri, në qarkun Fier",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Lushnja është një qytet në Shqipërinë qendrore. Ajo ka 58.200 banorë dhe është kryeqendra e rrethit së Lushnjës. Qyteti i Lushnjës shtrihet në lindje të fushës së Myzeqesë, buzë kodrave të Darsisë.",
+        "source": "https://sq.wikipedia.org/wiki/Lushnja",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 83659
+      },
+      "areaKm2": 367,
+      "elevationM": 17,
+      "website": "http://www.bashkialushnje.gov.al/"
+    },
+    "delvine": {
+      "wikidata": {
+        "town": "Q372872",
+        "municipality": "Q16350062"
+      },
+      "description": {
+        "text": "town in Vlorë County, southern Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Delvinë është qytet në jug të Shqipërisë.",
+        "source": "https://sq.wikipedia.org/wiki/Delvina",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 7598
+      },
+      "areaKm2": 197,
+      "elevationM": 200,
+      "website": "https://www.bashkiadelvine.gov.al/"
+    },
+    "kelcyre": {
+      "wikidata": {
+        "town": "Q1007556",
+        "municipality": "Q19931533"
+      },
+      "description": {
+        "text": "town of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Këlcyra është qytet në Shqipërinë jugore, pjesë e qarkut Gjirokastër. Ajo shtrihet mes maleve Trebeshinë dhe Dhembel dhe laget nga lumenjtë Vjosë dhe Dëshnicë. Territori i bashkisë shtrihet në pjesën jugore të vendit tonë dhe kufzohet në juglindje me Beratin, në jug me Gjirokastrën, në lindje me Përmetin dhe në perëndim me Tepelenën.",
+        "source": "https://sq.wikipedia.org/wiki/K%C3%ABlcyra",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 6113
+      },
+      "areaKm2": 283,
+      "elevationM": 205,
+      "website": "http://www.kelcyra.com"
+    },
+    "gramsh": {
+      "wikidata": {
+        "town": "Q18777",
+        "municipality": "Q13037411"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Stampa:Qytet në Shqipëri Gramshi është qytet në Shqipëri. Shtrihet në pjesën juglindore të Shqipërisë. Mund të shkohet me çdo lloj mjeti me anë të rrugës së asfaltuar Elbasan-Cerrik-Gramsh.",
+        "source": "https://sq.wikipedia.org/wiki/Gramshi",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 24231
+      },
+      "areaKm2": 736,
+      "elevationM": 220,
+      "website": "http://bashkiagramsh.gov.al/"
+    },
+    "konispol": {
+      "wikidata": {
+        "town": "Q18731",
+        "municipality": "Q13037412"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Konispol është një vendbanim në Shqipëri.",
+        "source": "https://sq.wikipedia.org/wiki/Konispoli",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 8245,
+        "year": 2011
+      },
+      "areaKm2": 227,
+      "elevationM": 400,
+      "website": "https://www.bashkiakonispol.gov.al/"
+    },
+    "bilisht": {
+      "wikidata": {
+        "town": "Q817140",
+        "municipality": "Q13037406"
+      },
+      "description": {
+        "text": "town of Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Bilishti është qytet në Shqipëri.",
+        "source": "https://sq.wikipedia.org/wiki/Bilishti",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 26716
+      },
+      "areaKm2": 458,
+      "elevationM": 922
+    },
+    "burrel": {
+      "wikidata": {
+        "town": "Q461313",
+        "municipality": "Q16350058"
+      },
+      "description": {
+        "text": "qytet në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Burreli është një qytet në verilindje të Shqipërisë dhe qendra administrative e Rrethit të Matit. Që nga viti 2015, është pjesë e Bashkisë Mat. Qyteti i Burrelit ndodhet rreth 91 km larg nga kryeqyteti i Shqipërisë, Tirana.",
+        "source": "https://sq.wikipedia.org/wiki/Burreli",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 27600
+      },
+      "areaKm2": 513,
+      "elevationM": 315,
+      "website": "http://bashkiamat.gov.al/"
+    },
+    "skrapar": {
+      "wikidata": {
+        "town": "Q19307",
+        "municipality": "Q20850560"
+      },
+      "description": {
+        "text": "main city of Skrapar District, Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Çorovodë, e shkruar edhe si Çorovoda është një qytet dhe një ish-komunë në Qarkun e Beratit, Shqipëri. Në reformën e qeverisjes lokale të vitit 2015 u bë nënndarje dhe selia e komunës Skrapar. [1] Popullsia në regjistrimin e vitit 2011 ishte 4.051.",
+        "source": "https://sq.wikipedia.org/wiki/%C3%87orovoda",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 12403
+      },
+      "areaKm2": 808,
+      "elevationM": 300,
+      "website": "https://bashkiaskrapar.gov.al"
+    },
+    "finiq": {
+      "wikidata": {
+        "town": "Q73664",
+        "municipality": "Q22002807"
+      },
+      "description": {
+        "text": "Njësia administrative në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Njësia administrative Finiq është një njësi administrative në Shqipëri e Bashkisë Finiq, në Qarkun e Vlorës, në jug të Shqipërisë. Qendra e saj është vendbanimi Finiqi. Njësia ndodhet në zonën e brendshme të Sarandës, në hapësirën ndërmjet Sarandës dhe Delvinës.",
+        "source": "https://sq.wikipedia.org/wiki/Nj%C3%ABsia_administrative_Finiq",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 10529
+      },
+      "areaKm2": 432,
+      "website": "https://bfiniq.gov.al/"
+    },
+    "selenice": {
+      "wikidata": {
+        "town": "Q134613",
+        "municipality": "Q16350141"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Selenica është një qytet në Shqipëri. Bashkia e Selenicës shtrihet rrëzë kodrave në bregun e majtë të Vjosës, pikërisht në afërsi të fushës ku lumi i Vlorës derdhet në Vjosë, si një degë e rëndësishme e tij. Dëshmitë e para për emrin Selenicë datojnë në vitin 1700 dhe deri më sot vazhdon të njihet me këtë emër.",
+        "source": "https://sq.wikipedia.org/wiki/Selenica",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 16396
+      },
+      "areaKm2": 595,
+      "elevationM": 60
+    },
+    "libohove": {
+      "wikidata": {
+        "town": "Q18738",
+        "municipality": "Q13037421"
+      },
+      "description": {
+        "text": "komunë në Gjirokastër, Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Qyteti i Libohovës, me rreth 3,200 banorë, ndodhet ne juglindje te Gjirokastrës rreth 11 km ne rrugë ajrore dhe 17 km ne rrugë automobilistike, i shtrirë ne këmbët e malit Bureto. Sipërfaqja e Libohovës është mbi 260 ha. Lartësia e qytetit varion nga 320-800 m mbi nivelin e detit.",
+        "source": "https://sq.wikipedia.org/wiki/Libohova",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 3667
+      },
+      "areaKm2": 227,
+      "elevationM": 406,
+      "website": "https://www.bashkialibohove.gov.al/"
+    },
+    "maliq": {
+      "wikidata": {
+        "town": "Q772248",
+        "municipality": "Q13037423"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Maliq është vendbanim në Shqipëri.",
+        "source": "https://sq.wikipedia.org/wiki/Maliqi",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 41757
+      },
+      "areaKm2": 687,
+      "elevationM": 830,
+      "website": "https://bashkiamaliq.gov.al/"
+    },
+    "belsh": {
+      "wikidata": {
+        "town": "Q816187",
+        "municipality": "Q816187"
+      },
+      "description": {
+        "text": "Qytez ne Shqiperi",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Bashkia e Belshit shtrihet në zonën e Dumresë, në një zonë që shquhet nga numri i madh i liqeneve dhe me një peizazh tërheqës, ku mendimtari i madh i Rilindjes sonë kombëtare Sami Frashëri, duke u nisur nga bukuria e peizazhit dhe karakteristikat e tjera të kesajë zone, mendonte të ndërtohej në Belsh kryeqendra e shtetit të ardhshëm shqiptar. Një panoramë e shkurtër për qytezën e liqeneve, për ata që nuk e njohin. Belshi është një qytet i vogël buzë liqenit me të njëjtin emër, kryeqendra tradicionale e zonës së Dumresë.",
+        "source": "https://sq.wikipedia.org/wiki/Belshi",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 19503
+      },
+      "areaKm2": 192,
+      "elevationM": 155
+    },
+    "vau-dejes": {
+      "wikidata": {
+        "town": "Q1787536",
+        "municipality": "Q13037438"
+      },
+      "description": {
+        "text": "town in Albania",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Vau i Dejës ka të bëjë me qytetin tashmë të zhdukur të Dejës. Deja ka qenë qytet mesjetar shqiptar shumë i rëndësishëm me një histori vërtet interesante. Qyteti u ndërtua në shek.XI-XII në pikën ku del Drini nga malësitë.",
+        "source": "https://sq.wikipedia.org/wiki/Vau_i_Dej%C3%ABs",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 30438,
+        "year": 2011
+      },
+      "areaKm2": 495,
+      "elevationM": 25
+    },
     "mitrovice": {
       "wikidata": {
         "town": "Q178168",
@@ -584,6 +980,132 @@
       "areaKm2": 342,
       "elevationM": 944,
       "website": "https://vushtrri.rks-gov.net/"
+    },
+    "shterpce": {
+      "wikidata": {
+        "town": "Q392505",
+        "municipality": "Q2043155"
+      },
+      "description": {
+        "text": "Qytet ne Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Shtërpcë është qytet dhe komunë që gjendet në Rajonin e Ferizajit në Kosovë. Që nga viti 2015, ajo ka një popullsi prej 13,630 banorësh.",
+        "source": "https://sq.wikipedia.org/wiki/Sht%C3%ABrpca",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 6949
+      },
+      "areaKm2": 248,
+      "elevationM": 974,
+      "website": "https://shterpce.rks-gov.net/"
+    },
+    "kacanik": {
+      "wikidata": {
+        "town": "Q248378",
+        "municipality": "Q2043130"
+      },
+      "description": {
+        "text": "town in Kosovo",
+        "lang": "en"
+      },
+      "summary": {
+        "text": "Kaçanik është qytet në jug të Kosovës dhe ka një sipërfaqe prej 306 km katrorë (2,8% e sipërfaqes së tërësishme të Kosovës). Nga sipërfaqja e tërësishme e komunës 65,6% është tokë e papunuar, kurse 34,4% është tokë e punuar. Nëpër Kaçanik kalon magjistralja Shkup-Prishtinë, si edhe hekurudha Selanik – Fushë Kosovë (e ndërtuar në vitin 1879).",
+        "source": "https://sq.wikipedia.org/wiki/Ka%C3%A7aniku",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 33409
+      },
+      "areaKm2": 209,
+      "elevationM": 671,
+      "website": "https://kacanik.rks-gov.net/"
+    },
+    "skenderaj": {
+      "wikidata": {
+        "town": "Q991291",
+        "municipality": "Q2043122"
+      },
+      "description": {
+        "text": "qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Skënderaj është qytet dhe komunë që ndodhet në Rajonin e Mitrovicës të Kosovës. Sipas regjistrimit të popullsisë të vitit 2011, qyteti i Skënderajt ka 9,372 banorë, ndërsa komuna ka 50.858 banorë. Është qyteti më i madh në rajonin gjeografik të Drenicës.",
+        "source": "https://sq.wikipedia.org/wiki/Sk%C3%ABnderaj",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 50858
+      },
+      "areaKm2": 373,
+      "elevationM": 620,
+      "website": "http://kk.rks-gov.net/skenderaj/"
+    },
+    "podujeve": {
+      "wikidata": {
+        "town": "Q994245",
+        "municipality": "Q860399"
+      },
+      "description": {
+        "text": "qytet në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Besiana ose Podujeva është qytet i vjetër i Krahinës së Llapit, qendër administrative e Komunës së Podujevës. Shtrihet në pjesën veri-lindore të Kosovës, në fushëgropën e Llapit, nga pjesët kodrinore-malore të malit të Leposaviqit në perëndim dhe maleve lindore kosovare, në lindje. Besiana dikur qytezë e vjetër e Krahinës së Llapit, në ditët e lirisë po shndërrohet në një qytet të bukur e qendër me rëndësi ekonomike, arsimore, tregtare, turistike, politike, kulturore, sportive, joshëse për llapjanët, kosovarët e të huajt.",
+        "source": "https://sq.wikipedia.org/wiki/Podujeva",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 88499
+      },
+      "areaKm2": 631,
+      "elevationM": 670,
+      "website": "http://kk.rks-gov.net/podujeve"
+    },
+    "lipjan": {
+      "wikidata": {
+        "town": "Q994730",
+        "municipality": "Q16036965"
+      },
+      "description": {
+        "text": "Komunë në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Lipjani është qytet në pjesën qendrore të Kosovës.",
+        "source": "https://sq.wikipedia.org/wiki/Lipjani",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 57605
+      },
+      "areaKm2": 337,
+      "elevationM": 563,
+      "website": "http://kk.rks-gov.net/lipjan/"
+    },
+    "junik": {
+      "wikidata": {
+        "town": "Q1713519",
+        "municipality": "Q794068"
+      },
+      "description": {
+        "text": "qytezë në Kosovë",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Juniku është një komunë dhe qytet i vogël në Kosovën perëndimore, në Rajonin e Gjakovës. Është e vendosur në perëndim të Kosovës. Sipas regjistrimit të vitit 2011, qyteti i Junikut ka 6,053 banorë, ndërsa komuna ka 6,084 banorë.",
+        "source": "https://sq.wikipedia.org/wiki/Juniku",
+        "lang": "sq"
+      },
+      "population": {
+        "value": 6048
+      },
+      "areaKm2": 77,
+      "elevationM": 517,
+      "website": "http://kk.rks-gov.net/junik/"
     }
   }
 }

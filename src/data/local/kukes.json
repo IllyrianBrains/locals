@@ -1,0 +1,122 @@
+{
+  "city": "kukes",
+  "name": "Kukës",
+  "fetchedAt": "2026-09-28T22:58:57.210Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 8,
+  "places": [
+    {
+      "id": "node/7126596809",
+      "name": "Bujtina Shtini",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.906857,
+      "lon": 20.454099,
+      "address": "Fshat",
+      "phone": "+355 682597727",
+      "website": "https://www.facebook.com/bujtinashtini/",
+      "osmUrl": "https://www.openstreetmap.org/node/7126596809",
+      "score": 6,
+      "km": 19
+    },
+    {
+      "id": "node/11197688737",
+      "name": "ARBI Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.071481,
+      "lon": 20.429351,
+      "address": "Rruga Prizreni",
+      "phone": "+355683307851",
+      "email": "nergutiservis@hotmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/11197688737",
+      "score": 5,
+      "km": 0.7
+    },
+    {
+      "id": "node/9883405872",
+      "name": "Bujtina Adem Sokoli",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.980079,
+      "lon": 20.603703,
+      "osmUrl": "https://www.openstreetmap.org/node/9883405872",
+      "score": 1,
+      "km": 18.3
+    },
+    {
+      "id": "node/10250368579",
+      "name": "Guesthouse SuperPanorama",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.016087,
+      "lon": 20.394226,
+      "osmUrl": "https://www.openstreetmap.org/node/10250368579",
+      "score": 0,
+      "km": 7.1
+    },
+    {
+      "id": "node/6062752595",
+      "name": "Xhamlliku",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.075499,
+      "lon": 20.42367,
+      "cuisine": [
+        "balkan",
+        "local",
+        "coffee shop",
+        "pizza"
+      ],
+      "phone": "+355 69 799 9929",
+      "website": "https://xhamlliku.com",
+      "openingHours": "07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6062752595",
+      "score": 7,
+      "km": 0.1
+    },
+    {
+      "id": "way/319681048",
+      "name": "Kulla e Lumës",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.099396,
+      "lon": 20.419534,
+      "address": "Mehmet Hoxhe Bruti 106 Kukës",
+      "openingHours": "Mo-Sa 07:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/319681048",
+      "score": 3,
+      "km": 2.6
+    },
+    {
+      "id": "node/11049512922",
+      "name": "Zgara Bushtricë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.867919,
+      "lon": 20.422176,
+      "cuisine": [
+        "bbq",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11049512922",
+      "score": 2,
+      "km": 23.1
+    },
+    {
+      "id": "node/13811244911",
+      "name": "Bleta",
+      "kind": "craft",
+      "type": "Zejtari",
+      "lat": 42.077123,
+      "lon": 20.418408,
+      "phone": "+355 69 323 1957",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/13811244911",
+      "score": 3,
+      "km": 0.4
+    }
+  ]
+}

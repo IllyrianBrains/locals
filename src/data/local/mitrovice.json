@@ -1,0 +1,105 @@
+{
+  "city": "mitrovice",
+  "name": "Mitrovicë",
+  "fetchedAt": "2026-09-28T22:58:57.226Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 6,
+  "places": [
+    {
+      "id": "node/4149124592",
+      "name": "Familja TAHIRI",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.881256,
+      "lon": 20.863306,
+      "osmUrl": "https://www.openstreetmap.org/node/4149124592",
+      "score": 0,
+      "km": 0.4
+    },
+    {
+      "id": "node/4708917789",
+      "name": "Xhyli Home",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.916706,
+      "lon": 20.900738,
+      "osmUrl": "https://www.openstreetmap.org/node/4708917789",
+      "score": 0,
+      "km": 4.6
+    },
+    {
+      "id": "way/247648623",
+      "name": "MISSINI Sweets",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.888425,
+      "lon": 20.870173,
+      "address": "Agim Hajrizi Mitrovicë",
+      "description": "Tek \"Missini Sweets\" do të gjeni ëmbëlsira nga më të ndryshmet dhe më të shijshmet. Tek ne gjithashtu , mund të gjeni ushqime të ndryshme si sallata, pizza, sandwich me pulë,përshutë etj, palëpeta, hamburgerë etj. Na vizitoni dhe shijet e ndryshme të ëmbë",
+      "cuisine": [
+        "burger",
+        "regional",
+        "pizza",
+        "coffee shop"
+      ],
+      "phone": "+383 46 886 666",
+      "email": "info@missinisweets.com",
+      "website": "https://www.facebook.com/missinisweetsofficial",
+      "openingHours": "Mo-Su 07:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/way/247648623",
+      "score": 13,
+      "km": 0.6
+    },
+    {
+      "id": "way/1303478014",
+      "name": "Xhema Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.857656,
+      "lon": 20.926713,
+      "address": "Mbreti Agron Kçiq i Madh",
+      "cuisine": [
+        "burger",
+        "regional",
+        "coffee shop",
+        "chicken"
+      ],
+      "phone": "+38349249617",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/1303478014",
+      "score": 6,
+      "km": 5.7
+    },
+    {
+      "id": "way/247674734",
+      "name": "Restaurant Verona",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.888471,
+      "lon": 20.87922,
+      "address": "Pim Mitrovic",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/247674734",
+      "score": 4,
+      "km": 1.2
+    },
+    {
+      "id": "node/2543427161",
+      "name": "Kafe Sport",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.889711,
+      "lon": 20.867844,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2543427161",
+      "score": 2,
+      "km": 0.7
+    }
+  ]
+}

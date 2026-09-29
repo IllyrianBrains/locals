@@ -5,15 +5,17 @@
  *   npm run osm                 # all cities
  *   npm run osm -- tirane berat # selected cities
  *   npm run osm -- --offline    # skip Wikimedia: use only what is already in .cache/osm/wiki.json
+ *   npm run osm -- --nature-only # only refresh the water and protected areas, keep the places as they are
  *
  * Places are then enriched from Wikidata, Wikipedia and Wikimedia Commons (see enrich-wiki.ts).
  *
  * Data © OpenStreetMap contributors, ODbL 1.0 — attribution must be shown wherever it is used.
  */
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { cities, type City } from '../src/data/cities.ts';
 import { enrichPlaces } from './enrich-wiki.ts';
 import { dedupe, isPlace, toPlace, type OverpassElement } from './osm-common.ts';
+import { isProtected as isProtectedKind, natureNear } from './nature.ts';
 import { readPbf, type PbfCountry } from './pbf.ts';
 import type { OsmPlace, OsmCityData } from '../src/data/places.ts';
 
@@ -35,6 +37,15 @@ function metersFrom(city: City, lat: number, lon: number): number {
   return Math.hypot(dLat, dLon);
 }
 
+async function processNature(city: City, offline: boolean): Promise<void> {
+  const file = new URL(`${city.slug}.json`, OUT_DIR);
+  const data: OsmCityData = JSON.parse(await readFile(file, 'utf8'));
+  data.nature = await natureNear(PBF_COUNTRY[city.country], { lat: city.osm.lat, lon: city.osm.lon }, city.osm.radius);
+  await enrichPlaces(data.nature, offline);
+  await writeFile(file, JSON.stringify(data, null, 2) + '\n');
+  console.log(`✓ ${city.name}: ${data.nature.filter((n) => isProtectedKind(n.kind)).length} protected areas, ${data.nature.filter((n) => !isProtectedKind(n.kind)).length} water features`);
+}
+
 async function processCity(city: City, offline: boolean): Promise<void> {
   const nearby = (await extractOf(city)).filter((e) => {
     const lat = e.lat ?? e.center?.lat, lon = e.lon ?? e.center?.lon;
@@ -47,6 +58,9 @@ async function processCity(city: City, offline: boolean): Promise<void> {
     .slice(0, MAX_PLACES);
   await enrichPlaces(places, offline);
 
+  const nature = await natureNear(PBF_COUNTRY[city.country], { lat: city.osm.lat, lon: city.osm.lon }, city.osm.radius);
+  await enrichPlaces(nature, offline);
+
   const data: OsmCityData = {
     city: city.slug,
     name: city.name,
@@ -57,17 +71,19 @@ async function processCity(city: City, offline: boolean): Promise<void> {
     license: 'ODbL-1.0',
     count: places.length,
     places,
+    nature,
   };
   await writeFile(new URL(`${city.slug}.json`, OUT_DIR), JSON.stringify(data, null, 2) + '\n');
 
   const byCategory = Object.entries(Object.groupBy(places, (p) => p.category)).map(([c, list]) => `${c} ${list!.length}`).join(', ');
   const withSummary = places.filter((p) => p.summary).length;
   const withImage = places.filter((p) => p.image).length;
-  console.log(`✓ ${city.name}: ${nearby.length} nearby → ${places.length} places (${byCategory}); ${withSummary} summaries, ${withImage} images`);
+  console.log(`✓ ${city.name}: ${nearby.length} nearby → ${places.length} places (${byCategory}); ${withSummary} summaries, ${withImage} images; ${nature.filter((n) => isProtectedKind(n.kind)).length} protected areas, ${nature.filter((n) => !isProtectedKind(n.kind)).length} water features`);
 }
 
 const args = process.argv.slice(2);
 const offline = args.includes('--offline');
+const natureOnly = args.includes('--nature-only');
 const slugs = args.filter((a) => !a.startsWith('--'));
 const selected = slugs.length ? cities.filter((c) => slugs.includes(c.slug)) : cities;
 const unknown = slugs.filter((s) => !cities.some((c) => c.slug === s));
@@ -80,7 +96,7 @@ await mkdir(new URL('../.cache/osm/', import.meta.url), { recursive: true }); //
 await mkdir(OUT_DIR, { recursive: true });
 for (const city of selected) {
   try {
-    await processCity(city, offline);
+    await (natureOnly ? processNature(city, offline) : processCity(city, offline));
   } catch (error) {
     console.error(`✗ ${city.name}:`, error instanceof Error ? error.message : error);
     process.exitCode = 1;

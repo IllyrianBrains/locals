@@ -1,0 +1,77 @@
+{
+  "city": "kacanik",
+  "name": "Kaçanik",
+  "fetchedAt": "2026-09-28T22:58:57.247Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 4,
+  "places": [
+    {
+      "id": "node/7243558583",
+      "name": "Art Caffee",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.229688,
+      "lon": 21.257105,
+      "address": "Ismail Raka Kaçanik",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "burger",
+        "coffee shop"
+      ],
+      "phone": "+383 49 488 777",
+      "openingHours": "Mo-Su 08:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/7243558583",
+      "score": 6,
+      "km": 0.3
+    },
+    {
+      "id": "node/7243558581",
+      "name": "Salla e Darsmave “Art 1 & 2”",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.24866,
+      "lon": 21.237673,
+      "cuisine": [
+        "pizza",
+        "regional",
+        "coffee shop",
+        "sandwich"
+      ],
+      "phone": "+383 49 488 777",
+      "website": "https://www.facebook.com/artrestaurant/",
+      "osmUrl": "https://www.openstreetmap.org/node/7243558581",
+      "score": 6,
+      "km": 2.6
+    },
+    {
+      "id": "node/12011806041",
+      "name": "Shkendia Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.278044,
+      "lon": 21.20832,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12011806041",
+      "score": 2,
+      "km": 6.6
+    },
+    {
+      "id": "node/13124964902",
+      "name": "Green Hill",
+      "kind": "craft",
+      "type": "Fermë",
+      "lat": 42.278569,
+      "lon": 21.154152,
+      "address": "Ahmet Kaçiku Bajnicë",
+      "phone": "+38345967699",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/13124964902",
+      "score": 4,
+      "km": 10.1
+    }
+  ]
+}

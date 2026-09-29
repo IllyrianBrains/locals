@@ -1,0 +1,94 @@
+{
+  "city": "finiq",
+  "name": "Finiq",
+  "fetchedAt": "2026-09-29T00:24:28.978Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 6,
+  "places": [
+    {
+      "id": "node/5111290722",
+      "name": "Blue Eye Oasis Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.914844,
+      "lon": 20.182635,
+      "address": "Syri i Kaltër",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 09:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/5111290722",
+      "score": 4,
+      "km": 10.7
+    },
+    {
+      "id": "node/11865884670",
+      "name": "Tamo's Farm",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.871827,
+      "lon": 20.136873,
+      "cuisine": [
+        "balkan",
+        "chicken",
+        "grill",
+        "mediterranean"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11865884670",
+      "score": 3,
+      "km": 7.8
+    },
+    {
+      "id": "node/14133830701",
+      "name": "Blue Mill Restaurant & Bar",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.920873,
+      "lon": 20.153479,
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/14133830701",
+      "score": 2,
+      "km": 8.4
+    },
+    {
+      "id": "way/970392676",
+      "name": "Sotiris",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.909269,
+      "lon": 20.095099,
+      "cuisine": [
+        "regional",
+        "seafood"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/970392676",
+      "score": 2,
+      "km": 3.2
+    },
+    {
+      "id": "node/13100707271",
+      "name": "Gatime Tradicionale Ami&Krisa",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.911778,
+      "lon": 20.107596,
+      "osmUrl": "https://www.openstreetmap.org/node/13100707271",
+      "score": 1,
+      "km": 4.3
+    },
+    {
+      "id": "node/8993852417",
+      "name": "Taverna Muzina",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.935363,
+      "lon": 20.208731,
+      "osmUrl": "https://www.openstreetmap.org/node/8993852417",
+      "score": 1,
+      "km": 13.3
+    }
+  ]
+}

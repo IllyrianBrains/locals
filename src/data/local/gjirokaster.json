@@ -1,0 +1,671 @@
+{
+  "city": "gjirokaster",
+  "name": "Gjirokastër",
+  "fetchedAt": "2026-09-28T22:58:56.999Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 49,
+  "places": [
+    {
+      "id": "node/10874137005",
+      "name": "Patio Rooms Gjirokaster",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.079462,
+      "lon": 20.1296,
+      "address": "Rruga Granicë",
+      "phone": "0692300852",
+      "email": "info.patiorooms@gmail.com",
+      "website": "https://www.facebook.com/reel/726604409249463?mibextid=6AJuK9&s=caYV2B&fs=e",
+      "osmUrl": "https://www.openstreetmap.org/node/10874137005",
+      "score": 6,
+      "km": 0.9
+    },
+    {
+      "id": "node/6515502951",
+      "name": "Dhoksati Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.122118,
+      "lon": 20.183131,
+      "address": "Dhoksat",
+      "phone": "+355 69 736 6270",
+      "website": "https://www.facebook.com/dhoksatiguesthouse/",
+      "osmUrl": "https://www.openstreetmap.org/node/6515502951",
+      "score": 5,
+      "km": 6.4
+    },
+    {
+      "id": "node/6516898865",
+      "name": "Krisafi Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.165038,
+      "lon": 20.147302,
+      "address": "Karjan",
+      "phone": "+355 67 6501434",
+      "website": "https://www.facebook.com/krisafiguesthouse/",
+      "osmUrl": "https://www.openstreetmap.org/node/6516898865",
+      "score": 5,
+      "km": 10
+    },
+    {
+      "id": "node/6506333184",
+      "name": "Arberia Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.121831,
+      "lon": 19.984246,
+      "address": "Rruga Mitat Kondi Zhulat",
+      "phone": "+355 69 5367528",
+      "email": "kerajmurat33@gmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6506333184",
+      "score": 4,
+      "km": 14.1
+    },
+    {
+      "id": "way/591185491",
+      "name": "Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.074543,
+      "lon": 20.134252,
+      "address": "Rruga Bashkim Kokona 14 Gjirokastër",
+      "phone": "+355 69553 7570",
+      "osmUrl": "https://www.openstreetmap.org/way/591185491",
+      "score": 3,
+      "km": 0.4
+    },
+    {
+      "id": "node/14028710401",
+      "name": "Guesthouse Hasko",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.06945,
+      "lon": 20.134227,
+      "address": "Rruga Inajete Dumi",
+      "phone": "+355685651892",
+      "osmUrl": "https://www.openstreetmap.org/node/14028710401",
+      "score": 3,
+      "km": 0.8
+    },
+    {
+      "id": "node/5073697768",
+      "name": "Mele Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.074963,
+      "lon": 20.134685,
+      "address": "Rruga Riza Hoxha",
+      "phone": "355685344767",
+      "osmUrl": "https://www.openstreetmap.org/node/5073697768",
+      "score": 3,
+      "km": 0.4
+    },
+    {
+      "id": "way/123302608",
+      "name": "Hashorva Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.076219,
+      "lon": 20.137795,
+      "phone": "+355 69 2823171",
+      "osmUrl": "https://www.openstreetmap.org/way/123302608",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/9945148802",
+      "name": "Mani",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.07735,
+      "lon": 20.138656,
+      "phone": "+355 69 332 0465",
+      "osmUrl": "https://www.openstreetmap.org/node/9945148802",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/9074080976",
+      "name": "Vrenjo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.077381,
+      "lon": 20.14024,
+      "website": "https://www.booking.com/hotel/al/vrenjo.uk.html",
+      "osmUrl": "https://www.openstreetmap.org/node/9074080976",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/5822530754",
+      "name": "Cullo Relax Hotel",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.078319,
+      "lon": 20.132445,
+      "address": "Rruga Bukurie Bazo",
+      "osmUrl": "https://www.openstreetmap.org/node/5822530754",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/11093791945",
+      "name": "Grandma's Home",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.071946,
+      "lon": 20.135748,
+      "address": "Rruga Partizani Gjirokastër",
+      "osmUrl": "https://www.openstreetmap.org/node/11093791945",
+      "score": 1,
+      "km": 0.5
+    },
+    {
+      "id": "node/6539141283",
+      "name": "Guesthouse Urat",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.071122,
+      "lon": 20.137215,
+      "address": "Gjirokastër",
+      "osmUrl": "https://www.openstreetmap.org/node/6539141283",
+      "score": 1,
+      "km": 0.5
+    },
+    {
+      "id": "node/5596026021",
+      "name": "Konaku Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.072211,
+      "lon": 20.136984,
+      "osmUrl": "https://www.openstreetmap.org/node/5596026021",
+      "score": 1,
+      "km": 0.4
+    },
+    {
+      "id": "way/684022515",
+      "name": "Ahmetaj Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.07503,
+      "lon": 20.13519,
+      "osmUrl": "https://www.openstreetmap.org/way/684022515",
+      "score": 0,
+      "km": 0.3
+    },
+    {
+      "id": "node/8026410618",
+      "name": "Eva Guesthouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.075853,
+      "lon": 20.139202,
+      "osmUrl": "https://www.openstreetmap.org/node/8026410618",
+      "score": 0,
+      "km": 0
+    },
+    {
+      "id": "node/5596202027",
+      "name": "Guest House Heart of the Bazaar",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.074291,
+      "lon": 20.138444,
+      "osmUrl": "https://www.openstreetmap.org/node/5596202027",
+      "score": 0,
+      "km": 0.2
+    },
+    {
+      "id": "node/12948926901",
+      "name": "Guesthouse Memushi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.075809,
+      "lon": 20.132445,
+      "osmUrl": "https://www.openstreetmap.org/node/12948926901",
+      "score": 0,
+      "km": 0.5
+    },
+    {
+      "id": "node/12966556801",
+      "name": "Guesthouse Sokaku I Te Marreve",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.076129,
+      "lon": 20.13567,
+      "osmUrl": "https://www.openstreetmap.org/node/12966556801",
+      "score": 0,
+      "km": 0.3
+    },
+    {
+      "id": "node/5830461537",
+      "name": "Hasan Çiço",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.076591,
+      "lon": 20.140052,
+      "osmUrl": "https://www.openstreetmap.org/node/5830461537",
+      "score": 0,
+      "km": 0.1
+    },
+    {
+      "id": "node/9885575219",
+      "name": "Juald",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.077174,
+      "lon": 20.131752,
+      "osmUrl": "https://www.openstreetmap.org/node/9885575219",
+      "score": 0,
+      "km": 0.6
+    },
+    {
+      "id": "node/5941092178",
+      "name": "Karafil",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.075666,
+      "lon": 20.133956,
+      "osmUrl": "https://www.openstreetmap.org/node/5941092178",
+      "score": 0,
+      "km": 0.4
+    },
+    {
+      "id": "node/11333261188",
+      "name": "Riva",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.075451,
+      "lon": 20.132832,
+      "osmUrl": "https://www.openstreetmap.org/node/11333261188",
+      "score": 0,
+      "km": 0.5
+    },
+    {
+      "id": "node/6516928633",
+      "name": "Villa Maro",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.14373,
+      "lon": 20.17237,
+      "osmUrl": "https://www.openstreetmap.org/node/6516928633",
+      "score": 0,
+      "km": 8.1
+    },
+    {
+      "id": "node/11271854669",
+      "name": "Yuri",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.07046,
+      "lon": 20.135781,
+      "osmUrl": "https://www.openstreetmap.org/node/11271854669",
+      "score": 0,
+      "km": 0.7
+    },
+    {
+      "id": "node/5591936221",
+      "name": "Bar Restorant Oksigjeni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.100451,
+      "lon": 20.125819,
+      "address": "Viroi Gjirokastër",
+      "cuisine": [
+        "regional",
+        "mediterranean"
+      ],
+      "phone": "+355693444008",
+      "website": "https://bar-restorant-oksigjeni.business.site/",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5591936221",
+      "score": 8,
+      "km": 3
+    },
+    {
+      "id": "node/12100236501",
+      "name": "Bon Appetit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.075297,
+      "lon": 20.138902,
+      "address": "Rruga Alqi Kondi",
+      "cuisine": [
+        "balkan",
+        "chicken",
+        "fish",
+        "local"
+      ],
+      "phone": "068 410 3996",
+      "website": "https://bonappetit.al/",
+      "openingHours": "Mo-Su 11:30-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/12100236501",
+      "score": 8,
+      "km": 0.1
+    },
+    {
+      "id": "node/8473593020",
+      "name": "Restorant & Evente PERLA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.072258,
+      "lon": 20.157396,
+      "address": "Rruga Tepelenë-Gjirokastër Gjirokastër",
+      "cuisine": [
+        "traditional"
+      ],
+      "phone": "0696926896",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/8473593020",
+      "score": 6,
+      "km": 1.6
+    },
+    {
+      "id": "node/11149863191",
+      "name": "Restorant Tradita",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.085395,
+      "lon": 20.142736,
+      "address": "Rruga Javer Rushiti Gjirokastër",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355685002525",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/11149863191",
+      "score": 6,
+      "km": 1.1
+    },
+    {
+      "id": "node/5625896526",
+      "name": "Taverna Laberia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.07981,
+      "lon": 20.138244,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355692454522",
+      "openingHours": "Mo-Su 08:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/5625896526",
+      "score": 6,
+      "km": 0.4
+    },
+    {
+      "id": "node/6875316787",
+      "name": "Taverna Tradicionale",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.071022,
+      "lon": 20.137221,
+      "phone": "+355 69 366 7830",
+      "website": "https://www.facebook.com/taverna.tradicionale",
+      "osmUrl": "https://www.openstreetmap.org/node/6875316787",
+      "score": 5,
+      "km": 0.6
+    },
+    {
+      "id": "way/397964092",
+      "name": "Corner of Bazaar",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074845,
+      "lon": 20.139476,
+      "address": "Sheshi Çerçiz Topulli",
+      "cuisine": [
+        "local",
+        "regional"
+      ],
+      "openingHours": "Mo-Su 10:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/397964092",
+      "score": 4,
+      "km": 0.1
+    },
+    {
+      "id": "node/13134596301",
+      "name": "Zahiré",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.073786,
+      "lon": 20.137821,
+      "address": "Rruga Shezai Çomo",
+      "cuisine": [
+        "balkan",
+        "local"
+      ],
+      "openingHours": "Mo-Su 09:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/13134596301",
+      "score": 4,
+      "km": 0.2
+    },
+    {
+      "id": "node/3762232613",
+      "name": "Sofra",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074787,
+      "lon": 20.139381,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3762232613",
+      "score": 3,
+      "km": 0.1
+    },
+    {
+      "id": "node/11035299335",
+      "name": "Taverna lani",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.071198,
+      "lon": 20.137038,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11035299335",
+      "score": 3,
+      "km": 0.5
+    },
+    {
+      "id": "way/468419609",
+      "name": "Te Raqi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.078556,
+      "lon": 20.137541,
+      "address": "Rruga Doktor Vasil Laboviti Gjirokastër",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/468419609",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/7695956785",
+      "name": "Të fuçitë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.116221,
+      "lon": 20.144525,
+      "cuisine": [
+        "balkan",
+        "mediterranean",
+        "regional",
+        "steak house"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/7695956785",
+      "score": 3,
+      "km": 4.5
+    },
+    {
+      "id": "node/5088839921",
+      "name": "A. Muco",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074561,
+      "lon": 20.139085,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5088839921",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/13195372501",
+      "name": "Ali Pasha's Table",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.069418,
+      "lon": 20.134822,
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13195372501",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/5943198789",
+      "name": "Check In",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.073748,
+      "lon": 20.137787,
+      "cuisine": [
+        "regional",
+        "albanian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5943198789",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/3762232612",
+      "name": "El Dorado",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074845,
+      "lon": 20.139433,
+      "cuisine": [
+        "albanian",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3762232612",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/10837350705",
+      "name": "Gatime tradicion",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.079658,
+      "lon": 20.138158,
+      "osmUrl": "https://www.openstreetmap.org/node/10837350705",
+      "score": 2,
+      "km": 0.4
+    },
+    {
+      "id": "node/2636936214",
+      "name": "Kujtimi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074748,
+      "lon": 20.138602,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/2636936214",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/4915395222",
+      "name": "Kurveleshi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074092,
+      "lon": 20.1386,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4915395222",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/3762232611",
+      "name": "Mapo",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074547,
+      "lon": 20.139319,
+      "cuisine": [
+        "regional",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3762232611",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/9947265278",
+      "name": "The First",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.080987,
+      "lon": 20.139203,
+      "cuisine": [
+        "pizza",
+        "regional",
+        "sandwich"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9947265278",
+      "score": 2,
+      "km": 0.6
+    },
+    {
+      "id": "node/3762232614",
+      "name": "The Park",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.074655,
+      "lon": 20.139358,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3762232614",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/11083554707",
+      "name": "Taverna Brahimi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.070724,
+      "lon": 20.137015,
+      "osmUrl": "https://www.openstreetmap.org/node/11083554707",
+      "score": 1,
+      "km": 0.6
+    },
+    {
+      "id": "node/6879331486",
+      "name": "Wood Art",
+      "kind": "craft",
+      "type": "Artizanat",
+      "lat": 40.074005,
+      "lon": 20.137085,
+      "osmUrl": "https://www.openstreetmap.org/node/6879331486",
+      "score": 0,
+      "km": 0.3
+    }
+  ]
+}

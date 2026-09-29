@@ -1,0 +1,139 @@
+{
+  "city": "kolonje",
+  "name": "Kolonjë",
+  "fetchedAt": "2026-09-28T22:58:57.189Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 10,
+  "places": [
+    {
+      "id": "way/988572937",
+      "name": "Sofra Kolonjare",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.443181,
+      "lon": 20.669846,
+      "phone": "+355682054007",
+      "website": "https://www.sofrakolonjare.al",
+      "osmUrl": "https://www.openstreetmap.org/way/988572937",
+      "score": 4,
+      "km": 12.3
+    },
+    {
+      "id": "way/290249373",
+      "name": "Farma Sotira",
+      "kind": "stay",
+      "type": "Kasolle",
+      "lat": 40.214338,
+      "lon": 20.64704,
+      "address": "Rruga Nacionale, Leskovik - Ersek, Km 15 Kolonje",
+      "osmUrl": "https://www.openstreetmap.org/way/290249373",
+      "score": 1,
+      "km": 13.6
+    },
+    {
+      "id": "node/8163645217",
+      "name": "Riza Isa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.391935,
+      "lon": 20.722369,
+      "osmUrl": "https://www.openstreetmap.org/node/8163645217",
+      "score": 0,
+      "km": 7.3
+    },
+    {
+      "id": "node/9797026538",
+      "name": "Stena",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.33765,
+      "lon": 20.681551,
+      "osmUrl": "https://www.openstreetmap.org/node/9797026538",
+      "score": 0,
+      "km": 0.5
+    },
+    {
+      "id": "node/7695943185",
+      "name": "Xakellari",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.343496,
+      "lon": 20.685166,
+      "osmUrl": "https://www.openstreetmap.org/node/7695943185",
+      "score": 0,
+      "km": 1.1
+    },
+    {
+      "id": "way/666430837",
+      "name": "Taverna Zisi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.333998,
+      "lon": 20.67949,
+      "address": "Ersekë",
+      "phone": "+355695777373",
+      "osmUrl": "https://www.openstreetmap.org/way/666430837",
+      "score": 4,
+      "km": 0.3
+    },
+    {
+      "id": "way/290249376",
+      "name": "Farma Sotira",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.214451,
+      "lon": 20.647048,
+      "address": "Rruga Nacionale, Leskovik - Ersek, Km 15 Kolonje",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/290249376",
+      "score": 3,
+      "km": 13.6
+    },
+    {
+      "id": "node/9815156570",
+      "name": "Jorgo",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.152038,
+      "lon": 20.598966,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/9815156570",
+      "score": 2,
+      "km": 21.4
+    },
+    {
+      "id": "way/290249371",
+      "name": "Farma Sotira",
+      "kind": "craft",
+      "type": "Fermë",
+      "lat": 40.214942,
+      "lon": 20.646889,
+      "address": "Rruga Nacionale, Leskovik - Ersek, Km 15 Kolonje",
+      "phone": "+355 692 342529",
+      "email": "info@farmasotira.com",
+      "website": "https://www.farmasotira.com/",
+      "osmUrl": "https://www.openstreetmap.org/way/290249371",
+      "score": 6,
+      "km": 13.5
+    },
+    {
+      "id": "node/10214388295",
+      "name": "Max Wine",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 40.17454,
+      "lon": 20.581585,
+      "phone": "+355 67 461 3445",
+      "email": "florianperi@yahoo.com",
+      "website": "https://maxmavrud.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/10214388295",
+      "score": 6,
+      "km": 19.7
+    }
+  ]
+}

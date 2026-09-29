@@ -8,6 +8,9 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import type { OsmPlace } from '../src/data/places.ts';
 
+/** What enrichment reads and writes: places and nature features both fit. */
+export type WikiSubject = Pick<OsmPlace, 'wikidata' | 'wikipedia' | 'imageFile' | 'image' | 'imageCredit' | 'tagline' | 'summary'>;
+
 const USER_AGENT = 'ib-locals/0.1 (https://locals.illyrianbrains.org; illyrianbrains@gmail.com)';
 const CACHE_FILE = new URL('../.cache/osm/wiki.json', import.meta.url);
 const LANGS = ['sq', 'en'] as const;
@@ -117,7 +120,7 @@ function parseWikipediaTag(tag?: string): [Lang, string] | undefined {
   return match && (LANGS as readonly string[]).includes(match[1]) ? [match[1] as Lang, match[2]] : undefined;
 }
 
-function wikipediaCandidates(place: OsmPlace, cache: Cache): [Lang, string][] {
+function wikipediaCandidates(place: WikiSubject, cache: Cache): [Lang, string][] {
   const wd = place.wikidata ? cache.wikidata[place.wikidata] : undefined;
   const fromTag = parseWikipediaTag(place.wikipedia);
   return LANGS.map((lang): [Lang, string] | undefined => {
@@ -130,7 +133,7 @@ async function loadCache(): Promise<Cache> {
   try { return JSON.parse(await readFile(CACHE_FILE, 'utf8')); } catch { return { wikidata: {}, commons: {}, wikipedia: {} }; }
 }
 
-export async function enrichPlaces(places: OsmPlace[], offline: boolean): Promise<void> {
+export async function enrichPlaces(places: WikiSubject[], offline: boolean): Promise<void> {
   const cache = await loadCache();
 
   if (!offline) {

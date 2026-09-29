@@ -1,0 +1,895 @@
+{
+  "city": "prishtine",
+  "name": "Prishtinë",
+  "fetchedAt": "2026-09-28T22:58:57.090Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 57,
+  "places": [
+    {
+      "id": "node/11074677705",
+      "name": "EliteHomes",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.620554,
+      "lon": 21.139585,
+      "address": "Ilirida 1",
+      "phone": "+38345221555",
+      "email": "Llapcom.rka@gmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/11074677705",
+      "score": 6,
+      "km": 5.2
+    },
+    {
+      "id": "node/4739385321",
+      "name": "Guest House",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.649178,
+      "lon": 21.167973,
+      "address": "Major Mehmet Bushi L-20/7",
+      "phone": "+38349816600",
+      "email": "gezim44@gmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/4739385321",
+      "score": 6,
+      "km": 1.5
+    },
+    {
+      "id": "node/5406162721",
+      "name": "Panoramic",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.667832,
+      "lon": 21.174948,
+      "address": "Rexhep Shema 2",
+      "phone": "+38344505202",
+      "email": "demjaha@gmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/5406162721",
+      "score": 6,
+      "km": 0.9
+    },
+    {
+      "id": "node/4541757091",
+      "name": "Objekti banesor \"Princesha\"",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.646674,
+      "lon": 21.181967,
+      "address": "Muharrem Fejza 1-2-3",
+      "openingHours": "Mo-Su 15:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4541757091",
+      "score": 3,
+      "km": 2.3
+    },
+    {
+      "id": "node/4471412691",
+      "name": "Guest House Velania",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.661144,
+      "lon": 21.176228,
+      "address": "Emrush Miftari",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/4471412691",
+      "score": 2,
+      "km": 0.9
+    },
+    {
+      "id": "node/9046514059",
+      "name": "Apartment Perla",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.666154,
+      "lon": 21.153047,
+      "address": "Arben Xheladini 137 Prishtinë",
+      "osmUrl": "https://www.openstreetmap.org/node/9046514059",
+      "score": 1,
+      "km": 1.1
+    },
+    {
+      "id": "node/6912904586",
+      "name": "Folea Jonë (Marigona2)",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.62084,
+      "lon": 21.142525,
+      "address": "Malo Gami",
+      "osmUrl": "https://www.openstreetmap.org/node/6912904586",
+      "score": 1,
+      "km": 5
+    },
+    {
+      "id": "node/7750302522",
+      "name": "Suhareka",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.65262,
+      "lon": 21.160893,
+      "address": "Henry Dunant Prishtinë",
+      "osmUrl": "https://www.openstreetmap.org/node/7750302522",
+      "score": 1,
+      "km": 1.2
+    },
+    {
+      "id": "node/4585420291",
+      "name": "Asimi qyqy",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.715082,
+      "lon": 21.13248,
+      "osmUrl": "https://www.openstreetmap.org/node/4585420291",
+      "score": 0,
+      "km": 6.4
+    },
+    {
+      "id": "node/4406458789",
+      "name": "banesa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.654242,
+      "lon": 21.173198,
+      "osmUrl": "https://www.openstreetmap.org/node/4406458789",
+      "score": 0,
+      "km": 1.2
+    },
+    {
+      "id": "node/4788041027",
+      "name": "banesa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.644584,
+      "lon": 21.174535,
+      "osmUrl": "https://www.openstreetmap.org/node/4788041027",
+      "score": 0,
+      "km": 2.2
+    },
+    {
+      "id": "node/5773911159",
+      "name": "Byqmeti",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.673856,
+      "lon": 21.169327,
+      "osmUrl": "https://www.openstreetmap.org/node/5773911159",
+      "score": 0,
+      "km": 1.3
+    },
+    {
+      "id": "node/4582152594",
+      "name": "Kusha",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.654216,
+      "lon": 21.179881,
+      "osmUrl": "https://www.openstreetmap.org/node/4582152594",
+      "score": 0,
+      "km": 1.5
+    },
+    {
+      "id": "node/6205212186",
+      "name": "shaban vitia",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.650302,
+      "lon": 21.355898,
+      "osmUrl": "https://www.openstreetmap.org/node/6205212186",
+      "score": 0,
+      "km": 15.6
+    },
+    {
+      "id": "node/5458941022",
+      "name": "Fresa",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.629445,
+      "lon": 21.158392,
+      "address": "Gjergj Arianiti 2",
+      "cuisine": [
+        "pasta",
+        "balkan",
+        "italian",
+        "breakfast"
+      ],
+      "phone": "+38349957770",
+      "email": "info@fresafood.com",
+      "website": "http://www.fresafood.com",
+      "openingHours": "Mo-Sa 07:00-19:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5458941022",
+      "score": 9,
+      "km": 3.8
+    },
+    {
+      "id": "way/511127615",
+      "name": "Vila Gërmia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.669273,
+      "lon": 21.218104,
+      "address": "Gërmia Prishtinë",
+      "cuisine": [
+        "regional",
+        "coffee shop",
+        "pizza",
+        "burger"
+      ],
+      "phone": "+383 45 265 578",
+      "email": "info@vilagermia.com",
+      "website": "https://vilagermia.com/",
+      "openingHours": "Mo-Su 06:30-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/511127615",
+      "score": 9,
+      "km": 4.4
+    },
+    {
+      "id": "node/4425459791",
+      "name": "Bukë e Zemër",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.666148,
+      "lon": 21.182182,
+      "cuisine": [
+        "local"
+      ],
+      "phone": "+383 44 424 424",
+      "website": "https://linktr.ee/bukeezemer",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4425459791",
+      "score": 8,
+      "km": 1.4
+    },
+    {
+      "id": "node/595372881",
+      "name": "Panorama Dining",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.641348,
+      "lon": 21.20636,
+      "address": "Lugmiri 163 Zllatar",
+      "cuisine": [
+        "pizza",
+        "coffee shop",
+        "regional",
+        "chicken"
+      ],
+      "phone": "+383 45 382 222",
+      "website": "https://www.facebook.com/profile.php?id=100063558815769",
+      "openingHours": "Mo-Su 07:30-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/595372881",
+      "score": 8,
+      "km": 4.1
+    },
+    {
+      "id": "node/4427080492",
+      "name": "The White Tree",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.657075,
+      "lon": 21.155121,
+      "address": "Mujo Ulqinaku 59 Prishtinë: Kosovë",
+      "cuisine": [
+        "international",
+        "coffee shop",
+        "burger",
+        "regional"
+      ],
+      "phone": "+38349166777",
+      "website": "htpps://www.whitetreeks.com",
+      "openingHours": "Mo-Sa 07:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4427080492",
+      "score": 8,
+      "km": 1.1
+    },
+    {
+      "id": "node/4485953791",
+      "name": "Restaurant BENI",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.644643,
+      "lon": 21.158474,
+      "address": "Qendra Spitalore",
+      "cuisine": [
+        "sandwich",
+        "grill",
+        "tea",
+        "local"
+      ],
+      "phone": "+38344898500",
+      "email": "restauranbeni.ii@gmail.com",
+      "openingHours": "06:00-24:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4485953791",
+      "score": 7,
+      "km": 2.1
+    },
+    {
+      "id": "node/12179940450",
+      "name": "Thana Rostiçeri",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.663594,
+      "lon": 21.164508,
+      "cuisine": [
+        "local"
+      ],
+      "phone": "+383 44 928 886",
+      "email": "thanarosticeri@gmail.com",
+      "website": "https://www.facebook.com/thanarosticeri/",
+      "osmUrl": "https://www.openstreetmap.org/node/12179940450",
+      "score": 7,
+      "km": 0.1
+    },
+    {
+      "id": "node/4355630789",
+      "name": "Baristas",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66359,
+      "lon": 21.165249,
+      "address": "Bajram Kelmendi",
+      "cuisine": [
+        "burger",
+        "pizza",
+        "regional",
+        "salad"
+      ],
+      "phone": "+383 49 422 244",
+      "openingHours": "Mo-Su 07:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4355630789",
+      "score": 6,
+      "km": 0.1
+    },
+    {
+      "id": "node/4857704223",
+      "name": "Gjelltore Opoja",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.666771,
+      "lon": 21.165136,
+      "address": "Xhemail Prishtina",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 08:00-21:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4857704223",
+      "score": 6,
+      "km": 0.4
+    },
+    {
+      "id": "node/2397535651",
+      "name": "Liburnia",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.666684,
+      "lon": 21.163416,
+      "address": "Meto Bajrakti 21",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+38344891000",
+      "openingHours": "Mo-Fr 08:00-23:00; Sa, Su 12:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2397535651",
+      "score": 6,
+      "km": 0.5
+    },
+    {
+      "id": "node/4461042589",
+      "name": "Qebaptore Gjakova",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66614,
+      "lon": 21.166148,
+      "address": "Ibrahim Lutfiu",
+      "cuisine": [
+        "balkan",
+        "barbecue"
+      ],
+      "phone": "+38344142666",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4461042589",
+      "score": 6,
+      "km": 0.4
+    },
+    {
+      "id": "node/4461321078",
+      "name": "Shpija e vjeter",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.661362,
+      "lon": 21.163747,
+      "address": "Qamil Hoxha",
+      "cuisine": [
+        "balkan",
+        "mediterranean"
+      ],
+      "phone": "+38345840084",
+      "email": "shpija.e.vjeter@hotmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/4461321078",
+      "score": 6,
+      "km": 0.2
+    },
+    {
+      "id": "way/105324846",
+      "name": "Gjelltore Te Nazi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.654189,
+      "lon": 21.159563,
+      "address": "Dëshmorët e Kombit Prishtinë",
+      "cuisine": [
+        "regional",
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 08:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/way/105324846",
+      "score": 5,
+      "km": 1.1
+    },
+    {
+      "id": "node/13541712229",
+      "name": "Han Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.660443,
+      "lon": 21.165101,
+      "address": "Agim Ramadani Prishtinë",
+      "phone": "+383 43 999 889",
+      "openingHours": "Mo-Sa 10:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/13541712229",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "node/3856102851",
+      "name": "Hera Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.661848,
+      "lon": 21.165443,
+      "address": "Agim Ramadani Prishtinë: Kosovë",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+383 4 541 8602",
+      "osmUrl": "https://www.openstreetmap.org/node/3856102851",
+      "score": 5,
+      "km": 0.1
+    },
+    {
+      "id": "node/2446780275",
+      "name": "Kulla e Shqiponjes",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.646826,
+      "lon": 21.219737,
+      "address": "Zllatar Prishtin",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Su 07:00-23:30",
+      "osmUrl": "https://www.openstreetmap.org/node/2446780275",
+      "score": 5,
+      "km": 4.8
+    },
+    {
+      "id": "node/10998062976",
+      "name": "National Restaurant Bristol 2",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66533,
+      "lon": 21.166613,
+      "description": "Tradional foods. Gjella tradicionale.",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "Mo-Fr 07:00-15:00; Sa 07:00-13:00; Su off",
+      "osmUrl": "https://www.openstreetmap.org/node/10998062976",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "way/348583247",
+      "name": "Sonder",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.655017,
+      "lon": 21.165971,
+      "address": "Ukë Bytyqi 19 Prishtina",
+      "cuisine": [
+        "american",
+        "coffee shop",
+        "regional"
+      ],
+      "website": "https://www.facebook.com/pg/sonder.prishtina/about/",
+      "osmUrl": "https://www.openstreetmap.org/way/348583247",
+      "score": 5,
+      "km": 0.9
+    },
+    {
+      "id": "node/4425248091",
+      "name": "Shaban Grill House",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.662982,
+      "lon": 21.163178,
+      "address": "Bulevardi Nëna Tereze",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4425248091",
+      "score": 5,
+      "km": 0.2
+    },
+    {
+      "id": "way/807490354",
+      "name": "Taverna Menata",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.645124,
+      "lon": 21.183785,
+      "address": "Faton Shabani Prishtine",
+      "cuisine": [
+        "steak",
+        "beer"
+      ],
+      "website": "https://www.facebook.com/tavernamenata/",
+      "openingHours": "07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/807490354",
+      "score": 5,
+      "km": 2.5
+    },
+    {
+      "id": "node/9458458178",
+      "name": "Te Muja",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.663059,
+      "lon": 21.161724,
+      "address": "Hajdar Dushi 26 Prishtinë",
+      "cuisine": [
+        "balkan",
+        "regional"
+      ],
+      "phone": "+383 44 234 335",
+      "osmUrl": "https://www.openstreetmap.org/node/9458458178",
+      "score": 5,
+      "km": 0.3
+    },
+    {
+      "id": "node/5991762585",
+      "name": "In Coffee&Bar",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.655088,
+      "lon": 21.160399,
+      "address": "Eqrem Qabaj 126 Prishtinë",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "burger",
+        "sandwich"
+      ],
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5991762585",
+      "score": 4,
+      "km": 1
+    },
+    {
+      "id": "node/13016800421",
+      "name": "Kasollet e Zanave",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.727653,
+      "lon": 21.404058,
+      "address": "Naser Hasani Prishtine",
+      "website": "https://www.kasolletezanave.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/13016800421",
+      "score": 4,
+      "km": 20.8
+    },
+    {
+      "id": "node/4460612906",
+      "name": "Qebaptore Sarajeva",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66541,
+      "lon": 21.16237,
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Sa 08:00-20:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4460612906",
+      "score": 4,
+      "km": 0.4
+    },
+    {
+      "id": "node/4454975990",
+      "name": "Restaurant Aga",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.666095,
+      "lon": 21.16552,
+      "cuisine": [
+        "regional",
+        "barbecue"
+      ],
+      "openingHours": "Mo-Su 08:00-00:00",
+      "osmUrl": "https://www.openstreetmap.org/node/4454975990",
+      "score": 4,
+      "km": 0.4
+    },
+    {
+      "id": "node/6020059787",
+      "name": "Sach caffe",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.653995,
+      "lon": 21.177526,
+      "address": "Rruga B",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/6020059787",
+      "score": 4,
+      "km": 1.4
+    },
+    {
+      "id": "node/12282607743",
+      "name": "Taverna 01sh",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.654651,
+      "lon": 21.158108,
+      "cuisine": [
+        "international"
+      ],
+      "phone": "+38345584951",
+      "openingHours": "Mo-Sa 08:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/12282607743",
+      "score": 4,
+      "km": 1.1
+    },
+    {
+      "id": "node/5860432086",
+      "name": "Te baba",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.710431,
+      "lon": 21.201978,
+      "address": "Bajram Bahtiri",
+      "cuisine": [
+        "burger",
+        "fish",
+        "regional",
+        "grill"
+      ],
+      "openingHours": "Mo-Su 08:00-08:00, 23:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5860432086",
+      "score": 4,
+      "km": 6.1
+    },
+    {
+      "id": "node/5644447523",
+      "name": "Villa Valboni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.628116,
+      "lon": 21.271618,
+      "address": "Ridge Run",
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 09:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5644447523",
+      "score": 4,
+      "km": 9.5
+    },
+    {
+      "id": "node/3856389543",
+      "name": "adriana",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.661299,
+      "lon": 21.165215,
+      "address": "Agim Ramadani Prishtinë: Kosovë",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3856389543",
+      "score": 3,
+      "km": 0.2
+    },
+    {
+      "id": "node/10889532407",
+      "name": "Balkan Taverna",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66063,
+      "lon": 21.162562,
+      "phone": "+38345686668",
+      "osmUrl": "https://www.openstreetmap.org/node/10889532407",
+      "score": 3,
+      "km": 0.3
+    },
+    {
+      "id": "node/4970955926",
+      "name": "Barrio B",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.647979,
+      "lon": 21.172191,
+      "address": "Bahri Fazliu",
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4970955926",
+      "score": 3,
+      "km": 1.7
+    },
+    {
+      "id": "node/1190231290",
+      "name": "Extrafish",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.657224,
+      "lon": 21.15561,
+      "address": "Lorenc Antoni, Pejton",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1190231290",
+      "score": 3,
+      "km": 1
+    },
+    {
+      "id": "node/3856110044",
+      "name": "Extrem Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.658309,
+      "lon": 21.154527,
+      "address": "Robert Doll Prishtinë: Kosovë",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3856110044",
+      "score": 3,
+      "km": 1
+    },
+    {
+      "id": "node/1393727470",
+      "name": "Maestro'S",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.66356,
+      "lon": 21.161166,
+      "cuisine": [
+        "balkan"
+      ],
+      "openingHours": "Mo-Su 09:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/1393727470",
+      "score": 3,
+      "km": 0.4
+    },
+    {
+      "id": "node/4700184290",
+      "name": "Tabu lounge bar",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 42.658412,
+      "lon": 21.164767,
+      "address": "Agim Ramadani",
+      "cuisine": [
+        "balkan"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4700184290",
+      "score": 3,
+      "km": 0.5
+    },
+    {
+      "id": "node/11136758720",
+      "name": "Aurora",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.663055,
+      "lon": 21.163945,
+      "cuisine": [
+        "pizza",
+        "burger",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11136758720",
+      "score": 2,
+      "km": 0.1
+    },
+    {
+      "id": "node/11092102821",
+      "name": "Fati",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.664389,
+      "lon": 21.165712,
+      "cuisine": [
+        "regional",
+        "kebab",
+        "barbecue"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11092102821",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/12254780540",
+      "name": "Koha Grill",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.6573,
+      "lon": 21.159727,
+      "cuisine": [
+        "burger",
+        "regional",
+        "balkan",
+        "kebab"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12254780540",
+      "score": 2,
+      "km": 0.8
+    },
+    {
+      "id": "node/8992185462",
+      "name": "me lugë",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.65683,
+      "lon": 21.1549,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/8992185462",
+      "score": 2,
+      "km": 1.1
+    },
+    {
+      "id": "node/12582012099",
+      "name": "Dhé",
+      "kind": "craft",
+      "type": "Zejtari",
+      "lat": 42.65661,
+      "lon": 21.165912,
+      "address": "Rexhep Mala 78",
+      "phone": "+383 44 386 227",
+      "email": "ggranita@gmail.com",
+      "website": "https://wwww.instagram/dhe_by_granita",
+      "openingHours": "Mo-Fr 10:00-17:30; Sa 11:00-17:30",
+      "osmUrl": "https://www.openstreetmap.org/node/12582012099",
+      "score": 7,
+      "km": 0.7
+    },
+    {
+      "id": "node/14073677417",
+      "name": "Tutto Vino",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 42.658168,
+      "lon": 21.165404,
+      "openingHours": "Mo-Sa 10:00-24:00; Su closed",
+      "osmUrl": "https://www.openstreetmap.org/node/14073677417",
+      "score": 1,
+      "km": 0.5
+    },
+    {
+      "id": "node/10909182905",
+      "name": "Farm Market",
+      "kind": "craft",
+      "type": "Djathë",
+      "lat": 42.655996,
+      "lon": 21.17824,
+      "osmUrl": "https://www.openstreetmap.org/node/10909182905",
+      "score": 0,
+      "km": 1.3
+    }
+  ]
+}

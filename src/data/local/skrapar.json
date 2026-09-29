@@ -1,0 +1,36 @@
+{
+  "city": "skrapar",
+  "name": "Skrapar",
+  "fetchedAt": "2026-09-29T00:24:28.945Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 2,
+  "places": [
+    {
+      "id": "node/11333460013",
+      "name": "Bracaj",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.484634,
+      "lon": 20.240173,
+      "osmUrl": "https://www.openstreetmap.org/node/11333460013",
+      "score": 0,
+      "km": 2.3
+    },
+    {
+      "id": "node/13045304689",
+      "name": "Bar Restaurant Ura e Zaberzanit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.437896,
+      "lon": 20.280682,
+      "cuisine": [
+        "regional",
+        "coffee shop"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/13045304689",
+      "score": 2,
+      "km": 8.6
+    }
+  ]
+}

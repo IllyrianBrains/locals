@@ -1,0 +1,526 @@
+{
+  "city": "durres",
+  "name": "Durrës",
+  "fetchedAt": "2026-09-28T22:58:57.168Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 37,
+  "places": [
+    {
+      "id": "node/8850128918",
+      "name": "Beach Apartaments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.307352,
+      "lon": 19.488862,
+      "phone": "+355 69 880 5500",
+      "website": "https://www.booking.com/Share-i82woD",
+      "osmUrl": "https://www.openstreetmap.org/node/8850128918",
+      "score": 5,
+      "km": 3.7
+    },
+    {
+      "id": "node/6255730688",
+      "name": "AgriTourism Huqi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.410555,
+      "lon": 19.610009,
+      "phone": "+355 67 509 9909",
+      "website": "https://www.facebook.com/pg/AgriTourismHuqi",
+      "osmUrl": "https://www.openstreetmap.org/node/6255730688",
+      "score": 4,
+      "km": 17.5
+    },
+    {
+      "id": "node/10061398717",
+      "name": "Villa Elezi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.315306,
+      "lon": 19.489891,
+      "address": "E Zanave",
+      "osmUrl": "https://www.openstreetmap.org/node/10061398717",
+      "score": 2,
+      "km": 3.7
+    },
+    {
+      "id": "node/9767374917",
+      "name": "Villa Sara",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.310427,
+      "lon": 19.495207,
+      "address": "Rruga e Shqipeve",
+      "osmUrl": "https://www.openstreetmap.org/node/9767374917",
+      "score": 2,
+      "km": 4.1
+    },
+    {
+      "id": "node/3521371406",
+      "name": "Myhome",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.315469,
+      "lon": 19.47496,
+      "address": "Rruga Pavaresia L13",
+      "osmUrl": "https://www.openstreetmap.org/node/3521371406",
+      "score": 1,
+      "km": 2.5
+    },
+    {
+      "id": "node/4206869692",
+      "name": "Troy Apartments",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.315311,
+      "lon": 19.475409,
+      "address": "Rruga Shen Mehill 11",
+      "osmUrl": "https://www.openstreetmap.org/node/4206869692",
+      "score": 1,
+      "km": 2.5
+    },
+    {
+      "id": "way/1056863327",
+      "name": "La Mirage Villa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.433609,
+      "lon": 19.502107,
+      "osmUrl": "https://www.openstreetmap.org/way/1056863327",
+      "score": 0,
+      "km": 14.2
+    },
+    {
+      "id": "node/8024209751",
+      "name": "Papa",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.307577,
+      "lon": 19.495136,
+      "osmUrl": "https://www.openstreetmap.org/node/8024209751",
+      "score": 0,
+      "km": 4.2
+    },
+    {
+      "id": "node/12400613040",
+      "name": "Vila Eljus",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.313569,
+      "lon": 19.488538,
+      "osmUrl": "https://www.openstreetmap.org/node/12400613040",
+      "score": 0,
+      "km": 3.6
+    },
+    {
+      "id": "node/12400579102",
+      "name": "Vila Thaçi",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.313458,
+      "lon": 19.488748,
+      "osmUrl": "https://www.openstreetmap.org/node/12400579102",
+      "score": 0,
+      "km": 3.6
+    },
+    {
+      "id": "node/11232217077",
+      "name": "Agroturizëm Pema e Jetës",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.293686,
+      "lon": 19.539033,
+      "cuisine": [
+        "regional",
+        "albanian"
+      ],
+      "phone": "+355689053000",
+      "website": "https://www.agroturizem-pemaejetes.com",
+      "openingHours": "Mo-Fr 08:00-22:00; Sa,Su 09:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11232217077",
+      "score": 8,
+      "km": 8.1
+    },
+    {
+      "id": "way/750769941",
+      "name": "Taverna Sofra Permetare",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.314107,
+      "lon": 19.546123,
+      "address": "SH56 Xhafzotaj",
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355692077837",
+      "osmUrl": "https://www.openstreetmap.org/way/750769941",
+      "score": 6,
+      "km": 8.4
+    },
+    {
+      "id": "node/10027588269",
+      "name": "Fish Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.322798,
+      "lon": 19.426357,
+      "cuisine": [
+        "regional",
+        "fish"
+      ],
+      "phone": "+355682033357",
+      "openingHours": "Mo-Su 07:30-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/10027588269",
+      "score": 5,
+      "km": 1.9
+    },
+    {
+      "id": "node/6664925485",
+      "name": "Gusto Di Mare & Sushi Time",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.310716,
+      "lon": 19.437278,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 348 4210",
+      "osmUrl": "https://www.openstreetmap.org/node/6664925485",
+      "score": 5,
+      "km": 0.8
+    },
+    {
+      "id": "way/504388863",
+      "name": "Green Park",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.285124,
+      "lon": 19.5111,
+      "address": "Rruga Poseidon Durrës",
+      "cuisine": [
+        "regional",
+        "italian",
+        "pizza",
+        "seafood"
+      ],
+      "openingHours": "Mo-Sa 11:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/way/504388863",
+      "score": 4,
+      "km": 6.3
+    },
+    {
+      "id": "node/6664928085",
+      "name": "Kolonat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.310317,
+      "lon": 19.43916,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 608 2332",
+      "osmUrl": "https://www.openstreetmap.org/node/6664928085",
+      "score": 4,
+      "km": 0.6
+    },
+    {
+      "id": "node/11233567106",
+      "name": "Resort Arbeni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.571169,
+      "lon": 19.457401,
+      "cuisine": [
+        "albanian",
+        "regional"
+      ],
+      "website": "https://mdesignstudio.al/resort-arbeni/",
+      "osmUrl": "https://www.openstreetmap.org/node/11233567106",
+      "score": 4,
+      "km": 28.7
+    },
+    {
+      "id": "node/14109368573",
+      "name": "Ullishtja Agroturizëm",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.34012,
+      "lon": 19.433663,
+      "website": "https://ullishtja-agroturizem.com/",
+      "openingHours": "Mo-Su 11:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/14109368573",
+      "score": 4,
+      "km": 3.2
+    },
+    {
+      "id": "node/11764335651",
+      "name": "Cosmo Bar Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.315113,
+      "lon": 19.469705,
+      "address": "Rruga Ura E Dajlanit 2 Plazh",
+      "cuisine": [
+        "pizza",
+        "regional",
+        "fish",
+        "seafood"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/11764335651",
+      "score": 3,
+      "km": 2
+    },
+    {
+      "id": "node/12066695769",
+      "name": "PRIZRENI 1878",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.306803,
+      "lon": 19.489672,
+      "address": "Lule Bore",
+      "cuisine": [
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12066695769",
+      "score": 3,
+      "km": 3.7
+    },
+    {
+      "id": "node/5781829519",
+      "name": "Rizai Bar & Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.313777,
+      "lon": 19.475531,
+      "address": "Rruga Pavarësia, Lagja 13 Durrës",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5781829519",
+      "score": 3,
+      "km": 2.5
+    },
+    {
+      "id": "node/14052402101",
+      "name": "Shije Shqiptare",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.320191,
+      "lon": 19.444661,
+      "address": "Rruga Ibrahim Buzhiqi 1",
+      "cuisine": [
+        "balkan",
+        "local"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/14052402101",
+      "score": 3,
+      "km": 0.8
+    },
+    {
+      "id": "node/6775595786",
+      "name": "Centrum",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.310848,
+      "lon": 19.438712,
+      "cuisine": [
+        "pizza",
+        "regional",
+        "fish"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6775595786",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "way/168554085",
+      "name": "Familja e Peshkatarit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.327584,
+      "lon": 19.444757,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/168554085",
+      "score": 2,
+      "km": 1.6
+    },
+    {
+      "id": "node/5083279243",
+      "name": "Liburnia-Vitaminaga",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.307079,
+      "lon": 19.490126,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5083279243",
+      "score": 2,
+      "km": 3.8
+    },
+    {
+      "id": "way/339373056",
+      "name": "Majestic",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.284527,
+      "lon": 19.510635,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/339373056",
+      "score": 2,
+      "km": 6.3
+    },
+    {
+      "id": "node/4464733646",
+      "name": "olivia",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 41.301652,
+      "lon": 19.494896,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4464733646",
+      "score": 2,
+      "km": 4.3
+    },
+    {
+      "id": "node/5096077722",
+      "name": "Piazza",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.309019,
+      "lon": 19.446399,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5096077722",
+      "score": 2,
+      "km": 0.5
+    },
+    {
+      "id": "node/1946619941",
+      "name": "Restorant SHPELLA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.31884,
+      "lon": 19.450098,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/1946619941",
+      "score": 2,
+      "km": 0.7
+    },
+    {
+      "id": "node/12400538887",
+      "name": "Te Lela (Traditional Food)",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.310753,
+      "lon": 19.483084,
+      "cuisine": [
+        "albanian",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/12400538887",
+      "score": 2,
+      "km": 3.1
+    },
+    {
+      "id": "node/12396060931",
+      "name": "SAF - Gatime tradicionale",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.31929,
+      "lon": 19.453033,
+      "osmUrl": "https://www.openstreetmap.org/node/12396060931",
+      "score": 1,
+      "km": 0.9
+    },
+    {
+      "id": "node/5460099721",
+      "name": "Fidanishte Xhakolli",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.429233,
+      "lon": 19.559687,
+      "address": "Rruga Ismet Nanushi",
+      "phone": "+355672031351",
+      "email": "fidanishte_xhakolli@gmail.com",
+      "website": "https://fidanishtexhakolli.business.site/",
+      "openingHours": "Mo-Sa 08:00-16:00",
+      "osmUrl": "https://www.openstreetmap.org/node/5460099721",
+      "score": 7,
+      "km": 16
+    },
+    {
+      "id": "node/6264365186",
+      "name": "Kantina e Veres DUKA",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.520287,
+      "lon": 19.559479,
+      "address": "Lalez Durres",
+      "phone": "0686011500",
+      "email": "info@veraduka.al",
+      "website": "https://kantinaduka.al/",
+      "osmUrl": "https://www.openstreetmap.org/node/6264365186",
+      "score": 7,
+      "km": 24.9
+    },
+    {
+      "id": "way/1226135569",
+      "name": "Abaia winery",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 41.314191,
+      "lon": 19.525555,
+      "phone": "+355 68 890 0160",
+      "website": "https://abaiawinery.al/",
+      "osmUrl": "https://www.openstreetmap.org/way/1226135569",
+      "score": 5,
+      "km": 6.7
+    },
+    {
+      "id": "node/5237135010",
+      "name": "Kantina e Veres \"Enisa\"",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 41.41407,
+      "lon": 19.545277,
+      "phone": "+355 69 2073700",
+      "website": "http://wineroad.al/?page_id=527",
+      "osmUrl": "https://www.openstreetmap.org/node/5237135010",
+      "score": 5,
+      "km": 14
+    },
+    {
+      "id": "way/750651913",
+      "name": "Kantina e Pijeve Gjergj Kastrioti Skënderbeu",
+      "kind": "craft",
+      "type": "Kantinë vere",
+      "lat": 41.331036,
+      "lon": 19.497586,
+      "osmUrl": "https://www.openstreetmap.org/way/750651913",
+      "score": 1,
+      "km": 4.8
+    },
+    {
+      "id": "node/12018374814",
+      "name": "Kantina skenderbeu",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.316082,
+      "lon": 19.454757,
+      "osmUrl": "https://www.openstreetmap.org/node/12018374814",
+      "score": 0,
+      "km": 0.8
+    }
+  ]
+}

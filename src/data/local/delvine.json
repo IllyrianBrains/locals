@@ -1,0 +1,21 @@
+{
+  "city": "delvine",
+  "name": "Delvinë",
+  "fetchedAt": "2026-09-28T22:58:57.219Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 1,
+  "places": [
+    {
+      "id": "node/14089082446",
+      "name": "Taverna Edi Tatzat",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.029641,
+      "lon": 19.937235,
+      "osmUrl": "https://www.openstreetmap.org/node/14089082446",
+      "score": 1,
+      "km": 16.2
+    }
+  ]
+}

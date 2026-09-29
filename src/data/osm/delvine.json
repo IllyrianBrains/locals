@@ -1,0 +1,1723 @@
+{
+  "city": "delvine",
+  "name": "Delvinë",
+  "center": {
+    "lat": 39.9494,
+    "lon": 20.0958
+  },
+  "radius": 3000,
+  "fetchedAt": "2026-09-28T22:54:34.056Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 18,
+  "places": [
+    {
+      "id": "node/4997408501",
+      "name": "Kalaja e Delvinës",
+      "nameEn": "Delvinë Castle",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 39.946797,
+      "lon": 20.090841,
+      "wikidata": "Q113827361",
+      "wikipedia": "en:Delvinë Castle",
+      "wheelchair": "no",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/4997408501",
+      "score": 13,
+      "imageFile": "Kalaja e Delvinës.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Kalaja_e_Delvin%C3%ABs.jpg/1280px-Kalaja_e_Delvin%C3%ABs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC0",
+      "summary": {
+        "text": "Delvinë Castle is a castle near Delvinë. It is unclear when the castle was built exactly but it is theorized the castle was first built in late antiquity.",
+        "lang": "en",
+        "source": "https://en.wikipedia.org/wiki/Delvin%C3%AB_Castle"
+      }
+    },
+    {
+      "id": "node/5224593242",
+      "name": "SHPELLA ME PIKTURA",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 39.925962,
+      "lon": 20.11038,
+      "wikidata": "Q27240001",
+      "wikipedia": "sq:Shpella me piktura (Mesopotam)",
+      "wheelchair": "no",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/5224593242",
+      "score": 11,
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Shpella me piktura është një monument i trashëgimisë kulturore në Mesopotam, rrethi i Delvinës, në qarkun e Vlorës, Shqipëri. Ky monument është i llojit \"Arkitekture\", i miratuar me numër \"Nr.68/7.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Shpella_me_piktura_(Mesopotam)"
+      }
+    },
+    {
+      "id": "way/540028381",
+      "name": "Xhamia e Gjin Aleksit",
+      "category": "religion",
+      "kind": "attraction",
+      "lat": 39.951826,
+      "lon": 20.076327,
+      "wikidata": "Q5566021",
+      "wikipedia": "en:Gjin Aleksi Mosque",
+      "wheelchair": "no",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/way/540028381",
+      "score": 11,
+      "imageFile": "Moschee Rusan.JPG",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Moschee_Rusan.JPG/1280px-Moschee_Rusan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Decius · CC BY-SA 3.0",
+      "tagline": {
+        "text": "monument kulturor në Shqipëri",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Xhamia e Gjin Aleksit ose Xhamia e Rusanit është një xhami e shekujve 16-17, monument i trashëgimisë kulturore në Rusan, rrethi i Delvinës, në qarkun e Vlorës, Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Xhamia_e_Gjin_Aleksit"
+      }
+    },
+    {
+      "id": "node/5224961494",
+      "name": "KOMPLEKS URBANISTIK ISLAMIK",
+      "category": "history",
+      "kind": "attraction",
+      "lat": 39.944864,
+      "lon": 20.091443,
+      "description": "Tyrbe, Xhami, Urë, Çezëm, Hamam",
+      "heritage": "yes",
+      "osmUrl": "https://www.openstreetmap.org/node/5224961494",
+      "score": 5
+    },
+    {
+      "id": "node/5225035720",
+      "name": "Kodra Bratkoit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.954417,
+      "lon": 20.108044,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035720",
+      "score": 1
+    },
+    {
+      "id": "node/5225035719",
+      "name": "Kodra Nishanit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.946961,
+      "lon": 20.117646,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035719",
+      "score": 1
+    },
+    {
+      "id": "node/5225035718",
+      "name": "Kodra Palovreshit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.944238,
+      "lon": 20.117544,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035718",
+      "score": 1
+    },
+    {
+      "id": "node/5224592615",
+      "name": "Maja Ambeljas",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.934983,
+      "lon": 20.102314,
+      "osmUrl": "https://www.openstreetmap.org/node/5224592615",
+      "score": 1
+    },
+    {
+      "id": "node/5225036121",
+      "name": "Maja Cerasë",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.957336,
+      "lon": 20.084617,
+      "osmUrl": "https://www.openstreetmap.org/node/5225036121",
+      "score": 1
+    },
+    {
+      "id": "node/5224592612",
+      "name": "Maja Dimarijes",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.937402,
+      "lon": 20.122991,
+      "osmUrl": "https://www.openstreetmap.org/node/5224592612",
+      "score": 1
+    },
+    {
+      "id": "node/5224593423",
+      "name": "Maja Drakorit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.939312,
+      "lon": 20.09293,
+      "osmUrl": "https://www.openstreetmap.org/node/5224593423",
+      "score": 1
+    },
+    {
+      "id": "node/5224593192",
+      "name": "Maja Kastaritikos",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.944149,
+      "lon": 20.124588,
+      "osmUrl": "https://www.openstreetmap.org/node/5224593192",
+      "score": 1
+    },
+    {
+      "id": "node/5172820067",
+      "name": "Maja Kokimares",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.96016,
+      "lon": 20.083058,
+      "osmUrl": "https://www.openstreetmap.org/node/5172820067",
+      "score": 1
+    },
+    {
+      "id": "node/5224593189",
+      "name": "Maja Lihogjës",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.927339,
+      "lon": 20.113256,
+      "osmUrl": "https://www.openstreetmap.org/node/5224593189",
+      "score": 1
+    },
+    {
+      "id": "node/5225035717",
+      "name": "Maja Topit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.946278,
+      "lon": 20.110511,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035717",
+      "score": 1
+    },
+    {
+      "id": "node/5224592613",
+      "name": "Maja Varroshit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.946895,
+      "lon": 20.107571,
+      "osmUrl": "https://www.openstreetmap.org/node/5224592613",
+      "score": 1
+    },
+    {
+      "id": "node/5225035716",
+      "name": "Maja Vasilit",
+      "category": "viewpoint",
+      "kind": "peak",
+      "lat": 39.934643,
+      "lon": 20.10012,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035716",
+      "score": 1
+    },
+    {
+      "id": "node/5225035715",
+      "name": "Kroi Kostarit",
+      "category": "nature",
+      "kind": "spring",
+      "lat": 39.924548,
+      "lon": 20.105946,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035715",
+      "score": 0
+    }
+  ],
+  "nature": [
+    {
+      "id": "relation/21227039",
+      "name": "Monument Natyre \"Syri i Kaltër\"",
+      "kind": "protected_area",
+      "lat": 39.91856,
+      "lon": 20.184462,
+      "nearM": 8309,
+      "areaKm2": 1.81,
+      "title": "Nature Monument",
+      "nameEn": "Natural Monument The Blue Eye",
+      "wikidata": "Q1973837",
+      "wikipedia": "sq:Syri i Kaltër",
+      "paths": [
+        [
+          [
+            39.93095,
+            20.19965
+          ],
+          [
+            39.93021,
+            20.19223
+          ],
+          [
+            39.92444,
+            20.19059
+          ],
+          [
+            39.91856,
+            20.18446
+          ],
+          [
+            39.91599,
+            20.18729
+          ],
+          [
+            39.91595,
+            20.19982
+          ],
+          [
+            39.92034,
+            20.20056
+          ],
+          [
+            39.92213,
+            20.20315
+          ],
+          [
+            39.92701,
+            20.20253
+          ],
+          [
+            39.93095,
+            20.19965
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/relation/21227039",
+      "imageFile": "Syri i Kalter.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Syri_i_Kalter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Marc Morell · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Monument Natyre",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Syri i Kaltër është një burim karstik, dukuri natyrore dhe atraksion turistik në jug të Shqipërisë. Ai ndodhet në territorin e Bashkisë së Finiqit, në Qarkun e Vlorës, pranë rrugës që lidh Sarandën me Gjirokastrën.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Syri_i_kalt%C3%ABr%2C_Delvin%C3%AB"
+      }
+    },
+    {
+      "id": "way/360970478",
+      "name": "Parku Kombëtar i Butrintit",
+      "kind": "national_park",
+      "lat": 39.831707,
+      "lon": 20.02296,
+      "nearM": 14501,
+      "areaKm2": 93,
+      "title": "National Park",
+      "nameEn": "Butrint National Park",
+      "wikidata": "Q975250",
+      "wikipedia": "en:Butrint National Park",
+      "paths": [
+        [
+          [
+            39.81628,
+            20.00674
+          ],
+          [
+            39.81254,
+            20.00313
+          ],
+          [
+            39.80371,
+            20.00148
+          ],
+          [
+            39.79983,
+            19.99249
+          ],
+          [
+            39.79419,
+            19.99161
+          ],
+          [
+            39.7922,
+            19.99324
+          ],
+          [
+            39.7908,
+            20.00185
+          ],
+          [
+            39.78089,
+            20.00558
+          ],
+          [
+            39.77973,
+            20.00007
+          ],
+          [
+            39.77546,
+            19.99921
+          ],
+          [
+            39.77505,
+            19.99753
+          ],
+          [
+            39.77736,
+            19.99485
+          ],
+          [
+            39.77574,
+            19.99035
+          ],
+          [
+            39.7708,
+            19.99281
+          ],
+          [
+            39.77159,
+            19.98584
+          ],
+          [
+            39.76976,
+            19.98127
+          ],
+          [
+            39.76606,
+            19.98127
+          ],
+          [
+            39.76281,
+            19.97657
+          ],
+          [
+            39.75659,
+            19.97363
+          ],
+          [
+            39.75491,
+            19.97082
+          ],
+          [
+            39.74896,
+            19.97185
+          ],
+          [
+            39.74422,
+            19.97464
+          ],
+          [
+            39.74016,
+            19.9814
+          ],
+          [
+            39.71759,
+            19.98226
+          ],
+          [
+            39.70271,
+            19.97869
+          ],
+          [
+            39.69935,
+            19.9808
+          ],
+          [
+            39.69938,
+            19.98365
+          ],
+          [
+            39.69687,
+            19.97897
+          ],
+          [
+            39.68871,
+            19.98112
+          ],
+          [
+            39.68548,
+            19.98483
+          ],
+          [
+            39.68622,
+            19.98788
+          ],
+          [
+            39.68349,
+            19.99858
+          ],
+          [
+            39.68898,
+            20.00283
+          ],
+          [
+            39.68921,
+            20.00655
+          ],
+          [
+            39.69253,
+            20.00939
+          ],
+          [
+            39.69711,
+            20.01816
+          ],
+          [
+            39.70073,
+            20.01769
+          ],
+          [
+            39.70535,
+            20.02011
+          ],
+          [
+            39.71284,
+            20.02937
+          ],
+          [
+            39.71913,
+            20.01794
+          ],
+          [
+            39.72641,
+            20.02307
+          ],
+          [
+            39.72821,
+            20.01897
+          ],
+          [
+            39.73237,
+            20.01696
+          ],
+          [
+            39.73352,
+            20.02312
+          ],
+          [
+            39.73199,
+            20.02414
+          ],
+          [
+            39.73379,
+            20.02859
+          ],
+          [
+            39.73812,
+            20.02789
+          ],
+          [
+            39.7407,
+            20.03151
+          ],
+          [
+            39.72884,
+            20.04941
+          ],
+          [
+            39.73608,
+            20.05542
+          ],
+          [
+            39.73332,
+            20.06417
+          ],
+          [
+            39.73196,
+            20.0835
+          ],
+          [
+            39.73285,
+            20.08578
+          ],
+          [
+            39.7432,
+            20.08853
+          ],
+          [
+            39.74776,
+            20.08811
+          ],
+          [
+            39.74949,
+            20.09007
+          ],
+          [
+            39.75625,
+            20.09105
+          ],
+          [
+            39.7649,
+            20.08766
+          ],
+          [
+            39.77493,
+            20.09006
+          ],
+          [
+            39.78293,
+            20.09027
+          ],
+          [
+            39.78916,
+            20.0865
+          ],
+          [
+            39.79221,
+            20.08856
+          ],
+          [
+            39.79281,
+            20.08716
+          ],
+          [
+            39.79797,
+            20.08587
+          ],
+          [
+            39.8013,
+            20.08188
+          ],
+          [
+            39.80031,
+            20.07236
+          ],
+          [
+            39.80522,
+            20.06126
+          ],
+          [
+            39.80893,
+            20.05978
+          ],
+          [
+            39.81231,
+            20.06107
+          ],
+          [
+            39.81196,
+            20.05772
+          ],
+          [
+            39.81547,
+            20.05111
+          ],
+          [
+            39.81676,
+            20.05184
+          ],
+          [
+            39.83171,
+            20.02296
+          ],
+          [
+            39.82367,
+            20.02163
+          ],
+          [
+            39.81096,
+            20.01223
+          ],
+          [
+            39.81625,
+            20.00837
+          ],
+          [
+            39.81628,
+            20.00674
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/360970478",
+      "imageFile": "Butrint, Albania.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Butrint%2C_Albania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageCredit": "Marc Morell · CC BY-SA 3.0",
+      "tagline": {
+        "text": "Park Kombetar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Parku Kombëtar i Butrintit është një zonë e mbrojtur që ndodhet në jug të Shqipërisë, pranë qytetit të Sarandës. Ai përfshin qytetin antik të Butrintit, një nga vendbanimet më të rëndësishme arkeologjike në Shqipëri.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Parku_Komb%C3%ABtar_i_Butrintit"
+      }
+    },
+    {
+      "id": "way/538952604",
+      "name": "Rezervati Natyror i Menaxhuar \"Rrezoma\"",
+      "kind": "nature_reserve",
+      "lat": 40.005068,
+      "lon": 20.080562,
+      "nearM": 6332,
+      "areaKm2": 16,
+      "title": "Managed Nature Reserve",
+      "paths": [
+        [
+          [
+            40.05998,
+            20.01709
+          ],
+          [
+            40.05878,
+            20.00987
+          ],
+          [
+            40.05667,
+            20.00939
+          ],
+          [
+            40.0561,
+            20.01764
+          ],
+          [
+            40.05372,
+            20.02005
+          ],
+          [
+            40.05292,
+            20.01879
+          ],
+          [
+            40.05005,
+            20.01977
+          ],
+          [
+            40.04776,
+            20.02525
+          ],
+          [
+            40.04017,
+            20.02978
+          ],
+          [
+            40.03517,
+            20.02662
+          ],
+          [
+            40.03518,
+            20.02138
+          ],
+          [
+            40.03315,
+            20.02228
+          ],
+          [
+            40.03113,
+            20.02653
+          ],
+          [
+            40.02971,
+            20.02538
+          ],
+          [
+            40.03007,
+            20.0229
+          ],
+          [
+            40.02845,
+            20.02307
+          ],
+          [
+            40.02774,
+            20.02583
+          ],
+          [
+            40.02185,
+            20.01638
+          ],
+          [
+            40.01696,
+            20.01717
+          ],
+          [
+            40.01558,
+            20.02595
+          ],
+          [
+            40.01696,
+            20.03336
+          ],
+          [
+            40.01422,
+            20.04117
+          ],
+          [
+            40.02226,
+            20.05581
+          ],
+          [
+            40.0139,
+            20.06365
+          ],
+          [
+            40.01389,
+            20.07227
+          ],
+          [
+            40.00634,
+            20.07694
+          ],
+          [
+            40.00507,
+            20.08056
+          ],
+          [
+            40.00684,
+            20.09164
+          ],
+          [
+            40.00796,
+            20.09313
+          ],
+          [
+            40.01093,
+            20.0919
+          ],
+          [
+            40.01385,
+            20.0933
+          ],
+          [
+            40.02166,
+            20.08789
+          ],
+          [
+            40.02625,
+            20.07516
+          ],
+          [
+            40.03139,
+            20.07369
+          ],
+          [
+            40.03176,
+            20.07008
+          ],
+          [
+            40.03558,
+            20.06869
+          ],
+          [
+            40.03825,
+            20.06264
+          ],
+          [
+            40.04603,
+            20.05727
+          ],
+          [
+            40.04869,
+            20.0587
+          ],
+          [
+            40.05017,
+            20.05689
+          ],
+          [
+            40.0495,
+            20.0513
+          ],
+          [
+            40.04698,
+            20.04721
+          ],
+          [
+            40.04115,
+            20.0503
+          ],
+          [
+            40.03649,
+            20.04857
+          ],
+          [
+            40.03341,
+            20.04943
+          ],
+          [
+            40.03325,
+            20.05113
+          ],
+          [
+            40.03107,
+            20.04914
+          ],
+          [
+            40.03314,
+            20.04762
+          ],
+          [
+            40.03176,
+            20.04559
+          ],
+          [
+            40.03311,
+            20.03894
+          ],
+          [
+            40.03613,
+            20.03377
+          ],
+          [
+            40.03539,
+            20.03073
+          ],
+          [
+            40.04511,
+            20.03892
+          ],
+          [
+            40.04636,
+            20.03731
+          ],
+          [
+            40.04567,
+            20.03395
+          ],
+          [
+            40.04778,
+            20.03254
+          ],
+          [
+            40.05175,
+            20.03603
+          ],
+          [
+            40.05355,
+            20.03476
+          ],
+          [
+            40.05524,
+            20.03693
+          ],
+          [
+            40.05469,
+            20.03383
+          ],
+          [
+            40.05721,
+            20.03367
+          ],
+          [
+            40.05935,
+            20.02917
+          ],
+          [
+            40.05981,
+            20.02404
+          ],
+          [
+            40.05839,
+            20.02081
+          ],
+          [
+            40.05998,
+            20.01709
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/538952604"
+    },
+    {
+      "id": "way/538952603",
+      "name": "Rezervati Natyror \"Kardhiqi\"",
+      "kind": "nature_reserve",
+      "lat": 40.057355,
+      "lon": 20.038248,
+      "nearM": 12982,
+      "areaKm2": 18,
+      "title": "Strict Nature Reserve",
+      "paths": [
+        [
+          [
+            40.061,
+            20.01582
+          ],
+          [
+            40.05847,
+            20.0208
+          ],
+          [
+            40.05994,
+            20.02519
+          ],
+          [
+            40.0569,
+            20.03499
+          ],
+          [
+            40.05736,
+            20.03825
+          ],
+          [
+            40.0615,
+            20.04151
+          ],
+          [
+            40.06219,
+            20.04808
+          ],
+          [
+            40.06429,
+            20.05117
+          ],
+          [
+            40.06246,
+            20.05819
+          ],
+          [
+            40.06847,
+            20.06376
+          ],
+          [
+            40.07408,
+            20.063
+          ],
+          [
+            40.0788,
+            20.05925
+          ],
+          [
+            40.08484,
+            20.05889
+          ],
+          [
+            40.08891,
+            20.05541
+          ],
+          [
+            40.09414,
+            20.04542
+          ],
+          [
+            40.10102,
+            20.04409
+          ],
+          [
+            40.10555,
+            20.0412
+          ],
+          [
+            40.10292,
+            20.02459
+          ],
+          [
+            40.1055,
+            20.01893
+          ],
+          [
+            40.09964,
+            20.01343
+          ],
+          [
+            40.10246,
+            20.01275
+          ],
+          [
+            40.10739,
+            20.01439
+          ],
+          [
+            40.10812,
+            20.01135
+          ],
+          [
+            40.10435,
+            20.00982
+          ],
+          [
+            40.08932,
+            20.01453
+          ],
+          [
+            40.07696,
+            20.01422
+          ],
+          [
+            40.07313,
+            20.01001
+          ],
+          [
+            40.06469,
+            20.00677
+          ],
+          [
+            40.061,
+            20.01582
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/538952603"
+    },
+    {
+      "id": "way/41570731",
+      "name": "Lumi Bistricës",
+      "kind": "river",
+      "lat": 39.909814,
+      "lon": 20.101426,
+      "nearM": 4433,
+      "lengthKm": 18.5,
+      "paths": [
+        [
+          [
+            39.91713,
+            20.13605
+          ],
+          [
+            39.91555,
+            20.13477
+          ],
+          [
+            39.91542,
+            20.13291
+          ],
+          [
+            39.91378,
+            20.13191
+          ],
+          [
+            39.91269,
+            20.13187
+          ],
+          [
+            39.91218,
+            20.13059
+          ],
+          [
+            39.91116,
+            20.12994
+          ],
+          [
+            39.91077,
+            20.12865
+          ],
+          [
+            39.91011,
+            20.12874
+          ],
+          [
+            39.90936,
+            20.12767
+          ],
+          [
+            39.9084,
+            20.12762
+          ],
+          [
+            39.90802,
+            20.12489
+          ],
+          [
+            39.90737,
+            20.12399
+          ],
+          [
+            39.90519,
+            20.12293
+          ],
+          [
+            39.9056,
+            20.12037
+          ],
+          [
+            39.90532,
+            20.11631
+          ],
+          [
+            39.90616,
+            20.11333
+          ],
+          [
+            39.90721,
+            20.11229
+          ],
+          [
+            39.90757,
+            20.10978
+          ],
+          [
+            39.90664,
+            20.10592
+          ],
+          [
+            39.90843,
+            20.1035
+          ],
+          [
+            39.90976,
+            20.10254
+          ],
+          [
+            39.90981,
+            20.10143
+          ],
+          [
+            39.90788,
+            20.0987
+          ],
+          [
+            39.90833,
+            20.09798
+          ],
+          [
+            39.9065,
+            20.08844
+          ],
+          [
+            39.90569,
+            20.08801
+          ],
+          [
+            39.90538,
+            20.08653
+          ],
+          [
+            39.90431,
+            20.08643
+          ],
+          [
+            39.90351,
+            20.08542
+          ],
+          [
+            39.90088,
+            20.08629
+          ],
+          [
+            39.90003,
+            20.0857
+          ],
+          [
+            39.90038,
+            20.08073
+          ],
+          [
+            39.89925,
+            20.07846
+          ],
+          [
+            39.89713,
+            20.0779
+          ],
+          [
+            39.89547,
+            20.07951
+          ],
+          [
+            39.89391,
+            20.07875
+          ],
+          [
+            39.89171,
+            20.07921
+          ],
+          [
+            39.89128,
+            20.07809
+          ],
+          [
+            39.89087,
+            20.07873
+          ],
+          [
+            39.8896,
+            20.07752
+          ],
+          [
+            39.88494,
+            20.07609
+          ],
+          [
+            39.88338,
+            20.07395
+          ],
+          [
+            39.88152,
+            20.07261
+          ],
+          [
+            39.88059,
+            20.07089
+          ],
+          [
+            39.87854,
+            20.07022
+          ],
+          [
+            39.87553,
+            20.0662
+          ],
+          [
+            39.87388,
+            20.06183
+          ],
+          [
+            39.86926,
+            20.04277
+          ],
+          [
+            39.86372,
+            20.03705
+          ],
+          [
+            39.86244,
+            20.03664
+          ],
+          [
+            39.85902,
+            20.03701
+          ],
+          [
+            39.85112,
+            20.03639
+          ],
+          [
+            39.83903,
+            20.04115
+          ],
+          [
+            39.8374,
+            20.04043
+          ],
+          [
+            39.83694,
+            20.03919
+          ],
+          [
+            39.83753,
+            20.0371
+          ],
+          [
+            39.84846,
+            20.02371
+          ],
+          [
+            39.84924,
+            20.0218
+          ]
+        ],
+        [
+          [
+            39.91714,
+            20.13616
+          ],
+          [
+            39.91713,
+            20.13605
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/41570731"
+    },
+    {
+      "id": "node/5225035715",
+      "name": "Kroi Kostarit",
+      "kind": "spring",
+      "lat": 39.924548,
+      "lon": 20.105946,
+      "nearM": 2899,
+      "osmUrl": "https://www.openstreetmap.org/node/5225035715"
+    },
+    {
+      "id": "node/8062796487",
+      "name": "Burimi Karstik i Oknos",
+      "kind": "spring",
+      "lat": 39.995541,
+      "lon": 20.106451,
+      "nearM": 5216,
+      "osmUrl": "https://www.openstreetmap.org/node/8062796487"
+    },
+    {
+      "id": "way/534198280",
+      "name": "Anna Channel",
+      "kind": "canal",
+      "lat": 39.913869,
+      "lon": 20.108863,
+      "nearM": 4109,
+      "lengthKm": 3.4,
+      "paths": [
+        [
+          [
+            39.91666,
+            20.13509
+          ],
+          [
+            39.91604,
+            20.13437
+          ],
+          [
+            39.91589,
+            20.13291
+          ],
+          [
+            39.91467,
+            20.13157
+          ],
+          [
+            39.91313,
+            20.13117
+          ],
+          [
+            39.91206,
+            20.12834
+          ],
+          [
+            39.9106,
+            20.12772
+          ],
+          [
+            39.90869,
+            20.12458
+          ],
+          [
+            39.90888,
+            20.12381
+          ],
+          [
+            39.91078,
+            20.12243
+          ],
+          [
+            39.91072,
+            20.11715
+          ],
+          [
+            39.91132,
+            20.11619
+          ],
+          [
+            39.91247,
+            20.11608
+          ],
+          [
+            39.9134,
+            20.11297
+          ],
+          [
+            39.9139,
+            20.10903
+          ],
+          [
+            39.91323,
+            20.10644
+          ],
+          [
+            39.91211,
+            20.10528
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/534198280"
+    },
+    {
+      "id": "way/730846822",
+      "name": "Lumi Bistricës",
+      "kind": "canal",
+      "lat": 39.917144,
+      "lon": 20.136161,
+      "nearM": 4976,
+      "lengthKm": 0.1,
+      "paths": [
+        [
+          [
+            39.91689,
+            20.13718
+          ],
+          [
+            39.91714,
+            20.13616
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/730846822"
+    },
+    {
+      "id": "way/31252404",
+      "name": "Kalasa",
+      "kind": "stream",
+      "lat": 39.929529,
+      "lon": 20.036801,
+      "nearM": 5499,
+      "lengthKm": 21.9,
+      "paths": [
+        [
+          [
+            40.01696,
+            19.95447
+          ],
+          [
+            40.01621,
+            19.95451
+          ],
+          [
+            40.01458,
+            19.95709
+          ],
+          [
+            40.01355,
+            19.95703
+          ],
+          [
+            40.01199,
+            19.95825
+          ],
+          [
+            40.01075,
+            19.95836
+          ],
+          [
+            40.00906,
+            19.96093
+          ],
+          [
+            40.0078,
+            19.9614
+          ],
+          [
+            40.00738,
+            19.96243
+          ],
+          [
+            40.00568,
+            19.96376
+          ],
+          [
+            40.00265,
+            19.96474
+          ],
+          [
+            40.00221,
+            19.96591
+          ],
+          [
+            40.00057,
+            19.9668
+          ],
+          [
+            39.99876,
+            19.96898
+          ],
+          [
+            39.99771,
+            19.96934
+          ],
+          [
+            39.99365,
+            19.97417
+          ],
+          [
+            39.99308,
+            19.97553
+          ],
+          [
+            39.97831,
+            19.98705
+          ],
+          [
+            39.97639,
+            19.99102
+          ],
+          [
+            39.97488,
+            19.9907
+          ],
+          [
+            39.97331,
+            19.99263
+          ],
+          [
+            39.97215,
+            19.9956
+          ],
+          [
+            39.97059,
+            19.99798
+          ],
+          [
+            39.96837,
+            19.99977
+          ],
+          [
+            39.96789,
+            20.0022
+          ],
+          [
+            39.96669,
+            20.00354
+          ],
+          [
+            39.96475,
+            20.00779
+          ],
+          [
+            39.96207,
+            20.01064
+          ],
+          [
+            39.96026,
+            20.01483
+          ],
+          [
+            39.95821,
+            20.01592
+          ],
+          [
+            39.95429,
+            20.01595
+          ],
+          [
+            39.95233,
+            20.01869
+          ],
+          [
+            39.95087,
+            20.01966
+          ],
+          [
+            39.9494,
+            20.01957
+          ],
+          [
+            39.94847,
+            20.02066
+          ],
+          [
+            39.9468,
+            20.01992
+          ],
+          [
+            39.94567,
+            20.02067
+          ],
+          [
+            39.94412,
+            20.02323
+          ],
+          [
+            39.94191,
+            20.02473
+          ],
+          [
+            39.94009,
+            20.02494
+          ],
+          [
+            39.93719,
+            20.02803
+          ],
+          [
+            39.93352,
+            20.03451
+          ],
+          [
+            39.93187,
+            20.03467
+          ],
+          [
+            39.92971,
+            20.03669
+          ],
+          [
+            39.92774,
+            20.03733
+          ],
+          [
+            39.92654,
+            20.03833
+          ],
+          [
+            39.92209,
+            20.03882
+          ],
+          [
+            39.92112,
+            20.03837
+          ],
+          [
+            39.92102,
+            20.03671
+          ],
+          [
+            39.91857,
+            20.03081
+          ],
+          [
+            39.91619,
+            20.0266
+          ],
+          [
+            39.90855,
+            20.01539
+          ],
+          [
+            39.90593,
+            20.01243
+          ],
+          [
+            39.90424,
+            20.01342
+          ],
+          [
+            39.90276,
+            20.01589
+          ],
+          [
+            39.89868,
+            20.01811
+          ],
+          [
+            39.8965,
+            20.02081
+          ],
+          [
+            39.89508,
+            20.02137
+          ],
+          [
+            39.89372,
+            20.02281
+          ],
+          [
+            39.89252,
+            20.02302
+          ],
+          [
+            39.89139,
+            20.02479
+          ],
+          [
+            39.88905,
+            20.02584
+          ],
+          [
+            39.8872,
+            20.02887
+          ],
+          [
+            39.88586,
+            20.03007
+          ],
+          [
+            39.88399,
+            20.03071
+          ],
+          [
+            39.87824,
+            20.03559
+          ],
+          [
+            39.87255,
+            20.03947
+          ],
+          [
+            39.86741,
+            20.04101
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/31252404"
+    }
+  ]
+}

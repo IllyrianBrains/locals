@@ -1,0 +1,46 @@
+{
+  "city": "belsh",
+  "name": "Belsh",
+  "fetchedAt": "2026-09-29T00:24:29.002Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 3,
+  "places": [
+    {
+      "id": "node/6140466665",
+      "name": "Bujtina e Trendafilave",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.954764,
+      "lon": 19.885088,
+      "address": "Seferan",
+      "osmUrl": "https://www.openstreetmap.org/node/6140466665",
+      "score": 3,
+      "km": 2.9
+    },
+    {
+      "id": "node/6140467715",
+      "name": "Bujtina Dumrea Rubin",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.953918,
+      "lon": 19.886833,
+      "address": "Seferan",
+      "osmUrl": "https://www.openstreetmap.org/node/6140467715",
+      "score": 2,
+      "km": 3
+    },
+    {
+      "id": "node/9761933639",
+      "name": "Bujtina Zejtaria",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.955996,
+      "lon": 19.885508,
+      "phone": "+355676306733",
+      "osmUrl": "https://www.openstreetmap.org/node/9761933639",
+      "score": 3,
+      "km": 2.8
+    }
+  ]
+}

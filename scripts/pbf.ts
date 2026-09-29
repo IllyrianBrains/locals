@@ -42,6 +42,28 @@ const WHERE = [
   `man_made IN ('tower','lighthouse')`,
 ].join(' OR ');
 
+/**
+ * Local businesses for scripts/fetch-local.ts: guesthouses, agritourism, wine cellars, crafts and farm shops, plus
+ * restaurants and cafés (narrowed to traditional ones afterwards, since OGR cannot filter on `cuisine` here).
+ */
+const LOCAL_WHERE = [
+  `tourism IN ('guest_house','farm_stay','chalet','wine_cellar')`,
+  `amenity IN ('restaurant','cafe')`,
+  `craft IS NOT NULL`,
+  `shop IN ('farm','craft','cheese','wine')`,
+].join(' OR ');
+
+/**
+ * Named water and protected land for `readNature`: lakes, reservoirs, wetlands, bays, rivers, streams, canals,
+ * waterfalls, springs, and national parks, protected areas and nature reserves. Nameless features are left out.
+ */
+const NATURE_WHERE = `name IS NOT NULL AND (${[
+  `natural IN ('water','wetland','bay','spring','hot_spring')`,
+  `waterway IN ('river','stream','canal','waterfall')`,
+  `boundary IN ('national_park','protected_area')`,
+  `leisure = 'nature_reserve'`,
+].join(' OR ')})`;
+
 const LAYERS = ['points', 'lines', 'multipolygons', 'multilinestrings'] as const;
 export type Layer = (typeof LAYERS)[number];
 
@@ -75,14 +97,14 @@ function centre(coordinates: unknown): { lat: number; lon: number } | undefined 
 }
 
 /** The layer's features as a JSON Lines file, extracted once and reused while it is newer than the PBF. */
-async function extractLayer(country: PbfCountry, pbf: URL, layer: Layer): Promise<URL> {
-  const out = new URL(`${country}-${layer}.geojsonl`, CACHE_DIR);
+async function extractLayer(country: PbfCountry, pbf: URL, layer: Layer, where = WHERE, name: string = layer): Promise<URL> {
+  const out = new URL(`${country}-${name}.geojsonl`, CACHE_DIR);
   if (await exists(out) && (await stat(out)).mtimeMs > (await stat(pbf)).mtimeMs) return out;
   console.log(`  ${country}: reading ${layer} …`);
   try {
     await run('ogr2ogr', [
       '-f', 'GeoJSONSeq', '-lco', 'RS=NO', '--config', 'OSM_MAX_TMPFILE_SIZE', '2000',
-      '-oo', `CONFIG_FILE=${CONFIG.pathname}`, '-where', WHERE, out.pathname, pbf.pathname, layer,
+      '-oo', `CONFIG_FILE=${CONFIG.pathname}`, '-where', where, out.pathname, pbf.pathname, layer,
     ], { maxBuffer: 1 << 26 });
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') throw new Error('ogr2ogr (GDAL) is required to read .osm.pbf files: install it, e.g. `sudo apt install gdal-bin`');
@@ -112,13 +134,31 @@ export async function readLayer(country: PbfCountry, layer: Layer): Promise<GeoJ
 }
 
 /** Features of one country as Overpass-shaped elements, ready for `toPlace` / `pillarOf` and the exact tag filters. */
-export async function readPbf(country: PbfCountry): Promise<OverpassElement[]> {
+export async function readPbf(country: PbfCountry, set: 'places' | 'local' = 'places'): Promise<OverpassElement[]> {
+  await mkdir(CACHE_DIR, { recursive: true });
+  const pbf = await download(country);
   const elements: OverpassElement[] = [];
   for (const layer of LAYERS) {
-    for (const feature of await readLayer(country, layer)) {
+    // The local businesses have no line or relation-route features worth reading.
+    if (set === 'local' && (layer === 'lines' || layer === 'multilinestrings')) continue;
+    const file = set === 'local' ? await extractLayer(country, pbf, layer, LOCAL_WHERE, `local-${layer}`) : await extractLayer(country, pbf, layer);
+    const features: GeoJsonFeature[] = (await readFile(file, 'utf8')).split('\n').filter(Boolean).map((line) => JSON.parse(line));
+    for (const feature of features) {
       const element = toElement(layer, feature);
       if (element) elements.push(element);
     }
   }
   return elements;
+}
+
+/** Named water and protected-area features with their full geometry, per layer (`lines` are rivers, `multipolygons` lakes and areas). */
+export async function readNature(country: PbfCountry): Promise<{ layer: Layer; feature: GeoJsonFeature }[]> {
+  await mkdir(CACHE_DIR, { recursive: true });
+  const pbf = await download(country);
+  const out: { layer: Layer; feature: GeoJsonFeature }[] = [];
+  for (const layer of ['points', 'lines', 'multipolygons'] as const) {
+    const file = await extractLayer(country, pbf, layer, NATURE_WHERE, `nature-${layer}`);
+    for (const line of (await readFile(file, 'utf8')).split('\n')) if (line) out.push({ layer, feature: JSON.parse(line) });
+  }
+  return out;
 }

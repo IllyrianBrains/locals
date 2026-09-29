@@ -1,0 +1,194 @@
+{
+  "city": "vau-dejes",
+  "name": "Vau i Dejës",
+  "fetchedAt": "2026-09-29T00:24:29.007Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 13,
+  "places": [
+    {
+      "id": "way/337025760",
+      "name": "Bujtina Bashota",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.112042,
+      "lon": 19.819723,
+      "address": "Qerret, Koman 1 Shkoder",
+      "description": "Bujtina Bashota is a Guest house in Qerret, Koman opened in 2017 with a capacity of 8 beds.",
+      "phone": "+436781244301",
+      "email": "info@balbania.com",
+      "website": "https://balbania.com/",
+      "osmUrl": "https://www.openstreetmap.org/way/337025760",
+      "score": 9,
+      "km": 18.9
+    },
+    {
+      "id": "node/9282711860",
+      "name": "Borealis",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.086327,
+      "lon": 19.809694,
+      "phone": "+355682087620",
+      "osmUrl": "https://www.openstreetmap.org/node/9282711860",
+      "score": 2,
+      "km": 16.6
+    },
+    {
+      "id": "node/2494320270",
+      "name": "Te Kastrioti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.097524,
+      "lon": 19.816634,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355682442769;+355684170250",
+      "email": "kastriotdocaj@gmail.com",
+      "website": "https://www.komanilakeferry.com/",
+      "openingHours": "Mo-Fr 06:00-22:00",
+      "osmUrl": "https://www.openstreetmap.org/node/2494320270",
+      "score": 8,
+      "km": 17.7
+    },
+    {
+      "id": "way/143383019",
+      "name": "Bledi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.993535,
+      "lon": 19.609189,
+      "address": "Kaceve 1",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/143383019",
+      "score": 3,
+      "km": 3
+    },
+    {
+      "id": "node/503678646",
+      "name": "Natura",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.099232,
+      "lon": 19.817004,
+      "address": "Koman",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/503678646",
+      "score": 3,
+      "km": 17.9
+    },
+    {
+      "id": "way/241853580",
+      "name": "Rozafa",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.108465,
+      "lon": 19.826253,
+      "address": "Koman",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/241853580",
+      "score": 3,
+      "km": 19.1
+    },
+    {
+      "id": "way/360828261",
+      "name": "Angelo",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.990559,
+      "lon": 19.590339,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/360828261",
+      "score": 2,
+      "km": 4.5
+    },
+    {
+      "id": "way/360828262",
+      "name": "Drini",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.991709,
+      "lon": 19.600988,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/360828262",
+      "score": 2,
+      "km": 3.7
+    },
+    {
+      "id": "way/360828265",
+      "name": "Shelqeti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.991107,
+      "lon": 19.601492,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/360828265",
+      "score": 2,
+      "km": 3.7
+    },
+    {
+      "id": "way/337025750",
+      "name": "Te Gjoni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.099386,
+      "lon": 19.816508,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/337025750",
+      "score": 2,
+      "km": 17.8
+    },
+    {
+      "id": "node/9288987859",
+      "name": "Bujtina \"Kulla e Vjetër\"",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.099689,
+      "lon": 19.816073,
+      "osmUrl": "https://www.openstreetmap.org/node/9288987859",
+      "score": 1,
+      "km": 17.8
+    },
+    {
+      "id": "node/4300592590",
+      "name": "Kantina Zadrima",
+      "kind": "craft",
+      "type": "Verë",
+      "lat": 41.965944,
+      "lon": 19.637248,
+      "address": "Hajmel, Shkoder",
+      "phone": "0697422474",
+      "email": "zefpashuku@gmail.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/node/4300592590",
+      "score": 5,
+      "km": 4.6
+    },
+    {
+      "id": "node/13872113480",
+      "name": "Floros Marbles & Granites",
+      "kind": "craft",
+      "type": "Gur",
+      "lat": 41.97031,
+      "lon": 19.542779,
+      "osmUrl": "https://www.openstreetmap.org/node/13872113480",
+      "score": 0,
+      "km": 9
+    }
+  ]
+}

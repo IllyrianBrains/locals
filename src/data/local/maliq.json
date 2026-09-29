@@ -1,0 +1,61 @@
+{
+  "city": "maliq",
+  "name": "Maliq",
+  "fetchedAt": "2026-09-29T00:24:28.998Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 4,
+  "places": [
+    {
+      "id": "node/13907983729",
+      "name": "Konaku Kapedani",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.732284,
+      "lon": 20.502965,
+      "osmUrl": "https://www.openstreetmap.org/node/13907983729",
+      "score": 1,
+      "km": 16.8
+    },
+    {
+      "id": "node/3075760723",
+      "name": "Jon",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.700212,
+      "lon": 20.890407,
+      "cuisine": [
+        "seafood",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/3075760723",
+      "score": 2,
+      "km": 16.1
+    },
+    {
+      "id": "node/5599757622",
+      "name": "Taverna Panorama",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.703613,
+      "lon": 20.716576,
+      "address": "SH3",
+      "osmUrl": "https://www.openstreetmap.org/node/5599757622",
+      "score": 2,
+      "km": 1.5
+    },
+    {
+      "id": "node/4660589565",
+      "name": "Mjalte Morava",
+      "kind": "craft",
+      "type": "Bletari",
+      "lat": 40.680571,
+      "lon": 20.840138,
+      "email": "info@mjalte-morava.com",
+      "website": "https://www.mjalte-morava.com/",
+      "osmUrl": "https://www.openstreetmap.org/node/4660589565",
+      "score": 4,
+      "km": 12.3
+    }
+  ]
+}

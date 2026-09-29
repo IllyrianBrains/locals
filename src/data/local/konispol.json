@@ -1,0 +1,39 @@
+{
+  "city": "konispol",
+  "name": "Konispol",
+  "fetchedAt": "2026-09-29T00:00:17.974Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 2,
+  "places": [
+    {
+      "id": "node/6163607267",
+      "name": "Nefeli Café Restaurant",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 39.717933,
+      "lon": 20.073345,
+      "cuisine": [
+        "pizza",
+        "regional",
+        "coffee shop",
+        "fish"
+      ],
+      "website": "https://m.facebook.com/profile.php/?id=100076336723896",
+      "osmUrl": "https://www.openstreetmap.org/node/6163607267",
+      "score": 5,
+      "km": 11.4
+    },
+    {
+      "id": "way/1560900240",
+      "name": "Polygonal Wall",
+      "kind": "craft",
+      "type": "Gur",
+      "lat": 39.745656,
+      "lon": 20.020284,
+      "osmUrl": "https://www.openstreetmap.org/way/1560900240",
+      "score": 0,
+      "km": 16.9
+    }
+  ]
+}

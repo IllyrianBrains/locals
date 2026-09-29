@@ -1,0 +1,81 @@
+{
+  "city": "peshkopi",
+  "name": "Peshkopi",
+  "fetchedAt": "2026-09-28T22:58:57.195Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 5,
+  "places": [
+    {
+      "id": "node/11753466135",
+      "name": "Sabriu",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.684453,
+      "lon": 20.495056,
+      "phone": "+355 695114003",
+      "email": "guesthousesabriu@gmail.com",
+      "website": "@GuestHouseSabriu",
+      "osmUrl": "https://www.openstreetmap.org/node/11753466135",
+      "score": 5,
+      "km": 5.5
+    },
+    {
+      "id": "node/6127760387",
+      "name": "Vladimir GuestHouse",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.736388,
+      "lon": 20.320691,
+      "address": "Arras",
+      "phone": "00355686506061;00355692845694",
+      "email": "markuvladimir@yahoo.com",
+      "osmUrl": "https://www.openstreetmap.org/node/6127760387",
+      "score": 4,
+      "km": 10.8
+    },
+    {
+      "id": "node/11899161337",
+      "name": "Oxhaku i Docit",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.809653,
+      "lon": 20.218246,
+      "osmUrl": "https://www.openstreetmap.org/node/11899161337",
+      "score": 0,
+      "km": 22.5
+    },
+    {
+      "id": "way/175904742",
+      "name": "Hotel Korabi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.685888,
+      "lon": 20.427105,
+      "address": "Bulevardi Elez Isufi 42",
+      "cuisine": [
+        "balkan"
+      ],
+      "phone": "0692070107",
+      "email": "hotelkorabi@yahoo.com",
+      "openingHours": "24/7",
+      "osmUrl": "https://www.openstreetmap.org/way/175904742",
+      "score": 8,
+      "km": 0.3
+    },
+    {
+      "id": "node/2937887980",
+      "name": "Biofarm Reci",
+      "kind": "craft",
+      "type": "Fermë",
+      "lat": 41.834426,
+      "lon": 20.330521,
+      "description": "sells (amongst others) goat cheese",
+      "phone": "+35 544500662",
+      "website": "http://www.biofarm.al/",
+      "osmUrl": "https://www.openstreetmap.org/node/2937887980",
+      "score": 6,
+      "km": 18.7
+    }
+  ]
+}

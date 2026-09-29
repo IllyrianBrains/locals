@@ -1,0 +1,88 @@
+---
+import { getCityPlaces, isProtectedKind, natureLabels, type NatureFeature } from '../data/places';
+import municipalityNatureData from '../data/municipalityNature.json';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+
+const nature = getCityPlaces(slug)?.nature ?? [];
+const protectedAreas = nature.filter((n) => isProtectedKind(n.kind));
+// Lakes and waterfalls read as destinations; the many small streams and canals are folded into one line.
+const major = nature.filter((n) => !isProtectedKind(n.kind) && !/^(stream|canal)$/.test(n.kind));
+const minor = nature.filter((n) => /^(stream|canal)$/.test(n.kind));
+
+// Peaks, caves, springs and parks anywhere in the municipality: only the ones with a photo or a Wikipedia summary
+// become cards (the map shows the rest), and what the lists above already have is not repeated. Waterfalls are
+// destinations in themselves, so every named one gets a card, photo or not.
+type MunicipalityNature = { id: string; name: string; kind: string; wikidata?: string; wikipedia?: string; image?: string; imageCredit?: string; summary?: NatureFeature['summary']; tagline?: NatureFeature['tagline'] };
+const kindLabels: Record<string, string> = { ...natureLabels, peak: 'Majë', cave_entrance: 'Shpellë' };
+const shown = new Set(nature.flatMap((n) => [n.id, n.wikidata, n.name.toLowerCase()]));
+const wider = ((municipalityNatureData.cities as Record<string, MunicipalityNature[]>)[slug] ?? [])
+  .filter((p) => (p.image || p.summary || p.kind === 'waterfall') && ![p.id, p.wikidata, p.name.toLowerCase()].some((key) => key && shown.has(key)))
+  .sort((a, b) => Number(!!b.image) - Number(!!a.image) || Number(!!b.summary) - Number(!!a.summary) || a.name.localeCompare(b.name, 'sq'));
+
+const distance = (n: NatureFeature) => (n.nearM === 0 ? 'Në qendër' : n.nearM < 1000 ? `${Math.round(n.nearM / 10) * 10} m` : `${(n.nearM / 1000).toFixed(n.nearM < 10000 ? 1 : 0)} km`);
+const size = (n: NatureFeature) => n.areaKm2 !== undefined ? `${n.areaKm2.toLocaleString('sq-AL')} km²` : n.lengthKm ? `${n.lengthKm.toLocaleString('sq-AL')} km në zonë` : undefined;
+const facts = (n: NatureFeature) => [n.title, size(n), distance(n) === 'Në qendër' ? distance(n) : `${distance(n)} nga qendra`].filter(Boolean).join(' · ');
+const mapUrl = (n: { lat: number; lon: number }) => `https://www.openstreetmap.org/?mlat=${n.lat}&mlon=${n.lon}#map=14/${n.lat}/${n.lon}`;
+const wikiUrl = (n: { summary?: NatureFeature['summary']; wikipedia?: string }) => n.summary?.source ?? (n.wikipedia ? `https://${n.wikipedia.split(':')[0]}.wikipedia.org/wiki/${encodeURIComponent(n.wikipedia.split(':').slice(1).join(':'))}` : undefined);
+/** Only Albanian text, like the place cards; a Wikidata tagline stands in when there is no Albanian summary. */
+const blurb = (n: { summary?: NatureFeature['summary']; tagline?: NatureFeature['tagline'] }) => n.summary?.lang === 'sq' ? n.summary.text : n.tagline?.lang === 'sq' ? n.tagline.text : undefined;
+---
+{(nature.length > 0 || wider.length > 0) && (
+  <div class="nature">
+    {protectedAreas.length > 0 && (
+      <div>
+        <h3>Zona të mbrojtura</h3>
+        <ul class="nature-grid">{protectedAreas.map((n) => (
+          <li class:list={['protected', { 'has-image': n.image }]}>
+            {n.image && <figure><img src={n.image} alt={n.name} loading="lazy" referrerpolicy="no-referrer" /><figcaption>{n.imageCredit}</figcaption></figure>}
+            <div class="body"><span>{natureLabels[n.kind]}</span><b>{n.name}</b>{blurb(n) && <p class="text">{blurb(n)}</p>}<p>{facts(n)}</p><a href={wikiUrl(n) ?? mapUrl(n)} target="_blank" rel="noreferrer">{wikiUrl(n) ? 'Wikipedia ↗' : 'Hape në hartë ↗'}</a></div>
+          </li>
+        ))}</ul>
+      </div>
+    )}
+    {major.length > 0 && (
+      <div>
+        <h3>Ujëra: liqene, lumenj, burime, ujëvara</h3>
+        <ul class="nature-grid">{major.map((n) => (
+          <li class:list={['water', { 'has-image': n.image }]}>
+            {n.image && <figure><img src={n.image} alt={n.name} loading="lazy" referrerpolicy="no-referrer" /><figcaption>{n.imageCredit}</figcaption></figure>}
+            <div class="body"><span>{natureLabels[n.kind]}</span><b>{n.name}</b>{blurb(n) && <p class="text">{blurb(n)}</p>}<p>{facts(n)}</p><a href={wikiUrl(n) ?? mapUrl(n)} target="_blank" rel="noreferrer">{wikiUrl(n) ? 'Wikipedia ↗' : 'Hape në hartë ↗'}</a></div>
+          </li>
+        ))}</ul>
+        {minor.length > 0 && <p class="minor"><b>Përrenj dhe kanale:</b> {minor.map((n) => n.name).join(', ')}.</p>}
+      </div>
+    )}
+    {wider.length > 0 && (
+      <div>
+        <h3>Në gjithë bashkinë</h3>
+        <ul class="nature-grid">{wider.map((n) => (
+          <li class:list={['wide', { 'has-image': n.image }]}>
+            {n.image && <figure><img src={n.image} alt={n.name} loading="lazy" referrerpolicy="no-referrer" /><figcaption>{n.imageCredit}</figcaption></figure>}
+            <div class="body"><span>{kindLabels[n.kind] ?? 'Natyrë'}</span><b>{n.name}</b>{blurb(n) && <p class="text">{blurb(n)}</p>}<a href={wikiUrl(n) ?? mapUrl(n as never)} target="_blank" rel="noreferrer">{wikiUrl(n) ? 'Wikipedia ↗' : 'Hape në hartë ↗'}</a></div>
+          </li>
+        ))}</ul>
+      </div>
+    )}
+    <p class="note">Nga OpenStreetMap: vetëm ato që janë emërtuar. Fotot dhe përshkrimet vijnë nga Wikipedia, Wikidata dhe Wikimedia Commons. Kufijtë e zonave të mbrojtura janë të përafërt, kontrollo rregullat vendore para se të vizitosh.</p>
+  </div>
+)}
+
+<style>
+.nature{display:grid;gap:40px}.nature h3{margin:0 0 16px;font:500 28px/1.1 var(--display)}
+.nature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0;padding:0;list-style:none}
+.nature-grid li{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:var(--paper);transition:box-shadow .25s,transform .25s}.nature-grid li:hover{box-shadow:0 12px 28px #18322614;transform:translateY(-2px)}
+.nature-grid li.protected{border-color:#4f8a4b66;background:#4f8a4b0d}.nature-grid li.water{border-color:#3f7fbf55;background:#3f7fbf0d}.nature-grid li.wide{border-color:#8a8f5a66;background:#8a8f5a0d}
+.nature-grid figure{position:relative;margin:0;height:160px;background:var(--cream)}.nature-grid figure img{display:block;width:100%;height:100%;object-fit:cover}
+.nature-grid figcaption{position:absolute;right:0;bottom:0;left:0;padding:14px 10px 4px;color:#fff;background:linear-gradient(transparent,#0009);font-size:9px;line-height:1.3;text-align:right;opacity:.9}
+.nature-grid .body{display:flex;flex:1;flex-direction:column;padding:22px}
+.nature-grid li.has-image .body{padding-top:16px}
+.nature-grid span{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.protected span{color:#3f7a3b}.water span{color:#2f6fa8}.wide span{color:#6b6f47}
+.nature-grid b{margin-top:6px;font:500 22px/1.2 var(--display)}.nature-grid p{margin:8px 0 0;color:var(--muted);font-size:13px;line-height:1.5}
+.nature-grid p.text{color:var(--ink);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.nature-grid a{margin-top:auto;padding-top:14px;color:var(--leaf);font-size:13px;font-weight:700}.nature-grid a:hover{text-decoration:underline}
+.minor{margin:16px 0 0;color:var(--muted);font-size:13px;line-height:1.6}.minor b{color:var(--ink)}
+.note{margin:0;color:var(--muted);font-size:12px}
+@media(max-width:980px){.nature-grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.nature-grid{grid-template-columns:1fr}}
+</style>

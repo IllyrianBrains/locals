@@ -1,0 +1,55 @@
+{
+  "city": "gramsh",
+  "name": "Gramsh",
+  "fetchedAt": "2026-09-29T00:00:17.960Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 3,
+  "places": [
+    {
+      "id": "node/4507238862",
+      "name": "Alfred Kosturi",
+      "kind": "food",
+      "type": "Kafene",
+      "lat": 40.865553,
+      "lon": 20.184056,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4507238862",
+      "score": 2,
+      "km": 0.2
+    },
+    {
+      "id": "node/6388054207",
+      "name": "Beni",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.867587,
+      "lon": 20.183501,
+      "cuisine": [
+        "regional",
+        "steak house"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6388054207",
+      "score": 2,
+      "km": 0.3
+    },
+    {
+      "id": "node/6388072836",
+      "name": "Piazza Lounge",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.868259,
+      "lon": 20.184025,
+      "cuisine": [
+        "pizza",
+        "italian",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6388072836",
+      "score": 2,
+      "km": 0.4
+    }
+  ]
+}

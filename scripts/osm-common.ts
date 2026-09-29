@@ -5,6 +5,7 @@
  * Data © OpenStreetMap contributors, ODbL 1.0.
  */
 import type { OsmCategory, OsmPlace, Pillar } from '../src/data/places.ts';
+import type { LocalKind, LocalPlace } from '../src/data/local.ts';
 
 export const ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
 export const USER_AGENT = 'ib-locals/0.1 (https://locals.illyrianbrains.org)';
@@ -38,10 +39,12 @@ export function isPlace(t: Record<string, string>): boolean {
  */
 export const pillars: Pillar[] = ['nature', 'trails', 'heritage', 'local', 'access'];
 
-export function pillarOf(t: Record<string, string>): Pillar | null {
+export function pillarOf(t: Record<string, string>, type?: OverpassElement['type']): Pillar | null {
   const named = !!t.name;
   if (named && (/^(national_park|protected_area)$/.test(t.boundary ?? '') || t.leisure === 'nature_reserve' || t.waterway === 'waterfall' || /^(peak|spring|cave_entrance)$/.test(t.natural ?? ''))) return 'nature';
-  if (/^(hiking|foot|bicycle|mtb)$/.test(t.route ?? '') || /^(alpine_hut|wilderness_hut|camp_site)$/.test(t.tourism ?? '')) return 'trails';
+  // Routes are OSM relations made from many ways. Count the relation once, never every member segment.
+  if (/^(hiking|foot|bicycle|mtb)$/.test(t.route ?? '')) return type && type !== 'relation' ? null : 'trails';
+  if (/^(alpine_hut|wilderness_hut|camp_site)$/.test(t.tourism ?? '')) return 'trails';
   if (named && (/^(castle|fort|archaeological_site|monastery|ruins|city_gate|manor|tomb)$/.test(t.historic ?? '') || t.heritage || t.tourism === 'museum' || (t.amenity === 'place_of_worship' && t.wikidata))) return 'heritage';
   if (/^(guest_house|farm_stay|chalet|wine_cellar)$/.test(t.tourism ?? '') || t.craft || /^(farm|craft)$/.test(t.shop ?? '') || (named && t.amenity === 'marketplace')) return 'local';
   if ((named && /^(station|halt)$/.test(t.railway ?? '')) || /^(bus_station|bicycle_rental)$/.test(t.amenity ?? '')) return 'access';
@@ -161,3 +164,81 @@ export function dedupe(places: OsmPlace[]): OsmPlace[] {
   return kept;
 }
 
+
+/**
+ * Local businesses: guesthouses (bujtina), traditional food and local producers. Unlike `isPlace` these are not
+ * sights but the places that let a visitor stay, eat and buy from local people.
+ */
+const traditionalCuisine = /(^|[;,\s])(regional|local|traditional|albanian|kosovan|kosovar|balkan|byrek|qofte|kebab_albanian)($|[;,\s])/i;
+const traditionalName = /tradicion|bujtin|\bkull(a|e|es)\b|mullixh|\bhan(i)?\b|kasolle|tavern|konak|ciflig|çiflig|agroturiz|vendas|gjell/i;
+
+/** Crafts worth a visit; the rest of `craft=*` is mostly electricians, tailors and repair shops. */
+const visitableCraft = /^(winery|brewery|distillery|beekeeper|cheese|cheese_maker|pottery|ceramics|handicraft|weaver|blacksmith|basket_maker|oil_mill|jeweller|leather|carpet|embroidery|woodcarver|stonemason|honey_farm|dairy)$/;
+
+export function localKind(t: Record<string, string>): LocalKind | null {
+  if (!t.name) return null;
+  if (/^(guest_house|farm_stay|chalet)$/.test(t.tourism ?? '') || (t.tourism === 'hotel' && /bujtin/i.test(t.name))) return 'stay';
+  if (/^(restaurant|cafe)$/.test(t.amenity ?? '') && (traditionalCuisine.test(t.cuisine ?? '') || traditionalName.test(t.name))) return 'food';
+  if (t.tourism === 'wine_cellar' || visitableCraft.test(t.craft ?? '') || /^(farm|craft|cheese|wine)$/.test(t.shop ?? '')) return 'craft';
+  return null;
+}
+
+const localLabels: Record<string, string> = {
+  guest_house: 'Bujtinë', farm_stay: 'Agroturizëm', chalet: 'Kasolle', hotel: 'Bujtinë',
+  restaurant: 'Restorant', cafe: 'Kafene', wine_cellar: 'Kantinë vere',
+  farm: 'Fermë', cheese: 'Djathë', wine: 'Verë', craft: 'Zejtari',
+};
+const craftLabels: Record<string, string> = {
+  winery: 'Kantinë vere', brewery: 'Birrari', distillery: 'Distilerí', beekeeper: 'Bletari', cheese: 'Djathë',
+  carpenter: 'Zdrukthëtari', pottery: 'Qeramikë', blacksmith: 'Farkëtari', tailor: 'Rrobaqepësi', shoemaker: 'Këpucari',
+  weaver: 'Endje', handicraft: 'Artizanat', jeweller: 'Bizhuteri', ceramics: 'Qeramikë', basket_maker: 'Shporta',
+  oil_mill: 'Vaj ulliri', confectionery: 'Ëmbëlsira', leather: 'Lëkurë', carpet: 'Qilima', embroidery: 'Qëndisje',
+  woodcarver: 'Gdhendje druri', stonemason: 'Gur', honey_farm: 'Bletari', cheese_maker: 'Djathë', dairy: 'Bulmet',
+};
+
+export function toLocal(el: OverpassElement): LocalPlace | null {
+  const t = el.tags ?? {};
+  const lat = el.lat ?? el.center?.lat;
+  const lon = el.lon ?? el.center?.lon;
+  const kind = localKind(t);
+  if (!kind || lat === undefined || lon === undefined) return null;
+  const type = kind === 'craft' ? (t.craft && craftLabels[t.craft]) || localLabels[t.tourism ?? t.shop ?? 'craft'] || 'Zejtari' : localLabels[(kind === 'food' ? t.amenity : t.tourism) ?? t.amenity ?? ''] ?? 'Vend vendas';
+  const contact = { phone: t.phone ?? t['contact:phone'], email: t.email ?? t['contact:email'], website: t.website ?? t['contact:website'] ?? t['contact:facebook'] ?? t.facebook };
+  const place: LocalPlace = {
+    id: `${el.type}/${el.id}`,
+    name: t['name:sq'] ?? t.name,
+    kind,
+    type,
+    lat: Number(lat.toFixed(6)),
+    lon: Number(lon.toFixed(6)),
+    address: [t['addr:street'], t['addr:housenumber'], t['addr:city'] ?? t['addr:village']].filter(Boolean).join(' ') || undefined,
+    description: t['description:sq'] ?? t.description ?? t['description:en'],
+    cuisine: t.cuisine ? t.cuisine.split(';').map((c) => c.trim().replaceAll('_', ' ')).filter(Boolean).slice(0, 4) : undefined,
+    ...contact,
+    openingHours: t.opening_hours,
+    wikidata: t.wikidata,
+    wikipedia: t.wikipedia,
+    osmUrl: `https://www.openstreetmap.org/${el.type}/${el.id}`,
+    score: 0,
+  };
+  place.score = (t.wikidata ? 3 : 0) + (t.wikipedia ? 2 : 0) + (t['name:en'] ? 1 : 0) + (place.website ? 2 : 0) + (place.phone ? 2 : 0)
+    + (place.email ? 1 : 0) + (t.opening_hours ? 1 : 0) + (place.description ? 2 : 0) + (place.address ? 1 : 0) + (t.image || t.wikimedia_commons ? 2 : 0)
+    + (kind === 'food' && traditionalCuisine.test(t.cuisine ?? '') ? 2 : 0) + (traditionalName.test(t.name) ? 1 : 0)
+    + (t.tourism === 'farm_stay' || /^(winery|beekeeper|cheese)$/.test(t.craft ?? '') ? 1 : 0);
+  for (const key of Object.keys(place) as (keyof LocalPlace)[]) if (place[key] === undefined) delete place[key];
+  return place;
+}
+
+/** Ray casting on GeoJSON rings ([lon, lat]); holes are excluded. Shared by the boundary and local scripts. */
+export type Ring = [number, number][];
+export type Outline = { type: 'Polygon'; coordinates: Ring[] } | { type: 'MultiPolygon'; coordinates: Ring[][] };
+function inRing([x, y]: [number, number], ring: Ring): boolean {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i], [xj, yj] = ring[j];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+const inPolygon = (point: [number, number], rings: Ring[]) => inRing(point, rings[0]) && !rings.slice(1).some((hole) => inRing(point, hole));
+export const contains = (g: Outline, point: [number, number]) => g.type === 'Polygon' ? inPolygon(point, g.coordinates) : g.coordinates.some((p) => inPolygon(point, p));

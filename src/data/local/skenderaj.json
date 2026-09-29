@@ -1,0 +1,72 @@
+{
+  "city": "skenderaj",
+  "name": "Skënderaj",
+  "fetchedAt": "2026-09-28T22:58:57.249Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 5,
+  "places": [
+    {
+      "id": "node/5285965523",
+      "name": "(villa kaproll)",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.674309,
+      "lon": 20.789883,
+      "osmUrl": "https://www.openstreetmap.org/node/5285965523",
+      "score": 1,
+      "km": 8.1
+    },
+    {
+      "id": "node/4999177422",
+      "name": "Shpia e Babës",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.736334,
+      "lon": 20.764743,
+      "address": "Naser Lani 51",
+      "osmUrl": "https://www.openstreetmap.org/node/4999177422",
+      "score": 1,
+      "km": 2.3
+    },
+    {
+      "id": "node/4607717298",
+      "name": "kopiliq",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 42.722699,
+      "lon": 20.695788,
+      "osmUrl": "https://www.openstreetmap.org/node/4607717298",
+      "score": 0,
+      "km": 8
+    },
+    {
+      "id": "node/11993248869",
+      "name": "Hani i Hotit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.660829,
+      "lon": 20.770124,
+      "phone": "048296226",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "osmUrl": "https://www.openstreetmap.org/node/11993248869",
+      "score": 4,
+      "km": 9.8
+    },
+    {
+      "id": "node/4728345766",
+      "name": "Restaurant Arberi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.748134,
+      "lon": 20.789484,
+      "address": "Sheshi Adem Jashari Skenderaj",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4728345766",
+      "score": 3,
+      "km": 0.1
+    }
+  ]
+}

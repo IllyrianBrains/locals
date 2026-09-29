@@ -1,0 +1,26 @@
+---
+/** How current a guide's data is: one date per source, a warning when the oldest is past `staleAfterDays`. */
+import { citySources, daysSince, formatDate, oldest, staleAfterDays } from '../data/freshness';
+interface Props { slug: string; name: string }
+const { slug, name } = Astro.props;
+const sources = citySources(slug);
+const oldestSource = oldest(sources);
+const stale = !!oldestSource && daysSince(oldestSource.date) > staleAfterDays;
+---
+{oldestSource && (
+  <aside class:list={['freshness', { stale }]} aria-label="Sa të freskëta janë të dhënat">
+    <div>
+      <h3>{stale ? 'Disa të dhëna mund të jenë të vjetruara' : 'Të dhëna të freskëta'}</h3>
+      <p>
+        Guida për {name} përditësohet nga OpenStreetMap dhe Wikidata. Më e vjetra është nga {formatDate(oldestSource.date)}.
+        {stale ? ' Bujtinat, orarët dhe shtigjet ndryshojnë: telefono ose kontrollo para se të nisesh.' : ' Orarët dhe kushtet e shtigjeve mund të ndryshojnë: kontrollo para se të nisesh.'}
+      </p>
+    </div>
+    <ul>{sources.map((s) => <li><span>{s.label}</span><time datetime={s.date.toISOString()}>{formatDate(s.date)}</time></li>)}</ul>
+    <a href="/kontribuo/">Ke parë një ndryshim? Korrigjoje në hartë →</a>
+  </aside>
+)}
+<style>
+.freshness{display:grid;grid-template-columns:1.2fr 1fr;gap:12px 40px;align-items:start;padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--paper)}.freshness.stale{border-color:var(--clay)}.freshness h3{margin:0;font:500 24px/1.15 var(--display)}.freshness p{margin:8px 0 0;color:var(--muted);font-size:14px;line-height:1.5}.freshness ul{margin:0;padding:0;list-style:none}.freshness li{display:flex;justify-content:space-between;gap:16px;padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}.freshness li span{color:var(--muted)}.freshness a{grid-column:1/-1;color:var(--leaf);font-size:12px;font-weight:700}
+@media(max-width:720px){.freshness{grid-template-columns:1fr}}
+</style>

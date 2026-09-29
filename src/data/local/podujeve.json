@@ -1,0 +1,28 @@
+{
+  "city": "podujeve",
+  "name": "Podujevë",
+  "fetchedAt": "2026-09-28T22:58:57.251Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 1,
+  "places": [
+    {
+      "id": "node/7913942685",
+      "name": "Restaurant A1",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 42.851715,
+      "lon": 21.182699,
+      "address": "Gryka e Llapit",
+      "cuisine": [
+        "burger",
+        "coffee shop",
+        "sandwich",
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/7913942685",
+      "score": 3,
+      "km": 6.7
+    }
+  ]
+}

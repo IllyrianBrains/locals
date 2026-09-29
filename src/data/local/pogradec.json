@@ -1,0 +1,286 @@
+{
+  "city": "pogradec",
+  "name": "Pogradec",
+  "fetchedAt": "2026-09-28T22:58:57.137Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 22,
+  "places": [
+    {
+      "id": "node/6612196927",
+      "name": "Vila Lin 43",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.066893,
+      "lon": 20.644295,
+      "address": "Lin",
+      "phone": "+355 67 404 4771",
+      "website": "https://vilalin43.business.site/",
+      "osmUrl": "https://www.openstreetmap.org/node/6612196927",
+      "score": 5,
+      "km": 18.6
+    },
+    {
+      "id": "node/3700942567",
+      "name": "ROSA'S Bed and Breakfast",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.067101,
+      "lon": 20.644295,
+      "address": "opposite orthodox church Lin",
+      "phone": "+355 69 4504577",
+      "email": "bedandbreakfastlin@gmail.com",
+      "osmUrl": "https://www.openstreetmap.org/node/3700942567",
+      "score": 4,
+      "km": 18.6
+    },
+    {
+      "id": "node/5909905693",
+      "name": "Guesthouse Lin",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.067199,
+      "lon": 20.644465,
+      "address": "Lin",
+      "phone": "+355 68 2353852",
+      "osmUrl": "https://www.openstreetmap.org/node/5909905693",
+      "score": 3,
+      "km": 18.6
+    },
+    {
+      "id": "node/12849328215",
+      "name": "ROLEO house",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.066621,
+      "lon": 20.644707,
+      "address": "Lin",
+      "phone": "+355 69 293 6894",
+      "osmUrl": "https://www.openstreetmap.org/node/12849328215",
+      "score": 3,
+      "km": 18.6
+    },
+    {
+      "id": "node/5909905694",
+      "name": "Erda",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.066875,
+      "lon": 20.644492,
+      "phone": "+355 69 725 2348",
+      "osmUrl": "https://www.openstreetmap.org/node/5909905694",
+      "score": 2,
+      "km": 18.6
+    },
+    {
+      "id": "node/5909906023",
+      "name": "Rosa's Home",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.066583,
+      "lon": 20.644122,
+      "phone": "+355694504577",
+      "osmUrl": "https://www.openstreetmap.org/node/5909906023",
+      "score": 2,
+      "km": 18.6
+    },
+    {
+      "id": "node/7202896419",
+      "name": "Bujtina Ollga",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.901729,
+      "lon": 20.71998,
+      "osmUrl": "https://www.openstreetmap.org/node/7202896419",
+      "score": 1,
+      "km": 5.9
+    },
+    {
+      "id": "node/7202908802",
+      "name": "Dhoma ne Qera",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.902749,
+      "lon": 20.718789,
+      "osmUrl": "https://www.openstreetmap.org/node/7202908802",
+      "score": 0,
+      "km": 5.8
+    },
+    {
+      "id": "node/9120289937",
+      "name": "Nesti Relax Home",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.068502,
+      "lon": 20.645249,
+      "osmUrl": "https://www.openstreetmap.org/node/9120289937",
+      "score": 0,
+      "km": 18.8
+    },
+    {
+      "id": "node/7202896430",
+      "name": "Vila Cake",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.900397,
+      "lon": 20.720505,
+      "osmUrl": "https://www.openstreetmap.org/node/7202896430",
+      "score": 0,
+      "km": 5.9
+    },
+    {
+      "id": "node/7202896432",
+      "name": "Vila Dante",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.901159,
+      "lon": 20.719692,
+      "osmUrl": "https://www.openstreetmap.org/node/7202896432",
+      "score": 0,
+      "km": 5.9
+    },
+    {
+      "id": "node/7202896431",
+      "name": "Vila Ilo",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.900785,
+      "lon": 20.72013,
+      "osmUrl": "https://www.openstreetmap.org/node/7202896431",
+      "score": 0,
+      "km": 5.9
+    },
+    {
+      "id": "node/9135728378",
+      "name": "Vila Topciu",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.898785,
+      "lon": 20.664676,
+      "osmUrl": "https://www.openstreetmap.org/node/9135728378",
+      "score": 0,
+      "km": 1.2
+    },
+    {
+      "id": "node/5909906024",
+      "name": "Leza",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.066643,
+      "lon": 20.639546,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 69 789 2698",
+      "website": "https://www.facebook.com/HotelRestorantLeza",
+      "osmUrl": "https://www.openstreetmap.org/node/5909906024",
+      "score": 6,
+      "km": 18.6
+    },
+    {
+      "id": "node/5916226488",
+      "name": "Smoked Duck",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.901755,
+      "lon": 20.66238,
+      "address": "Dëshmorët e Pojskës Pogradec",
+      "cuisine": [
+        "regional",
+        "italian"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5916226488",
+      "score": 3,
+      "km": 1.1
+    },
+    {
+      "id": "node/5894677145",
+      "name": "The Change",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.90111,
+      "lon": 20.668223,
+      "address": "Pogradec",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5894677145",
+      "score": 3,
+      "km": 1.5
+    },
+    {
+      "id": "node/5954167671",
+      "name": "Konaku",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.901471,
+      "lon": 20.665613,
+      "address": "Pogradec",
+      "osmUrl": "https://www.openstreetmap.org/node/5954167671",
+      "score": 2,
+      "km": 1.3
+    },
+    {
+      "id": "node/4880482424",
+      "name": "Lokali",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.900965,
+      "lon": 20.719899,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/4880482424",
+      "score": 2,
+      "km": 5.9
+    },
+    {
+      "id": "way/370949857",
+      "name": "Restorant Dashnorja E Fundit",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.901371,
+      "lon": 20.711189,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/370949857",
+      "score": 2,
+      "km": 5.2
+    },
+    {
+      "id": "node/5954169706",
+      "name": "Taverna Ladi",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.902165,
+      "lon": 20.659953,
+      "address": "Dëshmorët e Pojskës Pogradec",
+      "osmUrl": "https://www.openstreetmap.org/node/5954169706",
+      "score": 2,
+      "km": 0.9
+    },
+    {
+      "id": "node/7202896418",
+      "name": "Bujtina Alpine",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.901635,
+      "lon": 20.720054,
+      "osmUrl": "https://www.openstreetmap.org/node/7202896418",
+      "score": 1,
+      "km": 5.9
+    },
+    {
+      "id": "node/7202847881",
+      "name": "Taverna KOÇO",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.903013,
+      "lon": 20.7208,
+      "osmUrl": "https://www.openstreetmap.org/node/7202847881",
+      "score": 1,
+      "km": 6
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+---
+/** Filterable catalogue of every guide city: trip type, country, season, length of stay and what it offers. */
+import { catalogue, sortGroups, seasonLabels, stayLabels, tripTypes, type Season, type Stay, type TripId } from '../data/catalogue';
+import { countries, cityLabel, type CountryCode } from '../data/cities';
+import { categoryLabels, type OsmCategory, pillarLabels, type Pillar } from '../data/places';
+// Sights come first in the sort menu: museums and the other things people go to see, then the rest of the categories.
+const featureOrder = ['museum', 'history', 'religion', 'culture', 'art', 'attraction', 'viewpoint', 'market', 'nature']
+  .filter((c): c is OsmCategory => c in categoryLabels)
+  .concat((Object.keys(categoryLabels) as OsmCategory[]).filter((c) => !['museum', 'history', 'religion', 'culture', 'art', 'attraction', 'viewpoint', 'market', 'nature'].includes(c)));
+const flags: Record<CountryCode, string> = { al: '🇦🇱', xk: '🇽🇰' };
+// Chips are alphabetical (icons and flags ignored); seasons and stay lengths keep their natural order.
+const byLabel = (a: { label: string }, b: { label: string }) => a.label.replace(/^\P{L}+/u, '').localeCompare(b.label.replace(/^\P{L}+/u, ''), 'sq');
+const groups = [
+  { key: 'trip', label: 'Udhëtimi', options: (Object.keys(tripTypes) as TripId[]).map((id) => ({ value: id, label: `${tripTypes[id].icon} ${tripTypes[id].title}` })).sort(byLabel) },
+  { key: 'country', label: 'Vendi', options: (Object.keys(countries) as CountryCode[]).map((code) => ({ value: code, label: `${flags[code]} ${countries[code].name}` })).sort(byLabel) },
+  { key: 'season', label: 'Sezoni', options: (Object.keys(seasonLabels) as Season[]).map((s) => ({ value: s, label: seasonLabels[s] })) },
+  { key: 'stay', label: 'Sa ditë', options: (Object.keys(stayLabels) as Stay[]).map((s) => ({ value: s, label: stayLabels[s] })) },
+  { key: 'offer', label: 'Çfarë ofron', options: (Object.keys(pillarLabels) as Pillar[]).map((p) => ({ value: p, label: pillarLabels[p] })).sort(byLabel) },
+];
+---
+<div class="catalogue">
+  <div class="cat-filters">
+    <label class="cat-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+      <span><small>Kërko qytetin</small><input type="search" placeholder="P.sh. Berat, bregdet, natyrë…" autocomplete="off" /></span>
+    </label>
+    <div class="cat-facets" role="group" aria-label="Filtro qytetet sipas kategorisë">
+      {groups.map((group) => (
+        <details class="cat-group" data-group={group.key}>
+          <summary><span>{group.label}</span><b data-selected hidden>0</b><i>⌄</i></summary>
+          <div class="cat-options">
+            {group.options.map((o) => <button type="button" class="cat-chip" data-value={o.value} aria-pressed="false">{o.label}</button>)}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+  <div class="cat-bar">
+    <p aria-live="polite"><b data-count>{catalogue.length}</b> qytete</p>
+    <div class="cat-bar-actions"><div class="cat-sort"><span id="sort-label">Rendit sipas</span><select aria-labelledby="sort-label"><option value="name">Emrit A–Z</option><optgroup label="Vende për të parë">{featureOrder.map((category) => <option value={`feature:${category}`}>{categoryLabels[category]}</option>)}</optgroup><optgroup label="Turizëm i qëndrueshëm"><option value="score">Ofertës së përgjithshme</option><option value="nature">Natyrës</option><option value="trails">Shtigjeve</option><option value="heritage">Trashëgimisë</option><option value="local">Prodhuesve vendas</option><option value="access">Qasjes pa makinë</option></optgroup>{sortGroups.map((group) => <optgroup label={group.label}>{group.metrics.map((m) => <option value={`metric:${m.key}`} data-unit={m.unit}>{m.label}</option>)}</optgroup>)}</select></div><button type="button" class="cat-reset" hidden>Pastro filtrat ×</button></div>
+  </div>
+  <div class="cat-grid">
+    {catalogue.map(({ city, trips, seasons, stays, strengths, stats }) => (
+      <a class="cat-card" href={`/${city.slug}/`} data-trip={trips.join(' ')} data-country={city.country} data-season={seasons.join(' ')} data-stay={stays.join(' ')} data-offer={strengths.join(' ')} data-name={city.name} data-score={stats.score} data-nature={stats.pillars.nature} data-trails={stats.pillars.trails} data-heritage={stats.pillars.heritage} data-local={stats.pillars.local} data-access={stats.pillars.access} data-features={JSON.stringify(stats.features)} data-metrics={JSON.stringify(stats.metrics)} data-search={`${city.name} ${city.region} ${city.summary} ${trips.map((id) => tripTypes[id].title).join(' ')} ${strengths.map((p) => pillarLabels[p]).join(' ')}`.toLocaleLowerCase('sq')}>
+        <img src={city.image} alt={`Pamje nga ${city.name}`} loading="lazy" referrerpolicy="no-referrer" />
+        <span>
+          <small>{flags[city.country]} {cityLabel(city)}</small>
+          <strong>{city.name}</strong>
+          <p>{city.summary}</p>
+          <span class="cat-stats" data-level={stats.level} data-total={stats.count}><b data-stat-main>Niveli {stats.level}/5</b><small data-stat-detail>{stats.count} pika të hartëzuara</small></span>
+          <em>{trips.map((id) => <i>{tripTypes[id].title}</i>)}{strengths.slice(0, 2).map((p) => <i class="offer">{pillarLabels[p]}</i>)}</em>
+        </span>
+      </a>
+    ))}
+  </div>
+  <button type="button" class="cat-more" hidden aria-expanded="false"><span>Shfaq më shumë</span><i>↓</i></button>
+  <p class="cat-empty" hidden>Asnjë qytet nuk i plotëson të gjitha filtrat. Hiq një filtër.</p>
+  <p class="cat-note">Llojet e udhëtimit, sezoni dhe kohëzgjatja janë sugjerime editoriale. «Çfarë ofron» del nga numërimet e OpenStreetMap për bashkinë: kur qyteti është ndër një të tretën më të mirë të guidave për atë shtyllë.</p>
+</div>
+<style>
+.cat-filters{position:relative;z-index:5;margin-bottom:18px;padding:12px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 10px 30px #1832260b}.cat-search{display:grid;grid-template-columns:24px 1fr;gap:12px;align-items:center;padding:11px 14px;border:1px solid #cdd9cf;border-radius:11px;background:#f7faf6;transition:border-color .15s,box-shadow .15s}.cat-search:focus-within{border-color:var(--leaf);box-shadow:0 0 0 3px #2f6b4514}.cat-search svg{width:21px;fill:none;stroke:var(--leaf);stroke-width:1.8}.cat-search span,.cat-search small{display:block}.cat-search small{color:var(--leaf);font-size:8px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.cat-search input{width:100%;margin-top:1px;padding:0;border:0;outline:0;color:var(--ink);background:transparent;font:500 15px var(--sans)}.cat-search input::placeholder{color:#8a8e8a;font-weight:400}.cat-facets{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:9px}.cat-group{position:relative;min-width:0}.cat-group summary{display:flex;align-items:center;min-height:42px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;background:var(--paper);font:700 11px var(--sans);cursor:pointer;list-style:none;transition:border-color .15s,background .15s}.cat-group summary::-webkit-details-marker{display:none}.cat-group summary:hover,.cat-group[open] summary{border-color:#9db7a3;background:#f3f7f1}.cat-group summary span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cat-group summary b{display:grid;flex:none;place-items:center;min-width:20px;height:20px;margin-left:auto;border-radius:50%;color:#fff;background:var(--leaf);font-size:9px}.cat-group summary b[hidden]{display:none}.cat-group summary i{flex:none;margin-left:7px;color:var(--muted);font-style:normal;transition:transform .15s}.cat-group[open] summary i{transform:rotate(180deg)}.cat-options{position:absolute;top:calc(100% + 7px);left:0;z-index:10;display:flex;width:max-content;min-width:100%;max-width:min(420px,calc(100vw - 44px));flex-wrap:wrap;gap:6px;padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff;box-shadow:0 16px 40px #0f1a1425}.cat-chip{min-height:36px;padding:7px 12px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:var(--paper);font:600 11px var(--sans);cursor:pointer}.cat-chip:hover{border-color:var(--leaf)}.cat-chip:focus-visible{outline:2px solid var(--leaf);outline-offset:2px}.cat-chip[aria-pressed=true]{border-color:var(--forest);color:#fff;background:var(--forest)}.cat-chip[aria-pressed=true]:before{margin-right:5px;content:'✓'}
+.cat-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding:0 2px;color:var(--muted);font-size:13px}.cat-bar p{margin:0}.cat-bar>p b{color:var(--ink);font-size:15px}.cat-bar-actions{display:flex;align-items:center;gap:10px}.cat-sort{display:flex;align-items:center;gap:8px}.cat-sort span{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em}.cat-sort select{min-height:40px;padding:7px 32px 7px 11px;border:1px solid var(--line);border-radius:9px;color:var(--ink);background:#fff;font:600 11px var(--sans);cursor:pointer}.cat-reset{min-height:40px;padding:6px 10px;border:0;border-radius:8px;color:var(--leaf);background:transparent;font:700 12px var(--sans);cursor:pointer}.cat-reset:hover{background:var(--cream)}
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.cat-card{display:flex;min-width:0;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#fff;transition:border-color .2s,transform .2s,box-shadow .2s}.cat-card:hover{border-color:#9db7a3;box-shadow:0 10px 26px #18322612;transform:translateY(-2px)}.cat-card[hidden]{display:none}.cat-card img{width:100%;height:145px;object-fit:cover;background:var(--cream)}.cat-card>span{display:flex;flex:1;flex-direction:column;padding:16px}.cat-card small{color:var(--clay);font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.cat-card strong{margin-top:4px;font:500 25px/1.1 var(--display)}.cat-card p{margin:8px 0 0;color:var(--muted);font-size:12px;line-height:1.5}.cat-stats{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}.cat-stats b{color:var(--leaf);font-size:10px}.cat-stats small{color:var(--muted);font-size:8px;letter-spacing:0;text-transform:none}.cat-card em{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:14px}.cat-card i{padding:3px 9px;border-radius:99px;background:var(--cream);font-size:9px;font-style:normal}.cat-card i.offer{background:var(--lime)}
+.cat-more{display:flex;align-items:center;justify-content:center;gap:10px;min-height:48px;margin:24px auto 0;padding:11px 20px;border:1px solid var(--line);border-radius:99px;color:var(--ink);background:#fff;font:700 12px var(--sans);cursor:pointer}.cat-more[hidden]{display:none}.cat-more:hover{border-color:var(--leaf)}.cat-more i{font-style:normal;transition:transform .2s}.cat-more[aria-expanded=true] i{transform:rotate(180deg)}.cat-empty{margin:24px 0;padding:18px;border-radius:12px;color:var(--muted);background:var(--cream);text-align:center}.cat-note{max-width:850px;margin:22px auto 0;color:var(--muted);font-size:11px;text-align:center}
+@media(max-width:1000px){.cat-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:720px){.cat-facets{grid-template-columns:repeat(3,1fr)}.cat-grid{grid-template-columns:1fr 1fr}.cat-group:nth-child(n+4) .cat-options{right:0;left:auto}}
+@media(max-width:600px){.cat-bar{align-items:flex-start}.cat-bar-actions{align-items:flex-end;flex-direction:column}.cat-sort span{display:none}.cat-sort select{max-width:190px}.cat-reset{min-height:32px;padding-block:2px}}
+@media(max-width:480px){.cat-filters{margin-inline:-4px;padding:9px;border-radius:13px}.cat-search{min-height:54px}.cat-facets{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}.cat-facets::-webkit-scrollbar{display:none}.cat-group{position:static;flex:0 0 auto}.cat-group summary{min-height:40px;padding-inline:12px}.cat-group summary span{overflow:visible}.cat-options{top:calc(100% - 4px);right:9px;left:9px;width:auto;max-width:none}.cat-grid{grid-template-columns:1fr;gap:10px}.cat-card{display:grid;grid-template-columns:108px 1fr;min-height:156px}.cat-card img{width:108px;height:100%}.cat-card>span{padding:14px}.cat-card strong{font-size:23px}.cat-card p{font-size:11px}.cat-card:hover{transform:none}.cat-note{text-align:left}.cat-chip{min-height:44px;padding-inline:14px;font-size:13px}.cat-group summary{font-size:13px}.cat-sort select{min-height:44px}.cat-reset{min-height:44px;font-size:13px}.cat-card p{font-size:12px}.cat-card i{font-size:10px}.cat-stats b{font-size:11px}}
+</style>
+<script>
+  const fold = (value: string) => value.toLocaleLowerCase('sq').normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+  for (const root of document.querySelectorAll<HTMLElement>('.catalogue')) {
+    const grid = root.querySelector<HTMLElement>('.cat-grid')!;
+    const cards = [...root.querySelectorAll<HTMLElement>('.cat-card')];
+    const chips = [...root.querySelectorAll<HTMLButtonElement>('.cat-chip')];
+    const groups = [...root.querySelectorAll<HTMLDetailsElement>('.cat-group')];
+    const search = root.querySelector<HTMLInputElement>('.cat-search input')!;
+    const count = root.querySelector<HTMLElement>('[data-count]')!;
+    const reset = root.querySelector<HTMLButtonElement>('.cat-reset')!;
+    const sort = root.querySelector<HTMLSelectElement>('.cat-sort select')!;
+    const more = root.querySelector<HTMLButtonElement>('.cat-more')!;
+    const moreLabel = more.querySelector<HTMLElement>('span')!;
+    const empty = root.querySelector<HTMLElement>('.cat-empty')!;
+    let expanded = false;
+    const active = () => {
+      const map = new Map<string, string[]>();
+      for (const chip of chips) if (chip.getAttribute('aria-pressed') === 'true') {
+        const key = (chip.closest('.cat-group') as HTMLElement).dataset.group!;
+        map.set(key, [...(map.get(key) ?? []), chip.dataset.value!]);
+      }
+      return map;
+    };
+    const columns = () => getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length || 1;
+    const updateGroupCounts = () => groups.forEach((group) => {
+      const n = group.querySelectorAll('[aria-pressed=true]').length;
+      const badge = group.querySelector<HTMLElement>('[data-selected]')!;
+      badge.textContent = String(n); badge.hidden = n === 0;
+    });
+    const json = (card: HTMLElement, name: 'features' | 'metrics') => JSON.parse(card.dataset[name] ?? '{}') as Record<string, number>;
+    const sortValue = (card: HTMLElement, key: string) => key.startsWith('metric:') ? json(card, 'metrics')[key.slice(7)] ?? 0 : key.startsWith('feature:') ? Number(json(card, 'features')[key.slice(8)] ?? 0) : Number(card.dataset[key] ?? 0);
+    const updateCardStats = (key: string) => cards.forEach((card) => {
+      const stats = card.querySelector<HTMLElement>('.cat-stats')!;
+      const main = stats.querySelector<HTMLElement>('[data-stat-main]')!;
+      const detail = stats.querySelector<HTMLElement>('[data-stat-detail]')!;
+      if (key === 'name') { main.textContent = `Niveli ${stats.dataset.level}/5`; detail.textContent = `${stats.dataset.total} pika të hartëzuara`; return; }
+      const value = sortValue(card, key);
+      const label = sort.selectedOptions[0]?.textContent?.trim() ?? '';
+      main.textContent = value.toLocaleString('sq-AL');
+      detail.textContent = key === 'score' ? 'pikë në ofertën e përgjithshme' : sort.selectedOptions[0]?.dataset.unit ?? label;
+    });
+    const apply = () => {
+      const filters = active();
+      const query = fold(search.value);
+      const matching = cards.filter((card) => (!query || fold(card.dataset.search ?? '').includes(query)) && [...filters].every(([key, values]) => values.some((v) => (card.dataset[key] ?? '').split(' ').includes(v))));
+      const key = sort.value;
+      const ordered = [...cards].sort((a, b) => key === 'name' ? (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '', 'sq') : sortValue(b, key) - sortValue(a, key) || (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '', 'sq'));
+      ordered.forEach((card) => grid.append(card));
+      updateCardStats(key);
+      const matches = ordered.filter((card) => matching.includes(card));
+      const limit = columns() * 3;
+      cards.forEach((card) => (card.hidden = !matches.includes(card) || (!expanded && matches.indexOf(card) >= limit)));
+      count.textContent = String(matches.length);
+      reset.hidden = filters.size === 0 && !query;
+      empty.hidden = matches.length > 0;
+      more.hidden = matches.length <= limit;
+      more.setAttribute('aria-expanded', String(expanded));
+      moreLabel.textContent = expanded ? 'Shfaq më pak' : `Shfaq më shumë (${matches.length - limit})`;
+      updateGroupCounts();
+    };
+    groups.forEach((group) => group.addEventListener('toggle', () => { if (group.open) groups.forEach((other) => { if (other !== group) other.open = false; }); }));
+    chips.forEach((chip) => chip.addEventListener('click', () => { chip.setAttribute('aria-pressed', String(chip.getAttribute('aria-pressed') !== 'true')); expanded = false; apply(); }));
+    search.addEventListener('input', () => { expanded = false; apply(); });
+    sort.addEventListener('change', () => { expanded = false; apply(); });
+    reset.addEventListener('click', () => { chips.forEach((chip) => chip.setAttribute('aria-pressed', 'false')); search.value = ''; expanded = false; apply(); });
+    more.addEventListener('click', () => { expanded = !expanded; apply(); if (!expanded) grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    document.addEventListener('click', (event) => { if (!root.querySelector('.cat-filters')?.contains(event.target as Node)) groups.forEach((group) => group.open = false); });
+    let resizeTimer = 0;
+    window.addEventListener('resize', () => { window.clearTimeout(resizeTimer); resizeTimer = window.setTimeout(apply, 120); });
+    apply();
+  }
+</script>

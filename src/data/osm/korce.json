@@ -588,5 +588,262 @@
       "osmUrl": "https://www.openstreetmap.org/node/10092434983",
       "score": 0
     }
+  ],
+  "nature": [
+    {
+      "id": "way/357566369",
+      "name": "Parku Kombëtar \"Bredhi i Drenovës\"",
+      "kind": "national_park",
+      "lat": 40.585503,
+      "lon": 20.821076,
+      "nearM": 5016,
+      "areaKm2": 14,
+      "title": "National Park",
+      "nameEn": "Fir of Drenovë National Park",
+      "wikidata": "Q1968796",
+      "wikipedia": "sq:Parku kombëtar Bredhi i Drenovës",
+      "paths": [
+        [
+          [
+            40.59562,
+            20.83759
+          ],
+          [
+            40.59173,
+            20.83047
+          ],
+          [
+            40.58826,
+            20.82807
+          ],
+          [
+            40.5855,
+            20.82108
+          ],
+          [
+            40.56573,
+            20.8076
+          ],
+          [
+            40.55431,
+            20.81214
+          ],
+          [
+            40.55257,
+            20.8175
+          ],
+          [
+            40.54669,
+            20.81856
+          ],
+          [
+            40.54205,
+            20.82426
+          ],
+          [
+            40.54279,
+            20.82544
+          ],
+          [
+            40.5459,
+            20.82985
+          ],
+          [
+            40.54628,
+            20.83634
+          ],
+          [
+            40.55354,
+            20.84425
+          ],
+          [
+            40.56143,
+            20.84206
+          ],
+          [
+            40.578,
+            20.85159
+          ],
+          [
+            40.58164,
+            20.84996
+          ],
+          [
+            40.58732,
+            20.85061
+          ],
+          [
+            40.58989,
+            20.84867
+          ],
+          [
+            40.59384,
+            20.84524
+          ],
+          [
+            40.59562,
+            20.83759
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/357566369",
+      "imageFile": "Guri i Capit Panorama.jpg",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Guri_i_Capit_Panorama.jpg/1280px-Guri_i_Capit_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageCredit": "Albinfo · CC BY-SA 4.0",
+      "tagline": {
+        "text": "Park Kombetar",
+        "lang": "sq"
+      },
+      "summary": {
+        "text": "Bredhi i Drenovës është një park kombëtar në Qarkun e Korçës, Shqipëri. Parku ka një sipërfaqe prej 1,380 ha.",
+        "lang": "sq",
+        "source": "https://sq.wikipedia.org/wiki/Parku_komb%C3%ABtar_Bredhi_i_Drenov%C3%ABs"
+      }
+    },
+    {
+      "id": "way/538924110",
+      "name": "Rezervati Natyror i Menaxhuar \"Krastafillak\"",
+      "kind": "nature_reserve",
+      "lat": 40.683568,
+      "lon": 20.692379,
+      "nearM": 10398,
+      "areaKm2": 2.5,
+      "title": "Managed Nature Reserve",
+      "paths": [
+        [
+          [
+            40.68357,
+            20.69238
+          ],
+          [
+            40.69531,
+            20.70284
+          ],
+          [
+            40.70183,
+            20.70111
+          ],
+          [
+            40.70653,
+            20.691
+          ],
+          [
+            40.69121,
+            20.684
+          ],
+          [
+            40.6876,
+            20.68627
+          ],
+          [
+            40.68357,
+            20.69238
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/538924110"
+    },
+    {
+      "id": "way/538940425",
+      "name": "Rezervati Natyror i Menaxhuar \"Cangonji\"",
+      "kind": "nature_reserve",
+      "lat": 40.678967,
+      "lon": 20.895083,
+      "nearM": 11765,
+      "areaKm2": 2.5,
+      "title": "Managed Nature Reserve",
+      "paths": [
+        [
+          [
+            40.67321,
+            20.91189
+          ],
+          [
+            40.67586,
+            20.90499
+          ],
+          [
+            40.67605,
+            20.91351
+          ],
+          [
+            40.67981,
+            20.92073
+          ],
+          [
+            40.68346,
+            20.92015
+          ],
+          [
+            40.68637,
+            20.91337
+          ],
+          [
+            40.68557,
+            20.89882
+          ],
+          [
+            40.67897,
+            20.89508
+          ],
+          [
+            40.67034,
+            20.90626
+          ],
+          [
+            40.67123,
+            20.91153
+          ],
+          [
+            40.67321,
+            20.91189
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/538940425"
+    },
+    {
+      "id": "way/538967881",
+      "name": "Pylli i përzjerë i Maliqit",
+      "kind": "nature_reserve",
+      "lat": 40.720675,
+      "lon": 20.731527,
+      "nearM": 12102,
+      "areaKm2": 0.46,
+      "title": "Nature Monument",
+      "paths": [
+        [
+          [
+            40.72624,
+            20.73692
+          ],
+          [
+            40.72827,
+            20.72996
+          ],
+          [
+            40.72571,
+            20.72697
+          ],
+          [
+            40.72463,
+            20.72579
+          ],
+          [
+            40.72039,
+            20.72941
+          ],
+          [
+            40.7239,
+            20.73593
+          ],
+          [
+            40.72624,
+            20.73692
+          ]
+        ]
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/538967881"
+    }
   ]
 }

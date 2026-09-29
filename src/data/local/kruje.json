@@ -1,0 +1,175 @@
+{
+  "city": "kruje",
+  "name": "Krujë",
+  "fetchedAt": "2026-09-28T22:58:57.149Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 11,
+  "places": [
+    {
+      "id": "way/433836171",
+      "name": "Hotel Restorant Qafshtama",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.520456,
+      "lon": 19.890973,
+      "phone": "+355 68 558 7545",
+      "website": "https://www.facebook.com/Hotel-Restorant-Qafshtama-308307285962495",
+      "osmUrl": "https://www.openstreetmap.org/way/433836171",
+      "score": 4,
+      "km": 8.3
+    },
+    {
+      "id": "node/6977596180",
+      "name": "rustami besnik",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.511561,
+      "lon": 19.782749,
+      "address": "Rustame Kruje",
+      "osmUrl": "https://www.openstreetmap.org/node/6977596180",
+      "score": 1,
+      "km": 0.8
+    },
+    {
+      "id": "node/13004497401",
+      "name": "The view guest house",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 41.513044,
+      "lon": 19.794061,
+      "osmUrl": "https://www.openstreetmap.org/node/13004497401",
+      "score": 0,
+      "km": 0.3
+    },
+    {
+      "id": "node/6099609485",
+      "name": "Bar Restaurant Emiliano",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.507557,
+      "lon": 19.795212,
+      "cuisine": [
+        "italian",
+        "international",
+        "balkan"
+      ],
+      "phone": "+355672520929",
+      "email": "emilianomerlika@gmail.com",
+      "website": "EmilianoMerlika",
+      "osmUrl": "https://www.openstreetmap.org/node/6099609485",
+      "score": 7,
+      "km": 0.4
+    },
+    {
+      "id": "node/6816093543",
+      "name": "Restorant Brazili",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.464571,
+      "lon": 19.723681,
+      "cuisine": [
+        "regional"
+      ],
+      "phone": "+355 68 606 1777",
+      "website": "restorantbrazili",
+      "osmUrl": "https://www.openstreetmap.org/node/6816093543",
+      "score": 6,
+      "km": 7.7
+    },
+    {
+      "id": "node/2887973958",
+      "name": "Bar Restorant Dyli",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.466147,
+      "lon": 19.683894,
+      "address": "Rruga e Llixhave Prane Ures se Gjoles Budull, Fushë Krujë",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "05:00-22:30",
+      "osmUrl": "https://www.openstreetmap.org/node/2887973958",
+      "score": 4,
+      "km": 10.3
+    },
+    {
+      "id": "node/5582293821",
+      "name": "Bar Restorant Oaz",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.487501,
+      "lon": 19.767863,
+      "description": "Restaurant with camping possibilities on the parking and in the backyard.",
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5582293821",
+      "score": 4,
+      "km": 3.3
+    },
+    {
+      "id": "node/3508447907",
+      "name": "DARDANIA",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.461022,
+      "lon": 19.688645,
+      "address": "Prezë",
+      "cuisine": [
+        "regional"
+      ],
+      "openingHours": "06:00-02:00",
+      "osmUrl": "https://www.openstreetmap.org/node/3508447907",
+      "score": 4,
+      "km": 10.3
+    },
+    {
+      "id": "node/13175776601",
+      "name": "Oxhaku i Lames",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.528191,
+      "lon": 19.821696,
+      "cuisine": [
+        "balkan",
+        "grill",
+        "local",
+        "regional"
+      ],
+      "phone": "0684646150",
+      "osmUrl": "https://www.openstreetmap.org/node/13175776601",
+      "score": 4,
+      "km": 3.1
+    },
+    {
+      "id": "way/487046826",
+      "name": "Dush Kau",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.519045,
+      "lon": 19.803126,
+      "address": "Rruga e Malit 63 Krujë",
+      "cuisine": [
+        "traditional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/way/487046826",
+      "score": 3,
+      "km": 1.3
+    },
+    {
+      "id": "node/5731069680",
+      "name": "Agriturizem Loka",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 41.458019,
+      "lon": 19.641616,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/5731069680",
+      "score": 2,
+      "km": 13.9
+    }
+  ]
+}

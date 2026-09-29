@@ -1,0 +1,46 @@
+{
+  "city": "bilisht",
+  "name": "Bilisht",
+  "fetchedAt": "2026-09-29T00:00:17.982Z",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "count": 3,
+  "places": [
+    {
+      "id": "node/12903074333",
+      "name": "King",
+      "kind": "stay",
+      "type": "Bujtinë",
+      "lat": 40.619706,
+      "lon": 20.989474,
+      "osmUrl": "https://www.openstreetmap.org/node/12903074333",
+      "score": 0,
+      "km": 0.5
+    },
+    {
+      "id": "node/6435935987",
+      "name": "Kapshtica",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.622698,
+      "lon": 21.053189,
+      "cuisine": [
+        "regional"
+      ],
+      "osmUrl": "https://www.openstreetmap.org/node/6435935987",
+      "score": 2,
+      "km": 5.6
+    },
+    {
+      "id": "way/1537780628",
+      "name": "Taverna Ziçishti",
+      "kind": "food",
+      "type": "Restorant",
+      "lat": 40.60997,
+      "lon": 21.002554,
+      "osmUrl": "https://www.openstreetmap.org/way/1537780628",
+      "score": 1,
+      "km": 2.1
+    }
+  ]
+}
