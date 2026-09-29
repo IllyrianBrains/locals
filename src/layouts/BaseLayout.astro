@@ -18,7 +18,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Illyrian Brains Network" />
-    <meta property="og:image" content="https://illyrianbrains.org/assets/og-image.png" />
+    <meta property="og:image" content={new URL('/assets/og-image.png', Astro.site)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={new URL('/assets/og-image.png', Astro.site)} />
     <meta property="og:locale" content="sq_AL" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
